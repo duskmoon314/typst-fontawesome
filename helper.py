@@ -63,21 +63,43 @@ def generate_lib(version, output):
 
     */
 
+    #let FA_VERSION = state("fa-version", "Font Awesome {major_version}")
+    #let FA_SET = state("fa-set", "Free")
+
     #let fa-icon(
       name,
-      fa-version: "Font Awesome {}",
-      fa-set: "Free"
-    ) = text.with(
-      font: fa-version + " " + fa-set,
-      name
-    )
+      fa-version: FA_VERSION,
+      fa-set: FA_SET,
+      ..args
+    ) = {{
+      locate(loc => {{
+        let fa-version = if type(fa-version) == "string" {{
+          fa-version
+        }} else {{
+          fa-version.at(loc)
+        }}
+        let fa-set = if type(fa-set) == "string" {{
+          fa-set
+        }} else {{
+          fa-set.at(loc)
+        }}
+
+        text(
+          font: fa-version + " " + fa-set,
+          name,
+          ..args
+        )
+      }})
+    }}
 
     """
 
     # split the version to get the major version
     major_version = version.split(".")[0]
 
-    lib_preamble = textwrap.dedent(LIB_PREAMBLE_TEMPLATE).format(major_version)
+    lib_preamble = textwrap.dedent(LIB_PREAMBLE_TEMPLATE).format(
+        major_version=major_version
+    )
 
     lib_file = os.path.join(output, "fontawesome.typ")
 
@@ -98,7 +120,7 @@ def generate_lib(version, output):
             for icon_name, icon_data in icons_data.items():
                 # Generate the icon line
                 f.write(
-                    f"#let fa-{icon_name} = fa-icon(\"\\u{{{icon_data['unicode']}}}\")\n"
+                    f"#let fa-{icon_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
                 )
 
                 # Generate the alias lines
@@ -106,7 +128,7 @@ def generate_lib(version, output):
                     if "names" in icon_data["aliases"]:
                         for alias_name in icon_data["aliases"]["names"]:
                             f.write(
-                                f"#let fa-{alias_name} = fa-icon(\"\\u{{{icon_data['unicode']}}}\")\n"
+                                f"#let fa-{alias_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
                             )
 
 
@@ -148,17 +170,37 @@ def generate_doc(version, output):
 
     You can use the `fa-icon` function to create an icon with its name:
 
-    `fa-icon("chess-queen")()` #fa-icon("chess-queen")()
+    `fa-icon("chess-queen")` #fa-icon("chess-queen")
 
     Or you can use the `fa-` prefix to create an icon with its name:
 
     `fa-chess-queen()` #fa-chess-queen()
 
+    ==== Different sets
+
+    By default, the library uses the free set. You can change it by passing the `fa-set` parameter to `fa-icon`:
+
+    `#fa-icon("github", fa-set: "Brands")` #fa-icon("github", fa-set: "Brands")
+
+    Or you can change the default set by changing the `FA_SET` state. Let's try with the github icon:
+
+    `#fa-icon("github")` #fa-icon("github")
+
+    `FA_SET.update("Brands")` #FA_SET.update("Brands")
+
+    `#fa-icon("github")` #fa-icon("github")
+
+    Reset the default set:
+
+    `FA_SET.update("Free")` #FA_SET.update("Free")
+
     ==== Customization
 
-    The `fa-icon` function is a curried `text`, so you can customize the icon by passing parameters to it:
+    The `fa-icon` function passes args to `text`, so you can customize the icon by passing parameters to it:
 
-    `#fa-icon("chess-queen")(fill: blue)` #fa-icon("chess-queen")(fill: blue)
+    `#fa-icon("chess-queen", fill: blue)` #fa-icon("chess-queen", fill: blue)
+
+    `#fa-chess-queen(size: 15pt)` #fa-chess-queen(size: 15pt)
 
     == Gallery
 
