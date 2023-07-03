@@ -101,7 +101,7 @@ def generate_lib(version, output):
         major_version=major_version
     )
 
-    lib_file = os.path.join(output, "fontawesome.typ")
+    lib_file = os.path.join(output, "lib.typ")
 
     with open(lib_file, "w") as f:
         f.write(lib_preamble)
@@ -136,7 +136,7 @@ def generate_doc(version, output):
     print(f"Generating typst doc for FontAwesome {version}")
 
     DOC_TEMPLATE = """\
-    #import "fontawesome.typ": *
+    #import "lib.typ": *
 
     = typst-fontawesome
 
@@ -160,11 +160,29 @@ def generate_doc(version, output):
 
     After downloading the zip file, you can install the fonts depending on your OS.
 
+    ==== Typst web app
+
+    You can simply upload the `otf` files to the web app and use them with this package.
+
+    ==== Mac
+
+    You can double click the `otf` files to install them.
+
     === Import the library
 
-    Put the `fontawesome.typ` file in your project directory, and import it:
+    ==== Using the typst packages
 
-    `#import "fontawesome.typ": *`
+    You can install the library using the typst packages:
+
+    `#import "@preview/fontawesome:0.1.0": *`
+
+    ==== Manually install
+
+    Put the `lib.typ` file in your project directory, and import it:
+
+    `#import "lib.typ": *`
+
+    Here I recommend renaming the `lib.typ` file to `fontawesome.typ` to avoid name conflicts.
 
     === Use the icons
 

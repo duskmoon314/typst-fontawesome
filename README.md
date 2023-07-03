@@ -16,11 +16,29 @@ Here `-dd` means to download and extract the zip file. You can use `-d` to only 
 
 After downloading the zip file, you can install the fonts depending on your OS.
 
-### Install the library
+#### Typst web app
 
-Put the `fontawesome.typ` file in your project directory, and import it:
+You can simply upload the `otf` files to the web app and use them with this package.
 
-`#import "fontawesome.typ": *`
+#### Mac
+
+You can double click the `otf` files to install them.
+
+### Import the library
+
+#### Using the typst packages
+
+You can install the library using the typst packages:
+
+`#import "@preview/fontawesome:0.1.0": *`
+
+#### Manually install
+
+Put the `lib.typ` file in your project directory, and import it:
+
+`#import "lib.typ": *`
+
+Here I recommend renaming the `lib.typ` file to `fontawesome.typ` to avoid name conflicts.
 
 ### Use the icons
 
