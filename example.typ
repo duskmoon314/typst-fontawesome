@@ -6,7 +6,7 @@ duskmoon314
 
 https://github.com/duskmoon314/typst-fontawesome
 
-A Typst library for Font Awesome 6.4.0 icons through the desktop fonts.
+A Typst library for Font Awesome 6.5.1 icons through the desktop fonts.
 
 == Usage
 
@@ -16,7 +16,7 @@ You can download the fonts from the official website: https://fontawesome.com/do
 
 Or you can use the helper script to download the fonts and metadata:
 
-`python helper.py -dd -v 6.4.0`
+`python helper.py -dd -v 6.5.1`
 
 Here `-dd` means download and extract the zip file. You can use `-d` to only download the zip file.
 
@@ -388,6 +388,8 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-boxes-alt()`, fa-boxes-alt())
 #grid(columns: (20em, 10em, 3em), `#fa-braille()`, fa-braille())
 #grid(columns: (20em, 10em, 3em), `#fa-brain()`, fa-brain())
+#grid(columns: (20em, 10em, 3em), `#fa-brave()`, fa-brave())
+#grid(columns: (20em, 10em, 3em), `#fa-brave-reverse()`, fa-brave-reverse())
 #grid(columns: (20em, 10em, 3em), `#fa-brazilian-real-sign()`, fa-brazilian-real-sign())
 #grid(columns: (20em, 10em, 3em), `#fa-bread-slice()`, fa-bread-slice())
 #grid(columns: (20em, 10em, 3em), `#fa-bridge()`, fa-bridge())
@@ -726,6 +728,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-dailymotion()`, fa-dailymotion())
 #grid(columns: (20em, 10em, 3em), `#fa-dashcube()`, fa-dashcube())
 #grid(columns: (20em, 10em, 3em), `#fa-database()`, fa-database())
+#grid(columns: (20em, 10em, 3em), `#fa-debian()`, fa-debian())
 #grid(columns: (20em, 10em, 3em), `#fa-deezer()`, fa-deezer())
 #grid(columns: (20em, 10em, 3em), `#fa-delete-left()`, fa-delete-left())
 #grid(columns: (20em, 10em, 3em), `#fa-backspace()`, fa-backspace())
@@ -1112,6 +1115,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-google-play()`, fa-google-play())
 #grid(columns: (20em, 10em, 3em), `#fa-google-plus()`, fa-google-plus())
 #grid(columns: (20em, 10em, 3em), `#fa-google-plus-g()`, fa-google-plus-g())
+#grid(columns: (20em, 10em, 3em), `#fa-google-scholar()`, fa-google-scholar())
 #grid(columns: (20em, 10em, 3em), `#fa-google-wallet()`, fa-google-wallet())
 #grid(columns: (20em, 10em, 3em), `#fa-gopuram()`, fa-gopuram())
 #grid(columns: (20em, 10em, 3em), `#fa-graduation-cap()`, fa-graduation-cap())
@@ -1387,6 +1391,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-less()`, fa-less())
 #grid(columns: (20em, 10em, 3em), `#fa-less-than()`, fa-less-than())
 #grid(columns: (20em, 10em, 3em), `#fa-less-than-equal()`, fa-less-than-equal())
+#grid(columns: (20em, 10em, 3em), `#fa-letterboxd()`, fa-letterboxd())
 #grid(columns: (20em, 10em, 3em), `#fa-life-ring()`, fa-life-ring())
 #grid(columns: (20em, 10em, 3em), `#fa-lightbulb()`, fa-lightbulb())
 #grid(columns: (20em, 10em, 3em), `#fa-line()`, fa-line())
@@ -1506,6 +1511,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-mill-sign()`, fa-mill-sign())
 #grid(columns: (20em, 10em, 3em), `#fa-minimize()`, fa-minimize())
 #grid(columns: (20em, 10em, 3em), `#fa-compress-arrows-alt()`, fa-compress-arrows-alt())
+#grid(columns: (20em, 10em, 3em), `#fa-mintbit()`, fa-mintbit())
 #grid(columns: (20em, 10em, 3em), `#fa-minus()`, fa-minus())
 #grid(columns: (20em, 10em, 3em), `#fa-subtract()`, fa-subtract())
 #grid(columns: (20em, 10em, 3em), `#fa-mitten()`, fa-mitten())
@@ -1584,6 +1590,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-om()`, fa-om())
 #grid(columns: (20em, 10em, 3em), `#fa-opencart()`, fa-opencart())
 #grid(columns: (20em, 10em, 3em), `#fa-openid()`, fa-openid())
+#grid(columns: (20em, 10em, 3em), `#fa-opensuse()`, fa-opensuse())
 #grid(columns: (20em, 10em, 3em), `#fa-opera()`, fa-opera())
 #grid(columns: (20em, 10em, 3em), `#fa-optin-monster()`, fa-optin-monster())
 #grid(columns: (20em, 10em, 3em), `#fa-orcid()`, fa-orcid())
@@ -1724,6 +1731,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-pinterest()`, fa-pinterest())
 #grid(columns: (20em, 10em, 3em), `#fa-pinterest-p()`, fa-pinterest-p())
 #grid(columns: (20em, 10em, 3em), `#fa-pix()`, fa-pix())
+#grid(columns: (20em, 10em, 3em), `#fa-pixiv()`, fa-pixiv())
 #grid(columns: (20em, 10em, 3em), `#fa-pizza-slice()`, fa-pizza-slice())
 #grid(columns: (20em, 10em, 3em), `#fa-place-of-worship()`, fa-place-of-worship())
 #grid(columns: (20em, 10em, 3em), `#fa-plane()`, fa-plane())
@@ -1908,7 +1916,6 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-shapes()`, fa-shapes())
 #grid(columns: (20em, 10em, 3em), `#fa-triangle-circle-square()`, fa-triangle-circle-square())
 #grid(columns: (20em, 10em, 3em), `#fa-share()`, fa-share())
-#grid(columns: (20em, 10em, 3em), `#fa-arrow-turn-right()`, fa-arrow-turn-right())
 #grid(columns: (20em, 10em, 3em), `#fa-mail-forward()`, fa-mail-forward())
 #grid(columns: (20em, 10em, 3em), `#fa-share-from-square()`, fa-share-from-square())
 #grid(columns: (20em, 10em, 3em), `#fa-share-square()`, fa-share-square())
@@ -1934,6 +1941,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-tshirt()`, fa-tshirt())
 #grid(columns: (20em, 10em, 3em), `#fa-shirtsinbulk()`, fa-shirtsinbulk())
 #grid(columns: (20em, 10em, 3em), `#fa-shoe-prints()`, fa-shoe-prints())
+#grid(columns: (20em, 10em, 3em), `#fa-shoelace()`, fa-shoelace())
 #grid(columns: (20em, 10em, 3em), `#fa-shop()`, fa-shop())
 #grid(columns: (20em, 10em, 3em), `#fa-store-alt()`, fa-store-alt())
 #grid(columns: (20em, 10em, 3em), `#fa-shop-lock()`, fa-shop-lock())
@@ -1952,6 +1960,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-signal()`, fa-signal())
 #grid(columns: (20em, 10em, 3em), `#fa-signal-5()`, fa-signal-5())
 #grid(columns: (20em, 10em, 3em), `#fa-signal-perfect()`, fa-signal-perfect())
+#grid(columns: (20em, 10em, 3em), `#fa-signal-messenger()`, fa-signal-messenger())
 #grid(columns: (20em, 10em, 3em), `#fa-signature()`, fa-signature())
 #grid(columns: (20em, 10em, 3em), `#fa-signs-post()`, fa-signs-post())
 #grid(columns: (20em, 10em, 3em), `#fa-map-signs()`, fa-map-signs())
@@ -2051,6 +2060,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-js-square()`, fa-js-square())
 #grid(columns: (20em, 10em, 3em), `#fa-square-lastfm()`, fa-square-lastfm())
 #grid(columns: (20em, 10em, 3em), `#fa-lastfm-square()`, fa-lastfm-square())
+#grid(columns: (20em, 10em, 3em), `#fa-square-letterboxd()`, fa-square-letterboxd())
 #grid(columns: (20em, 10em, 3em), `#fa-square-minus()`, fa-square-minus())
 #grid(columns: (20em, 10em, 3em), `#fa-minus-square()`, fa-minus-square())
 #grid(columns: (20em, 10em, 3em), `#fa-square-nfi()`, fa-square-nfi())
@@ -2088,6 +2098,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-snapchat-square()`, fa-snapchat-square())
 #grid(columns: (20em, 10em, 3em), `#fa-square-steam()`, fa-square-steam())
 #grid(columns: (20em, 10em, 3em), `#fa-steam-square()`, fa-steam-square())
+#grid(columns: (20em, 10em, 3em), `#fa-square-threads()`, fa-square-threads())
 #grid(columns: (20em, 10em, 3em), `#fa-square-tumblr()`, fa-square-tumblr())
 #grid(columns: (20em, 10em, 3em), `#fa-tumblr-square()`, fa-tumblr-square())
 #grid(columns: (20em, 10em, 3em), `#fa-square-twitter()`, fa-square-twitter())
@@ -2101,6 +2112,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-square-virus()`, fa-square-virus())
 #grid(columns: (20em, 10em, 3em), `#fa-square-whatsapp()`, fa-square-whatsapp())
 #grid(columns: (20em, 10em, 3em), `#fa-whatsapp-square()`, fa-whatsapp-square())
+#grid(columns: (20em, 10em, 3em), `#fa-square-x-twitter()`, fa-square-x-twitter())
 #grid(columns: (20em, 10em, 3em), `#fa-square-xing()`, fa-square-xing())
 #grid(columns: (20em, 10em, 3em), `#fa-xing-square()`, fa-xing-square())
 #grid(columns: (20em, 10em, 3em), `#fa-square-xmark()`, fa-square-xmark())
@@ -2243,6 +2255,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-themeisle()`, fa-themeisle())
 #grid(columns: (20em, 10em, 3em), `#fa-thermometer()`, fa-thermometer())
 #grid(columns: (20em, 10em, 3em), `#fa-think-peaks()`, fa-think-peaks())
+#grid(columns: (20em, 10em, 3em), `#fa-threads()`, fa-threads())
 #grid(columns: (20em, 10em, 3em), `#fa-thumbs-down()`, fa-thumbs-down())
 #grid(columns: (20em, 10em, 3em), `#fa-thumbs-up()`, fa-thumbs-up())
 #grid(columns: (20em, 10em, 3em), `#fa-thumbtack()`, fa-thumbtack())
@@ -2355,6 +2368,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-external-link-alt()`, fa-external-link-alt())
 #grid(columns: (20em, 10em, 3em), `#fa-upload()`, fa-upload())
 #grid(columns: (20em, 10em, 3em), `#fa-ups()`, fa-ups())
+#grid(columns: (20em, 10em, 3em), `#fa-upwork()`, fa-upwork())
 #grid(columns: (20em, 10em, 3em), `#fa-usb()`, fa-usb())
 #grid(columns: (20em, 10em, 3em), `#fa-user()`, fa-user())
 #grid(columns: (20em, 10em, 3em), `#fa-user-astronaut()`, fa-user-astronaut())
@@ -2461,6 +2475,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-swimming-pool()`, fa-swimming-pool())
 #grid(columns: (20em, 10em, 3em), `#fa-wave-square()`, fa-wave-square())
 #grid(columns: (20em, 10em, 3em), `#fa-waze()`, fa-waze())
+#grid(columns: (20em, 10em, 3em), `#fa-webflow()`, fa-webflow())
 #grid(columns: (20em, 10em, 3em), `#fa-weebly()`, fa-weebly())
 #grid(columns: (20em, 10em, 3em), `#fa-weibo()`, fa-weibo())
 #grid(columns: (20em, 10em, 3em), `#fa-weight-hanging()`, fa-weight-hanging())
@@ -2510,6 +2525,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 #grid(columns: (20em, 10em, 3em), `#fa-wrench()`, fa-wrench())
 #grid(columns: (20em, 10em, 3em), `#fa-x()`, fa-x())
 #grid(columns: (20em, 10em, 3em), `#fa-x-ray()`, fa-x-ray())
+#grid(columns: (20em, 10em, 3em), `#fa-x-twitter()`, fa-x-twitter())
 #grid(columns: (20em, 10em, 3em), `#fa-xbox()`, fa-xbox())
 #grid(columns: (20em, 10em, 3em), `#fa-xing()`, fa-xing())
 #grid(columns: (20em, 10em, 3em), `#fa-xmark()`, fa-xmark())

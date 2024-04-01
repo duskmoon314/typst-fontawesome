@@ -72,24 +72,19 @@ def generate_lib(version, output):
       fa-set: FA_SET,
       ..args
     ) = {{
-      locate(loc => {{
+      context {{
         let fa-version = if type(fa-version) == "string" {{
           fa-version
         }} else {{
-          fa-version.at(loc)
+          fa-version.get()
         }}
         let fa-set = if type(fa-set) == "string" {{
           fa-set
         }} else {{
-          fa-set.at(loc)
+          fa-set.get()
         }}
-
-        text(
-          font: fa-version + " " + fa-set,
-          name,
-          ..args
-        )
-      }})
+        text(font: fa-version + " " + fa-set, name, ..args)
+      }}
     }}
 
     """
