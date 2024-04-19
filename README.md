@@ -24,21 +24,31 @@ You can simply upload the `otf` files to the web app and use them with this pack
 
 You can double click the `otf` files to install them.
 
+#### Windows
+
+You can right-click the `otf` files and select `Install`.
+
 ### Import the library
 
 #### Using the typst packages
 
 You can install the library using the typst packages:
 
-`#import "@preview/fontawesome:0.1.0": *`
+`#import "@preview/fontawesome:0.2.0": *`
 
 #### Manually install
 
-Put the `lib.typ` file in your project directory, and import it:
+Copy all files start with `lib` to your project and import the library:
 
 `#import "lib.typ": *`
 
-Here I recommend renaming the `lib.typ` file to `fontawesome.typ` to avoid name conflicts.
+There are three files:
+
+- `lib.typ`: The main entrypoint of the library.
+- `lib-impl.typ`: The implementation of `fa-icon`.
+- `lib-gen.typ`: The generated icons.
+
+I recommend renaming these files to avoid conflicts with other libraries.
 
 ### Use the icons
 
@@ -50,29 +60,30 @@ Or you can use the `fa-` prefix to create an icon with its name:
 
 `fa-chess-queen()`
 
+You can also set `solid` to `true` to use the solid version of the icon:
+
+`fa-icon("chess-queen", solid: true)`
+
 #### Full list of icons
 
 You can find all icons on the [official website](https://fontawesome.com/search?o=r&m=free)
 
 #### Different sets
 
-By default, the library uses the free set. You can change it by passing the `fa-set` parameter to `fa-icon`:
+By default, the library uses two sets: `Free` and `Brands`.
+That is, three font files are used:
 
-`#fa-icon("github", fa-set: "Brands")`
+- Font Awesome 6 Free (Also named as _Font Awesome 6 Free Regular_)
+- Font Awesome 6 Free Solid
+- Font Awesome 6 Brands
 
-Or you can change the default set by changing the `FA_SET` state.
+Due to some limitations of typst 0.11.0, the regular and solid versions are treated as different fonts.
+In this library, `solid` is used to switch between the regular and solid versions.
 
-`#fa-icon("github")` This cannot render the icon because the default set is `Free`.
+To use `Pro` or other sets, you can pass the `font` parameter to the inner `text` function: \
+`fa-icon("github", font: "Font Awesome 6 Pro Solid")`
 
-`FA_SET.update("Brands")`
-
-`#fa-icon("github")` This can render the icon because the default set is `Brands` now.
-
-Reset the default set:
-
-`FA_SET.update("Free")`
-
-The `FA_VERSION` state can also be used to change the default font version. Its original value is `Font Awesome 6`.
+But you need to install the fonts first and take care of `solid` yourself.
 
 #### Customization
 
@@ -91,6 +102,15 @@ Feel free to open an issue or a pull request if you find any problems or have an
 ### Python helper
 
 The `helper.py` script is used to download fonts and generate typst code. I aim only to use standard python libraries, so running it on any platform with python installed should be easy.
+
+### Repo structure
+
+- `helper.py`: The helper script to download fonts and generate typst code.
+- `lib.typ`: The main entrypoint of the library.
+- `lib-impl.typ`: The implementation of `fa-icon`.
+- `lib-gen.typ`: The generated functions of icons.
+- `example.typ`: An example file to show how to use the library.
+- `gallery.typ`: The generated gallery of icons. It is used in the example file.
 
 ## License
 
