@@ -2,6 +2,8 @@
 
 A Typst library for Font Awesome icons through the desktop fonts.
 
+p.s. The library is based on the Font Awesome 6 desktop fonts (v6.5.2)
+
 ## Usage
 
 ### Install the fonts
