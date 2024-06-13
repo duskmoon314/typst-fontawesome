@@ -57,6 +57,7 @@ def generate_lib(version, output):
     
     // Generated icon list of Font Aewsome {version}
 
+    #let fa-icon-map = (
     """
 
     lib_preamble = textwrap.dedent(LIB_PREAMBLE_TEMPLATE).format(version=version)
@@ -74,22 +75,29 @@ def generate_lib(version, output):
             raise Exception("Cannot find metadata/icons.json")
         icons_file = icons_file[0]
 
+        icon_func_str = ""
+
         with open(icons_file, "r") as icons_f:
             icons_data = json.load(icons_f)
 
             for icon_name, icon_data in icons_data.items():
                 # Generate the icon line
                 f.write(
-                    f"#let fa-{icon_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
+                    f"  \"{icon_name}\": \"\\u{{{icon_data['unicode']}}}\",\n"
                 )
+                icon_func_str += f"#let fa-{icon_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
 
                 # Generate the alias lines
                 if "aliases" in icon_data:
                     if "names" in icon_data["aliases"]:
                         for alias_name in icon_data["aliases"]["names"]:
                             f.write(
-                                f"#let fa-{alias_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
+                                f"  \"{alias_name}\": \"\\u{{{icon_data['unicode']}}}\",\n"
                             )
+                            icon_func_str += f"#let fa-{alias_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
+
+        f.write(")\n")
+        f.write(icon_func_str)
 
 
 def generate_gallery(version, output):
