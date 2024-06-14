@@ -60,15 +60,15 @@ I recommend renaming these files to avoid conflicts with other libraries.
 
 You can use the `fa-icon` function to create an icon with its name:
 
-`fa-icon("chess-queen")` #fa-icon("chess-queen")
+```typst #fa-icon("chess-queen")``` #fa-icon("chess-queen")
 
 Or you can use the `fa-` prefix to create an icon with its name:
 
-`fa-chess-queen()` #fa-chess-queen()
+```typst #fa-chess-queen()``` #fa-chess-queen()
 
 You can also set `solid` to `true` to use the solid version of the icon:
 
-`fa-icon("chess-queen", solid: true)` #fa-icon("chess-queen", solid: true)
+```typst #fa-icon("chess-queen", solid: true)``` #fa-icon("chess-queen", solid: true)
 
 ==== Different sets
 
@@ -82,7 +82,7 @@ Due to some limitations of typst 0.11.0, the regular and solid versions are trea
 In this library, `solid` is used to switch between the regular and solid versions.
 
 To use `Pro` or other sets, you can pass the `font` parameter to the inner `text` function: \
-`fa-icon("github", font: "Font Awesome 6 Pro Solid")`
+```typst #fa-icon("github", font: "Font Awesome 6 Pro Solid")```
 
 But you need to install the fonts first and take care of `solid` yourself.
 
@@ -90,9 +90,9 @@ But you need to install the fonts first and take care of `solid` yourself.
 
 The `fa-icon` function passes args to `text`, so you can customize the icon by passing parameters to it:
 
-`#fa-icon("chess-queen", fill: blue)` #fa-icon("chess-queen", fill: blue)
+```typst #fa-icon("chess-queen", fill: blue)``` #fa-icon("chess-queen", fill: blue)
 
-`#fa-chess-queen(size: 15pt)` #fa-chess-queen(size: 15pt)
+```typst #fa-chess-queen(size: 15pt)``` #fa-chess-queen(size: 15pt)
 
 == Gallery
 
