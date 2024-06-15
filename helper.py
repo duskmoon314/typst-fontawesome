@@ -57,6 +57,7 @@ def generate_lib(version, output):
     
     // Generated icon list of Font Aewsome {version}
 
+    #let fa-icon-map = (
     """
 
     lib_preamble = textwrap.dedent(LIB_PREAMBLE_TEMPLATE).format(version=version)
@@ -74,13 +75,27 @@ def generate_lib(version, output):
             raise Exception("Cannot find metadata/icons.json")
         icons_file = icons_file[0]
 
+        icon_func_str = ""
+
         with open(icons_file, "r") as icons_f:
             icons_data = json.load(icons_f)
 
             for icon_name, icon_data in icons_data.items():
+                # Check whether the icon only support solid style
+                # styles contains "solid" but no "regular"
+                solid = False
+                if (
+                    "solid" in icon_data["styles"]
+                    and "regular" not in icon_data["styles"]
+                ):
+                    solid = True
+
                 # Generate the icon line
-                f.write(
-                    f"#let fa-{icon_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
+                f.write(f'  "{icon_name}": "\\u{{{icon_data["unicode"]}}}",\n')
+                icon_func_str += (
+                    f'#let fa-{icon_name} = fa-icon.with("\\u{{{icon_data["unicode"]}}}")\n'
+                    if not solid
+                    else f'#let fa-{icon_name} = fa-icon.with("\\u{{{icon_data["unicode"]}}}", solid: true)\n'
                 )
 
                 # Generate the alias lines
@@ -88,8 +103,12 @@ def generate_lib(version, output):
                     if "names" in icon_data["aliases"]:
                         for alias_name in icon_data["aliases"]["names"]:
                             f.write(
-                                f"#let fa-{alias_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
+                                f'  "{alias_name}": "\\u{{{icon_data["unicode"]}}}",\n'
                             )
+                            icon_func_str += f"#let fa-{alias_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
+
+        f.write(")\n")
+        f.write(icon_func_str)
 
 
 def generate_gallery(version, output):
@@ -98,7 +117,7 @@ def generate_gallery(version, output):
     gallery_file = os.path.join(output, "gallery.typ")
 
     with open(gallery_file, "w") as f:
-        f.write("#import \"lib.typ\": *\n")
+        f.write('#import "lib.typ": *\n')
 
         # Find the metadata/icons.json file with glob
         icons_file = glob.glob(
@@ -108,13 +127,19 @@ def generate_gallery(version, output):
             raise Exception("Cannot find metadata/icons.json")
         icons_file = icons_file[0]
 
+        f.write(
+            # "#grid(columns: (20em, 3em, 3em, 3em), [typst code], [default], [solid], [`fa-icon` with text])\n"
+            "#table(columns: (3fr, 1fr, 1fr, 2fr), stroke: none, table.header([typst code], [default], [solid], [`fa-icon` with text]),\n"
+        )
+
         with open(icons_file, "r") as icons_f:
             icons_data = json.load(icons_f)
 
             for icon_name, icon_data in icons_data.items():
                 # Generate the icon line
                 f.write(
-                    f"#grid(columns: (20em, 10em, 3em), `#fa-{icon_name}()`, fa-{icon_name}())\n"
+                    # f'#grid(columns: (20em, 3em, 3em, 3em), ```typst #fa-{icon_name}()```, fa-{icon_name}(), fa-{icon_name}(solid: true)), fa-icon("{icon_name}")\n'
+                    f'```typst #fa-{icon_name}()```, fa-{icon_name}(), fa-{icon_name}(solid: true), fa-icon("{icon_name}"),\n'
                 )
 
                 # Generate the alias lines
@@ -122,8 +147,11 @@ def generate_gallery(version, output):
                     if "names" in icon_data["aliases"]:
                         for alias_name in icon_data["aliases"]["names"]:
                             f.write(
-                                f"#grid(columns: (20em, 10em, 3em), `#fa-{alias_name}()`, fa-{alias_name}())\n"
+                                # f'#grid(columns: (20em, 3em, 3em, 3em), ```typst #fa-{alias_name}()```, fa-{alias_name}(), fa-{alias_name}(solid: true)), fa-icon("{alias_name}")\n'
+                                f'```typst #fa-{alias_name}()```, fa-{alias_name}(), fa-{alias_name}(solid: true), fa-icon("{alias_name}"),\n'
                             )
+
+        f.write(")")
 
 
 def main():

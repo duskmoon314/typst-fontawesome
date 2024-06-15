@@ -60,15 +60,21 @@ I recommend renaming these files to avoid conflicts with other libraries.
 
 You can use the `fa-icon` function to create an icon with its name:
 
-`fa-icon("chess-queen")` #fa-icon("chess-queen")
+```typst #fa-icon("chess-queen")``` #fa-icon("chess-queen")
 
 Or you can use the `fa-` prefix to create an icon with its name:
 
-`fa-chess-queen()` #fa-chess-queen()
+```typst #fa-chess-queen()``` #fa-chess-queen() (This is equivalent to ```typst fa-icon().with("chess-queen")```)
 
 You can also set `solid` to `true` to use the solid version of the icon:
 
-`fa-icon("chess-queen", solid: true)` #fa-icon("chess-queen", solid: true)
+```typst #fa-icon("chess-queen", solid: true)``` #fa-icon("chess-queen", solid: true)
+
+If the icon only has a solid version, you can omit the `solid` parameter because the library automatically sets `solid` to `true` for these icons. For instance, the generated function for these icons would be like ```typst #fa-icon().with("arrow-trend-up", solid: true)```.
+
+However, some icons (e.g. 0, 1, 2...) have a regular version that isn't mentioned in the metadata. In this case, you need to set `solid` to `false` to use the regular version.
+
+Notice that `fa-icon` currently doesn't automatically set `solid` to `true` for icons that only have a solid version. Thus, you may not get the expected glyph if you don't set `solid` to `true` for these icons. I haven't decided whether to change this behavior yet.
 
 ==== Different sets
 
@@ -82,7 +88,7 @@ Due to some limitations of typst 0.11.0, the regular and solid versions are trea
 In this library, `solid` is used to switch between the regular and solid versions.
 
 To use `Pro` or other sets, you can pass the `font` parameter to the inner `text` function: \
-`fa-icon("github", font: "Font Awesome 6 Pro Solid")`
+```typst #fa-icon("github", font: "Font Awesome 6 Pro Solid")```
 
 But you need to install the fonts first and take care of `solid` yourself.
 
@@ -90,10 +96,12 @@ But you need to install the fonts first and take care of `solid` yourself.
 
 The `fa-icon` function passes args to `text`, so you can customize the icon by passing parameters to it:
 
-`#fa-icon("chess-queen", fill: blue)` #fa-icon("chess-queen", fill: blue)
+```typst #fa-icon("chess-queen", fill: blue)``` #fa-icon("chess-queen", fill: blue)
 
-`#fa-chess-queen(size: 15pt)` #fa-chess-queen(size: 15pt)
+```typst #fa-chess-queen(size: 15pt)``` #fa-chess-queen(size: 15pt)
 
 == Gallery
+
+Here are all the icons in the library. The first column is the icon function you can use, and the second and third columns are the icon in regular and solid versions. The fourth column is what you get when you use `fa-icon` with the icon name.
 
 #include "gallery.typ"
