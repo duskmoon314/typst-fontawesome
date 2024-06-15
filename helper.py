@@ -81,18 +81,29 @@ def generate_lib(version, output):
             icons_data = json.load(icons_f)
 
             for icon_name, icon_data in icons_data.items():
+                # Check whether the icon only support solid style
+                # styles contains "solid" but no "regular"
+                solid = False
+                if (
+                    "solid" in icon_data["styles"]
+                    and "regular" not in icon_data["styles"]
+                ):
+                    solid = True
+
                 # Generate the icon line
-                f.write(
-                    f"  \"{icon_name}\": \"\\u{{{icon_data['unicode']}}}\",\n"
+                f.write(f'  "{icon_name}": "\\u{{{icon_data["unicode"]}}}",\n')
+                icon_func_str += (
+                    f'#let fa-{icon_name} = fa-icon.with("\\u{{{icon_data["unicode"]}}}")\n'
+                    if not solid
+                    else f'#let fa-{icon_name} = fa-icon.with("\\u{{{icon_data["unicode"]}}}", solid: true)\n'
                 )
-                icon_func_str += f"#let fa-{icon_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
 
                 # Generate the alias lines
                 if "aliases" in icon_data:
                     if "names" in icon_data["aliases"]:
                         for alias_name in icon_data["aliases"]["names"]:
                             f.write(
-                                f"  \"{alias_name}\": \"\\u{{{icon_data['unicode']}}}\",\n"
+                                f'  "{alias_name}": "\\u{{{icon_data["unicode"]}}}",\n'
                             )
                             icon_func_str += f"#let fa-{alias_name} = fa-icon.with(\"\\u{{{icon_data['unicode']}}}\")\n"
 
@@ -106,7 +117,7 @@ def generate_gallery(version, output):
     gallery_file = os.path.join(output, "gallery.typ")
 
     with open(gallery_file, "w") as f:
-        f.write("#import \"lib.typ\": *\n")
+        f.write('#import "lib.typ": *\n')
 
         # Find the metadata/icons.json file with glob
         icons_file = glob.glob(

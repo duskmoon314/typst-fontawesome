@@ -64,11 +64,15 @@ You can use the `fa-icon` function to create an icon with its name:
 
 Or you can use the `fa-` prefix to create an icon with its name:
 
-```typst #fa-chess-queen()``` #fa-chess-queen()
+```typst #fa-chess-queen()``` #fa-chess-queen() (This is equivalent to ```typst fa-icon().with("chess-queen")```)
 
 You can also set `solid` to `true` to use the solid version of the icon:
 
 ```typst #fa-icon("chess-queen", solid: true)``` #fa-icon("chess-queen", solid: true)
+
+If the icon only has a solid version, you can omit the `solid` parameter because the library automatically sets `solid` to `true` for these icons. For instance, the generated function for these icons would be like ```typst #fa-icon().with("arrow-trend-up", solid: true)```.
+
+However, some icons (e.g. 0, 1, 2...) have a regular version that isn't mentioned in the metadata. In this case, you need to set `solid` to `false` to use the regular version.
 
 ==== Different sets
 

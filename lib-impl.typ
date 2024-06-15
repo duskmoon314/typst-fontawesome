@@ -23,6 +23,7 @@
       },
       "Font Awesome 6 Brands",
     ),
+    // TODO: We might need to check whether this is needed
     weight: if solid { 900 } else { 400 },
     // If the name is in the map, use the unicode from the map
     // If not, pass the name and let the ligature feature handle it
