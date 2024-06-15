@@ -1,2479 +1,2480 @@
 #import "lib.typ": *
-#grid(columns: (20em, 10em, 3em), `typst code`, `regular`, `solid`)
-#grid(columns: (20em, 10em, 3em), ```typst #fa-0()```, fa-0(), fa-0(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-1()```, fa-1(), fa-1(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-2()```, fa-2(), fa-2(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-3()```, fa-3(), fa-3(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-4()```, fa-4(), fa-4(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-5()```, fa-5(), fa-5(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-6()```, fa-6(), fa-6(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-7()```, fa-7(), fa-7(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-8()```, fa-8(), fa-8(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-9()```, fa-9(), fa-9(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-42-group()```, fa-42-group(), fa-42-group(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-innosoft()```, fa-innosoft(), fa-innosoft(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-500px()```, fa-500px(), fa-500px(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-a()```, fa-a(), fa-a(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-accessible-icon()```, fa-accessible-icon(), fa-accessible-icon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-accusoft()```, fa-accusoft(), fa-accusoft(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-address-book()```, fa-address-book(), fa-address-book(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-contact-book()```, fa-contact-book(), fa-contact-book(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-address-card()```, fa-address-card(), fa-address-card(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-contact-card()```, fa-contact-card(), fa-contact-card(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vcard()```, fa-vcard(), fa-vcard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-adn()```, fa-adn(), fa-adn(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-adversal()```, fa-adversal(), fa-adversal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-affiliatetheme()```, fa-affiliatetheme(), fa-affiliatetheme(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-airbnb()```, fa-airbnb(), fa-airbnb(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-algolia()```, fa-algolia(), fa-algolia(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-align-center()```, fa-align-center(), fa-align-center(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-align-justify()```, fa-align-justify(), fa-align-justify(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-align-left()```, fa-align-left(), fa-align-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-align-right()```, fa-align-right(), fa-align-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-alipay()```, fa-alipay(), fa-alipay(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-amazon()```, fa-amazon(), fa-amazon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-amazon-pay()```, fa-amazon-pay(), fa-amazon-pay(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-amilia()```, fa-amilia(), fa-amilia(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-anchor()```, fa-anchor(), fa-anchor(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-anchor-circle-check()```, fa-anchor-circle-check(), fa-anchor-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-anchor-circle-exclamation()```, fa-anchor-circle-exclamation(), fa-anchor-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-anchor-circle-xmark()```, fa-anchor-circle-xmark(), fa-anchor-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-anchor-lock()```, fa-anchor-lock(), fa-anchor-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-android()```, fa-android(), fa-android(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angellist()```, fa-angellist(), fa-angellist(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angle-down()```, fa-angle-down(), fa-angle-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angle-left()```, fa-angle-left(), fa-angle-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angle-right()```, fa-angle-right(), fa-angle-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angle-up()```, fa-angle-up(), fa-angle-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angles-down()```, fa-angles-down(), fa-angles-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angle-double-down()```, fa-angle-double-down(), fa-angle-double-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angles-left()```, fa-angles-left(), fa-angles-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angle-double-left()```, fa-angle-double-left(), fa-angle-double-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angles-right()```, fa-angles-right(), fa-angles-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angle-double-right()```, fa-angle-double-right(), fa-angle-double-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angles-up()```, fa-angles-up(), fa-angles-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angle-double-up()```, fa-angle-double-up(), fa-angle-double-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angrycreative()```, fa-angrycreative(), fa-angrycreative(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angular()```, fa-angular(), fa-angular(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ankh()```, fa-ankh(), fa-ankh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-app-store()```, fa-app-store(), fa-app-store(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-app-store-ios()```, fa-app-store-ios(), fa-app-store-ios(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-apper()```, fa-apper(), fa-apper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-apple()```, fa-apple(), fa-apple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-apple-pay()```, fa-apple-pay(), fa-apple-pay(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-apple-whole()```, fa-apple-whole(), fa-apple-whole(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-apple-alt()```, fa-apple-alt(), fa-apple-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-archway()```, fa-archway(), fa-archway(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down()```, fa-arrow-down(), fa-arrow-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-1-9()```, fa-arrow-down-1-9(), fa-arrow-down-1-9(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-numeric-asc()```, fa-sort-numeric-asc(), fa-sort-numeric-asc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-numeric-down()```, fa-sort-numeric-down(), fa-sort-numeric-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-9-1()```, fa-arrow-down-9-1(), fa-arrow-down-9-1(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-numeric-desc()```, fa-sort-numeric-desc(), fa-sort-numeric-desc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-numeric-down-alt()```, fa-sort-numeric-down-alt(), fa-sort-numeric-down-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-a-z()```, fa-arrow-down-a-z(), fa-arrow-down-a-z(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-alpha-asc()```, fa-sort-alpha-asc(), fa-sort-alpha-asc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-alpha-down()```, fa-sort-alpha-down(), fa-sort-alpha-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-long()```, fa-arrow-down-long(), fa-arrow-down-long(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-long-arrow-down()```, fa-long-arrow-down(), fa-long-arrow-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-short-wide()```, fa-arrow-down-short-wide(), fa-arrow-down-short-wide(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-amount-desc()```, fa-sort-amount-desc(), fa-sort-amount-desc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-amount-down-alt()```, fa-sort-amount-down-alt(), fa-sort-amount-down-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-up-across-line()```, fa-arrow-down-up-across-line(), fa-arrow-down-up-across-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-up-lock()```, fa-arrow-down-up-lock(), fa-arrow-down-up-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-wide-short()```, fa-arrow-down-wide-short(), fa-arrow-down-wide-short(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-amount-asc()```, fa-sort-amount-asc(), fa-sort-amount-asc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-amount-down()```, fa-sort-amount-down(), fa-sort-amount-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-down-z-a()```, fa-arrow-down-z-a(), fa-arrow-down-z-a(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-alpha-desc()```, fa-sort-alpha-desc(), fa-sort-alpha-desc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-alpha-down-alt()```, fa-sort-alpha-down-alt(), fa-sort-alpha-down-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-left()```, fa-arrow-left(), fa-arrow-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-left-long()```, fa-arrow-left-long(), fa-arrow-left-long(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-long-arrow-left()```, fa-long-arrow-left(), fa-long-arrow-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-pointer()```, fa-arrow-pointer(), fa-arrow-pointer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mouse-pointer()```, fa-mouse-pointer(), fa-mouse-pointer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right()```, fa-arrow-right(), fa-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right-arrow-left()```, fa-arrow-right-arrow-left(), fa-arrow-right-arrow-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-exchange()```, fa-exchange(), fa-exchange(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right-from-bracket()```, fa-arrow-right-from-bracket(), fa-arrow-right-from-bracket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sign-out()```, fa-sign-out(), fa-sign-out(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right-long()```, fa-arrow-right-long(), fa-arrow-right-long(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-long-arrow-right()```, fa-long-arrow-right(), fa-long-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right-to-bracket()```, fa-arrow-right-to-bracket(), fa-arrow-right-to-bracket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sign-in()```, fa-sign-in(), fa-sign-in(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right-to-city()```, fa-arrow-right-to-city(), fa-arrow-right-to-city(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-rotate-left()```, fa-arrow-rotate-left(), fa-arrow-rotate-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-left-rotate()```, fa-arrow-left-rotate(), fa-arrow-left-rotate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-rotate-back()```, fa-arrow-rotate-back(), fa-arrow-rotate-back(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-rotate-backward()```, fa-arrow-rotate-backward(), fa-arrow-rotate-backward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-undo()```, fa-undo(), fa-undo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-rotate-right()```, fa-arrow-rotate-right(), fa-arrow-rotate-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right-rotate()```, fa-arrow-right-rotate(), fa-arrow-right-rotate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-rotate-forward()```, fa-arrow-rotate-forward(), fa-arrow-rotate-forward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-redo()```, fa-redo(), fa-redo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-trend-down()```, fa-arrow-trend-down(), fa-arrow-trend-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-trend-up()```, fa-arrow-trend-up(), fa-arrow-trend-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-turn-down()```, fa-arrow-turn-down(), fa-arrow-turn-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-level-down()```, fa-level-down(), fa-level-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-turn-up()```, fa-arrow-turn-up(), fa-arrow-turn-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-level-up()```, fa-level-up(), fa-level-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up()```, fa-arrow-up(), fa-arrow-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-1-9()```, fa-arrow-up-1-9(), fa-arrow-up-1-9(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-numeric-up()```, fa-sort-numeric-up(), fa-sort-numeric-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-9-1()```, fa-arrow-up-9-1(), fa-arrow-up-9-1(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-numeric-up-alt()```, fa-sort-numeric-up-alt(), fa-sort-numeric-up-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-a-z()```, fa-arrow-up-a-z(), fa-arrow-up-a-z(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-alpha-up()```, fa-sort-alpha-up(), fa-sort-alpha-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-from-bracket()```, fa-arrow-up-from-bracket(), fa-arrow-up-from-bracket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-from-ground-water()```, fa-arrow-up-from-ground-water(), fa-arrow-up-from-ground-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-from-water-pump()```, fa-arrow-up-from-water-pump(), fa-arrow-up-from-water-pump(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-long()```, fa-arrow-up-long(), fa-arrow-up-long(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-long-arrow-up()```, fa-long-arrow-up(), fa-long-arrow-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-right-dots()```, fa-arrow-up-right-dots(), fa-arrow-up-right-dots(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-right-from-square()```, fa-arrow-up-right-from-square(), fa-arrow-up-right-from-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-external-link()```, fa-external-link(), fa-external-link(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-short-wide()```, fa-arrow-up-short-wide(), fa-arrow-up-short-wide(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-amount-up-alt()```, fa-sort-amount-up-alt(), fa-sort-amount-up-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-wide-short()```, fa-arrow-up-wide-short(), fa-arrow-up-wide-short(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-amount-up()```, fa-sort-amount-up(), fa-sort-amount-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-up-z-a()```, fa-arrow-up-z-a(), fa-arrow-up-z-a(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-alpha-up-alt()```, fa-sort-alpha-up-alt(), fa-sort-alpha-up-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-down-to-line()```, fa-arrows-down-to-line(), fa-arrows-down-to-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-down-to-people()```, fa-arrows-down-to-people(), fa-arrows-down-to-people(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-left-right()```, fa-arrows-left-right(), fa-arrows-left-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-h()```, fa-arrows-h(), fa-arrows-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-left-right-to-line()```, fa-arrows-left-right-to-line(), fa-arrows-left-right-to-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-rotate()```, fa-arrows-rotate(), fa-arrows-rotate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-refresh()```, fa-refresh(), fa-refresh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sync()```, fa-sync(), fa-sync(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-spin()```, fa-arrows-spin(), fa-arrows-spin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-split-up-and-left()```, fa-arrows-split-up-and-left(), fa-arrows-split-up-and-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-to-circle()```, fa-arrows-to-circle(), fa-arrows-to-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-to-dot()```, fa-arrows-to-dot(), fa-arrows-to-dot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-to-eye()```, fa-arrows-to-eye(), fa-arrows-to-eye(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-turn-right()```, fa-arrows-turn-right(), fa-arrows-turn-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-turn-to-dots()```, fa-arrows-turn-to-dots(), fa-arrows-turn-to-dots(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-up-down()```, fa-arrows-up-down(), fa-arrows-up-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-v()```, fa-arrows-v(), fa-arrows-v(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-up-down-left-right()```, fa-arrows-up-down-left-right(), fa-arrows-up-down-left-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows()```, fa-arrows(), fa-arrows(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-up-to-line()```, fa-arrows-up-to-line(), fa-arrows-up-to-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-artstation()```, fa-artstation(), fa-artstation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-asterisk()```, fa-asterisk(), fa-asterisk(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-asymmetrik()```, fa-asymmetrik(), fa-asymmetrik(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-at()```, fa-at(), fa-at(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-atlassian()```, fa-atlassian(), fa-atlassian(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-atom()```, fa-atom(), fa-atom(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-audible()```, fa-audible(), fa-audible(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-audio-description()```, fa-audio-description(), fa-audio-description(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-austral-sign()```, fa-austral-sign(), fa-austral-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-autoprefixer()```, fa-autoprefixer(), fa-autoprefixer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-avianex()```, fa-avianex(), fa-avianex(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-aviato()```, fa-aviato(), fa-aviato(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-award()```, fa-award(), fa-award(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-aws()```, fa-aws(), fa-aws(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-b()```, fa-b(), fa-b(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-baby()```, fa-baby(), fa-baby(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-baby-carriage()```, fa-baby-carriage(), fa-baby-carriage(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-carriage-baby()```, fa-carriage-baby(), fa-carriage-baby(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-backward()```, fa-backward(), fa-backward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-backward-fast()```, fa-backward-fast(), fa-backward-fast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fast-backward()```, fa-fast-backward(), fa-fast-backward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-backward-step()```, fa-backward-step(), fa-backward-step(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-step-backward()```, fa-step-backward(), fa-step-backward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bacon()```, fa-bacon(), fa-bacon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bacteria()```, fa-bacteria(), fa-bacteria(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bacterium()```, fa-bacterium(), fa-bacterium(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bag-shopping()```, fa-bag-shopping(), fa-bag-shopping(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shopping-bag()```, fa-shopping-bag(), fa-shopping-bag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bahai()```, fa-bahai(), fa-bahai(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-haykal()```, fa-haykal(), fa-haykal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-baht-sign()```, fa-baht-sign(), fa-baht-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ban()```, fa-ban(), fa-ban(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cancel()```, fa-cancel(), fa-cancel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ban-smoking()```, fa-ban-smoking(), fa-ban-smoking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-smoking-ban()```, fa-smoking-ban(), fa-smoking-ban(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bandage()```, fa-bandage(), fa-bandage(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-band-aid()```, fa-band-aid(), fa-band-aid(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bandcamp()```, fa-bandcamp(), fa-bandcamp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bangladeshi-taka-sign()```, fa-bangladeshi-taka-sign(), fa-bangladeshi-taka-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-barcode()```, fa-barcode(), fa-barcode(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bars()```, fa-bars(), fa-bars(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-navicon()```, fa-navicon(), fa-navicon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bars-progress()```, fa-bars-progress(), fa-bars-progress(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tasks-alt()```, fa-tasks-alt(), fa-tasks-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bars-staggered()```, fa-bars-staggered(), fa-bars-staggered(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-reorder()```, fa-reorder(), fa-reorder(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stream()```, fa-stream(), fa-stream(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-baseball()```, fa-baseball(), fa-baseball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-baseball-ball()```, fa-baseball-ball(), fa-baseball-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-baseball-bat-ball()```, fa-baseball-bat-ball(), fa-baseball-bat-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-basket-shopping()```, fa-basket-shopping(), fa-basket-shopping(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shopping-basket()```, fa-shopping-basket(), fa-shopping-basket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-basketball()```, fa-basketball(), fa-basketball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-basketball-ball()```, fa-basketball-ball(), fa-basketball-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bath()```, fa-bath(), fa-bath(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bathtub()```, fa-bathtub(), fa-bathtub(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-empty()```, fa-battery-empty(), fa-battery-empty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-0()```, fa-battery-0(), fa-battery-0(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-full()```, fa-battery-full(), fa-battery-full(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery()```, fa-battery(), fa-battery(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-5()```, fa-battery-5(), fa-battery-5(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-half()```, fa-battery-half(), fa-battery-half(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-3()```, fa-battery-3(), fa-battery-3(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-quarter()```, fa-battery-quarter(), fa-battery-quarter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-2()```, fa-battery-2(), fa-battery-2(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-three-quarters()```, fa-battery-three-quarters(), fa-battery-three-quarters(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-4()```, fa-battery-4(), fa-battery-4(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battle-net()```, fa-battle-net(), fa-battle-net(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bed()```, fa-bed(), fa-bed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bed-pulse()```, fa-bed-pulse(), fa-bed-pulse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-procedures()```, fa-procedures(), fa-procedures(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-beer-mug-empty()```, fa-beer-mug-empty(), fa-beer-mug-empty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-beer()```, fa-beer(), fa-beer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-behance()```, fa-behance(), fa-behance(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bell()```, fa-bell(), fa-bell(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bell-concierge()```, fa-bell-concierge(), fa-bell-concierge(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-concierge-bell()```, fa-concierge-bell(), fa-concierge-bell(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bell-slash()```, fa-bell-slash(), fa-bell-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bezier-curve()```, fa-bezier-curve(), fa-bezier-curve(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bicycle()```, fa-bicycle(), fa-bicycle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bilibili()```, fa-bilibili(), fa-bilibili(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bimobject()```, fa-bimobject(), fa-bimobject(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-binoculars()```, fa-binoculars(), fa-binoculars(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-biohazard()```, fa-biohazard(), fa-biohazard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bitbucket()```, fa-bitbucket(), fa-bitbucket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bitcoin()```, fa-bitcoin(), fa-bitcoin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bitcoin-sign()```, fa-bitcoin-sign(), fa-bitcoin-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bity()```, fa-bity(), fa-bity(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-black-tie()```, fa-black-tie(), fa-black-tie(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-blackberry()```, fa-blackberry(), fa-blackberry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-blender()```, fa-blender(), fa-blender(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-blender-phone()```, fa-blender-phone(), fa-blender-phone(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-blog()```, fa-blog(), fa-blog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-blogger()```, fa-blogger(), fa-blogger(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-blogger-b()```, fa-blogger-b(), fa-blogger-b(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bluesky()```, fa-bluesky(), fa-bluesky(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bluetooth()```, fa-bluetooth(), fa-bluetooth(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bluetooth-b()```, fa-bluetooth-b(), fa-bluetooth-b(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bold()```, fa-bold(), fa-bold(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bolt()```, fa-bolt(), fa-bolt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-zap()```, fa-zap(), fa-zap(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bolt-lightning()```, fa-bolt-lightning(), fa-bolt-lightning(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bomb()```, fa-bomb(), fa-bomb(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bone()```, fa-bone(), fa-bone(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bong()```, fa-bong(), fa-bong(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book()```, fa-book(), fa-book(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-atlas()```, fa-book-atlas(), fa-book-atlas(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-atlas()```, fa-atlas(), fa-atlas(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-bible()```, fa-book-bible(), fa-book-bible(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bible()```, fa-bible(), fa-bible(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-bookmark()```, fa-book-bookmark(), fa-book-bookmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-journal-whills()```, fa-book-journal-whills(), fa-book-journal-whills(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-journal-whills()```, fa-journal-whills(), fa-journal-whills(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-medical()```, fa-book-medical(), fa-book-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-open()```, fa-book-open(), fa-book-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-open-reader()```, fa-book-open-reader(), fa-book-open-reader(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-reader()```, fa-book-reader(), fa-book-reader(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-quran()```, fa-book-quran(), fa-book-quran(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quran()```, fa-quran(), fa-quran(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-skull()```, fa-book-skull(), fa-book-skull(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-dead()```, fa-book-dead(), fa-book-dead(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-book-tanakh()```, fa-book-tanakh(), fa-book-tanakh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tanakh()```, fa-tanakh(), fa-tanakh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bookmark()```, fa-bookmark(), fa-bookmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bootstrap()```, fa-bootstrap(), fa-bootstrap(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-border-all()```, fa-border-all(), fa-border-all(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-border-none()```, fa-border-none(), fa-border-none(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-border-top-left()```, fa-border-top-left(), fa-border-top-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-border-style()```, fa-border-style(), fa-border-style(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bore-hole()```, fa-bore-hole(), fa-bore-hole(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bots()```, fa-bots(), fa-bots(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bottle-droplet()```, fa-bottle-droplet(), fa-bottle-droplet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bottle-water()```, fa-bottle-water(), fa-bottle-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bowl-food()```, fa-bowl-food(), fa-bowl-food(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bowl-rice()```, fa-bowl-rice(), fa-bowl-rice(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bowling-ball()```, fa-bowling-ball(), fa-bowling-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-box()```, fa-box(), fa-box(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-box-archive()```, fa-box-archive(), fa-box-archive(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-archive()```, fa-archive(), fa-archive(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-box-open()```, fa-box-open(), fa-box-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-box-tissue()```, fa-box-tissue(), fa-box-tissue(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-boxes-packing()```, fa-boxes-packing(), fa-boxes-packing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-boxes-stacked()```, fa-boxes-stacked(), fa-boxes-stacked(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-boxes()```, fa-boxes(), fa-boxes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-boxes-alt()```, fa-boxes-alt(), fa-boxes-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-braille()```, fa-braille(), fa-braille(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-brain()```, fa-brain(), fa-brain(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-brave()```, fa-brave(), fa-brave(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-brave-reverse()```, fa-brave-reverse(), fa-brave-reverse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-brazilian-real-sign()```, fa-brazilian-real-sign(), fa-brazilian-real-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bread-slice()```, fa-bread-slice(), fa-bread-slice(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bridge()```, fa-bridge(), fa-bridge(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bridge-circle-check()```, fa-bridge-circle-check(), fa-bridge-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bridge-circle-exclamation()```, fa-bridge-circle-exclamation(), fa-bridge-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bridge-circle-xmark()```, fa-bridge-circle-xmark(), fa-bridge-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bridge-lock()```, fa-bridge-lock(), fa-bridge-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bridge-water()```, fa-bridge-water(), fa-bridge-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-briefcase()```, fa-briefcase(), fa-briefcase(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-briefcase-medical()```, fa-briefcase-medical(), fa-briefcase-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-broom()```, fa-broom(), fa-broom(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-broom-ball()```, fa-broom-ball(), fa-broom-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quidditch()```, fa-quidditch(), fa-quidditch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quidditch-broom-ball()```, fa-quidditch-broom-ball(), fa-quidditch-broom-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-brush()```, fa-brush(), fa-brush(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-btc()```, fa-btc(), fa-btc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bucket()```, fa-bucket(), fa-bucket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-buffer()```, fa-buffer(), fa-buffer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bug()```, fa-bug(), fa-bug(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bug-slash()```, fa-bug-slash(), fa-bug-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bugs()```, fa-bugs(), fa-bugs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building()```, fa-building(), fa-building(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-circle-arrow-right()```, fa-building-circle-arrow-right(), fa-building-circle-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-circle-check()```, fa-building-circle-check(), fa-building-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-circle-exclamation()```, fa-building-circle-exclamation(), fa-building-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-circle-xmark()```, fa-building-circle-xmark(), fa-building-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-columns()```, fa-building-columns(), fa-building-columns(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bank()```, fa-bank(), fa-bank(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-institution()```, fa-institution(), fa-institution(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-museum()```, fa-museum(), fa-museum(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-university()```, fa-university(), fa-university(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-flag()```, fa-building-flag(), fa-building-flag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-lock()```, fa-building-lock(), fa-building-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-ngo()```, fa-building-ngo(), fa-building-ngo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-shield()```, fa-building-shield(), fa-building-shield(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-un()```, fa-building-un(), fa-building-un(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-user()```, fa-building-user(), fa-building-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-building-wheat()```, fa-building-wheat(), fa-building-wheat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bullhorn()```, fa-bullhorn(), fa-bullhorn(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bullseye()```, fa-bullseye(), fa-bullseye(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-burger()```, fa-burger(), fa-burger(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hamburger()```, fa-hamburger(), fa-hamburger(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-buromobelexperte()```, fa-buromobelexperte(), fa-buromobelexperte(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-burst()```, fa-burst(), fa-burst(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bus()```, fa-bus(), fa-bus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bus-simple()```, fa-bus-simple(), fa-bus-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bus-alt()```, fa-bus-alt(), fa-bus-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-business-time()```, fa-business-time(), fa-business-time(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-briefcase-clock()```, fa-briefcase-clock(), fa-briefcase-clock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-buy-n-large()```, fa-buy-n-large(), fa-buy-n-large(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-buysellads()```, fa-buysellads(), fa-buysellads(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-c()```, fa-c(), fa-c(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cable-car()```, fa-cable-car(), fa-cable-car(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tram()```, fa-tram(), fa-tram(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cake-candles()```, fa-cake-candles(), fa-cake-candles(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-birthday-cake()```, fa-birthday-cake(), fa-birthday-cake(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cake()```, fa-cake(), fa-cake(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calculator()```, fa-calculator(), fa-calculator(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar()```, fa-calendar(), fa-calendar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-check()```, fa-calendar-check(), fa-calendar-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-day()```, fa-calendar-day(), fa-calendar-day(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-days()```, fa-calendar-days(), fa-calendar-days(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-alt()```, fa-calendar-alt(), fa-calendar-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-minus()```, fa-calendar-minus(), fa-calendar-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-plus()```, fa-calendar-plus(), fa-calendar-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-week()```, fa-calendar-week(), fa-calendar-week(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-xmark()```, fa-calendar-xmark(), fa-calendar-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-calendar-times()```, fa-calendar-times(), fa-calendar-times(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-camera()```, fa-camera(), fa-camera(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-camera-alt()```, fa-camera-alt(), fa-camera-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-camera-retro()```, fa-camera-retro(), fa-camera-retro(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-camera-rotate()```, fa-camera-rotate(), fa-camera-rotate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-campground()```, fa-campground(), fa-campground(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-canadian-maple-leaf()```, fa-canadian-maple-leaf(), fa-canadian-maple-leaf(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-candy-cane()```, fa-candy-cane(), fa-candy-cane(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cannabis()```, fa-cannabis(), fa-cannabis(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-capsules()```, fa-capsules(), fa-capsules(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car()```, fa-car(), fa-car(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-automobile()```, fa-automobile(), fa-automobile(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car-battery()```, fa-car-battery(), fa-car-battery(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-battery-car()```, fa-battery-car(), fa-battery-car(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car-burst()```, fa-car-burst(), fa-car-burst(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car-crash()```, fa-car-crash(), fa-car-crash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car-on()```, fa-car-on(), fa-car-on(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car-rear()```, fa-car-rear(), fa-car-rear(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car-alt()```, fa-car-alt(), fa-car-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car-side()```, fa-car-side(), fa-car-side(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-car-tunnel()```, fa-car-tunnel(), fa-car-tunnel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caravan()```, fa-caravan(), fa-caravan(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caret-down()```, fa-caret-down(), fa-caret-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caret-left()```, fa-caret-left(), fa-caret-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caret-right()```, fa-caret-right(), fa-caret-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caret-up()```, fa-caret-up(), fa-caret-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-carrot()```, fa-carrot(), fa-carrot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cart-arrow-down()```, fa-cart-arrow-down(), fa-cart-arrow-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cart-flatbed()```, fa-cart-flatbed(), fa-cart-flatbed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dolly-flatbed()```, fa-dolly-flatbed(), fa-dolly-flatbed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cart-flatbed-suitcase()```, fa-cart-flatbed-suitcase(), fa-cart-flatbed-suitcase(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-luggage-cart()```, fa-luggage-cart(), fa-luggage-cart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cart-plus()```, fa-cart-plus(), fa-cart-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cart-shopping()```, fa-cart-shopping(), fa-cart-shopping(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shopping-cart()```, fa-shopping-cart(), fa-shopping-cart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cash-register()```, fa-cash-register(), fa-cash-register(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cat()```, fa-cat(), fa-cat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-amazon-pay()```, fa-cc-amazon-pay(), fa-cc-amazon-pay(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-amex()```, fa-cc-amex(), fa-cc-amex(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-apple-pay()```, fa-cc-apple-pay(), fa-cc-apple-pay(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-diners-club()```, fa-cc-diners-club(), fa-cc-diners-club(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-discover()```, fa-cc-discover(), fa-cc-discover(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-jcb()```, fa-cc-jcb(), fa-cc-jcb(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-mastercard()```, fa-cc-mastercard(), fa-cc-mastercard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-paypal()```, fa-cc-paypal(), fa-cc-paypal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-stripe()```, fa-cc-stripe(), fa-cc-stripe(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cc-visa()```, fa-cc-visa(), fa-cc-visa(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cedi-sign()```, fa-cedi-sign(), fa-cedi-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cent-sign()```, fa-cent-sign(), fa-cent-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-centercode()```, fa-centercode(), fa-centercode(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-centos()```, fa-centos(), fa-centos(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-certificate()```, fa-certificate(), fa-certificate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chair()```, fa-chair(), fa-chair(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chalkboard()```, fa-chalkboard(), fa-chalkboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-blackboard()```, fa-blackboard(), fa-blackboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chalkboard-user()```, fa-chalkboard-user(), fa-chalkboard-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chalkboard-teacher()```, fa-chalkboard-teacher(), fa-chalkboard-teacher(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-champagne-glasses()```, fa-champagne-glasses(), fa-champagne-glasses(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glass-cheers()```, fa-glass-cheers(), fa-glass-cheers(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-charging-station()```, fa-charging-station(), fa-charging-station(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chart-area()```, fa-chart-area(), fa-chart-area(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-area-chart()```, fa-area-chart(), fa-area-chart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chart-bar()```, fa-chart-bar(), fa-chart-bar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-bar-chart()```, fa-bar-chart(), fa-bar-chart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chart-column()```, fa-chart-column(), fa-chart-column(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chart-gantt()```, fa-chart-gantt(), fa-chart-gantt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chart-line()```, fa-chart-line(), fa-chart-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-line-chart()```, fa-line-chart(), fa-line-chart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chart-pie()```, fa-chart-pie(), fa-chart-pie(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pie-chart()```, fa-pie-chart(), fa-pie-chart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chart-simple()```, fa-chart-simple(), fa-chart-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-check()```, fa-check(), fa-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-check-double()```, fa-check-double(), fa-check-double(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-check-to-slot()```, fa-check-to-slot(), fa-check-to-slot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vote-yea()```, fa-vote-yea(), fa-vote-yea(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cheese()```, fa-cheese(), fa-cheese(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chess()```, fa-chess(), fa-chess(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chess-bishop()```, fa-chess-bishop(), fa-chess-bishop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chess-board()```, fa-chess-board(), fa-chess-board(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chess-king()```, fa-chess-king(), fa-chess-king(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chess-knight()```, fa-chess-knight(), fa-chess-knight(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chess-pawn()```, fa-chess-pawn(), fa-chess-pawn(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chess-queen()```, fa-chess-queen(), fa-chess-queen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chess-rook()```, fa-chess-rook(), fa-chess-rook(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chevron-down()```, fa-chevron-down(), fa-chevron-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chevron-left()```, fa-chevron-left(), fa-chevron-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chevron-right()```, fa-chevron-right(), fa-chevron-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chevron-up()```, fa-chevron-up(), fa-chevron-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-child()```, fa-child(), fa-child(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-child-combatant()```, fa-child-combatant(), fa-child-combatant(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-child-rifle()```, fa-child-rifle(), fa-child-rifle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-child-dress()```, fa-child-dress(), fa-child-dress(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-child-reaching()```, fa-child-reaching(), fa-child-reaching(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-children()```, fa-children(), fa-children(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chrome()```, fa-chrome(), fa-chrome(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chromecast()```, fa-chromecast(), fa-chromecast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-church()```, fa-church(), fa-church(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle()```, fa-circle(), fa-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-arrow-down()```, fa-circle-arrow-down(), fa-circle-arrow-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-circle-down()```, fa-arrow-circle-down(), fa-arrow-circle-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-arrow-left()```, fa-circle-arrow-left(), fa-circle-arrow-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-circle-left()```, fa-arrow-circle-left(), fa-arrow-circle-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-arrow-right()```, fa-circle-arrow-right(), fa-circle-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-circle-right()```, fa-arrow-circle-right(), fa-arrow-circle-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-arrow-up()```, fa-circle-arrow-up(), fa-circle-arrow-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-circle-up()```, fa-arrow-circle-up(), fa-arrow-circle-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-check()```, fa-circle-check(), fa-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-check-circle()```, fa-check-circle(), fa-check-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-chevron-down()```, fa-circle-chevron-down(), fa-circle-chevron-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chevron-circle-down()```, fa-chevron-circle-down(), fa-chevron-circle-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-chevron-left()```, fa-circle-chevron-left(), fa-circle-chevron-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chevron-circle-left()```, fa-chevron-circle-left(), fa-chevron-circle-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-chevron-right()```, fa-circle-chevron-right(), fa-circle-chevron-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chevron-circle-right()```, fa-chevron-circle-right(), fa-chevron-circle-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-chevron-up()```, fa-circle-chevron-up(), fa-circle-chevron-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chevron-circle-up()```, fa-chevron-circle-up(), fa-chevron-circle-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-dollar-to-slot()```, fa-circle-dollar-to-slot(), fa-circle-dollar-to-slot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-donate()```, fa-donate(), fa-donate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-dot()```, fa-circle-dot(), fa-circle-dot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dot-circle()```, fa-dot-circle(), fa-dot-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-down()```, fa-circle-down(), fa-circle-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-alt-circle-down()```, fa-arrow-alt-circle-down(), fa-arrow-alt-circle-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-exclamation()```, fa-circle-exclamation(), fa-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-exclamation-circle()```, fa-exclamation-circle(), fa-exclamation-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-h()```, fa-circle-h(), fa-circle-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hospital-symbol()```, fa-hospital-symbol(), fa-hospital-symbol(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-half-stroke()```, fa-circle-half-stroke(), fa-circle-half-stroke(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-adjust()```, fa-adjust(), fa-adjust(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-info()```, fa-circle-info(), fa-circle-info(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-info-circle()```, fa-info-circle(), fa-info-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-left()```, fa-circle-left(), fa-circle-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-alt-circle-left()```, fa-arrow-alt-circle-left(), fa-arrow-alt-circle-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-minus()```, fa-circle-minus(), fa-circle-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-minus-circle()```, fa-minus-circle(), fa-minus-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-nodes()```, fa-circle-nodes(), fa-circle-nodes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-notch()```, fa-circle-notch(), fa-circle-notch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-pause()```, fa-circle-pause(), fa-circle-pause(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pause-circle()```, fa-pause-circle(), fa-pause-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-play()```, fa-circle-play(), fa-circle-play(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-play-circle()```, fa-play-circle(), fa-play-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-plus()```, fa-circle-plus(), fa-circle-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plus-circle()```, fa-plus-circle(), fa-plus-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-question()```, fa-circle-question(), fa-circle-question(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-question-circle()```, fa-question-circle(), fa-question-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-radiation()```, fa-circle-radiation(), fa-circle-radiation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-radiation-alt()```, fa-radiation-alt(), fa-radiation-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-right()```, fa-circle-right(), fa-circle-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-alt-circle-right()```, fa-arrow-alt-circle-right(), fa-arrow-alt-circle-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-stop()```, fa-circle-stop(), fa-circle-stop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stop-circle()```, fa-stop-circle(), fa-stop-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-up()```, fa-circle-up(), fa-circle-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-alt-circle-up()```, fa-arrow-alt-circle-up(), fa-arrow-alt-circle-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-user()```, fa-circle-user(), fa-circle-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-circle()```, fa-user-circle(), fa-user-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-circle-xmark()```, fa-circle-xmark(), fa-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-times-circle()```, fa-times-circle(), fa-times-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-xmark-circle()```, fa-xmark-circle(), fa-xmark-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-city()```, fa-city(), fa-city(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clapperboard()```, fa-clapperboard(), fa-clapperboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clipboard()```, fa-clipboard(), fa-clipboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clipboard-check()```, fa-clipboard-check(), fa-clipboard-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clipboard-list()```, fa-clipboard-list(), fa-clipboard-list(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clipboard-question()```, fa-clipboard-question(), fa-clipboard-question(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clipboard-user()```, fa-clipboard-user(), fa-clipboard-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clock()```, fa-clock(), fa-clock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clock-four()```, fa-clock-four(), fa-clock-four(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clock-rotate-left()```, fa-clock-rotate-left(), fa-clock-rotate-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-history()```, fa-history(), fa-history(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clone()```, fa-clone(), fa-clone(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-closed-captioning()```, fa-closed-captioning(), fa-closed-captioning(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud()```, fa-cloud(), fa-cloud(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-arrow-down()```, fa-cloud-arrow-down(), fa-cloud-arrow-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-download()```, fa-cloud-download(), fa-cloud-download(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-download-alt()```, fa-cloud-download-alt(), fa-cloud-download-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-arrow-up()```, fa-cloud-arrow-up(), fa-cloud-arrow-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-upload()```, fa-cloud-upload(), fa-cloud-upload(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-upload-alt()```, fa-cloud-upload-alt(), fa-cloud-upload-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-bolt()```, fa-cloud-bolt(), fa-cloud-bolt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thunderstorm()```, fa-thunderstorm(), fa-thunderstorm(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-meatball()```, fa-cloud-meatball(), fa-cloud-meatball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-moon()```, fa-cloud-moon(), fa-cloud-moon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-moon-rain()```, fa-cloud-moon-rain(), fa-cloud-moon-rain(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-rain()```, fa-cloud-rain(), fa-cloud-rain(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-showers-heavy()```, fa-cloud-showers-heavy(), fa-cloud-showers-heavy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-showers-water()```, fa-cloud-showers-water(), fa-cloud-showers-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-sun()```, fa-cloud-sun(), fa-cloud-sun(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloud-sun-rain()```, fa-cloud-sun-rain(), fa-cloud-sun-rain(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloudflare()```, fa-cloudflare(), fa-cloudflare(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloudscale()```, fa-cloudscale(), fa-cloudscale(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloudsmith()```, fa-cloudsmith(), fa-cloudsmith(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cloudversify()```, fa-cloudversify(), fa-cloudversify(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clover()```, fa-clover(), fa-clover(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cmplid()```, fa-cmplid(), fa-cmplid(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-code()```, fa-code(), fa-code(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-code-branch()```, fa-code-branch(), fa-code-branch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-code-commit()```, fa-code-commit(), fa-code-commit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-code-compare()```, fa-code-compare(), fa-code-compare(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-code-fork()```, fa-code-fork(), fa-code-fork(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-code-merge()```, fa-code-merge(), fa-code-merge(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-code-pull-request()```, fa-code-pull-request(), fa-code-pull-request(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-codepen()```, fa-codepen(), fa-codepen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-codiepie()```, fa-codiepie(), fa-codiepie(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-coins()```, fa-coins(), fa-coins(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-colon-sign()```, fa-colon-sign(), fa-colon-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comment()```, fa-comment(), fa-comment(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comment-dollar()```, fa-comment-dollar(), fa-comment-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comment-dots()```, fa-comment-dots(), fa-comment-dots(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-commenting()```, fa-commenting(), fa-commenting(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comment-medical()```, fa-comment-medical(), fa-comment-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comment-slash()```, fa-comment-slash(), fa-comment-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comment-sms()```, fa-comment-sms(), fa-comment-sms(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sms()```, fa-sms(), fa-sms(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comments()```, fa-comments(), fa-comments(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comments-dollar()```, fa-comments-dollar(), fa-comments-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-compact-disc()```, fa-compact-disc(), fa-compact-disc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-compass()```, fa-compass(), fa-compass(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-compass-drafting()```, fa-compass-drafting(), fa-compass-drafting(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-drafting-compass()```, fa-drafting-compass(), fa-drafting-compass(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-compress()```, fa-compress(), fa-compress(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-computer()```, fa-computer(), fa-computer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-computer-mouse()```, fa-computer-mouse(), fa-computer-mouse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mouse()```, fa-mouse(), fa-mouse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-confluence()```, fa-confluence(), fa-confluence(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-connectdevelop()```, fa-connectdevelop(), fa-connectdevelop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-contao()```, fa-contao(), fa-contao(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cookie()```, fa-cookie(), fa-cookie(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cookie-bite()```, fa-cookie-bite(), fa-cookie-bite(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-copy()```, fa-copy(), fa-copy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-copyright()```, fa-copyright(), fa-copyright(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cotton-bureau()```, fa-cotton-bureau(), fa-cotton-bureau(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-couch()```, fa-couch(), fa-couch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cow()```, fa-cow(), fa-cow(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cpanel()```, fa-cpanel(), fa-cpanel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons()```, fa-creative-commons(), fa-creative-commons(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-by()```, fa-creative-commons-by(), fa-creative-commons-by(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-nc()```, fa-creative-commons-nc(), fa-creative-commons-nc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-nc-eu()```, fa-creative-commons-nc-eu(), fa-creative-commons-nc-eu(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-nc-jp()```, fa-creative-commons-nc-jp(), fa-creative-commons-nc-jp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-nd()```, fa-creative-commons-nd(), fa-creative-commons-nd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-pd()```, fa-creative-commons-pd(), fa-creative-commons-pd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-pd-alt()```, fa-creative-commons-pd-alt(), fa-creative-commons-pd-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-remix()```, fa-creative-commons-remix(), fa-creative-commons-remix(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-sa()```, fa-creative-commons-sa(), fa-creative-commons-sa(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-sampling()```, fa-creative-commons-sampling(), fa-creative-commons-sampling(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-sampling-plus()```, fa-creative-commons-sampling-plus(), fa-creative-commons-sampling-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-share()```, fa-creative-commons-share(), fa-creative-commons-share(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-creative-commons-zero()```, fa-creative-commons-zero(), fa-creative-commons-zero(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-credit-card()```, fa-credit-card(), fa-credit-card(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-credit-card-alt()```, fa-credit-card-alt(), fa-credit-card-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-critical-role()```, fa-critical-role(), fa-critical-role(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-crop()```, fa-crop(), fa-crop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-crop-simple()```, fa-crop-simple(), fa-crop-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-crop-alt()```, fa-crop-alt(), fa-crop-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cross()```, fa-cross(), fa-cross(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-crosshairs()```, fa-crosshairs(), fa-crosshairs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-crow()```, fa-crow(), fa-crow(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-crown()```, fa-crown(), fa-crown(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-crutch()```, fa-crutch(), fa-crutch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cruzeiro-sign()```, fa-cruzeiro-sign(), fa-cruzeiro-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-css3()```, fa-css3(), fa-css3(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-css3-alt()```, fa-css3-alt(), fa-css3-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cube()```, fa-cube(), fa-cube(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cubes()```, fa-cubes(), fa-cubes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cubes-stacked()```, fa-cubes-stacked(), fa-cubes-stacked(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cuttlefish()```, fa-cuttlefish(), fa-cuttlefish(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-d()```, fa-d(), fa-d(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-d-and-d()```, fa-d-and-d(), fa-d-and-d(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-d-and-d-beyond()```, fa-d-and-d-beyond(), fa-d-and-d-beyond(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dailymotion()```, fa-dailymotion(), fa-dailymotion(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dashcube()```, fa-dashcube(), fa-dashcube(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-database()```, fa-database(), fa-database(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-debian()```, fa-debian(), fa-debian(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-deezer()```, fa-deezer(), fa-deezer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-delete-left()```, fa-delete-left(), fa-delete-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-backspace()```, fa-backspace(), fa-backspace(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-delicious()```, fa-delicious(), fa-delicious(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-democrat()```, fa-democrat(), fa-democrat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-deploydog()```, fa-deploydog(), fa-deploydog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-deskpro()```, fa-deskpro(), fa-deskpro(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-desktop()```, fa-desktop(), fa-desktop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-desktop-alt()```, fa-desktop-alt(), fa-desktop-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dev()```, fa-dev(), fa-dev(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-deviantart()```, fa-deviantart(), fa-deviantart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dharmachakra()```, fa-dharmachakra(), fa-dharmachakra(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dhl()```, fa-dhl(), fa-dhl(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-diagram-next()```, fa-diagram-next(), fa-diagram-next(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-diagram-predecessor()```, fa-diagram-predecessor(), fa-diagram-predecessor(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-diagram-project()```, fa-diagram-project(), fa-diagram-project(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-project-diagram()```, fa-project-diagram(), fa-project-diagram(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-diagram-successor()```, fa-diagram-successor(), fa-diagram-successor(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-diamond()```, fa-diamond(), fa-diamond(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-diamond-turn-right()```, fa-diamond-turn-right(), fa-diamond-turn-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-directions()```, fa-directions(), fa-directions(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-diaspora()```, fa-diaspora(), fa-diaspora(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice()```, fa-dice(), fa-dice(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice-d20()```, fa-dice-d20(), fa-dice-d20(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice-d6()```, fa-dice-d6(), fa-dice-d6(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice-five()```, fa-dice-five(), fa-dice-five(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice-four()```, fa-dice-four(), fa-dice-four(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice-one()```, fa-dice-one(), fa-dice-one(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice-six()```, fa-dice-six(), fa-dice-six(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice-three()```, fa-dice-three(), fa-dice-three(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dice-two()```, fa-dice-two(), fa-dice-two(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-digg()```, fa-digg(), fa-digg(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-digital-ocean()```, fa-digital-ocean(), fa-digital-ocean(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-discord()```, fa-discord(), fa-discord(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-discourse()```, fa-discourse(), fa-discourse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-disease()```, fa-disease(), fa-disease(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-display()```, fa-display(), fa-display(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-divide()```, fa-divide(), fa-divide(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dna()```, fa-dna(), fa-dna(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dochub()```, fa-dochub(), fa-dochub(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-docker()```, fa-docker(), fa-docker(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dog()```, fa-dog(), fa-dog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dollar-sign()```, fa-dollar-sign(), fa-dollar-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dollar()```, fa-dollar(), fa-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-usd()```, fa-usd(), fa-usd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dolly()```, fa-dolly(), fa-dolly(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dolly-box()```, fa-dolly-box(), fa-dolly-box(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dong-sign()```, fa-dong-sign(), fa-dong-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-door-closed()```, fa-door-closed(), fa-door-closed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-door-open()```, fa-door-open(), fa-door-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dove()```, fa-dove(), fa-dove(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-down-left-and-up-right-to-center()```, fa-down-left-and-up-right-to-center(), fa-down-left-and-up-right-to-center(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-compress-alt()```, fa-compress-alt(), fa-compress-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-down-long()```, fa-down-long(), fa-down-long(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-long-arrow-alt-down()```, fa-long-arrow-alt-down(), fa-long-arrow-alt-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-download()```, fa-download(), fa-download(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-draft2digital()```, fa-draft2digital(), fa-draft2digital(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dragon()```, fa-dragon(), fa-dragon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-draw-polygon()```, fa-draw-polygon(), fa-draw-polygon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dribbble()```, fa-dribbble(), fa-dribbble(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dropbox()```, fa-dropbox(), fa-dropbox(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-droplet()```, fa-droplet(), fa-droplet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tint()```, fa-tint(), fa-tint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-droplet-slash()```, fa-droplet-slash(), fa-droplet-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tint-slash()```, fa-tint-slash(), fa-tint-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-drum()```, fa-drum(), fa-drum(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-drum-steelpan()```, fa-drum-steelpan(), fa-drum-steelpan(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-drumstick-bite()```, fa-drumstick-bite(), fa-drumstick-bite(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-drupal()```, fa-drupal(), fa-drupal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dumbbell()```, fa-dumbbell(), fa-dumbbell(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dumpster()```, fa-dumpster(), fa-dumpster(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dumpster-fire()```, fa-dumpster-fire(), fa-dumpster-fire(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dungeon()```, fa-dungeon(), fa-dungeon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dyalog()```, fa-dyalog(), fa-dyalog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-e()```, fa-e(), fa-e(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ear-deaf()```, fa-ear-deaf(), fa-ear-deaf(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-deaf()```, fa-deaf(), fa-deaf(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-deafness()```, fa-deafness(), fa-deafness(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hard-of-hearing()```, fa-hard-of-hearing(), fa-hard-of-hearing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ear-listen()```, fa-ear-listen(), fa-ear-listen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-assistive-listening-systems()```, fa-assistive-listening-systems(), fa-assistive-listening-systems(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-earlybirds()```, fa-earlybirds(), fa-earlybirds(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-earth-africa()```, fa-earth-africa(), fa-earth-africa(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-globe-africa()```, fa-globe-africa(), fa-globe-africa(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-earth-americas()```, fa-earth-americas(), fa-earth-americas(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-earth()```, fa-earth(), fa-earth(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-earth-america()```, fa-earth-america(), fa-earth-america(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-globe-americas()```, fa-globe-americas(), fa-globe-americas(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-earth-asia()```, fa-earth-asia(), fa-earth-asia(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-globe-asia()```, fa-globe-asia(), fa-globe-asia(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-earth-europe()```, fa-earth-europe(), fa-earth-europe(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-globe-europe()```, fa-globe-europe(), fa-globe-europe(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-earth-oceania()```, fa-earth-oceania(), fa-earth-oceania(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-globe-oceania()```, fa-globe-oceania(), fa-globe-oceania(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ebay()```, fa-ebay(), fa-ebay(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-edge()```, fa-edge(), fa-edge(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-edge-legacy()```, fa-edge-legacy(), fa-edge-legacy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-egg()```, fa-egg(), fa-egg(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eject()```, fa-eject(), fa-eject(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-elementor()```, fa-elementor(), fa-elementor(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-elevator()```, fa-elevator(), fa-elevator(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ellipsis()```, fa-ellipsis(), fa-ellipsis(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ellipsis-h()```, fa-ellipsis-h(), fa-ellipsis-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ellipsis-vertical()```, fa-ellipsis-vertical(), fa-ellipsis-vertical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ellipsis-v()```, fa-ellipsis-v(), fa-ellipsis-v(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ello()```, fa-ello(), fa-ello(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ember()```, fa-ember(), fa-ember(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-empire()```, fa-empire(), fa-empire(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-envelope()```, fa-envelope(), fa-envelope(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-envelope-circle-check()```, fa-envelope-circle-check(), fa-envelope-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-envelope-open()```, fa-envelope-open(), fa-envelope-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-envelope-open-text()```, fa-envelope-open-text(), fa-envelope-open-text(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-envelopes-bulk()```, fa-envelopes-bulk(), fa-envelopes-bulk(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mail-bulk()```, fa-mail-bulk(), fa-mail-bulk(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-envira()```, fa-envira(), fa-envira(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-equals()```, fa-equals(), fa-equals(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eraser()```, fa-eraser(), fa-eraser(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-erlang()```, fa-erlang(), fa-erlang(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ethereum()```, fa-ethereum(), fa-ethereum(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ethernet()```, fa-ethernet(), fa-ethernet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-etsy()```, fa-etsy(), fa-etsy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-euro-sign()```, fa-euro-sign(), fa-euro-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eur()```, fa-eur(), fa-eur(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-euro()```, fa-euro(), fa-euro(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-evernote()```, fa-evernote(), fa-evernote(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-exclamation()```, fa-exclamation(), fa-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-expand()```, fa-expand(), fa-expand(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-expeditedssl()```, fa-expeditedssl(), fa-expeditedssl(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-explosion()```, fa-explosion(), fa-explosion(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eye()```, fa-eye(), fa-eye(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eye-dropper()```, fa-eye-dropper(), fa-eye-dropper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eye-dropper-empty()```, fa-eye-dropper-empty(), fa-eye-dropper-empty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eyedropper()```, fa-eyedropper(), fa-eyedropper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eye-low-vision()```, fa-eye-low-vision(), fa-eye-low-vision(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-low-vision()```, fa-low-vision(), fa-low-vision(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-eye-slash()```, fa-eye-slash(), fa-eye-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-f()```, fa-f(), fa-f(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-angry()```, fa-face-angry(), fa-face-angry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-angry()```, fa-angry(), fa-angry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-dizzy()```, fa-face-dizzy(), fa-face-dizzy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dizzy()```, fa-dizzy(), fa-dizzy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-flushed()```, fa-face-flushed(), fa-face-flushed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-flushed()```, fa-flushed(), fa-flushed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-frown()```, fa-face-frown(), fa-face-frown(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-frown()```, fa-frown(), fa-frown(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-frown-open()```, fa-face-frown-open(), fa-face-frown-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-frown-open()```, fa-frown-open(), fa-frown-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grimace()```, fa-face-grimace(), fa-face-grimace(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grimace()```, fa-grimace(), fa-grimace(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin()```, fa-face-grin(), fa-face-grin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin()```, fa-grin(), fa-grin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-beam()```, fa-face-grin-beam(), fa-face-grin-beam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-beam()```, fa-grin-beam(), fa-grin-beam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-beam-sweat()```, fa-face-grin-beam-sweat(), fa-face-grin-beam-sweat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-beam-sweat()```, fa-grin-beam-sweat(), fa-grin-beam-sweat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-hearts()```, fa-face-grin-hearts(), fa-face-grin-hearts(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-hearts()```, fa-grin-hearts(), fa-grin-hearts(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-squint()```, fa-face-grin-squint(), fa-face-grin-squint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-squint()```, fa-grin-squint(), fa-grin-squint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-squint-tears()```, fa-face-grin-squint-tears(), fa-face-grin-squint-tears(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-squint-tears()```, fa-grin-squint-tears(), fa-grin-squint-tears(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-stars()```, fa-face-grin-stars(), fa-face-grin-stars(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-stars()```, fa-grin-stars(), fa-grin-stars(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-tears()```, fa-face-grin-tears(), fa-face-grin-tears(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-tears()```, fa-grin-tears(), fa-grin-tears(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-tongue()```, fa-face-grin-tongue(), fa-face-grin-tongue(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-tongue()```, fa-grin-tongue(), fa-grin-tongue(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-tongue-squint()```, fa-face-grin-tongue-squint(), fa-face-grin-tongue-squint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-tongue-squint()```, fa-grin-tongue-squint(), fa-grin-tongue-squint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-tongue-wink()```, fa-face-grin-tongue-wink(), fa-face-grin-tongue-wink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-tongue-wink()```, fa-grin-tongue-wink(), fa-grin-tongue-wink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-wide()```, fa-face-grin-wide(), fa-face-grin-wide(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-alt()```, fa-grin-alt(), fa-grin-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-grin-wink()```, fa-face-grin-wink(), fa-face-grin-wink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grin-wink()```, fa-grin-wink(), fa-grin-wink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-kiss()```, fa-face-kiss(), fa-face-kiss(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kiss()```, fa-kiss(), fa-kiss(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-kiss-beam()```, fa-face-kiss-beam(), fa-face-kiss-beam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kiss-beam()```, fa-kiss-beam(), fa-kiss-beam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-kiss-wink-heart()```, fa-face-kiss-wink-heart(), fa-face-kiss-wink-heart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kiss-wink-heart()```, fa-kiss-wink-heart(), fa-kiss-wink-heart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-laugh()```, fa-face-laugh(), fa-face-laugh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laugh()```, fa-laugh(), fa-laugh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-laugh-beam()```, fa-face-laugh-beam(), fa-face-laugh-beam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laugh-beam()```, fa-laugh-beam(), fa-laugh-beam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-laugh-squint()```, fa-face-laugh-squint(), fa-face-laugh-squint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laugh-squint()```, fa-laugh-squint(), fa-laugh-squint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-laugh-wink()```, fa-face-laugh-wink(), fa-face-laugh-wink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laugh-wink()```, fa-laugh-wink(), fa-laugh-wink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-meh()```, fa-face-meh(), fa-face-meh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-meh()```, fa-meh(), fa-meh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-meh-blank()```, fa-face-meh-blank(), fa-face-meh-blank(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-meh-blank()```, fa-meh-blank(), fa-meh-blank(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-rolling-eyes()```, fa-face-rolling-eyes(), fa-face-rolling-eyes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-meh-rolling-eyes()```, fa-meh-rolling-eyes(), fa-meh-rolling-eyes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-sad-cry()```, fa-face-sad-cry(), fa-face-sad-cry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sad-cry()```, fa-sad-cry(), fa-sad-cry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-sad-tear()```, fa-face-sad-tear(), fa-face-sad-tear(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sad-tear()```, fa-sad-tear(), fa-sad-tear(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-smile()```, fa-face-smile(), fa-face-smile(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-smile()```, fa-smile(), fa-smile(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-smile-beam()```, fa-face-smile-beam(), fa-face-smile-beam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-smile-beam()```, fa-smile-beam(), fa-smile-beam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-smile-wink()```, fa-face-smile-wink(), fa-face-smile-wink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-smile-wink()```, fa-smile-wink(), fa-smile-wink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-surprise()```, fa-face-surprise(), fa-face-surprise(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-surprise()```, fa-surprise(), fa-surprise(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-face-tired()```, fa-face-tired(), fa-face-tired(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tired()```, fa-tired(), fa-tired(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-facebook()```, fa-facebook(), fa-facebook(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-facebook-f()```, fa-facebook-f(), fa-facebook-f(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-facebook-messenger()```, fa-facebook-messenger(), fa-facebook-messenger(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fan()```, fa-fan(), fa-fan(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fantasy-flight-games()```, fa-fantasy-flight-games(), fa-fantasy-flight-games(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-faucet()```, fa-faucet(), fa-faucet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-faucet-drip()```, fa-faucet-drip(), fa-faucet-drip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fax()```, fa-fax(), fa-fax(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-feather()```, fa-feather(), fa-feather(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-feather-pointed()```, fa-feather-pointed(), fa-feather-pointed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-feather-alt()```, fa-feather-alt(), fa-feather-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fedex()```, fa-fedex(), fa-fedex(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fedora()```, fa-fedora(), fa-fedora(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ferry()```, fa-ferry(), fa-ferry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-figma()```, fa-figma(), fa-figma(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file()```, fa-file(), fa-file(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-arrow-down()```, fa-file-arrow-down(), fa-file-arrow-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-download()```, fa-file-download(), fa-file-download(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-arrow-up()```, fa-file-arrow-up(), fa-file-arrow-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-upload()```, fa-file-upload(), fa-file-upload(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-audio()```, fa-file-audio(), fa-file-audio(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-circle-check()```, fa-file-circle-check(), fa-file-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-circle-exclamation()```, fa-file-circle-exclamation(), fa-file-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-circle-minus()```, fa-file-circle-minus(), fa-file-circle-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-circle-plus()```, fa-file-circle-plus(), fa-file-circle-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-circle-question()```, fa-file-circle-question(), fa-file-circle-question(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-circle-xmark()```, fa-file-circle-xmark(), fa-file-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-code()```, fa-file-code(), fa-file-code(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-contract()```, fa-file-contract(), fa-file-contract(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-csv()```, fa-file-csv(), fa-file-csv(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-excel()```, fa-file-excel(), fa-file-excel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-export()```, fa-file-export(), fa-file-export(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right-from-file()```, fa-arrow-right-from-file(), fa-arrow-right-from-file(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-image()```, fa-file-image(), fa-file-image(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-import()```, fa-file-import(), fa-file-import(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrow-right-to-file()```, fa-arrow-right-to-file(), fa-arrow-right-to-file(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-invoice()```, fa-file-invoice(), fa-file-invoice(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-invoice-dollar()```, fa-file-invoice-dollar(), fa-file-invoice-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-lines()```, fa-file-lines(), fa-file-lines(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-alt()```, fa-file-alt(), fa-file-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-text()```, fa-file-text(), fa-file-text(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-medical()```, fa-file-medical(), fa-file-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-pdf()```, fa-file-pdf(), fa-file-pdf(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-pen()```, fa-file-pen(), fa-file-pen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-edit()```, fa-file-edit(), fa-file-edit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-powerpoint()```, fa-file-powerpoint(), fa-file-powerpoint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-prescription()```, fa-file-prescription(), fa-file-prescription(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-shield()```, fa-file-shield(), fa-file-shield(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-signature()```, fa-file-signature(), fa-file-signature(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-video()```, fa-file-video(), fa-file-video(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-waveform()```, fa-file-waveform(), fa-file-waveform(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-medical-alt()```, fa-file-medical-alt(), fa-file-medical-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-word()```, fa-file-word(), fa-file-word(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-zipper()```, fa-file-zipper(), fa-file-zipper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-archive()```, fa-file-archive(), fa-file-archive(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fill()```, fa-fill(), fa-fill(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fill-drip()```, fa-fill-drip(), fa-fill-drip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-film()```, fa-film(), fa-film(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-filter()```, fa-filter(), fa-filter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-filter-circle-dollar()```, fa-filter-circle-dollar(), fa-filter-circle-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-funnel-dollar()```, fa-funnel-dollar(), fa-funnel-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-filter-circle-xmark()```, fa-filter-circle-xmark(), fa-filter-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fingerprint()```, fa-fingerprint(), fa-fingerprint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fire()```, fa-fire(), fa-fire(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fire-burner()```, fa-fire-burner(), fa-fire-burner(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fire-extinguisher()```, fa-fire-extinguisher(), fa-fire-extinguisher(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fire-flame-curved()```, fa-fire-flame-curved(), fa-fire-flame-curved(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fire-alt()```, fa-fire-alt(), fa-fire-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fire-flame-simple()```, fa-fire-flame-simple(), fa-fire-flame-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-burn()```, fa-burn(), fa-burn(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-firefox()```, fa-firefox(), fa-firefox(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-firefox-browser()```, fa-firefox-browser(), fa-firefox-browser(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-first-order()```, fa-first-order(), fa-first-order(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-first-order-alt()```, fa-first-order-alt(), fa-first-order-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-firstdraft()```, fa-firstdraft(), fa-firstdraft(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fish()```, fa-fish(), fa-fish(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fish-fins()```, fa-fish-fins(), fa-fish-fins(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-flag()```, fa-flag(), fa-flag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-flag-checkered()```, fa-flag-checkered(), fa-flag-checkered(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-flag-usa()```, fa-flag-usa(), fa-flag-usa(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-flask()```, fa-flask(), fa-flask(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-flask-vial()```, fa-flask-vial(), fa-flask-vial(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-flickr()```, fa-flickr(), fa-flickr(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-flipboard()```, fa-flipboard(), fa-flipboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-floppy-disk()```, fa-floppy-disk(), fa-floppy-disk(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-save()```, fa-save(), fa-save(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-florin-sign()```, fa-florin-sign(), fa-florin-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fly()```, fa-fly(), fa-fly(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-folder()```, fa-folder(), fa-folder(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-folder-blank()```, fa-folder-blank(), fa-folder-blank(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-folder-closed()```, fa-folder-closed(), fa-folder-closed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-folder-minus()```, fa-folder-minus(), fa-folder-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-folder-open()```, fa-folder-open(), fa-folder-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-folder-plus()```, fa-folder-plus(), fa-folder-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-folder-tree()```, fa-folder-tree(), fa-folder-tree(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-font()```, fa-font(), fa-font(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-font-awesome()```, fa-font-awesome(), fa-font-awesome(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-font-awesome-flag()```, fa-font-awesome-flag(), fa-font-awesome-flag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-font-awesome-logo-full()```, fa-font-awesome-logo-full(), fa-font-awesome-logo-full(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fonticons()```, fa-fonticons(), fa-fonticons(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fonticons-fi()```, fa-fonticons-fi(), fa-fonticons-fi(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-football()```, fa-football(), fa-football(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-football-ball()```, fa-football-ball(), fa-football-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fort-awesome()```, fa-fort-awesome(), fa-fort-awesome(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fort-awesome-alt()```, fa-fort-awesome-alt(), fa-fort-awesome-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-forumbee()```, fa-forumbee(), fa-forumbee(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-forward()```, fa-forward(), fa-forward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-forward-fast()```, fa-forward-fast(), fa-forward-fast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fast-forward()```, fa-fast-forward(), fa-fast-forward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-forward-step()```, fa-forward-step(), fa-forward-step(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-step-forward()```, fa-step-forward(), fa-step-forward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-foursquare()```, fa-foursquare(), fa-foursquare(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-franc-sign()```, fa-franc-sign(), fa-franc-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-free-code-camp()```, fa-free-code-camp(), fa-free-code-camp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-freebsd()```, fa-freebsd(), fa-freebsd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-frog()```, fa-frog(), fa-frog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fulcrum()```, fa-fulcrum(), fa-fulcrum(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-futbol()```, fa-futbol(), fa-futbol(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-futbol-ball()```, fa-futbol-ball(), fa-futbol-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-soccer-ball()```, fa-soccer-ball(), fa-soccer-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-g()```, fa-g(), fa-g(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-galactic-republic()```, fa-galactic-republic(), fa-galactic-republic(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-galactic-senate()```, fa-galactic-senate(), fa-galactic-senate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gamepad()```, fa-gamepad(), fa-gamepad(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gas-pump()```, fa-gas-pump(), fa-gas-pump(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gauge()```, fa-gauge(), fa-gauge(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dashboard()```, fa-dashboard(), fa-dashboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gauge-med()```, fa-gauge-med(), fa-gauge-med(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tachometer-alt-average()```, fa-tachometer-alt-average(), fa-tachometer-alt-average(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gauge-high()```, fa-gauge-high(), fa-gauge-high(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tachometer-alt()```, fa-tachometer-alt(), fa-tachometer-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tachometer-alt-fast()```, fa-tachometer-alt-fast(), fa-tachometer-alt-fast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gauge-simple()```, fa-gauge-simple(), fa-gauge-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gauge-simple-med()```, fa-gauge-simple-med(), fa-gauge-simple-med(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tachometer-average()```, fa-tachometer-average(), fa-tachometer-average(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gauge-simple-high()```, fa-gauge-simple-high(), fa-gauge-simple-high(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tachometer()```, fa-tachometer(), fa-tachometer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tachometer-fast()```, fa-tachometer-fast(), fa-tachometer-fast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gavel()```, fa-gavel(), fa-gavel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-legal()```, fa-legal(), fa-legal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gear()```, fa-gear(), fa-gear(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cog()```, fa-cog(), fa-cog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gears()```, fa-gears(), fa-gears(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cogs()```, fa-cogs(), fa-cogs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gem()```, fa-gem(), fa-gem(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-genderless()```, fa-genderless(), fa-genderless(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-get-pocket()```, fa-get-pocket(), fa-get-pocket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gg()```, fa-gg(), fa-gg(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gg-circle()```, fa-gg-circle(), fa-gg-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ghost()```, fa-ghost(), fa-ghost(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gift()```, fa-gift(), fa-gift(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gifts()```, fa-gifts(), fa-gifts(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-git()```, fa-git(), fa-git(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-git-alt()```, fa-git-alt(), fa-git-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-github()```, fa-github(), fa-github(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-github-alt()```, fa-github-alt(), fa-github-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gitkraken()```, fa-gitkraken(), fa-gitkraken(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gitlab()```, fa-gitlab(), fa-gitlab(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gitter()```, fa-gitter(), fa-gitter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glass-water()```, fa-glass-water(), fa-glass-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glass-water-droplet()```, fa-glass-water-droplet(), fa-glass-water-droplet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glasses()```, fa-glasses(), fa-glasses(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glide()```, fa-glide(), fa-glide(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glide-g()```, fa-glide-g(), fa-glide-g(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-globe()```, fa-globe(), fa-globe(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gofore()```, fa-gofore(), fa-gofore(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-golang()```, fa-golang(), fa-golang(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-golf-ball-tee()```, fa-golf-ball-tee(), fa-golf-ball-tee(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-golf-ball()```, fa-golf-ball(), fa-golf-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-goodreads()```, fa-goodreads(), fa-goodreads(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-goodreads-g()```, fa-goodreads-g(), fa-goodreads-g(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google()```, fa-google(), fa-google(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google-drive()```, fa-google-drive(), fa-google-drive(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google-pay()```, fa-google-pay(), fa-google-pay(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google-play()```, fa-google-play(), fa-google-play(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google-plus()```, fa-google-plus(), fa-google-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google-plus-g()```, fa-google-plus-g(), fa-google-plus-g(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google-scholar()```, fa-google-scholar(), fa-google-scholar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google-wallet()```, fa-google-wallet(), fa-google-wallet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gopuram()```, fa-gopuram(), fa-gopuram(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-graduation-cap()```, fa-graduation-cap(), fa-graduation-cap(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mortar-board()```, fa-mortar-board(), fa-mortar-board(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gratipay()```, fa-gratipay(), fa-gratipay(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grav()```, fa-grav(), fa-grav(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-greater-than()```, fa-greater-than(), fa-greater-than(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-greater-than-equal()```, fa-greater-than-equal(), fa-greater-than-equal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grip()```, fa-grip(), fa-grip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grip-horizontal()```, fa-grip-horizontal(), fa-grip-horizontal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grip-lines()```, fa-grip-lines(), fa-grip-lines(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grip-lines-vertical()```, fa-grip-lines-vertical(), fa-grip-lines-vertical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grip-vertical()```, fa-grip-vertical(), fa-grip-vertical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gripfire()```, fa-gripfire(), fa-gripfire(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-group-arrows-rotate()```, fa-group-arrows-rotate(), fa-group-arrows-rotate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-grunt()```, fa-grunt(), fa-grunt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-guarani-sign()```, fa-guarani-sign(), fa-guarani-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-guilded()```, fa-guilded(), fa-guilded(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-guitar()```, fa-guitar(), fa-guitar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gulp()```, fa-gulp(), fa-gulp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gun()```, fa-gun(), fa-gun(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-h()```, fa-h(), fa-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hacker-news()```, fa-hacker-news(), fa-hacker-news(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hackerrank()```, fa-hackerrank(), fa-hackerrank(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hammer()```, fa-hammer(), fa-hammer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hamsa()```, fa-hamsa(), fa-hamsa(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand()```, fa-hand(), fa-hand(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-paper()```, fa-hand-paper(), fa-hand-paper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-back-fist()```, fa-hand-back-fist(), fa-hand-back-fist(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-rock()```, fa-hand-rock(), fa-hand-rock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-dots()```, fa-hand-dots(), fa-hand-dots(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-allergies()```, fa-allergies(), fa-allergies(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-fist()```, fa-hand-fist(), fa-hand-fist(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fist-raised()```, fa-fist-raised(), fa-fist-raised(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-holding()```, fa-hand-holding(), fa-hand-holding(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-holding-dollar()```, fa-hand-holding-dollar(), fa-hand-holding-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-holding-usd()```, fa-hand-holding-usd(), fa-hand-holding-usd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-holding-droplet()```, fa-hand-holding-droplet(), fa-hand-holding-droplet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-holding-water()```, fa-hand-holding-water(), fa-hand-holding-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-holding-hand()```, fa-hand-holding-hand(), fa-hand-holding-hand(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-holding-heart()```, fa-hand-holding-heart(), fa-hand-holding-heart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-holding-medical()```, fa-hand-holding-medical(), fa-hand-holding-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-lizard()```, fa-hand-lizard(), fa-hand-lizard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-middle-finger()```, fa-hand-middle-finger(), fa-hand-middle-finger(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-peace()```, fa-hand-peace(), fa-hand-peace(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-point-down()```, fa-hand-point-down(), fa-hand-point-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-point-left()```, fa-hand-point-left(), fa-hand-point-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-point-right()```, fa-hand-point-right(), fa-hand-point-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-point-up()```, fa-hand-point-up(), fa-hand-point-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-pointer()```, fa-hand-pointer(), fa-hand-pointer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-scissors()```, fa-hand-scissors(), fa-hand-scissors(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-sparkles()```, fa-hand-sparkles(), fa-hand-sparkles(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hand-spock()```, fa-hand-spock(), fa-hand-spock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-handcuffs()```, fa-handcuffs(), fa-handcuffs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands()```, fa-hands(), fa-hands(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sign-language()```, fa-sign-language(), fa-sign-language(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-signing()```, fa-signing(), fa-signing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-asl-interpreting()```, fa-hands-asl-interpreting(), fa-hands-asl-interpreting(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-american-sign-language-interpreting()```, fa-american-sign-language-interpreting(), fa-american-sign-language-interpreting(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-asl-interpreting()```, fa-asl-interpreting(), fa-asl-interpreting(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-american-sign-language-interpreting()```, fa-hands-american-sign-language-interpreting(), fa-hands-american-sign-language-interpreting(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-bound()```, fa-hands-bound(), fa-hands-bound(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-bubbles()```, fa-hands-bubbles(), fa-hands-bubbles(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-wash()```, fa-hands-wash(), fa-hands-wash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-clapping()```, fa-hands-clapping(), fa-hands-clapping(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-holding()```, fa-hands-holding(), fa-hands-holding(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-holding-child()```, fa-hands-holding-child(), fa-hands-holding-child(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-holding-circle()```, fa-hands-holding-circle(), fa-hands-holding-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-praying()```, fa-hands-praying(), fa-hands-praying(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-praying-hands()```, fa-praying-hands(), fa-praying-hands(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-handshake()```, fa-handshake(), fa-handshake(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-handshake-angle()```, fa-handshake-angle(), fa-handshake-angle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hands-helping()```, fa-hands-helping(), fa-hands-helping(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-handshake-simple()```, fa-handshake-simple(), fa-handshake-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-handshake-alt()```, fa-handshake-alt(), fa-handshake-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-handshake-simple-slash()```, fa-handshake-simple-slash(), fa-handshake-simple-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-handshake-alt-slash()```, fa-handshake-alt-slash(), fa-handshake-alt-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-handshake-slash()```, fa-handshake-slash(), fa-handshake-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hanukiah()```, fa-hanukiah(), fa-hanukiah(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hard-drive()```, fa-hard-drive(), fa-hard-drive(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hdd()```, fa-hdd(), fa-hdd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hashnode()```, fa-hashnode(), fa-hashnode(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hashtag()```, fa-hashtag(), fa-hashtag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hat-cowboy()```, fa-hat-cowboy(), fa-hat-cowboy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hat-cowboy-side()```, fa-hat-cowboy-side(), fa-hat-cowboy-side(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hat-wizard()```, fa-hat-wizard(), fa-hat-wizard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-head-side-cough()```, fa-head-side-cough(), fa-head-side-cough(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-head-side-cough-slash()```, fa-head-side-cough-slash(), fa-head-side-cough-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-head-side-mask()```, fa-head-side-mask(), fa-head-side-mask(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-head-side-virus()```, fa-head-side-virus(), fa-head-side-virus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heading()```, fa-heading(), fa-heading(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-header()```, fa-header(), fa-header(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-headphones()```, fa-headphones(), fa-headphones(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-headphones-simple()```, fa-headphones-simple(), fa-headphones-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-headphones-alt()```, fa-headphones-alt(), fa-headphones-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-headset()```, fa-headset(), fa-headset(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart()```, fa-heart(), fa-heart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-circle-bolt()```, fa-heart-circle-bolt(), fa-heart-circle-bolt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-circle-check()```, fa-heart-circle-check(), fa-heart-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-circle-exclamation()```, fa-heart-circle-exclamation(), fa-heart-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-circle-minus()```, fa-heart-circle-minus(), fa-heart-circle-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-circle-plus()```, fa-heart-circle-plus(), fa-heart-circle-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-circle-xmark()```, fa-heart-circle-xmark(), fa-heart-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-crack()```, fa-heart-crack(), fa-heart-crack(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-broken()```, fa-heart-broken(), fa-heart-broken(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-pulse()```, fa-heart-pulse(), fa-heart-pulse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heartbeat()```, fa-heartbeat(), fa-heartbeat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-helicopter()```, fa-helicopter(), fa-helicopter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-helicopter-symbol()```, fa-helicopter-symbol(), fa-helicopter-symbol(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-helmet-safety()```, fa-helmet-safety(), fa-helmet-safety(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hard-hat()```, fa-hard-hat(), fa-hard-hat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hat-hard()```, fa-hat-hard(), fa-hat-hard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-helmet-un()```, fa-helmet-un(), fa-helmet-un(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-highlighter()```, fa-highlighter(), fa-highlighter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hill-avalanche()```, fa-hill-avalanche(), fa-hill-avalanche(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hill-rockslide()```, fa-hill-rockslide(), fa-hill-rockslide(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hippo()```, fa-hippo(), fa-hippo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hips()```, fa-hips(), fa-hips(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hire-a-helper()```, fa-hire-a-helper(), fa-hire-a-helper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hive()```, fa-hive(), fa-hive(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hockey-puck()```, fa-hockey-puck(), fa-hockey-puck(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-holly-berry()```, fa-holly-berry(), fa-holly-berry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hooli()```, fa-hooli(), fa-hooli(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hornbill()```, fa-hornbill(), fa-hornbill(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-horse()```, fa-horse(), fa-horse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-horse-head()```, fa-horse-head(), fa-horse-head(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hospital()```, fa-hospital(), fa-hospital(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hospital-alt()```, fa-hospital-alt(), fa-hospital-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hospital-wide()```, fa-hospital-wide(), fa-hospital-wide(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hospital-user()```, fa-hospital-user(), fa-hospital-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hot-tub-person()```, fa-hot-tub-person(), fa-hot-tub-person(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hot-tub()```, fa-hot-tub(), fa-hot-tub(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hotdog()```, fa-hotdog(), fa-hotdog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hotel()```, fa-hotel(), fa-hotel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hotjar()```, fa-hotjar(), fa-hotjar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hourglass()```, fa-hourglass(), fa-hourglass(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hourglass-empty()```, fa-hourglass-empty(), fa-hourglass-empty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hourglass-end()```, fa-hourglass-end(), fa-hourglass-end(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hourglass-3()```, fa-hourglass-3(), fa-hourglass-3(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hourglass-half()```, fa-hourglass-half(), fa-hourglass-half(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hourglass-2()```, fa-hourglass-2(), fa-hourglass-2(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hourglass-start()```, fa-hourglass-start(), fa-hourglass-start(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hourglass-1()```, fa-hourglass-1(), fa-hourglass-1(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house()```, fa-house(), fa-house(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-home()```, fa-home(), fa-home(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-home-alt()```, fa-home-alt(), fa-home-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-home-lg-alt()```, fa-home-lg-alt(), fa-home-lg-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-chimney()```, fa-house-chimney(), fa-house-chimney(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-home-lg()```, fa-home-lg(), fa-home-lg(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-chimney-crack()```, fa-house-chimney-crack(), fa-house-chimney-crack(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-damage()```, fa-house-damage(), fa-house-damage(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-chimney-medical()```, fa-house-chimney-medical(), fa-house-chimney-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-clinic-medical()```, fa-clinic-medical(), fa-clinic-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-chimney-user()```, fa-house-chimney-user(), fa-house-chimney-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-chimney-window()```, fa-house-chimney-window(), fa-house-chimney-window(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-circle-check()```, fa-house-circle-check(), fa-house-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-circle-exclamation()```, fa-house-circle-exclamation(), fa-house-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-circle-xmark()```, fa-house-circle-xmark(), fa-house-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-crack()```, fa-house-crack(), fa-house-crack(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-fire()```, fa-house-fire(), fa-house-fire(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-flag()```, fa-house-flag(), fa-house-flag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-flood-water()```, fa-house-flood-water(), fa-house-flood-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-flood-water-circle-arrow-right()```, fa-house-flood-water-circle-arrow-right(), fa-house-flood-water-circle-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-laptop()```, fa-house-laptop(), fa-house-laptop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laptop-house()```, fa-laptop-house(), fa-laptop-house(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-lock()```, fa-house-lock(), fa-house-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-medical()```, fa-house-medical(), fa-house-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-medical-circle-check()```, fa-house-medical-circle-check(), fa-house-medical-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-medical-circle-exclamation()```, fa-house-medical-circle-exclamation(), fa-house-medical-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-medical-circle-xmark()```, fa-house-medical-circle-xmark(), fa-house-medical-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-medical-flag()```, fa-house-medical-flag(), fa-house-medical-flag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-signal()```, fa-house-signal(), fa-house-signal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-tsunami()```, fa-house-tsunami(), fa-house-tsunami(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-house-user()```, fa-house-user(), fa-house-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-home-user()```, fa-home-user(), fa-home-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-houzz()```, fa-houzz(), fa-houzz(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hryvnia-sign()```, fa-hryvnia-sign(), fa-hryvnia-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hryvnia()```, fa-hryvnia(), fa-hryvnia(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-html5()```, fa-html5(), fa-html5(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hubspot()```, fa-hubspot(), fa-hubspot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hurricane()```, fa-hurricane(), fa-hurricane(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-i()```, fa-i(), fa-i(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-i-cursor()```, fa-i-cursor(), fa-i-cursor(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ice-cream()```, fa-ice-cream(), fa-ice-cream(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-icicles()```, fa-icicles(), fa-icicles(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-icons()```, fa-icons(), fa-icons(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-heart-music-camera-bolt()```, fa-heart-music-camera-bolt(), fa-heart-music-camera-bolt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-id-badge()```, fa-id-badge(), fa-id-badge(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-id-card()```, fa-id-card(), fa-id-card(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-drivers-license()```, fa-drivers-license(), fa-drivers-license(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-id-card-clip()```, fa-id-card-clip(), fa-id-card-clip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-id-card-alt()```, fa-id-card-alt(), fa-id-card-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ideal()```, fa-ideal(), fa-ideal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-igloo()```, fa-igloo(), fa-igloo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-image()```, fa-image(), fa-image(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-image-portrait()```, fa-image-portrait(), fa-image-portrait(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-portrait()```, fa-portrait(), fa-portrait(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-images()```, fa-images(), fa-images(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-imdb()```, fa-imdb(), fa-imdb(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-inbox()```, fa-inbox(), fa-inbox(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-indent()```, fa-indent(), fa-indent(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-indian-rupee-sign()```, fa-indian-rupee-sign(), fa-indian-rupee-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-indian-rupee()```, fa-indian-rupee(), fa-indian-rupee(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-inr()```, fa-inr(), fa-inr(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-industry()```, fa-industry(), fa-industry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-infinity()```, fa-infinity(), fa-infinity(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-info()```, fa-info(), fa-info(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-instagram()```, fa-instagram(), fa-instagram(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-instalod()```, fa-instalod(), fa-instalod(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-intercom()```, fa-intercom(), fa-intercom(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-internet-explorer()```, fa-internet-explorer(), fa-internet-explorer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-invision()```, fa-invision(), fa-invision(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ioxhost()```, fa-ioxhost(), fa-ioxhost(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-italic()```, fa-italic(), fa-italic(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-itch-io()```, fa-itch-io(), fa-itch-io(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-itunes()```, fa-itunes(), fa-itunes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-itunes-note()```, fa-itunes-note(), fa-itunes-note(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-j()```, fa-j(), fa-j(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jar()```, fa-jar(), fa-jar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jar-wheat()```, fa-jar-wheat(), fa-jar-wheat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-java()```, fa-java(), fa-java(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jedi()```, fa-jedi(), fa-jedi(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jedi-order()```, fa-jedi-order(), fa-jedi-order(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jenkins()```, fa-jenkins(), fa-jenkins(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jet-fighter()```, fa-jet-fighter(), fa-jet-fighter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-fighter-jet()```, fa-fighter-jet(), fa-fighter-jet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jet-fighter-up()```, fa-jet-fighter-up(), fa-jet-fighter-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jira()```, fa-jira(), fa-jira(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-joget()```, fa-joget(), fa-joget(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-joint()```, fa-joint(), fa-joint(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-joomla()```, fa-joomla(), fa-joomla(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-js()```, fa-js(), fa-js(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jsfiddle()```, fa-jsfiddle(), fa-jsfiddle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jug-detergent()```, fa-jug-detergent(), fa-jug-detergent(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jxl()```, fa-jxl(), fa-jxl(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-k()```, fa-k(), fa-k(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kaaba()```, fa-kaaba(), fa-kaaba(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kaggle()```, fa-kaggle(), fa-kaggle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-key()```, fa-key(), fa-key(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-keybase()```, fa-keybase(), fa-keybase(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-keyboard()```, fa-keyboard(), fa-keyboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-keycdn()```, fa-keycdn(), fa-keycdn(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-khanda()```, fa-khanda(), fa-khanda(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kickstarter()```, fa-kickstarter(), fa-kickstarter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-kickstarter()```, fa-square-kickstarter(), fa-square-kickstarter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kickstarter-k()```, fa-kickstarter-k(), fa-kickstarter-k(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kip-sign()```, fa-kip-sign(), fa-kip-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kit-medical()```, fa-kit-medical(), fa-kit-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-first-aid()```, fa-first-aid(), fa-first-aid(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kitchen-set()```, fa-kitchen-set(), fa-kitchen-set(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-kiwi-bird()```, fa-kiwi-bird(), fa-kiwi-bird(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-korvue()```, fa-korvue(), fa-korvue(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-l()```, fa-l(), fa-l(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-land-mine-on()```, fa-land-mine-on(), fa-land-mine-on(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-landmark()```, fa-landmark(), fa-landmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-landmark-dome()```, fa-landmark-dome(), fa-landmark-dome(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-landmark-alt()```, fa-landmark-alt(), fa-landmark-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-landmark-flag()```, fa-landmark-flag(), fa-landmark-flag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-language()```, fa-language(), fa-language(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laptop()```, fa-laptop(), fa-laptop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laptop-code()```, fa-laptop-code(), fa-laptop-code(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laptop-file()```, fa-laptop-file(), fa-laptop-file(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laptop-medical()```, fa-laptop-medical(), fa-laptop-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-laravel()```, fa-laravel(), fa-laravel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lari-sign()```, fa-lari-sign(), fa-lari-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lastfm()```, fa-lastfm(), fa-lastfm(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-layer-group()```, fa-layer-group(), fa-layer-group(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-leaf()```, fa-leaf(), fa-leaf(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-leanpub()```, fa-leanpub(), fa-leanpub(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-left-long()```, fa-left-long(), fa-left-long(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-long-arrow-alt-left()```, fa-long-arrow-alt-left(), fa-long-arrow-alt-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-left-right()```, fa-left-right(), fa-left-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-alt-h()```, fa-arrows-alt-h(), fa-arrows-alt-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lemon()```, fa-lemon(), fa-lemon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-less()```, fa-less(), fa-less(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-less-than()```, fa-less-than(), fa-less-than(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-less-than-equal()```, fa-less-than-equal(), fa-less-than-equal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-letterboxd()```, fa-letterboxd(), fa-letterboxd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-life-ring()```, fa-life-ring(), fa-life-ring(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lightbulb()```, fa-lightbulb(), fa-lightbulb(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-line()```, fa-line(), fa-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lines-leaning()```, fa-lines-leaning(), fa-lines-leaning(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-link()```, fa-link(), fa-link(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chain()```, fa-chain(), fa-chain(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-link-slash()```, fa-link-slash(), fa-link-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chain-broken()```, fa-chain-broken(), fa-chain-broken(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-chain-slash()```, fa-chain-slash(), fa-chain-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-unlink()```, fa-unlink(), fa-unlink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-linkedin()```, fa-linkedin(), fa-linkedin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-linkedin-in()```, fa-linkedin-in(), fa-linkedin-in(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-linode()```, fa-linode(), fa-linode(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-linux()```, fa-linux(), fa-linux(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lira-sign()```, fa-lira-sign(), fa-lira-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list()```, fa-list(), fa-list(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list-squares()```, fa-list-squares(), fa-list-squares(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list-check()```, fa-list-check(), fa-list-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tasks()```, fa-tasks(), fa-tasks(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list-ol()```, fa-list-ol(), fa-list-ol(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list-1-2()```, fa-list-1-2(), fa-list-1-2(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list-numeric()```, fa-list-numeric(), fa-list-numeric(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list-ul()```, fa-list-ul(), fa-list-ul(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list-dots()```, fa-list-dots(), fa-list-dots(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-litecoin-sign()```, fa-litecoin-sign(), fa-litecoin-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-location-arrow()```, fa-location-arrow(), fa-location-arrow(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-location-crosshairs()```, fa-location-crosshairs(), fa-location-crosshairs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-location()```, fa-location(), fa-location(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-location-dot()```, fa-location-dot(), fa-location-dot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map-marker-alt()```, fa-map-marker-alt(), fa-map-marker-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-location-pin()```, fa-location-pin(), fa-location-pin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map-marker()```, fa-map-marker(), fa-map-marker(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-location-pin-lock()```, fa-location-pin-lock(), fa-location-pin-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lock()```, fa-lock(), fa-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lock-open()```, fa-lock-open(), fa-lock-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-locust()```, fa-locust(), fa-locust(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lungs()```, fa-lungs(), fa-lungs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lungs-virus()```, fa-lungs-virus(), fa-lungs-virus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lyft()```, fa-lyft(), fa-lyft(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-m()```, fa-m(), fa-m(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magento()```, fa-magento(), fa-magento(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magnet()```, fa-magnet(), fa-magnet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magnifying-glass()```, fa-magnifying-glass(), fa-magnifying-glass(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-search()```, fa-search(), fa-search(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magnifying-glass-arrow-right()```, fa-magnifying-glass-arrow-right(), fa-magnifying-glass-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magnifying-glass-chart()```, fa-magnifying-glass-chart(), fa-magnifying-glass-chart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magnifying-glass-dollar()```, fa-magnifying-glass-dollar(), fa-magnifying-glass-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-search-dollar()```, fa-search-dollar(), fa-search-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magnifying-glass-location()```, fa-magnifying-glass-location(), fa-magnifying-glass-location(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-search-location()```, fa-search-location(), fa-search-location(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magnifying-glass-minus()```, fa-magnifying-glass-minus(), fa-magnifying-glass-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-search-minus()```, fa-search-minus(), fa-search-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magnifying-glass-plus()```, fa-magnifying-glass-plus(), fa-magnifying-glass-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-search-plus()```, fa-search-plus(), fa-search-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mailchimp()```, fa-mailchimp(), fa-mailchimp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-manat-sign()```, fa-manat-sign(), fa-manat-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mandalorian()```, fa-mandalorian(), fa-mandalorian(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map()```, fa-map(), fa-map(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map-location()```, fa-map-location(), fa-map-location(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map-marked()```, fa-map-marked(), fa-map-marked(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map-location-dot()```, fa-map-location-dot(), fa-map-location-dot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map-marked-alt()```, fa-map-marked-alt(), fa-map-marked-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map-pin()```, fa-map-pin(), fa-map-pin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-markdown()```, fa-markdown(), fa-markdown(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-marker()```, fa-marker(), fa-marker(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars()```, fa-mars(), fa-mars(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars-and-venus()```, fa-mars-and-venus(), fa-mars-and-venus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars-and-venus-burst()```, fa-mars-and-venus-burst(), fa-mars-and-venus-burst(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars-double()```, fa-mars-double(), fa-mars-double(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars-stroke()```, fa-mars-stroke(), fa-mars-stroke(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars-stroke-right()```, fa-mars-stroke-right(), fa-mars-stroke-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars-stroke-h()```, fa-mars-stroke-h(), fa-mars-stroke-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars-stroke-up()```, fa-mars-stroke-up(), fa-mars-stroke-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mars-stroke-v()```, fa-mars-stroke-v(), fa-mars-stroke-v(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-martini-glass()```, fa-martini-glass(), fa-martini-glass(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glass-martini-alt()```, fa-glass-martini-alt(), fa-glass-martini-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-martini-glass-citrus()```, fa-martini-glass-citrus(), fa-martini-glass-citrus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cocktail()```, fa-cocktail(), fa-cocktail(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-martini-glass-empty()```, fa-martini-glass-empty(), fa-martini-glass-empty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glass-martini()```, fa-glass-martini(), fa-glass-martini(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mask()```, fa-mask(), fa-mask(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mask-face()```, fa-mask-face(), fa-mask-face(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mask-ventilator()```, fa-mask-ventilator(), fa-mask-ventilator(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-masks-theater()```, fa-masks-theater(), fa-masks-theater(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-theater-masks()```, fa-theater-masks(), fa-theater-masks(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mastodon()```, fa-mastodon(), fa-mastodon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mattress-pillow()```, fa-mattress-pillow(), fa-mattress-pillow(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-maxcdn()```, fa-maxcdn(), fa-maxcdn(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-maximize()```, fa-maximize(), fa-maximize(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-expand-arrows-alt()```, fa-expand-arrows-alt(), fa-expand-arrows-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mdb()```, fa-mdb(), fa-mdb(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-medal()```, fa-medal(), fa-medal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-medapps()```, fa-medapps(), fa-medapps(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-medium()```, fa-medium(), fa-medium(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-medium-m()```, fa-medium-m(), fa-medium-m(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-medrt()```, fa-medrt(), fa-medrt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-meetup()```, fa-meetup(), fa-meetup(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-megaport()```, fa-megaport(), fa-megaport(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-memory()```, fa-memory(), fa-memory(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mendeley()```, fa-mendeley(), fa-mendeley(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-menorah()```, fa-menorah(), fa-menorah(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mercury()```, fa-mercury(), fa-mercury(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-message()```, fa-message(), fa-message(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-comment-alt()```, fa-comment-alt(), fa-comment-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-meta()```, fa-meta(), fa-meta(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-meteor()```, fa-meteor(), fa-meteor(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microblog()```, fa-microblog(), fa-microblog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microchip()```, fa-microchip(), fa-microchip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microphone()```, fa-microphone(), fa-microphone(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microphone-lines()```, fa-microphone-lines(), fa-microphone-lines(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microphone-alt()```, fa-microphone-alt(), fa-microphone-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microphone-lines-slash()```, fa-microphone-lines-slash(), fa-microphone-lines-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microphone-alt-slash()```, fa-microphone-alt-slash(), fa-microphone-alt-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microphone-slash()```, fa-microphone-slash(), fa-microphone-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microscope()```, fa-microscope(), fa-microscope(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-microsoft()```, fa-microsoft(), fa-microsoft(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mill-sign()```, fa-mill-sign(), fa-mill-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-minimize()```, fa-minimize(), fa-minimize(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-compress-arrows-alt()```, fa-compress-arrows-alt(), fa-compress-arrows-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mintbit()```, fa-mintbit(), fa-mintbit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-minus()```, fa-minus(), fa-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-subtract()```, fa-subtract(), fa-subtract(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mitten()```, fa-mitten(), fa-mitten(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mix()```, fa-mix(), fa-mix(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mixcloud()```, fa-mixcloud(), fa-mixcloud(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mixer()```, fa-mixer(), fa-mixer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mizuni()```, fa-mizuni(), fa-mizuni(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile()```, fa-mobile(), fa-mobile(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile-android()```, fa-mobile-android(), fa-mobile-android(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile-phone()```, fa-mobile-phone(), fa-mobile-phone(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile-button()```, fa-mobile-button(), fa-mobile-button(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile-retro()```, fa-mobile-retro(), fa-mobile-retro(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile-screen()```, fa-mobile-screen(), fa-mobile-screen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile-android-alt()```, fa-mobile-android-alt(), fa-mobile-android-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile-screen-button()```, fa-mobile-screen-button(), fa-mobile-screen-button(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mobile-alt()```, fa-mobile-alt(), fa-mobile-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-modx()```, fa-modx(), fa-modx(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-monero()```, fa-monero(), fa-monero(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill()```, fa-money-bill(), fa-money-bill(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill-1()```, fa-money-bill-1(), fa-money-bill-1(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill-alt()```, fa-money-bill-alt(), fa-money-bill-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill-1-wave()```, fa-money-bill-1-wave(), fa-money-bill-1-wave(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill-wave-alt()```, fa-money-bill-wave-alt(), fa-money-bill-wave-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill-transfer()```, fa-money-bill-transfer(), fa-money-bill-transfer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill-trend-up()```, fa-money-bill-trend-up(), fa-money-bill-trend-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill-wave()```, fa-money-bill-wave(), fa-money-bill-wave(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bill-wheat()```, fa-money-bill-wheat(), fa-money-bill-wheat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-bills()```, fa-money-bills(), fa-money-bills(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-check()```, fa-money-check(), fa-money-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-check-dollar()```, fa-money-check-dollar(), fa-money-check-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-money-check-alt()```, fa-money-check-alt(), fa-money-check-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-monument()```, fa-monument(), fa-monument(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-moon()```, fa-moon(), fa-moon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mortar-pestle()```, fa-mortar-pestle(), fa-mortar-pestle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mosque()```, fa-mosque(), fa-mosque(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mosquito()```, fa-mosquito(), fa-mosquito(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mosquito-net()```, fa-mosquito-net(), fa-mosquito-net(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-motorcycle()```, fa-motorcycle(), fa-motorcycle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mound()```, fa-mound(), fa-mound(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mountain()```, fa-mountain(), fa-mountain(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mountain-city()```, fa-mountain-city(), fa-mountain-city(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mountain-sun()```, fa-mountain-sun(), fa-mountain-sun(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mug-hot()```, fa-mug-hot(), fa-mug-hot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mug-saucer()```, fa-mug-saucer(), fa-mug-saucer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-coffee()```, fa-coffee(), fa-coffee(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-music()```, fa-music(), fa-music(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-n()```, fa-n(), fa-n(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-naira-sign()```, fa-naira-sign(), fa-naira-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-napster()```, fa-napster(), fa-napster(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-neos()```, fa-neos(), fa-neos(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-network-wired()```, fa-network-wired(), fa-network-wired(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-neuter()```, fa-neuter(), fa-neuter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-newspaper()```, fa-newspaper(), fa-newspaper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-nfc-directional()```, fa-nfc-directional(), fa-nfc-directional(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-nfc-symbol()```, fa-nfc-symbol(), fa-nfc-symbol(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-nimblr()```, fa-nimblr(), fa-nimblr(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-node()```, fa-node(), fa-node(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-node-js()```, fa-node-js(), fa-node-js(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-not-equal()```, fa-not-equal(), fa-not-equal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-notdef()```, fa-notdef(), fa-notdef(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-note-sticky()```, fa-note-sticky(), fa-note-sticky(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sticky-note()```, fa-sticky-note(), fa-sticky-note(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-notes-medical()```, fa-notes-medical(), fa-notes-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-npm()```, fa-npm(), fa-npm(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ns8()```, fa-ns8(), fa-ns8(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-nutritionix()```, fa-nutritionix(), fa-nutritionix(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-o()```, fa-o(), fa-o(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-object-group()```, fa-object-group(), fa-object-group(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-object-ungroup()```, fa-object-ungroup(), fa-object-ungroup(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-octopus-deploy()```, fa-octopus-deploy(), fa-octopus-deploy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-odnoklassniki()```, fa-odnoklassniki(), fa-odnoklassniki(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-odysee()```, fa-odysee(), fa-odysee(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-oil-can()```, fa-oil-can(), fa-oil-can(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-oil-well()```, fa-oil-well(), fa-oil-well(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-old-republic()```, fa-old-republic(), fa-old-republic(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-om()```, fa-om(), fa-om(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-opencart()```, fa-opencart(), fa-opencart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-openid()```, fa-openid(), fa-openid(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-opensuse()```, fa-opensuse(), fa-opensuse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-opera()```, fa-opera(), fa-opera(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-optin-monster()```, fa-optin-monster(), fa-optin-monster(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-orcid()```, fa-orcid(), fa-orcid(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-osi()```, fa-osi(), fa-osi(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-otter()```, fa-otter(), fa-otter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-outdent()```, fa-outdent(), fa-outdent(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dedent()```, fa-dedent(), fa-dedent(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-p()```, fa-p(), fa-p(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-padlet()```, fa-padlet(), fa-padlet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-page4()```, fa-page4(), fa-page4(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pagelines()```, fa-pagelines(), fa-pagelines(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pager()```, fa-pager(), fa-pager(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paint-roller()```, fa-paint-roller(), fa-paint-roller(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paintbrush()```, fa-paintbrush(), fa-paintbrush(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paint-brush()```, fa-paint-brush(), fa-paint-brush(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-palette()```, fa-palette(), fa-palette(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-palfed()```, fa-palfed(), fa-palfed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pallet()```, fa-pallet(), fa-pallet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-panorama()```, fa-panorama(), fa-panorama(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paper-plane()```, fa-paper-plane(), fa-paper-plane(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paperclip()```, fa-paperclip(), fa-paperclip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-parachute-box()```, fa-parachute-box(), fa-parachute-box(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paragraph()```, fa-paragraph(), fa-paragraph(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-passport()```, fa-passport(), fa-passport(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paste()```, fa-paste(), fa-paste(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-file-clipboard()```, fa-file-clipboard(), fa-file-clipboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-patreon()```, fa-patreon(), fa-patreon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pause()```, fa-pause(), fa-pause(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paw()```, fa-paw(), fa-paw(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-paypal()```, fa-paypal(), fa-paypal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-peace()```, fa-peace(), fa-peace(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pen()```, fa-pen(), fa-pen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pen-clip()```, fa-pen-clip(), fa-pen-clip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pen-alt()```, fa-pen-alt(), fa-pen-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pen-fancy()```, fa-pen-fancy(), fa-pen-fancy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pen-nib()```, fa-pen-nib(), fa-pen-nib(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pen-ruler()```, fa-pen-ruler(), fa-pen-ruler(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pencil-ruler()```, fa-pencil-ruler(), fa-pencil-ruler(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pen-to-square()```, fa-pen-to-square(), fa-pen-to-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-edit()```, fa-edit(), fa-edit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pencil()```, fa-pencil(), fa-pencil(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pencil-alt()```, fa-pencil-alt(), fa-pencil-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-arrows()```, fa-people-arrows(), fa-people-arrows(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-arrows-left-right()```, fa-people-arrows-left-right(), fa-people-arrows-left-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-carry-box()```, fa-people-carry-box(), fa-people-carry-box(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-carry()```, fa-people-carry(), fa-people-carry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-group()```, fa-people-group(), fa-people-group(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-line()```, fa-people-line(), fa-people-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-pulling()```, fa-people-pulling(), fa-people-pulling(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-robbery()```, fa-people-robbery(), fa-people-robbery(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-people-roof()```, fa-people-roof(), fa-people-roof(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pepper-hot()```, fa-pepper-hot(), fa-pepper-hot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-perbyte()```, fa-perbyte(), fa-perbyte(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-percent()```, fa-percent(), fa-percent(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-percentage()```, fa-percentage(), fa-percentage(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-periscope()```, fa-periscope(), fa-periscope(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person()```, fa-person(), fa-person(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-male()```, fa-male(), fa-male(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-arrow-down-to-line()```, fa-person-arrow-down-to-line(), fa-person-arrow-down-to-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-arrow-up-from-line()```, fa-person-arrow-up-from-line(), fa-person-arrow-up-from-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-biking()```, fa-person-biking(), fa-person-biking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-biking()```, fa-biking(), fa-biking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-booth()```, fa-person-booth(), fa-person-booth(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-breastfeeding()```, fa-person-breastfeeding(), fa-person-breastfeeding(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-burst()```, fa-person-burst(), fa-person-burst(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-cane()```, fa-person-cane(), fa-person-cane(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-chalkboard()```, fa-person-chalkboard(), fa-person-chalkboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-circle-check()```, fa-person-circle-check(), fa-person-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-circle-exclamation()```, fa-person-circle-exclamation(), fa-person-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-circle-minus()```, fa-person-circle-minus(), fa-person-circle-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-circle-plus()```, fa-person-circle-plus(), fa-person-circle-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-circle-question()```, fa-person-circle-question(), fa-person-circle-question(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-circle-xmark()```, fa-person-circle-xmark(), fa-person-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-digging()```, fa-person-digging(), fa-person-digging(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-digging()```, fa-digging(), fa-digging(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-dots-from-line()```, fa-person-dots-from-line(), fa-person-dots-from-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-diagnoses()```, fa-diagnoses(), fa-diagnoses(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-dress()```, fa-person-dress(), fa-person-dress(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-female()```, fa-female(), fa-female(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-dress-burst()```, fa-person-dress-burst(), fa-person-dress-burst(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-drowning()```, fa-person-drowning(), fa-person-drowning(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-falling()```, fa-person-falling(), fa-person-falling(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-falling-burst()```, fa-person-falling-burst(), fa-person-falling-burst(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-half-dress()```, fa-person-half-dress(), fa-person-half-dress(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-harassing()```, fa-person-harassing(), fa-person-harassing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-hiking()```, fa-person-hiking(), fa-person-hiking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hiking()```, fa-hiking(), fa-hiking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-military-pointing()```, fa-person-military-pointing(), fa-person-military-pointing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-military-rifle()```, fa-person-military-rifle(), fa-person-military-rifle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-military-to-person()```, fa-person-military-to-person(), fa-person-military-to-person(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-praying()```, fa-person-praying(), fa-person-praying(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pray()```, fa-pray(), fa-pray(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-pregnant()```, fa-person-pregnant(), fa-person-pregnant(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-rays()```, fa-person-rays(), fa-person-rays(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-rifle()```, fa-person-rifle(), fa-person-rifle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-running()```, fa-person-running(), fa-person-running(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-running()```, fa-running(), fa-running(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-shelter()```, fa-person-shelter(), fa-person-shelter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-skating()```, fa-person-skating(), fa-person-skating(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-skating()```, fa-skating(), fa-skating(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-skiing()```, fa-person-skiing(), fa-person-skiing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-skiing()```, fa-skiing(), fa-skiing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-skiing-nordic()```, fa-person-skiing-nordic(), fa-person-skiing-nordic(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-skiing-nordic()```, fa-skiing-nordic(), fa-skiing-nordic(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-snowboarding()```, fa-person-snowboarding(), fa-person-snowboarding(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-snowboarding()```, fa-snowboarding(), fa-snowboarding(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-swimming()```, fa-person-swimming(), fa-person-swimming(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-swimmer()```, fa-swimmer(), fa-swimmer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-through-window()```, fa-person-through-window(), fa-person-through-window(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-walking()```, fa-person-walking(), fa-person-walking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-walking()```, fa-walking(), fa-walking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-walking-arrow-loop-left()```, fa-person-walking-arrow-loop-left(), fa-person-walking-arrow-loop-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-walking-arrow-right()```, fa-person-walking-arrow-right(), fa-person-walking-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-walking-dashed-line-arrow-right()```, fa-person-walking-dashed-line-arrow-right(), fa-person-walking-dashed-line-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-walking-luggage()```, fa-person-walking-luggage(), fa-person-walking-luggage(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-person-walking-with-cane()```, fa-person-walking-with-cane(), fa-person-walking-with-cane(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-blind()```, fa-blind(), fa-blind(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-peseta-sign()```, fa-peseta-sign(), fa-peseta-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-peso-sign()```, fa-peso-sign(), fa-peso-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phabricator()```, fa-phabricator(), fa-phabricator(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phoenix-framework()```, fa-phoenix-framework(), fa-phoenix-framework(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phoenix-squadron()```, fa-phoenix-squadron(), fa-phoenix-squadron(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phone()```, fa-phone(), fa-phone(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phone-flip()```, fa-phone-flip(), fa-phone-flip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phone-alt()```, fa-phone-alt(), fa-phone-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phone-slash()```, fa-phone-slash(), fa-phone-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phone-volume()```, fa-phone-volume(), fa-phone-volume(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-control-phone()```, fa-volume-control-phone(), fa-volume-control-phone(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-photo-film()```, fa-photo-film(), fa-photo-film(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-photo-video()```, fa-photo-video(), fa-photo-video(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-php()```, fa-php(), fa-php(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pied-piper()```, fa-pied-piper(), fa-pied-piper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pied-piper-alt()```, fa-pied-piper-alt(), fa-pied-piper-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pied-piper-hat()```, fa-pied-piper-hat(), fa-pied-piper-hat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pied-piper-pp()```, fa-pied-piper-pp(), fa-pied-piper-pp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-piggy-bank()```, fa-piggy-bank(), fa-piggy-bank(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pills()```, fa-pills(), fa-pills(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pinterest()```, fa-pinterest(), fa-pinterest(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pinterest-p()```, fa-pinterest-p(), fa-pinterest-p(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pix()```, fa-pix(), fa-pix(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pixiv()```, fa-pixiv(), fa-pixiv(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pizza-slice()```, fa-pizza-slice(), fa-pizza-slice(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-place-of-worship()```, fa-place-of-worship(), fa-place-of-worship(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane()```, fa-plane(), fa-plane(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane-arrival()```, fa-plane-arrival(), fa-plane-arrival(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane-circle-check()```, fa-plane-circle-check(), fa-plane-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane-circle-exclamation()```, fa-plane-circle-exclamation(), fa-plane-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane-circle-xmark()```, fa-plane-circle-xmark(), fa-plane-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane-departure()```, fa-plane-departure(), fa-plane-departure(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane-lock()```, fa-plane-lock(), fa-plane-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane-slash()```, fa-plane-slash(), fa-plane-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plane-up()```, fa-plane-up(), fa-plane-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plant-wilt()```, fa-plant-wilt(), fa-plant-wilt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plate-wheat()```, fa-plate-wheat(), fa-plate-wheat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-play()```, fa-play(), fa-play(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-playstation()```, fa-playstation(), fa-playstation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plug()```, fa-plug(), fa-plug(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plug-circle-bolt()```, fa-plug-circle-bolt(), fa-plug-circle-bolt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plug-circle-check()```, fa-plug-circle-check(), fa-plug-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plug-circle-exclamation()```, fa-plug-circle-exclamation(), fa-plug-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plug-circle-minus()```, fa-plug-circle-minus(), fa-plug-circle-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plug-circle-plus()```, fa-plug-circle-plus(), fa-plug-circle-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plug-circle-xmark()```, fa-plug-circle-xmark(), fa-plug-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plus()```, fa-plus(), fa-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-add()```, fa-add(), fa-add(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plus-minus()```, fa-plus-minus(), fa-plus-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-podcast()```, fa-podcast(), fa-podcast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-poo()```, fa-poo(), fa-poo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-poo-storm()```, fa-poo-storm(), fa-poo-storm(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-poo-bolt()```, fa-poo-bolt(), fa-poo-bolt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-poop()```, fa-poop(), fa-poop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-power-off()```, fa-power-off(), fa-power-off(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-prescription()```, fa-prescription(), fa-prescription(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-prescription-bottle()```, fa-prescription-bottle(), fa-prescription-bottle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-prescription-bottle-medical()```, fa-prescription-bottle-medical(), fa-prescription-bottle-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-prescription-bottle-alt()```, fa-prescription-bottle-alt(), fa-prescription-bottle-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-print()```, fa-print(), fa-print(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-product-hunt()```, fa-product-hunt(), fa-product-hunt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pump-medical()```, fa-pump-medical(), fa-pump-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pump-soap()```, fa-pump-soap(), fa-pump-soap(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pushed()```, fa-pushed(), fa-pushed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-puzzle-piece()```, fa-puzzle-piece(), fa-puzzle-piece(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-python()```, fa-python(), fa-python(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-q()```, fa-q(), fa-q(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-qq()```, fa-qq(), fa-qq(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-qrcode()```, fa-qrcode(), fa-qrcode(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-question()```, fa-question(), fa-question(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quinscape()```, fa-quinscape(), fa-quinscape(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quora()```, fa-quora(), fa-quora(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quote-left()```, fa-quote-left(), fa-quote-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quote-left-alt()```, fa-quote-left-alt(), fa-quote-left-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quote-right()```, fa-quote-right(), fa-quote-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-quote-right-alt()```, fa-quote-right-alt(), fa-quote-right-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-r()```, fa-r(), fa-r(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-r-project()```, fa-r-project(), fa-r-project(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-radiation()```, fa-radiation(), fa-radiation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-radio()```, fa-radio(), fa-radio(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rainbow()```, fa-rainbow(), fa-rainbow(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ranking-star()```, fa-ranking-star(), fa-ranking-star(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-raspberry-pi()```, fa-raspberry-pi(), fa-raspberry-pi(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ravelry()```, fa-ravelry(), fa-ravelry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-react()```, fa-react(), fa-react(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-reacteurope()```, fa-reacteurope(), fa-reacteurope(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-readme()```, fa-readme(), fa-readme(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rebel()```, fa-rebel(), fa-rebel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-receipt()```, fa-receipt(), fa-receipt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-record-vinyl()```, fa-record-vinyl(), fa-record-vinyl(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rectangle-ad()```, fa-rectangle-ad(), fa-rectangle-ad(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ad()```, fa-ad(), fa-ad(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rectangle-list()```, fa-rectangle-list(), fa-rectangle-list(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-list-alt()```, fa-list-alt(), fa-list-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rectangle-xmark()```, fa-rectangle-xmark(), fa-rectangle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rectangle-times()```, fa-rectangle-times(), fa-rectangle-times(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-times-rectangle()```, fa-times-rectangle(), fa-times-rectangle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-window-close()```, fa-window-close(), fa-window-close(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-recycle()```, fa-recycle(), fa-recycle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-red-river()```, fa-red-river(), fa-red-river(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-reddit()```, fa-reddit(), fa-reddit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-reddit-alien()```, fa-reddit-alien(), fa-reddit-alien(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-redhat()```, fa-redhat(), fa-redhat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-registered()```, fa-registered(), fa-registered(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-renren()```, fa-renren(), fa-renren(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-repeat()```, fa-repeat(), fa-repeat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-reply()```, fa-reply(), fa-reply(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mail-reply()```, fa-mail-reply(), fa-mail-reply(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-reply-all()```, fa-reply-all(), fa-reply-all(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mail-reply-all()```, fa-mail-reply-all(), fa-mail-reply-all(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-replyd()```, fa-replyd(), fa-replyd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-republican()```, fa-republican(), fa-republican(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-researchgate()```, fa-researchgate(), fa-researchgate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-resolving()```, fa-resolving(), fa-resolving(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-restroom()```, fa-restroom(), fa-restroom(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-retweet()```, fa-retweet(), fa-retweet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rev()```, fa-rev(), fa-rev(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ribbon()```, fa-ribbon(), fa-ribbon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-right-from-bracket()```, fa-right-from-bracket(), fa-right-from-bracket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sign-out-alt()```, fa-sign-out-alt(), fa-sign-out-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-right-left()```, fa-right-left(), fa-right-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-exchange-alt()```, fa-exchange-alt(), fa-exchange-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-right-long()```, fa-right-long(), fa-right-long(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-long-arrow-alt-right()```, fa-long-arrow-alt-right(), fa-long-arrow-alt-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-right-to-bracket()```, fa-right-to-bracket(), fa-right-to-bracket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sign-in-alt()```, fa-sign-in-alt(), fa-sign-in-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ring()```, fa-ring(), fa-ring(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-road()```, fa-road(), fa-road(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-road-barrier()```, fa-road-barrier(), fa-road-barrier(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-road-bridge()```, fa-road-bridge(), fa-road-bridge(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-road-circle-check()```, fa-road-circle-check(), fa-road-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-road-circle-exclamation()```, fa-road-circle-exclamation(), fa-road-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-road-circle-xmark()```, fa-road-circle-xmark(), fa-road-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-road-lock()```, fa-road-lock(), fa-road-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-road-spikes()```, fa-road-spikes(), fa-road-spikes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-robot()```, fa-robot(), fa-robot(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rocket()```, fa-rocket(), fa-rocket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rocketchat()```, fa-rocketchat(), fa-rocketchat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rockrms()```, fa-rockrms(), fa-rockrms(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rotate()```, fa-rotate(), fa-rotate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sync-alt()```, fa-sync-alt(), fa-sync-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rotate-left()```, fa-rotate-left(), fa-rotate-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rotate-back()```, fa-rotate-back(), fa-rotate-back(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rotate-backward()```, fa-rotate-backward(), fa-rotate-backward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-undo-alt()```, fa-undo-alt(), fa-undo-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rotate-right()```, fa-rotate-right(), fa-rotate-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-redo-alt()```, fa-redo-alt(), fa-redo-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rotate-forward()```, fa-rotate-forward(), fa-rotate-forward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-route()```, fa-route(), fa-route(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rss()```, fa-rss(), fa-rss(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-feed()```, fa-feed(), fa-feed(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ruble-sign()```, fa-ruble-sign(), fa-ruble-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rouble()```, fa-rouble(), fa-rouble(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rub()```, fa-rub(), fa-rub(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ruble()```, fa-ruble(), fa-ruble(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rug()```, fa-rug(), fa-rug(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ruler()```, fa-ruler(), fa-ruler(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ruler-combined()```, fa-ruler-combined(), fa-ruler-combined(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ruler-horizontal()```, fa-ruler-horizontal(), fa-ruler-horizontal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ruler-vertical()```, fa-ruler-vertical(), fa-ruler-vertical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rupee-sign()```, fa-rupee-sign(), fa-rupee-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rupee()```, fa-rupee(), fa-rupee(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rupiah-sign()```, fa-rupiah-sign(), fa-rupiah-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rust()```, fa-rust(), fa-rust(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-s()```, fa-s(), fa-s(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sack-dollar()```, fa-sack-dollar(), fa-sack-dollar(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sack-xmark()```, fa-sack-xmark(), fa-sack-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-safari()```, fa-safari(), fa-safari(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sailboat()```, fa-sailboat(), fa-sailboat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-salesforce()```, fa-salesforce(), fa-salesforce(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sass()```, fa-sass(), fa-sass(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-satellite()```, fa-satellite(), fa-satellite(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-satellite-dish()```, fa-satellite-dish(), fa-satellite-dish(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-scale-balanced()```, fa-scale-balanced(), fa-scale-balanced(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-balance-scale()```, fa-balance-scale(), fa-balance-scale(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-scale-unbalanced()```, fa-scale-unbalanced(), fa-scale-unbalanced(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-balance-scale-left()```, fa-balance-scale-left(), fa-balance-scale-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-scale-unbalanced-flip()```, fa-scale-unbalanced-flip(), fa-scale-unbalanced-flip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-balance-scale-right()```, fa-balance-scale-right(), fa-balance-scale-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-schlix()```, fa-schlix(), fa-schlix(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-school()```, fa-school(), fa-school(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-school-circle-check()```, fa-school-circle-check(), fa-school-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-school-circle-exclamation()```, fa-school-circle-exclamation(), fa-school-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-school-circle-xmark()```, fa-school-circle-xmark(), fa-school-circle-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-school-flag()```, fa-school-flag(), fa-school-flag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-school-lock()```, fa-school-lock(), fa-school-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-scissors()```, fa-scissors(), fa-scissors(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cut()```, fa-cut(), fa-cut(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-screenpal()```, fa-screenpal(), fa-screenpal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-screwdriver()```, fa-screwdriver(), fa-screwdriver(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-screwdriver-wrench()```, fa-screwdriver-wrench(), fa-screwdriver-wrench(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tools()```, fa-tools(), fa-tools(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-scribd()```, fa-scribd(), fa-scribd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-scroll()```, fa-scroll(), fa-scroll(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-scroll-torah()```, fa-scroll-torah(), fa-scroll-torah(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-torah()```, fa-torah(), fa-torah(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sd-card()```, fa-sd-card(), fa-sd-card(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-searchengin()```, fa-searchengin(), fa-searchengin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-section()```, fa-section(), fa-section(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-seedling()```, fa-seedling(), fa-seedling(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sprout()```, fa-sprout(), fa-sprout(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sellcast()```, fa-sellcast(), fa-sellcast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sellsy()```, fa-sellsy(), fa-sellsy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-server()```, fa-server(), fa-server(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-servicestack()```, fa-servicestack(), fa-servicestack(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shapes()```, fa-shapes(), fa-shapes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-triangle-circle-square()```, fa-triangle-circle-square(), fa-triangle-circle-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-share()```, fa-share(), fa-share(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-mail-forward()```, fa-mail-forward(), fa-mail-forward(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-share-from-square()```, fa-share-from-square(), fa-share-from-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-share-square()```, fa-share-square(), fa-share-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-share-nodes()```, fa-share-nodes(), fa-share-nodes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-share-alt()```, fa-share-alt(), fa-share-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sheet-plastic()```, fa-sheet-plastic(), fa-sheet-plastic(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shekel-sign()```, fa-shekel-sign(), fa-shekel-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ils()```, fa-ils(), fa-ils(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shekel()```, fa-shekel(), fa-shekel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sheqel()```, fa-sheqel(), fa-sheqel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sheqel-sign()```, fa-sheqel-sign(), fa-sheqel-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shield()```, fa-shield(), fa-shield(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shield-blank()```, fa-shield-blank(), fa-shield-blank(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shield-cat()```, fa-shield-cat(), fa-shield-cat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shield-dog()```, fa-shield-dog(), fa-shield-dog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shield-halved()```, fa-shield-halved(), fa-shield-halved(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shield-alt()```, fa-shield-alt(), fa-shield-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shield-heart()```, fa-shield-heart(), fa-shield-heart(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shield-virus()```, fa-shield-virus(), fa-shield-virus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ship()```, fa-ship(), fa-ship(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shirt()```, fa-shirt(), fa-shirt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-t-shirt()```, fa-t-shirt(), fa-t-shirt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tshirt()```, fa-tshirt(), fa-tshirt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shirtsinbulk()```, fa-shirtsinbulk(), fa-shirtsinbulk(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shoe-prints()```, fa-shoe-prints(), fa-shoe-prints(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shoelace()```, fa-shoelace(), fa-shoelace(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shop()```, fa-shop(), fa-shop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-store-alt()```, fa-store-alt(), fa-store-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shop-lock()```, fa-shop-lock(), fa-shop-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shop-slash()```, fa-shop-slash(), fa-shop-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-store-alt-slash()```, fa-store-alt-slash(), fa-store-alt-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shopify()```, fa-shopify(), fa-shopify(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shopware()```, fa-shopware(), fa-shopware(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shower()```, fa-shower(), fa-shower(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shrimp()```, fa-shrimp(), fa-shrimp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shuffle()```, fa-shuffle(), fa-shuffle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-random()```, fa-random(), fa-random(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shuttle-space()```, fa-shuttle-space(), fa-shuttle-space(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-space-shuttle()```, fa-space-shuttle(), fa-space-shuttle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sign-hanging()```, fa-sign-hanging(), fa-sign-hanging(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sign()```, fa-sign(), fa-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-signal()```, fa-signal(), fa-signal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-signal-5()```, fa-signal-5(), fa-signal-5(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-signal-perfect()```, fa-signal-perfect(), fa-signal-perfect(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-signal-messenger()```, fa-signal-messenger(), fa-signal-messenger(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-signature()```, fa-signature(), fa-signature(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-signs-post()```, fa-signs-post(), fa-signs-post(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-map-signs()```, fa-map-signs(), fa-map-signs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sim-card()```, fa-sim-card(), fa-sim-card(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-simplybuilt()```, fa-simplybuilt(), fa-simplybuilt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sink()```, fa-sink(), fa-sink(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sistrix()```, fa-sistrix(), fa-sistrix(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sitemap()```, fa-sitemap(), fa-sitemap(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sith()```, fa-sith(), fa-sith(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sitrox()```, fa-sitrox(), fa-sitrox(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sketch()```, fa-sketch(), fa-sketch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-skull()```, fa-skull(), fa-skull(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-skull-crossbones()```, fa-skull-crossbones(), fa-skull-crossbones(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-skyatlas()```, fa-skyatlas(), fa-skyatlas(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-skype()```, fa-skype(), fa-skype(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-slack()```, fa-slack(), fa-slack(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-slack-hash()```, fa-slack-hash(), fa-slack-hash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-slash()```, fa-slash(), fa-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sleigh()```, fa-sleigh(), fa-sleigh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sliders()```, fa-sliders(), fa-sliders(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sliders-h()```, fa-sliders-h(), fa-sliders-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-slideshare()```, fa-slideshare(), fa-slideshare(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-smog()```, fa-smog(), fa-smog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-smoking()```, fa-smoking(), fa-smoking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-snapchat()```, fa-snapchat(), fa-snapchat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-snapchat-ghost()```, fa-snapchat-ghost(), fa-snapchat-ghost(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-snowflake()```, fa-snowflake(), fa-snowflake(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-snowman()```, fa-snowman(), fa-snowman(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-snowplow()```, fa-snowplow(), fa-snowplow(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-soap()```, fa-soap(), fa-soap(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-socks()```, fa-socks(), fa-socks(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-solar-panel()```, fa-solar-panel(), fa-solar-panel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort()```, fa-sort(), fa-sort(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-unsorted()```, fa-unsorted(), fa-unsorted(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-down()```, fa-sort-down(), fa-sort-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-desc()```, fa-sort-desc(), fa-sort-desc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-up()```, fa-sort-up(), fa-sort-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sort-asc()```, fa-sort-asc(), fa-sort-asc(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-soundcloud()```, fa-soundcloud(), fa-soundcloud(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sourcetree()```, fa-sourcetree(), fa-sourcetree(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spa()```, fa-spa(), fa-spa(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-space-awesome()```, fa-space-awesome(), fa-space-awesome(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spaghetti-monster-flying()```, fa-spaghetti-monster-flying(), fa-spaghetti-monster-flying(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pastafarianism()```, fa-pastafarianism(), fa-pastafarianism(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-speakap()```, fa-speakap(), fa-speakap(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-speaker-deck()```, fa-speaker-deck(), fa-speaker-deck(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spell-check()```, fa-spell-check(), fa-spell-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spider()```, fa-spider(), fa-spider(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spinner()```, fa-spinner(), fa-spinner(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-splotch()```, fa-splotch(), fa-splotch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spoon()```, fa-spoon(), fa-spoon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-utensil-spoon()```, fa-utensil-spoon(), fa-utensil-spoon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spotify()```, fa-spotify(), fa-spotify(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spray-can()```, fa-spray-can(), fa-spray-can(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-spray-can-sparkles()```, fa-spray-can-sparkles(), fa-spray-can-sparkles(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-air-freshener()```, fa-air-freshener(), fa-air-freshener(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square()```, fa-square(), fa-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-arrow-up-right()```, fa-square-arrow-up-right(), fa-square-arrow-up-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-external-link-square()```, fa-external-link-square(), fa-external-link-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-behance()```, fa-square-behance(), fa-square-behance(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-behance-square()```, fa-behance-square(), fa-behance-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-caret-down()```, fa-square-caret-down(), fa-square-caret-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caret-square-down()```, fa-caret-square-down(), fa-caret-square-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-caret-left()```, fa-square-caret-left(), fa-square-caret-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caret-square-left()```, fa-caret-square-left(), fa-caret-square-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-caret-right()```, fa-square-caret-right(), fa-square-caret-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caret-square-right()```, fa-caret-square-right(), fa-caret-square-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-caret-up()```, fa-square-caret-up(), fa-square-caret-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-caret-square-up()```, fa-caret-square-up(), fa-caret-square-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-check()```, fa-square-check(), fa-square-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-check-square()```, fa-check-square(), fa-check-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-dribbble()```, fa-square-dribbble(), fa-square-dribbble(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-dribbble-square()```, fa-dribbble-square(), fa-dribbble-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-envelope()```, fa-square-envelope(), fa-square-envelope(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-envelope-square()```, fa-envelope-square(), fa-envelope-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-facebook()```, fa-square-facebook(), fa-square-facebook(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-facebook-square()```, fa-facebook-square(), fa-facebook-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-font-awesome()```, fa-square-font-awesome(), fa-square-font-awesome(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-font-awesome-stroke()```, fa-square-font-awesome-stroke(), fa-square-font-awesome-stroke(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-font-awesome-alt()```, fa-font-awesome-alt(), fa-font-awesome-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-full()```, fa-square-full(), fa-square-full(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-git()```, fa-square-git(), fa-square-git(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-git-square()```, fa-git-square(), fa-git-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-github()```, fa-square-github(), fa-square-github(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-github-square()```, fa-github-square(), fa-github-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-gitlab()```, fa-square-gitlab(), fa-square-gitlab(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gitlab-square()```, fa-gitlab-square(), fa-gitlab-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-google-plus()```, fa-square-google-plus(), fa-square-google-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-google-plus-square()```, fa-google-plus-square(), fa-google-plus-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-h()```, fa-square-h(), fa-square-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-h-square()```, fa-h-square(), fa-h-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-hacker-news()```, fa-square-hacker-news(), fa-square-hacker-news(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-hacker-news-square()```, fa-hacker-news-square(), fa-hacker-news-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-instagram()```, fa-square-instagram(), fa-square-instagram(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-instagram-square()```, fa-instagram-square(), fa-instagram-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-js()```, fa-square-js(), fa-square-js(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-js-square()```, fa-js-square(), fa-js-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-lastfm()```, fa-square-lastfm(), fa-square-lastfm(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-lastfm-square()```, fa-lastfm-square(), fa-lastfm-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-letterboxd()```, fa-square-letterboxd(), fa-square-letterboxd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-minus()```, fa-square-minus(), fa-square-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-minus-square()```, fa-minus-square(), fa-minus-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-nfi()```, fa-square-nfi(), fa-square-nfi(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-odnoklassniki()```, fa-square-odnoklassniki(), fa-square-odnoklassniki(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-odnoklassniki-square()```, fa-odnoklassniki-square(), fa-odnoklassniki-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-parking()```, fa-square-parking(), fa-square-parking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-parking()```, fa-parking(), fa-parking(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-pen()```, fa-square-pen(), fa-square-pen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pen-square()```, fa-pen-square(), fa-pen-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pencil-square()```, fa-pencil-square(), fa-pencil-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-person-confined()```, fa-square-person-confined(), fa-square-person-confined(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-phone()```, fa-square-phone(), fa-square-phone(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phone-square()```, fa-phone-square(), fa-phone-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-phone-flip()```, fa-square-phone-flip(), fa-square-phone-flip(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-phone-square-alt()```, fa-phone-square-alt(), fa-phone-square-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-pied-piper()```, fa-square-pied-piper(), fa-square-pied-piper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pied-piper-square()```, fa-pied-piper-square(), fa-pied-piper-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-pinterest()```, fa-square-pinterest(), fa-square-pinterest(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pinterest-square()```, fa-pinterest-square(), fa-pinterest-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-plus()```, fa-square-plus(), fa-square-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-plus-square()```, fa-plus-square(), fa-plus-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-poll-horizontal()```, fa-square-poll-horizontal(), fa-square-poll-horizontal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-poll-h()```, fa-poll-h(), fa-poll-h(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-poll-vertical()```, fa-square-poll-vertical(), fa-square-poll-vertical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-poll()```, fa-poll(), fa-poll(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-reddit()```, fa-square-reddit(), fa-square-reddit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-reddit-square()```, fa-reddit-square(), fa-reddit-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-root-variable()```, fa-square-root-variable(), fa-square-root-variable(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-root-alt()```, fa-square-root-alt(), fa-square-root-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-rss()```, fa-square-rss(), fa-square-rss(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rss-square()```, fa-rss-square(), fa-rss-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-share-nodes()```, fa-square-share-nodes(), fa-square-share-nodes(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-share-alt-square()```, fa-share-alt-square(), fa-share-alt-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-snapchat()```, fa-square-snapchat(), fa-square-snapchat(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-snapchat-square()```, fa-snapchat-square(), fa-snapchat-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-steam()```, fa-square-steam(), fa-square-steam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-steam-square()```, fa-steam-square(), fa-steam-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-threads()```, fa-square-threads(), fa-square-threads(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-tumblr()```, fa-square-tumblr(), fa-square-tumblr(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tumblr-square()```, fa-tumblr-square(), fa-tumblr-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-twitter()```, fa-square-twitter(), fa-square-twitter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-twitter-square()```, fa-twitter-square(), fa-twitter-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-up-right()```, fa-square-up-right(), fa-square-up-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-external-link-square-alt()```, fa-external-link-square-alt(), fa-external-link-square-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-upwork()```, fa-square-upwork(), fa-square-upwork(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-viadeo()```, fa-square-viadeo(), fa-square-viadeo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-viadeo-square()```, fa-viadeo-square(), fa-viadeo-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-vimeo()```, fa-square-vimeo(), fa-square-vimeo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vimeo-square()```, fa-vimeo-square(), fa-vimeo-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-virus()```, fa-square-virus(), fa-square-virus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-web-awesome()```, fa-square-web-awesome(), fa-square-web-awesome(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-web-awesome-stroke()```, fa-square-web-awesome-stroke(), fa-square-web-awesome-stroke(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-whatsapp()```, fa-square-whatsapp(), fa-square-whatsapp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-whatsapp-square()```, fa-whatsapp-square(), fa-whatsapp-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-x-twitter()```, fa-square-x-twitter(), fa-square-x-twitter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-xing()```, fa-square-xing(), fa-square-xing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-xing-square()```, fa-xing-square(), fa-xing-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-xmark()```, fa-square-xmark(), fa-square-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-times-square()```, fa-times-square(), fa-times-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-xmark-square()```, fa-xmark-square(), fa-xmark-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-square-youtube()```, fa-square-youtube(), fa-square-youtube(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-youtube-square()```, fa-youtube-square(), fa-youtube-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-squarespace()```, fa-squarespace(), fa-squarespace(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stack-exchange()```, fa-stack-exchange(), fa-stack-exchange(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stack-overflow()```, fa-stack-overflow(), fa-stack-overflow(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stackpath()```, fa-stackpath(), fa-stackpath(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-staff-snake()```, fa-staff-snake(), fa-staff-snake(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rod-asclepius()```, fa-rod-asclepius(), fa-rod-asclepius(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rod-snake()```, fa-rod-snake(), fa-rod-snake(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-staff-aesculapius()```, fa-staff-aesculapius(), fa-staff-aesculapius(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stairs()```, fa-stairs(), fa-stairs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stamp()```, fa-stamp(), fa-stamp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stapler()```, fa-stapler(), fa-stapler(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-star()```, fa-star(), fa-star(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-star-and-crescent()```, fa-star-and-crescent(), fa-star-and-crescent(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-star-half()```, fa-star-half(), fa-star-half(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-star-half-stroke()```, fa-star-half-stroke(), fa-star-half-stroke(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-star-half-alt()```, fa-star-half-alt(), fa-star-half-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-star-of-david()```, fa-star-of-david(), fa-star-of-david(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-star-of-life()```, fa-star-of-life(), fa-star-of-life(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-staylinked()```, fa-staylinked(), fa-staylinked(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-steam()```, fa-steam(), fa-steam(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-steam-symbol()```, fa-steam-symbol(), fa-steam-symbol(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sterling-sign()```, fa-sterling-sign(), fa-sterling-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-gbp()```, fa-gbp(), fa-gbp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-pound-sign()```, fa-pound-sign(), fa-pound-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stethoscope()```, fa-stethoscope(), fa-stethoscope(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sticker-mule()```, fa-sticker-mule(), fa-sticker-mule(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stop()```, fa-stop(), fa-stop(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stopwatch()```, fa-stopwatch(), fa-stopwatch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stopwatch-20()```, fa-stopwatch-20(), fa-stopwatch-20(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-store()```, fa-store(), fa-store(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-store-slash()```, fa-store-slash(), fa-store-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-strava()```, fa-strava(), fa-strava(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-street-view()```, fa-street-view(), fa-street-view(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-strikethrough()```, fa-strikethrough(), fa-strikethrough(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stripe()```, fa-stripe(), fa-stripe(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stripe-s()```, fa-stripe-s(), fa-stripe-s(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stroopwafel()```, fa-stroopwafel(), fa-stroopwafel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stubber()```, fa-stubber(), fa-stubber(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-studiovinari()```, fa-studiovinari(), fa-studiovinari(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stumbleupon()```, fa-stumbleupon(), fa-stumbleupon(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-stumbleupon-circle()```, fa-stumbleupon-circle(), fa-stumbleupon-circle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-subscript()```, fa-subscript(), fa-subscript(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-suitcase()```, fa-suitcase(), fa-suitcase(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-suitcase-medical()```, fa-suitcase-medical(), fa-suitcase-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-medkit()```, fa-medkit(), fa-medkit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-suitcase-rolling()```, fa-suitcase-rolling(), fa-suitcase-rolling(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sun()```, fa-sun(), fa-sun(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-sun-plant-wilt()```, fa-sun-plant-wilt(), fa-sun-plant-wilt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-superpowers()```, fa-superpowers(), fa-superpowers(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-superscript()```, fa-superscript(), fa-superscript(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-supple()```, fa-supple(), fa-supple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-suse()```, fa-suse(), fa-suse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-swatchbook()```, fa-swatchbook(), fa-swatchbook(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-swift()```, fa-swift(), fa-swift(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-symfony()```, fa-symfony(), fa-symfony(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-synagogue()```, fa-synagogue(), fa-synagogue(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-syringe()```, fa-syringe(), fa-syringe(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-t()```, fa-t(), fa-t(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table()```, fa-table(), fa-table(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table-cells()```, fa-table-cells(), fa-table-cells(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-th()```, fa-th(), fa-th(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table-cells-column-lock()```, fa-table-cells-column-lock(), fa-table-cells-column-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table-cells-large()```, fa-table-cells-large(), fa-table-cells-large(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-th-large()```, fa-th-large(), fa-th-large(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table-cells-row-lock()```, fa-table-cells-row-lock(), fa-table-cells-row-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table-columns()```, fa-table-columns(), fa-table-columns(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-columns()```, fa-columns(), fa-columns(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table-list()```, fa-table-list(), fa-table-list(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-th-list()```, fa-th-list(), fa-th-list(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table-tennis-paddle-ball()```, fa-table-tennis-paddle-ball(), fa-table-tennis-paddle-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ping-pong-paddle-ball()```, fa-ping-pong-paddle-ball(), fa-ping-pong-paddle-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-table-tennis()```, fa-table-tennis(), fa-table-tennis(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tablet()```, fa-tablet(), fa-tablet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tablet-android()```, fa-tablet-android(), fa-tablet-android(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tablet-button()```, fa-tablet-button(), fa-tablet-button(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tablet-screen-button()```, fa-tablet-screen-button(), fa-tablet-screen-button(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tablet-alt()```, fa-tablet-alt(), fa-tablet-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tablets()```, fa-tablets(), fa-tablets(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tachograph-digital()```, fa-tachograph-digital(), fa-tachograph-digital(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-digital-tachograph()```, fa-digital-tachograph(), fa-digital-tachograph(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tag()```, fa-tag(), fa-tag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tags()```, fa-tags(), fa-tags(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tape()```, fa-tape(), fa-tape(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tarp()```, fa-tarp(), fa-tarp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tarp-droplet()```, fa-tarp-droplet(), fa-tarp-droplet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-taxi()```, fa-taxi(), fa-taxi(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cab()```, fa-cab(), fa-cab(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-teamspeak()```, fa-teamspeak(), fa-teamspeak(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-teeth()```, fa-teeth(), fa-teeth(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-teeth-open()```, fa-teeth-open(), fa-teeth-open(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-telegram()```, fa-telegram(), fa-telegram(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-telegram-plane()```, fa-telegram-plane(), fa-telegram-plane(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-arrow-down()```, fa-temperature-arrow-down(), fa-temperature-arrow-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-down()```, fa-temperature-down(), fa-temperature-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-arrow-up()```, fa-temperature-arrow-up(), fa-temperature-arrow-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-up()```, fa-temperature-up(), fa-temperature-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-empty()```, fa-temperature-empty(), fa-temperature-empty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-0()```, fa-temperature-0(), fa-temperature-0(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-0()```, fa-thermometer-0(), fa-thermometer-0(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-empty()```, fa-thermometer-empty(), fa-thermometer-empty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-full()```, fa-temperature-full(), fa-temperature-full(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-4()```, fa-temperature-4(), fa-temperature-4(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-4()```, fa-thermometer-4(), fa-thermometer-4(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-full()```, fa-thermometer-full(), fa-thermometer-full(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-half()```, fa-temperature-half(), fa-temperature-half(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-2()```, fa-temperature-2(), fa-temperature-2(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-2()```, fa-thermometer-2(), fa-thermometer-2(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-half()```, fa-thermometer-half(), fa-thermometer-half(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-high()```, fa-temperature-high(), fa-temperature-high(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-low()```, fa-temperature-low(), fa-temperature-low(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-quarter()```, fa-temperature-quarter(), fa-temperature-quarter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-1()```, fa-temperature-1(), fa-temperature-1(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-1()```, fa-thermometer-1(), fa-thermometer-1(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-quarter()```, fa-thermometer-quarter(), fa-thermometer-quarter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-three-quarters()```, fa-temperature-three-quarters(), fa-temperature-three-quarters(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-temperature-3()```, fa-temperature-3(), fa-temperature-3(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-3()```, fa-thermometer-3(), fa-thermometer-3(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer-three-quarters()```, fa-thermometer-three-quarters(), fa-thermometer-three-quarters(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tencent-weibo()```, fa-tencent-weibo(), fa-tencent-weibo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tenge-sign()```, fa-tenge-sign(), fa-tenge-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tenge()```, fa-tenge(), fa-tenge(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tent()```, fa-tent(), fa-tent(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tent-arrow-down-to-line()```, fa-tent-arrow-down-to-line(), fa-tent-arrow-down-to-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tent-arrow-left-right()```, fa-tent-arrow-left-right(), fa-tent-arrow-left-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tent-arrow-turn-left()```, fa-tent-arrow-turn-left(), fa-tent-arrow-turn-left(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tent-arrows-down()```, fa-tent-arrows-down(), fa-tent-arrows-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tents()```, fa-tents(), fa-tents(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-terminal()```, fa-terminal(), fa-terminal(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-text-height()```, fa-text-height(), fa-text-height(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-text-slash()```, fa-text-slash(), fa-text-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-remove-format()```, fa-remove-format(), fa-remove-format(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-text-width()```, fa-text-width(), fa-text-width(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-the-red-yeti()```, fa-the-red-yeti(), fa-the-red-yeti(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-themeco()```, fa-themeco(), fa-themeco(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-themeisle()```, fa-themeisle(), fa-themeisle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thermometer()```, fa-thermometer(), fa-thermometer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-think-peaks()```, fa-think-peaks(), fa-think-peaks(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-threads()```, fa-threads(), fa-threads(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thumbs-down()```, fa-thumbs-down(), fa-thumbs-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thumbs-up()```, fa-thumbs-up(), fa-thumbs-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thumbtack()```, fa-thumbtack(), fa-thumbtack(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-thumb-tack()```, fa-thumb-tack(), fa-thumb-tack(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ticket()```, fa-ticket(), fa-ticket(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ticket-simple()```, fa-ticket-simple(), fa-ticket-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ticket-alt()```, fa-ticket-alt(), fa-ticket-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tiktok()```, fa-tiktok(), fa-tiktok(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-timeline()```, fa-timeline(), fa-timeline(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-toggle-off()```, fa-toggle-off(), fa-toggle-off(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-toggle-on()```, fa-toggle-on(), fa-toggle-on(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-toilet()```, fa-toilet(), fa-toilet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-toilet-paper()```, fa-toilet-paper(), fa-toilet-paper(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-toilet-paper-slash()```, fa-toilet-paper-slash(), fa-toilet-paper-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-toilet-portable()```, fa-toilet-portable(), fa-toilet-portable(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-toilets-portable()```, fa-toilets-portable(), fa-toilets-portable(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-toolbox()```, fa-toolbox(), fa-toolbox(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tooth()```, fa-tooth(), fa-tooth(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-torii-gate()```, fa-torii-gate(), fa-torii-gate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tornado()```, fa-tornado(), fa-tornado(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tower-broadcast()```, fa-tower-broadcast(), fa-tower-broadcast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-broadcast-tower()```, fa-broadcast-tower(), fa-broadcast-tower(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tower-cell()```, fa-tower-cell(), fa-tower-cell(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tower-observation()```, fa-tower-observation(), fa-tower-observation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tractor()```, fa-tractor(), fa-tractor(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trade-federation()```, fa-trade-federation(), fa-trade-federation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trademark()```, fa-trademark(), fa-trademark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-traffic-light()```, fa-traffic-light(), fa-traffic-light(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trailer()```, fa-trailer(), fa-trailer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-train()```, fa-train(), fa-train(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-train-subway()```, fa-train-subway(), fa-train-subway(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-subway()```, fa-subway(), fa-subway(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-train-tram()```, fa-train-tram(), fa-train-tram(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-transgender()```, fa-transgender(), fa-transgender(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-transgender-alt()```, fa-transgender-alt(), fa-transgender-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trash()```, fa-trash(), fa-trash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trash-arrow-up()```, fa-trash-arrow-up(), fa-trash-arrow-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trash-restore()```, fa-trash-restore(), fa-trash-restore(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trash-can()```, fa-trash-can(), fa-trash-can(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trash-alt()```, fa-trash-alt(), fa-trash-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trash-can-arrow-up()```, fa-trash-can-arrow-up(), fa-trash-can-arrow-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trash-restore-alt()```, fa-trash-restore-alt(), fa-trash-restore-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tree()```, fa-tree(), fa-tree(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tree-city()```, fa-tree-city(), fa-tree-city(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trello()```, fa-trello(), fa-trello(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-triangle-exclamation()```, fa-triangle-exclamation(), fa-triangle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-exclamation-triangle()```, fa-exclamation-triangle(), fa-exclamation-triangle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-warning()```, fa-warning(), fa-warning(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trophy()```, fa-trophy(), fa-trophy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trowel()```, fa-trowel(), fa-trowel(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-trowel-bricks()```, fa-trowel-bricks(), fa-trowel-bricks(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck()```, fa-truck(), fa-truck(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-arrow-right()```, fa-truck-arrow-right(), fa-truck-arrow-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-droplet()```, fa-truck-droplet(), fa-truck-droplet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-fast()```, fa-truck-fast(), fa-truck-fast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shipping-fast()```, fa-shipping-fast(), fa-shipping-fast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-field()```, fa-truck-field(), fa-truck-field(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-field-un()```, fa-truck-field-un(), fa-truck-field-un(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-front()```, fa-truck-front(), fa-truck-front(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-medical()```, fa-truck-medical(), fa-truck-medical(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ambulance()```, fa-ambulance(), fa-ambulance(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-monster()```, fa-truck-monster(), fa-truck-monster(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-moving()```, fa-truck-moving(), fa-truck-moving(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-pickup()```, fa-truck-pickup(), fa-truck-pickup(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-plane()```, fa-truck-plane(), fa-truck-plane(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-ramp-box()```, fa-truck-ramp-box(), fa-truck-ramp-box(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-truck-loading()```, fa-truck-loading(), fa-truck-loading(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tty()```, fa-tty(), fa-tty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-teletype()```, fa-teletype(), fa-teletype(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tumblr()```, fa-tumblr(), fa-tumblr(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-turkish-lira-sign()```, fa-turkish-lira-sign(), fa-turkish-lira-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-try()```, fa-try(), fa-try(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-turkish-lira()```, fa-turkish-lira(), fa-turkish-lira(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-turn-down()```, fa-turn-down(), fa-turn-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-level-down-alt()```, fa-level-down-alt(), fa-level-down-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-turn-up()```, fa-turn-up(), fa-turn-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-level-up-alt()```, fa-level-up-alt(), fa-level-up-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tv()```, fa-tv(), fa-tv(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-television()```, fa-television(), fa-television(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-tv-alt()```, fa-tv-alt(), fa-tv-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-twitch()```, fa-twitch(), fa-twitch(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-twitter()```, fa-twitter(), fa-twitter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-typo3()```, fa-typo3(), fa-typo3(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-u()```, fa-u(), fa-u(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-uber()```, fa-uber(), fa-uber(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ubuntu()```, fa-ubuntu(), fa-ubuntu(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-uikit()```, fa-uikit(), fa-uikit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-umbraco()```, fa-umbraco(), fa-umbraco(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-umbrella()```, fa-umbrella(), fa-umbrella(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-umbrella-beach()```, fa-umbrella-beach(), fa-umbrella-beach(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-uncharted()```, fa-uncharted(), fa-uncharted(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-underline()```, fa-underline(), fa-underline(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-uniregistry()```, fa-uniregistry(), fa-uniregistry(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-unity()```, fa-unity(), fa-unity(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-universal-access()```, fa-universal-access(), fa-universal-access(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-unlock()```, fa-unlock(), fa-unlock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-unlock-keyhole()```, fa-unlock-keyhole(), fa-unlock-keyhole(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-unlock-alt()```, fa-unlock-alt(), fa-unlock-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-unsplash()```, fa-unsplash(), fa-unsplash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-untappd()```, fa-untappd(), fa-untappd(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-up-down()```, fa-up-down(), fa-up-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-alt-v()```, fa-arrows-alt-v(), fa-arrows-alt-v(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-up-down-left-right()```, fa-up-down-left-right(), fa-up-down-left-right(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-arrows-alt()```, fa-arrows-alt(), fa-arrows-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-up-long()```, fa-up-long(), fa-up-long(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-long-arrow-alt-up()```, fa-long-arrow-alt-up(), fa-long-arrow-alt-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-up-right-and-down-left-from-center()```, fa-up-right-and-down-left-from-center(), fa-up-right-and-down-left-from-center(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-expand-alt()```, fa-expand-alt(), fa-expand-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-up-right-from-square()```, fa-up-right-from-square(), fa-up-right-from-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-external-link-alt()```, fa-external-link-alt(), fa-external-link-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-upload()```, fa-upload(), fa-upload(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ups()```, fa-ups(), fa-ups(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-upwork()```, fa-upwork(), fa-upwork(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-usb()```, fa-usb(), fa-usb(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user()```, fa-user(), fa-user(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-astronaut()```, fa-user-astronaut(), fa-user-astronaut(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-check()```, fa-user-check(), fa-user-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-clock()```, fa-user-clock(), fa-user-clock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-doctor()```, fa-user-doctor(), fa-user-doctor(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-md()```, fa-user-md(), fa-user-md(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-gear()```, fa-user-gear(), fa-user-gear(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-cog()```, fa-user-cog(), fa-user-cog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-graduate()```, fa-user-graduate(), fa-user-graduate(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-group()```, fa-user-group(), fa-user-group(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-friends()```, fa-user-friends(), fa-user-friends(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-injured()```, fa-user-injured(), fa-user-injured(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-large()```, fa-user-large(), fa-user-large(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-alt()```, fa-user-alt(), fa-user-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-large-slash()```, fa-user-large-slash(), fa-user-large-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-alt-slash()```, fa-user-alt-slash(), fa-user-alt-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-lock()```, fa-user-lock(), fa-user-lock(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-minus()```, fa-user-minus(), fa-user-minus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-ninja()```, fa-user-ninja(), fa-user-ninja(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-nurse()```, fa-user-nurse(), fa-user-nurse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-pen()```, fa-user-pen(), fa-user-pen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-edit()```, fa-user-edit(), fa-user-edit(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-plus()```, fa-user-plus(), fa-user-plus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-secret()```, fa-user-secret(), fa-user-secret(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-shield()```, fa-user-shield(), fa-user-shield(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-slash()```, fa-user-slash(), fa-user-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-tag()```, fa-user-tag(), fa-user-tag(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-tie()```, fa-user-tie(), fa-user-tie(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-xmark()```, fa-user-xmark(), fa-user-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-user-times()```, fa-user-times(), fa-user-times(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users()```, fa-users(), fa-users(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users-between-lines()```, fa-users-between-lines(), fa-users-between-lines(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users-gear()```, fa-users-gear(), fa-users-gear(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users-cog()```, fa-users-cog(), fa-users-cog(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users-line()```, fa-users-line(), fa-users-line(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users-rays()```, fa-users-rays(), fa-users-rays(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users-rectangle()```, fa-users-rectangle(), fa-users-rectangle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users-slash()```, fa-users-slash(), fa-users-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-users-viewfinder()```, fa-users-viewfinder(), fa-users-viewfinder(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-usps()```, fa-usps(), fa-usps(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ussunnah()```, fa-ussunnah(), fa-ussunnah(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-utensils()```, fa-utensils(), fa-utensils(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cutlery()```, fa-cutlery(), fa-cutlery(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-v()```, fa-v(), fa-v(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vaadin()```, fa-vaadin(), fa-vaadin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-van-shuttle()```, fa-van-shuttle(), fa-van-shuttle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-shuttle-van()```, fa-shuttle-van(), fa-shuttle-van(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vault()```, fa-vault(), fa-vault(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vector-square()```, fa-vector-square(), fa-vector-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-venus()```, fa-venus(), fa-venus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-venus-double()```, fa-venus-double(), fa-venus-double(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-venus-mars()```, fa-venus-mars(), fa-venus-mars(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vest()```, fa-vest(), fa-vest(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vest-patches()```, fa-vest-patches(), fa-vest-patches(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-viacoin()```, fa-viacoin(), fa-viacoin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-viadeo()```, fa-viadeo(), fa-viadeo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vial()```, fa-vial(), fa-vial(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vial-circle-check()```, fa-vial-circle-check(), fa-vial-circle-check(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vial-virus()```, fa-vial-virus(), fa-vial-virus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vials()```, fa-vials(), fa-vials(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-viber()```, fa-viber(), fa-viber(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-video()```, fa-video(), fa-video(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-video-camera()```, fa-video-camera(), fa-video-camera(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-video-slash()```, fa-video-slash(), fa-video-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vihara()```, fa-vihara(), fa-vihara(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vimeo()```, fa-vimeo(), fa-vimeo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vimeo-v()```, fa-vimeo-v(), fa-vimeo-v(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vine()```, fa-vine(), fa-vine(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-virus()```, fa-virus(), fa-virus(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-virus-covid()```, fa-virus-covid(), fa-virus-covid(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-virus-covid-slash()```, fa-virus-covid-slash(), fa-virus-covid-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-virus-slash()```, fa-virus-slash(), fa-virus-slash(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-viruses()```, fa-viruses(), fa-viruses(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vk()```, fa-vk(), fa-vk(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vnv()```, fa-vnv(), fa-vnv(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-voicemail()```, fa-voicemail(), fa-voicemail(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volcano()```, fa-volcano(), fa-volcano(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volleyball()```, fa-volleyball(), fa-volleyball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volleyball-ball()```, fa-volleyball-ball(), fa-volleyball-ball(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-high()```, fa-volume-high(), fa-volume-high(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-up()```, fa-volume-up(), fa-volume-up(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-low()```, fa-volume-low(), fa-volume-low(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-down()```, fa-volume-down(), fa-volume-down(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-off()```, fa-volume-off(), fa-volume-off(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-xmark()```, fa-volume-xmark(), fa-volume-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-mute()```, fa-volume-mute(), fa-volume-mute(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-volume-times()```, fa-volume-times(), fa-volume-times(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vr-cardboard()```, fa-vr-cardboard(), fa-vr-cardboard(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-vuejs()```, fa-vuejs(), fa-vuejs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-w()```, fa-w(), fa-w(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-walkie-talkie()```, fa-walkie-talkie(), fa-walkie-talkie(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wallet()```, fa-wallet(), fa-wallet(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wand-magic()```, fa-wand-magic(), fa-wand-magic(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magic()```, fa-magic(), fa-magic(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wand-magic-sparkles()```, fa-wand-magic-sparkles(), fa-wand-magic-sparkles(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-magic-wand-sparkles()```, fa-magic-wand-sparkles(), fa-magic-wand-sparkles(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wand-sparkles()```, fa-wand-sparkles(), fa-wand-sparkles(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-warehouse()```, fa-warehouse(), fa-warehouse(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-watchman-monitoring()```, fa-watchman-monitoring(), fa-watchman-monitoring(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-water()```, fa-water(), fa-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-water-ladder()```, fa-water-ladder(), fa-water-ladder(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-ladder-water()```, fa-ladder-water(), fa-ladder-water(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-swimming-pool()```, fa-swimming-pool(), fa-swimming-pool(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wave-square()```, fa-wave-square(), fa-wave-square(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-waze()```, fa-waze(), fa-waze(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-web-awesome()```, fa-web-awesome(), fa-web-awesome(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-webflow()```, fa-webflow(), fa-webflow(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-weebly()```, fa-weebly(), fa-weebly(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-weibo()```, fa-weibo(), fa-weibo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-weight-hanging()```, fa-weight-hanging(), fa-weight-hanging(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-weight-scale()```, fa-weight-scale(), fa-weight-scale(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-weight()```, fa-weight(), fa-weight(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-weixin()```, fa-weixin(), fa-weixin(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-whatsapp()```, fa-whatsapp(), fa-whatsapp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wheat-awn()```, fa-wheat-awn(), fa-wheat-awn(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wheat-alt()```, fa-wheat-alt(), fa-wheat-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wheat-awn-circle-exclamation()```, fa-wheat-awn-circle-exclamation(), fa-wheat-awn-circle-exclamation(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wheelchair()```, fa-wheelchair(), fa-wheelchair(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wheelchair-move()```, fa-wheelchair-move(), fa-wheelchair-move(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wheelchair-alt()```, fa-wheelchair-alt(), fa-wheelchair-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-whiskey-glass()```, fa-whiskey-glass(), fa-whiskey-glass(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-glass-whiskey()```, fa-glass-whiskey(), fa-glass-whiskey(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-whmcs()```, fa-whmcs(), fa-whmcs(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wifi()```, fa-wifi(), fa-wifi(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wifi-3()```, fa-wifi-3(), fa-wifi-3(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wifi-strong()```, fa-wifi-strong(), fa-wifi-strong(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wikipedia-w()```, fa-wikipedia-w(), fa-wikipedia-w(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wind()```, fa-wind(), fa-wind(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-window-maximize()```, fa-window-maximize(), fa-window-maximize(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-window-minimize()```, fa-window-minimize(), fa-window-minimize(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-window-restore()```, fa-window-restore(), fa-window-restore(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-windows()```, fa-windows(), fa-windows(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wine-bottle()```, fa-wine-bottle(), fa-wine-bottle(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wine-glass()```, fa-wine-glass(), fa-wine-glass(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wine-glass-empty()```, fa-wine-glass-empty(), fa-wine-glass-empty(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wine-glass-alt()```, fa-wine-glass-alt(), fa-wine-glass-alt(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wirsindhandwerk()```, fa-wirsindhandwerk(), fa-wirsindhandwerk(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wsh()```, fa-wsh(), fa-wsh(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wix()```, fa-wix(), fa-wix(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wizards-of-the-coast()```, fa-wizards-of-the-coast(), fa-wizards-of-the-coast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wodu()```, fa-wodu(), fa-wodu(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wolf-pack-battalion()```, fa-wolf-pack-battalion(), fa-wolf-pack-battalion(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-won-sign()```, fa-won-sign(), fa-won-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-krw()```, fa-krw(), fa-krw(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-won()```, fa-won(), fa-won(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wordpress()```, fa-wordpress(), fa-wordpress(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wordpress-simple()```, fa-wordpress-simple(), fa-wordpress-simple(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-worm()```, fa-worm(), fa-worm(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wpbeginner()```, fa-wpbeginner(), fa-wpbeginner(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wpexplorer()```, fa-wpexplorer(), fa-wpexplorer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wpforms()```, fa-wpforms(), fa-wpforms(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wpressr()```, fa-wpressr(), fa-wpressr(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rendact()```, fa-rendact(), fa-rendact(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-wrench()```, fa-wrench(), fa-wrench(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-x()```, fa-x(), fa-x(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-x-ray()```, fa-x-ray(), fa-x-ray(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-x-twitter()```, fa-x-twitter(), fa-x-twitter(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-xbox()```, fa-xbox(), fa-xbox(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-xing()```, fa-xing(), fa-xing(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-xmark()```, fa-xmark(), fa-xmark(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-close()```, fa-close(), fa-close(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-multiply()```, fa-multiply(), fa-multiply(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-remove()```, fa-remove(), fa-remove(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-times()```, fa-times(), fa-times(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-xmarks-lines()```, fa-xmarks-lines(), fa-xmarks-lines(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-y()```, fa-y(), fa-y(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-y-combinator()```, fa-y-combinator(), fa-y-combinator(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yahoo()```, fa-yahoo(), fa-yahoo(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yammer()```, fa-yammer(), fa-yammer(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yandex()```, fa-yandex(), fa-yandex(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yandex-international()```, fa-yandex-international(), fa-yandex-international(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yarn()```, fa-yarn(), fa-yarn(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yelp()```, fa-yelp(), fa-yelp(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yen-sign()```, fa-yen-sign(), fa-yen-sign(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-cny()```, fa-cny(), fa-cny(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-jpy()```, fa-jpy(), fa-jpy(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-rmb()```, fa-rmb(), fa-rmb(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yen()```, fa-yen(), fa-yen(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yin-yang()```, fa-yin-yang(), fa-yin-yang(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-yoast()```, fa-yoast(), fa-yoast(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-youtube()```, fa-youtube(), fa-youtube(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-z()```, fa-z(), fa-z(solid: true))
-#grid(columns: (20em, 10em, 3em), ```typst #fa-zhihu()```, fa-zhihu(), fa-zhihu(solid: true))
+#table(columns: (3fr, 1fr, 1fr, 2fr), stroke: none, table.header([typst code], [default], [solid], [`fa-icon` with text]),
+```typst #fa-0()```, fa-0(), fa-0(solid: true), fa-icon("0"),
+```typst #fa-1()```, fa-1(), fa-1(solid: true), fa-icon("1"),
+```typst #fa-2()```, fa-2(), fa-2(solid: true), fa-icon("2"),
+```typst #fa-3()```, fa-3(), fa-3(solid: true), fa-icon("3"),
+```typst #fa-4()```, fa-4(), fa-4(solid: true), fa-icon("4"),
+```typst #fa-5()```, fa-5(), fa-5(solid: true), fa-icon("5"),
+```typst #fa-6()```, fa-6(), fa-6(solid: true), fa-icon("6"),
+```typst #fa-7()```, fa-7(), fa-7(solid: true), fa-icon("7"),
+```typst #fa-8()```, fa-8(), fa-8(solid: true), fa-icon("8"),
+```typst #fa-9()```, fa-9(), fa-9(solid: true), fa-icon("9"),
+```typst #fa-42-group()```, fa-42-group(), fa-42-group(solid: true), fa-icon("42-group"),
+```typst #fa-innosoft()```, fa-innosoft(), fa-innosoft(solid: true), fa-icon("innosoft"),
+```typst #fa-500px()```, fa-500px(), fa-500px(solid: true), fa-icon("500px"),
+```typst #fa-a()```, fa-a(), fa-a(solid: true), fa-icon("a"),
+```typst #fa-accessible-icon()```, fa-accessible-icon(), fa-accessible-icon(solid: true), fa-icon("accessible-icon"),
+```typst #fa-accusoft()```, fa-accusoft(), fa-accusoft(solid: true), fa-icon("accusoft"),
+```typst #fa-address-book()```, fa-address-book(), fa-address-book(solid: true), fa-icon("address-book"),
+```typst #fa-contact-book()```, fa-contact-book(), fa-contact-book(solid: true), fa-icon("contact-book"),
+```typst #fa-address-card()```, fa-address-card(), fa-address-card(solid: true), fa-icon("address-card"),
+```typst #fa-contact-card()```, fa-contact-card(), fa-contact-card(solid: true), fa-icon("contact-card"),
+```typst #fa-vcard()```, fa-vcard(), fa-vcard(solid: true), fa-icon("vcard"),
+```typst #fa-adn()```, fa-adn(), fa-adn(solid: true), fa-icon("adn"),
+```typst #fa-adversal()```, fa-adversal(), fa-adversal(solid: true), fa-icon("adversal"),
+```typst #fa-affiliatetheme()```, fa-affiliatetheme(), fa-affiliatetheme(solid: true), fa-icon("affiliatetheme"),
+```typst #fa-airbnb()```, fa-airbnb(), fa-airbnb(solid: true), fa-icon("airbnb"),
+```typst #fa-algolia()```, fa-algolia(), fa-algolia(solid: true), fa-icon("algolia"),
+```typst #fa-align-center()```, fa-align-center(), fa-align-center(solid: true), fa-icon("align-center"),
+```typst #fa-align-justify()```, fa-align-justify(), fa-align-justify(solid: true), fa-icon("align-justify"),
+```typst #fa-align-left()```, fa-align-left(), fa-align-left(solid: true), fa-icon("align-left"),
+```typst #fa-align-right()```, fa-align-right(), fa-align-right(solid: true), fa-icon("align-right"),
+```typst #fa-alipay()```, fa-alipay(), fa-alipay(solid: true), fa-icon("alipay"),
+```typst #fa-amazon()```, fa-amazon(), fa-amazon(solid: true), fa-icon("amazon"),
+```typst #fa-amazon-pay()```, fa-amazon-pay(), fa-amazon-pay(solid: true), fa-icon("amazon-pay"),
+```typst #fa-amilia()```, fa-amilia(), fa-amilia(solid: true), fa-icon("amilia"),
+```typst #fa-anchor()```, fa-anchor(), fa-anchor(solid: true), fa-icon("anchor"),
+```typst #fa-anchor-circle-check()```, fa-anchor-circle-check(), fa-anchor-circle-check(solid: true), fa-icon("anchor-circle-check"),
+```typst #fa-anchor-circle-exclamation()```, fa-anchor-circle-exclamation(), fa-anchor-circle-exclamation(solid: true), fa-icon("anchor-circle-exclamation"),
+```typst #fa-anchor-circle-xmark()```, fa-anchor-circle-xmark(), fa-anchor-circle-xmark(solid: true), fa-icon("anchor-circle-xmark"),
+```typst #fa-anchor-lock()```, fa-anchor-lock(), fa-anchor-lock(solid: true), fa-icon("anchor-lock"),
+```typst #fa-android()```, fa-android(), fa-android(solid: true), fa-icon("android"),
+```typst #fa-angellist()```, fa-angellist(), fa-angellist(solid: true), fa-icon("angellist"),
+```typst #fa-angle-down()```, fa-angle-down(), fa-angle-down(solid: true), fa-icon("angle-down"),
+```typst #fa-angle-left()```, fa-angle-left(), fa-angle-left(solid: true), fa-icon("angle-left"),
+```typst #fa-angle-right()```, fa-angle-right(), fa-angle-right(solid: true), fa-icon("angle-right"),
+```typst #fa-angle-up()```, fa-angle-up(), fa-angle-up(solid: true), fa-icon("angle-up"),
+```typst #fa-angles-down()```, fa-angles-down(), fa-angles-down(solid: true), fa-icon("angles-down"),
+```typst #fa-angle-double-down()```, fa-angle-double-down(), fa-angle-double-down(solid: true), fa-icon("angle-double-down"),
+```typst #fa-angles-left()```, fa-angles-left(), fa-angles-left(solid: true), fa-icon("angles-left"),
+```typst #fa-angle-double-left()```, fa-angle-double-left(), fa-angle-double-left(solid: true), fa-icon("angle-double-left"),
+```typst #fa-angles-right()```, fa-angles-right(), fa-angles-right(solid: true), fa-icon("angles-right"),
+```typst #fa-angle-double-right()```, fa-angle-double-right(), fa-angle-double-right(solid: true), fa-icon("angle-double-right"),
+```typst #fa-angles-up()```, fa-angles-up(), fa-angles-up(solid: true), fa-icon("angles-up"),
+```typst #fa-angle-double-up()```, fa-angle-double-up(), fa-angle-double-up(solid: true), fa-icon("angle-double-up"),
+```typst #fa-angrycreative()```, fa-angrycreative(), fa-angrycreative(solid: true), fa-icon("angrycreative"),
+```typst #fa-angular()```, fa-angular(), fa-angular(solid: true), fa-icon("angular"),
+```typst #fa-ankh()```, fa-ankh(), fa-ankh(solid: true), fa-icon("ankh"),
+```typst #fa-app-store()```, fa-app-store(), fa-app-store(solid: true), fa-icon("app-store"),
+```typst #fa-app-store-ios()```, fa-app-store-ios(), fa-app-store-ios(solid: true), fa-icon("app-store-ios"),
+```typst #fa-apper()```, fa-apper(), fa-apper(solid: true), fa-icon("apper"),
+```typst #fa-apple()```, fa-apple(), fa-apple(solid: true), fa-icon("apple"),
+```typst #fa-apple-pay()```, fa-apple-pay(), fa-apple-pay(solid: true), fa-icon("apple-pay"),
+```typst #fa-apple-whole()```, fa-apple-whole(), fa-apple-whole(solid: true), fa-icon("apple-whole"),
+```typst #fa-apple-alt()```, fa-apple-alt(), fa-apple-alt(solid: true), fa-icon("apple-alt"),
+```typst #fa-archway()```, fa-archway(), fa-archway(solid: true), fa-icon("archway"),
+```typst #fa-arrow-down()```, fa-arrow-down(), fa-arrow-down(solid: true), fa-icon("arrow-down"),
+```typst #fa-arrow-down-1-9()```, fa-arrow-down-1-9(), fa-arrow-down-1-9(solid: true), fa-icon("arrow-down-1-9"),
+```typst #fa-sort-numeric-asc()```, fa-sort-numeric-asc(), fa-sort-numeric-asc(solid: true), fa-icon("sort-numeric-asc"),
+```typst #fa-sort-numeric-down()```, fa-sort-numeric-down(), fa-sort-numeric-down(solid: true), fa-icon("sort-numeric-down"),
+```typst #fa-arrow-down-9-1()```, fa-arrow-down-9-1(), fa-arrow-down-9-1(solid: true), fa-icon("arrow-down-9-1"),
+```typst #fa-sort-numeric-desc()```, fa-sort-numeric-desc(), fa-sort-numeric-desc(solid: true), fa-icon("sort-numeric-desc"),
+```typst #fa-sort-numeric-down-alt()```, fa-sort-numeric-down-alt(), fa-sort-numeric-down-alt(solid: true), fa-icon("sort-numeric-down-alt"),
+```typst #fa-arrow-down-a-z()```, fa-arrow-down-a-z(), fa-arrow-down-a-z(solid: true), fa-icon("arrow-down-a-z"),
+```typst #fa-sort-alpha-asc()```, fa-sort-alpha-asc(), fa-sort-alpha-asc(solid: true), fa-icon("sort-alpha-asc"),
+```typst #fa-sort-alpha-down()```, fa-sort-alpha-down(), fa-sort-alpha-down(solid: true), fa-icon("sort-alpha-down"),
+```typst #fa-arrow-down-long()```, fa-arrow-down-long(), fa-arrow-down-long(solid: true), fa-icon("arrow-down-long"),
+```typst #fa-long-arrow-down()```, fa-long-arrow-down(), fa-long-arrow-down(solid: true), fa-icon("long-arrow-down"),
+```typst #fa-arrow-down-short-wide()```, fa-arrow-down-short-wide(), fa-arrow-down-short-wide(solid: true), fa-icon("arrow-down-short-wide"),
+```typst #fa-sort-amount-desc()```, fa-sort-amount-desc(), fa-sort-amount-desc(solid: true), fa-icon("sort-amount-desc"),
+```typst #fa-sort-amount-down-alt()```, fa-sort-amount-down-alt(), fa-sort-amount-down-alt(solid: true), fa-icon("sort-amount-down-alt"),
+```typst #fa-arrow-down-up-across-line()```, fa-arrow-down-up-across-line(), fa-arrow-down-up-across-line(solid: true), fa-icon("arrow-down-up-across-line"),
+```typst #fa-arrow-down-up-lock()```, fa-arrow-down-up-lock(), fa-arrow-down-up-lock(solid: true), fa-icon("arrow-down-up-lock"),
+```typst #fa-arrow-down-wide-short()```, fa-arrow-down-wide-short(), fa-arrow-down-wide-short(solid: true), fa-icon("arrow-down-wide-short"),
+```typst #fa-sort-amount-asc()```, fa-sort-amount-asc(), fa-sort-amount-asc(solid: true), fa-icon("sort-amount-asc"),
+```typst #fa-sort-amount-down()```, fa-sort-amount-down(), fa-sort-amount-down(solid: true), fa-icon("sort-amount-down"),
+```typst #fa-arrow-down-z-a()```, fa-arrow-down-z-a(), fa-arrow-down-z-a(solid: true), fa-icon("arrow-down-z-a"),
+```typst #fa-sort-alpha-desc()```, fa-sort-alpha-desc(), fa-sort-alpha-desc(solid: true), fa-icon("sort-alpha-desc"),
+```typst #fa-sort-alpha-down-alt()```, fa-sort-alpha-down-alt(), fa-sort-alpha-down-alt(solid: true), fa-icon("sort-alpha-down-alt"),
+```typst #fa-arrow-left()```, fa-arrow-left(), fa-arrow-left(solid: true), fa-icon("arrow-left"),
+```typst #fa-arrow-left-long()```, fa-arrow-left-long(), fa-arrow-left-long(solid: true), fa-icon("arrow-left-long"),
+```typst #fa-long-arrow-left()```, fa-long-arrow-left(), fa-long-arrow-left(solid: true), fa-icon("long-arrow-left"),
+```typst #fa-arrow-pointer()```, fa-arrow-pointer(), fa-arrow-pointer(solid: true), fa-icon("arrow-pointer"),
+```typst #fa-mouse-pointer()```, fa-mouse-pointer(), fa-mouse-pointer(solid: true), fa-icon("mouse-pointer"),
+```typst #fa-arrow-right()```, fa-arrow-right(), fa-arrow-right(solid: true), fa-icon("arrow-right"),
+```typst #fa-arrow-right-arrow-left()```, fa-arrow-right-arrow-left(), fa-arrow-right-arrow-left(solid: true), fa-icon("arrow-right-arrow-left"),
+```typst #fa-exchange()```, fa-exchange(), fa-exchange(solid: true), fa-icon("exchange"),
+```typst #fa-arrow-right-from-bracket()```, fa-arrow-right-from-bracket(), fa-arrow-right-from-bracket(solid: true), fa-icon("arrow-right-from-bracket"),
+```typst #fa-sign-out()```, fa-sign-out(), fa-sign-out(solid: true), fa-icon("sign-out"),
+```typst #fa-arrow-right-long()```, fa-arrow-right-long(), fa-arrow-right-long(solid: true), fa-icon("arrow-right-long"),
+```typst #fa-long-arrow-right()```, fa-long-arrow-right(), fa-long-arrow-right(solid: true), fa-icon("long-arrow-right"),
+```typst #fa-arrow-right-to-bracket()```, fa-arrow-right-to-bracket(), fa-arrow-right-to-bracket(solid: true), fa-icon("arrow-right-to-bracket"),
+```typst #fa-sign-in()```, fa-sign-in(), fa-sign-in(solid: true), fa-icon("sign-in"),
+```typst #fa-arrow-right-to-city()```, fa-arrow-right-to-city(), fa-arrow-right-to-city(solid: true), fa-icon("arrow-right-to-city"),
+```typst #fa-arrow-rotate-left()```, fa-arrow-rotate-left(), fa-arrow-rotate-left(solid: true), fa-icon("arrow-rotate-left"),
+```typst #fa-arrow-left-rotate()```, fa-arrow-left-rotate(), fa-arrow-left-rotate(solid: true), fa-icon("arrow-left-rotate"),
+```typst #fa-arrow-rotate-back()```, fa-arrow-rotate-back(), fa-arrow-rotate-back(solid: true), fa-icon("arrow-rotate-back"),
+```typst #fa-arrow-rotate-backward()```, fa-arrow-rotate-backward(), fa-arrow-rotate-backward(solid: true), fa-icon("arrow-rotate-backward"),
+```typst #fa-undo()```, fa-undo(), fa-undo(solid: true), fa-icon("undo"),
+```typst #fa-arrow-rotate-right()```, fa-arrow-rotate-right(), fa-arrow-rotate-right(solid: true), fa-icon("arrow-rotate-right"),
+```typst #fa-arrow-right-rotate()```, fa-arrow-right-rotate(), fa-arrow-right-rotate(solid: true), fa-icon("arrow-right-rotate"),
+```typst #fa-arrow-rotate-forward()```, fa-arrow-rotate-forward(), fa-arrow-rotate-forward(solid: true), fa-icon("arrow-rotate-forward"),
+```typst #fa-redo()```, fa-redo(), fa-redo(solid: true), fa-icon("redo"),
+```typst #fa-arrow-trend-down()```, fa-arrow-trend-down(), fa-arrow-trend-down(solid: true), fa-icon("arrow-trend-down"),
+```typst #fa-arrow-trend-up()```, fa-arrow-trend-up(), fa-arrow-trend-up(solid: true), fa-icon("arrow-trend-up"),
+```typst #fa-arrow-turn-down()```, fa-arrow-turn-down(), fa-arrow-turn-down(solid: true), fa-icon("arrow-turn-down"),
+```typst #fa-level-down()```, fa-level-down(), fa-level-down(solid: true), fa-icon("level-down"),
+```typst #fa-arrow-turn-up()```, fa-arrow-turn-up(), fa-arrow-turn-up(solid: true), fa-icon("arrow-turn-up"),
+```typst #fa-level-up()```, fa-level-up(), fa-level-up(solid: true), fa-icon("level-up"),
+```typst #fa-arrow-up()```, fa-arrow-up(), fa-arrow-up(solid: true), fa-icon("arrow-up"),
+```typst #fa-arrow-up-1-9()```, fa-arrow-up-1-9(), fa-arrow-up-1-9(solid: true), fa-icon("arrow-up-1-9"),
+```typst #fa-sort-numeric-up()```, fa-sort-numeric-up(), fa-sort-numeric-up(solid: true), fa-icon("sort-numeric-up"),
+```typst #fa-arrow-up-9-1()```, fa-arrow-up-9-1(), fa-arrow-up-9-1(solid: true), fa-icon("arrow-up-9-1"),
+```typst #fa-sort-numeric-up-alt()```, fa-sort-numeric-up-alt(), fa-sort-numeric-up-alt(solid: true), fa-icon("sort-numeric-up-alt"),
+```typst #fa-arrow-up-a-z()```, fa-arrow-up-a-z(), fa-arrow-up-a-z(solid: true), fa-icon("arrow-up-a-z"),
+```typst #fa-sort-alpha-up()```, fa-sort-alpha-up(), fa-sort-alpha-up(solid: true), fa-icon("sort-alpha-up"),
+```typst #fa-arrow-up-from-bracket()```, fa-arrow-up-from-bracket(), fa-arrow-up-from-bracket(solid: true), fa-icon("arrow-up-from-bracket"),
+```typst #fa-arrow-up-from-ground-water()```, fa-arrow-up-from-ground-water(), fa-arrow-up-from-ground-water(solid: true), fa-icon("arrow-up-from-ground-water"),
+```typst #fa-arrow-up-from-water-pump()```, fa-arrow-up-from-water-pump(), fa-arrow-up-from-water-pump(solid: true), fa-icon("arrow-up-from-water-pump"),
+```typst #fa-arrow-up-long()```, fa-arrow-up-long(), fa-arrow-up-long(solid: true), fa-icon("arrow-up-long"),
+```typst #fa-long-arrow-up()```, fa-long-arrow-up(), fa-long-arrow-up(solid: true), fa-icon("long-arrow-up"),
+```typst #fa-arrow-up-right-dots()```, fa-arrow-up-right-dots(), fa-arrow-up-right-dots(solid: true), fa-icon("arrow-up-right-dots"),
+```typst #fa-arrow-up-right-from-square()```, fa-arrow-up-right-from-square(), fa-arrow-up-right-from-square(solid: true), fa-icon("arrow-up-right-from-square"),
+```typst #fa-external-link()```, fa-external-link(), fa-external-link(solid: true), fa-icon("external-link"),
+```typst #fa-arrow-up-short-wide()```, fa-arrow-up-short-wide(), fa-arrow-up-short-wide(solid: true), fa-icon("arrow-up-short-wide"),
+```typst #fa-sort-amount-up-alt()```, fa-sort-amount-up-alt(), fa-sort-amount-up-alt(solid: true), fa-icon("sort-amount-up-alt"),
+```typst #fa-arrow-up-wide-short()```, fa-arrow-up-wide-short(), fa-arrow-up-wide-short(solid: true), fa-icon("arrow-up-wide-short"),
+```typst #fa-sort-amount-up()```, fa-sort-amount-up(), fa-sort-amount-up(solid: true), fa-icon("sort-amount-up"),
+```typst #fa-arrow-up-z-a()```, fa-arrow-up-z-a(), fa-arrow-up-z-a(solid: true), fa-icon("arrow-up-z-a"),
+```typst #fa-sort-alpha-up-alt()```, fa-sort-alpha-up-alt(), fa-sort-alpha-up-alt(solid: true), fa-icon("sort-alpha-up-alt"),
+```typst #fa-arrows-down-to-line()```, fa-arrows-down-to-line(), fa-arrows-down-to-line(solid: true), fa-icon("arrows-down-to-line"),
+```typst #fa-arrows-down-to-people()```, fa-arrows-down-to-people(), fa-arrows-down-to-people(solid: true), fa-icon("arrows-down-to-people"),
+```typst #fa-arrows-left-right()```, fa-arrows-left-right(), fa-arrows-left-right(solid: true), fa-icon("arrows-left-right"),
+```typst #fa-arrows-h()```, fa-arrows-h(), fa-arrows-h(solid: true), fa-icon("arrows-h"),
+```typst #fa-arrows-left-right-to-line()```, fa-arrows-left-right-to-line(), fa-arrows-left-right-to-line(solid: true), fa-icon("arrows-left-right-to-line"),
+```typst #fa-arrows-rotate()```, fa-arrows-rotate(), fa-arrows-rotate(solid: true), fa-icon("arrows-rotate"),
+```typst #fa-refresh()```, fa-refresh(), fa-refresh(solid: true), fa-icon("refresh"),
+```typst #fa-sync()```, fa-sync(), fa-sync(solid: true), fa-icon("sync"),
+```typst #fa-arrows-spin()```, fa-arrows-spin(), fa-arrows-spin(solid: true), fa-icon("arrows-spin"),
+```typst #fa-arrows-split-up-and-left()```, fa-arrows-split-up-and-left(), fa-arrows-split-up-and-left(solid: true), fa-icon("arrows-split-up-and-left"),
+```typst #fa-arrows-to-circle()```, fa-arrows-to-circle(), fa-arrows-to-circle(solid: true), fa-icon("arrows-to-circle"),
+```typst #fa-arrows-to-dot()```, fa-arrows-to-dot(), fa-arrows-to-dot(solid: true), fa-icon("arrows-to-dot"),
+```typst #fa-arrows-to-eye()```, fa-arrows-to-eye(), fa-arrows-to-eye(solid: true), fa-icon("arrows-to-eye"),
+```typst #fa-arrows-turn-right()```, fa-arrows-turn-right(), fa-arrows-turn-right(solid: true), fa-icon("arrows-turn-right"),
+```typst #fa-arrows-turn-to-dots()```, fa-arrows-turn-to-dots(), fa-arrows-turn-to-dots(solid: true), fa-icon("arrows-turn-to-dots"),
+```typst #fa-arrows-up-down()```, fa-arrows-up-down(), fa-arrows-up-down(solid: true), fa-icon("arrows-up-down"),
+```typst #fa-arrows-v()```, fa-arrows-v(), fa-arrows-v(solid: true), fa-icon("arrows-v"),
+```typst #fa-arrows-up-down-left-right()```, fa-arrows-up-down-left-right(), fa-arrows-up-down-left-right(solid: true), fa-icon("arrows-up-down-left-right"),
+```typst #fa-arrows()```, fa-arrows(), fa-arrows(solid: true), fa-icon("arrows"),
+```typst #fa-arrows-up-to-line()```, fa-arrows-up-to-line(), fa-arrows-up-to-line(solid: true), fa-icon("arrows-up-to-line"),
+```typst #fa-artstation()```, fa-artstation(), fa-artstation(solid: true), fa-icon("artstation"),
+```typst #fa-asterisk()```, fa-asterisk(), fa-asterisk(solid: true), fa-icon("asterisk"),
+```typst #fa-asymmetrik()```, fa-asymmetrik(), fa-asymmetrik(solid: true), fa-icon("asymmetrik"),
+```typst #fa-at()```, fa-at(), fa-at(solid: true), fa-icon("at"),
+```typst #fa-atlassian()```, fa-atlassian(), fa-atlassian(solid: true), fa-icon("atlassian"),
+```typst #fa-atom()```, fa-atom(), fa-atom(solid: true), fa-icon("atom"),
+```typst #fa-audible()```, fa-audible(), fa-audible(solid: true), fa-icon("audible"),
+```typst #fa-audio-description()```, fa-audio-description(), fa-audio-description(solid: true), fa-icon("audio-description"),
+```typst #fa-austral-sign()```, fa-austral-sign(), fa-austral-sign(solid: true), fa-icon("austral-sign"),
+```typst #fa-autoprefixer()```, fa-autoprefixer(), fa-autoprefixer(solid: true), fa-icon("autoprefixer"),
+```typst #fa-avianex()```, fa-avianex(), fa-avianex(solid: true), fa-icon("avianex"),
+```typst #fa-aviato()```, fa-aviato(), fa-aviato(solid: true), fa-icon("aviato"),
+```typst #fa-award()```, fa-award(), fa-award(solid: true), fa-icon("award"),
+```typst #fa-aws()```, fa-aws(), fa-aws(solid: true), fa-icon("aws"),
+```typst #fa-b()```, fa-b(), fa-b(solid: true), fa-icon("b"),
+```typst #fa-baby()```, fa-baby(), fa-baby(solid: true), fa-icon("baby"),
+```typst #fa-baby-carriage()```, fa-baby-carriage(), fa-baby-carriage(solid: true), fa-icon("baby-carriage"),
+```typst #fa-carriage-baby()```, fa-carriage-baby(), fa-carriage-baby(solid: true), fa-icon("carriage-baby"),
+```typst #fa-backward()```, fa-backward(), fa-backward(solid: true), fa-icon("backward"),
+```typst #fa-backward-fast()```, fa-backward-fast(), fa-backward-fast(solid: true), fa-icon("backward-fast"),
+```typst #fa-fast-backward()```, fa-fast-backward(), fa-fast-backward(solid: true), fa-icon("fast-backward"),
+```typst #fa-backward-step()```, fa-backward-step(), fa-backward-step(solid: true), fa-icon("backward-step"),
+```typst #fa-step-backward()```, fa-step-backward(), fa-step-backward(solid: true), fa-icon("step-backward"),
+```typst #fa-bacon()```, fa-bacon(), fa-bacon(solid: true), fa-icon("bacon"),
+```typst #fa-bacteria()```, fa-bacteria(), fa-bacteria(solid: true), fa-icon("bacteria"),
+```typst #fa-bacterium()```, fa-bacterium(), fa-bacterium(solid: true), fa-icon("bacterium"),
+```typst #fa-bag-shopping()```, fa-bag-shopping(), fa-bag-shopping(solid: true), fa-icon("bag-shopping"),
+```typst #fa-shopping-bag()```, fa-shopping-bag(), fa-shopping-bag(solid: true), fa-icon("shopping-bag"),
+```typst #fa-bahai()```, fa-bahai(), fa-bahai(solid: true), fa-icon("bahai"),
+```typst #fa-haykal()```, fa-haykal(), fa-haykal(solid: true), fa-icon("haykal"),
+```typst #fa-baht-sign()```, fa-baht-sign(), fa-baht-sign(solid: true), fa-icon("baht-sign"),
+```typst #fa-ban()```, fa-ban(), fa-ban(solid: true), fa-icon("ban"),
+```typst #fa-cancel()```, fa-cancel(), fa-cancel(solid: true), fa-icon("cancel"),
+```typst #fa-ban-smoking()```, fa-ban-smoking(), fa-ban-smoking(solid: true), fa-icon("ban-smoking"),
+```typst #fa-smoking-ban()```, fa-smoking-ban(), fa-smoking-ban(solid: true), fa-icon("smoking-ban"),
+```typst #fa-bandage()```, fa-bandage(), fa-bandage(solid: true), fa-icon("bandage"),
+```typst #fa-band-aid()```, fa-band-aid(), fa-band-aid(solid: true), fa-icon("band-aid"),
+```typst #fa-bandcamp()```, fa-bandcamp(), fa-bandcamp(solid: true), fa-icon("bandcamp"),
+```typst #fa-bangladeshi-taka-sign()```, fa-bangladeshi-taka-sign(), fa-bangladeshi-taka-sign(solid: true), fa-icon("bangladeshi-taka-sign"),
+```typst #fa-barcode()```, fa-barcode(), fa-barcode(solid: true), fa-icon("barcode"),
+```typst #fa-bars()```, fa-bars(), fa-bars(solid: true), fa-icon("bars"),
+```typst #fa-navicon()```, fa-navicon(), fa-navicon(solid: true), fa-icon("navicon"),
+```typst #fa-bars-progress()```, fa-bars-progress(), fa-bars-progress(solid: true), fa-icon("bars-progress"),
+```typst #fa-tasks-alt()```, fa-tasks-alt(), fa-tasks-alt(solid: true), fa-icon("tasks-alt"),
+```typst #fa-bars-staggered()```, fa-bars-staggered(), fa-bars-staggered(solid: true), fa-icon("bars-staggered"),
+```typst #fa-reorder()```, fa-reorder(), fa-reorder(solid: true), fa-icon("reorder"),
+```typst #fa-stream()```, fa-stream(), fa-stream(solid: true), fa-icon("stream"),
+```typst #fa-baseball()```, fa-baseball(), fa-baseball(solid: true), fa-icon("baseball"),
+```typst #fa-baseball-ball()```, fa-baseball-ball(), fa-baseball-ball(solid: true), fa-icon("baseball-ball"),
+```typst #fa-baseball-bat-ball()```, fa-baseball-bat-ball(), fa-baseball-bat-ball(solid: true), fa-icon("baseball-bat-ball"),
+```typst #fa-basket-shopping()```, fa-basket-shopping(), fa-basket-shopping(solid: true), fa-icon("basket-shopping"),
+```typst #fa-shopping-basket()```, fa-shopping-basket(), fa-shopping-basket(solid: true), fa-icon("shopping-basket"),
+```typst #fa-basketball()```, fa-basketball(), fa-basketball(solid: true), fa-icon("basketball"),
+```typst #fa-basketball-ball()```, fa-basketball-ball(), fa-basketball-ball(solid: true), fa-icon("basketball-ball"),
+```typst #fa-bath()```, fa-bath(), fa-bath(solid: true), fa-icon("bath"),
+```typst #fa-bathtub()```, fa-bathtub(), fa-bathtub(solid: true), fa-icon("bathtub"),
+```typst #fa-battery-empty()```, fa-battery-empty(), fa-battery-empty(solid: true), fa-icon("battery-empty"),
+```typst #fa-battery-0()```, fa-battery-0(), fa-battery-0(solid: true), fa-icon("battery-0"),
+```typst #fa-battery-full()```, fa-battery-full(), fa-battery-full(solid: true), fa-icon("battery-full"),
+```typst #fa-battery()```, fa-battery(), fa-battery(solid: true), fa-icon("battery"),
+```typst #fa-battery-5()```, fa-battery-5(), fa-battery-5(solid: true), fa-icon("battery-5"),
+```typst #fa-battery-half()```, fa-battery-half(), fa-battery-half(solid: true), fa-icon("battery-half"),
+```typst #fa-battery-3()```, fa-battery-3(), fa-battery-3(solid: true), fa-icon("battery-3"),
+```typst #fa-battery-quarter()```, fa-battery-quarter(), fa-battery-quarter(solid: true), fa-icon("battery-quarter"),
+```typst #fa-battery-2()```, fa-battery-2(), fa-battery-2(solid: true), fa-icon("battery-2"),
+```typst #fa-battery-three-quarters()```, fa-battery-three-quarters(), fa-battery-three-quarters(solid: true), fa-icon("battery-three-quarters"),
+```typst #fa-battery-4()```, fa-battery-4(), fa-battery-4(solid: true), fa-icon("battery-4"),
+```typst #fa-battle-net()```, fa-battle-net(), fa-battle-net(solid: true), fa-icon("battle-net"),
+```typst #fa-bed()```, fa-bed(), fa-bed(solid: true), fa-icon("bed"),
+```typst #fa-bed-pulse()```, fa-bed-pulse(), fa-bed-pulse(solid: true), fa-icon("bed-pulse"),
+```typst #fa-procedures()```, fa-procedures(), fa-procedures(solid: true), fa-icon("procedures"),
+```typst #fa-beer-mug-empty()```, fa-beer-mug-empty(), fa-beer-mug-empty(solid: true), fa-icon("beer-mug-empty"),
+```typst #fa-beer()```, fa-beer(), fa-beer(solid: true), fa-icon("beer"),
+```typst #fa-behance()```, fa-behance(), fa-behance(solid: true), fa-icon("behance"),
+```typst #fa-bell()```, fa-bell(), fa-bell(solid: true), fa-icon("bell"),
+```typst #fa-bell-concierge()```, fa-bell-concierge(), fa-bell-concierge(solid: true), fa-icon("bell-concierge"),
+```typst #fa-concierge-bell()```, fa-concierge-bell(), fa-concierge-bell(solid: true), fa-icon("concierge-bell"),
+```typst #fa-bell-slash()```, fa-bell-slash(), fa-bell-slash(solid: true), fa-icon("bell-slash"),
+```typst #fa-bezier-curve()```, fa-bezier-curve(), fa-bezier-curve(solid: true), fa-icon("bezier-curve"),
+```typst #fa-bicycle()```, fa-bicycle(), fa-bicycle(solid: true), fa-icon("bicycle"),
+```typst #fa-bilibili()```, fa-bilibili(), fa-bilibili(solid: true), fa-icon("bilibili"),
+```typst #fa-bimobject()```, fa-bimobject(), fa-bimobject(solid: true), fa-icon("bimobject"),
+```typst #fa-binoculars()```, fa-binoculars(), fa-binoculars(solid: true), fa-icon("binoculars"),
+```typst #fa-biohazard()```, fa-biohazard(), fa-biohazard(solid: true), fa-icon("biohazard"),
+```typst #fa-bitbucket()```, fa-bitbucket(), fa-bitbucket(solid: true), fa-icon("bitbucket"),
+```typst #fa-bitcoin()```, fa-bitcoin(), fa-bitcoin(solid: true), fa-icon("bitcoin"),
+```typst #fa-bitcoin-sign()```, fa-bitcoin-sign(), fa-bitcoin-sign(solid: true), fa-icon("bitcoin-sign"),
+```typst #fa-bity()```, fa-bity(), fa-bity(solid: true), fa-icon("bity"),
+```typst #fa-black-tie()```, fa-black-tie(), fa-black-tie(solid: true), fa-icon("black-tie"),
+```typst #fa-blackberry()```, fa-blackberry(), fa-blackberry(solid: true), fa-icon("blackberry"),
+```typst #fa-blender()```, fa-blender(), fa-blender(solid: true), fa-icon("blender"),
+```typst #fa-blender-phone()```, fa-blender-phone(), fa-blender-phone(solid: true), fa-icon("blender-phone"),
+```typst #fa-blog()```, fa-blog(), fa-blog(solid: true), fa-icon("blog"),
+```typst #fa-blogger()```, fa-blogger(), fa-blogger(solid: true), fa-icon("blogger"),
+```typst #fa-blogger-b()```, fa-blogger-b(), fa-blogger-b(solid: true), fa-icon("blogger-b"),
+```typst #fa-bluesky()```, fa-bluesky(), fa-bluesky(solid: true), fa-icon("bluesky"),
+```typst #fa-bluetooth()```, fa-bluetooth(), fa-bluetooth(solid: true), fa-icon("bluetooth"),
+```typst #fa-bluetooth-b()```, fa-bluetooth-b(), fa-bluetooth-b(solid: true), fa-icon("bluetooth-b"),
+```typst #fa-bold()```, fa-bold(), fa-bold(solid: true), fa-icon("bold"),
+```typst #fa-bolt()```, fa-bolt(), fa-bolt(solid: true), fa-icon("bolt"),
+```typst #fa-zap()```, fa-zap(), fa-zap(solid: true), fa-icon("zap"),
+```typst #fa-bolt-lightning()```, fa-bolt-lightning(), fa-bolt-lightning(solid: true), fa-icon("bolt-lightning"),
+```typst #fa-bomb()```, fa-bomb(), fa-bomb(solid: true), fa-icon("bomb"),
+```typst #fa-bone()```, fa-bone(), fa-bone(solid: true), fa-icon("bone"),
+```typst #fa-bong()```, fa-bong(), fa-bong(solid: true), fa-icon("bong"),
+```typst #fa-book()```, fa-book(), fa-book(solid: true), fa-icon("book"),
+```typst #fa-book-atlas()```, fa-book-atlas(), fa-book-atlas(solid: true), fa-icon("book-atlas"),
+```typst #fa-atlas()```, fa-atlas(), fa-atlas(solid: true), fa-icon("atlas"),
+```typst #fa-book-bible()```, fa-book-bible(), fa-book-bible(solid: true), fa-icon("book-bible"),
+```typst #fa-bible()```, fa-bible(), fa-bible(solid: true), fa-icon("bible"),
+```typst #fa-book-bookmark()```, fa-book-bookmark(), fa-book-bookmark(solid: true), fa-icon("book-bookmark"),
+```typst #fa-book-journal-whills()```, fa-book-journal-whills(), fa-book-journal-whills(solid: true), fa-icon("book-journal-whills"),
+```typst #fa-journal-whills()```, fa-journal-whills(), fa-journal-whills(solid: true), fa-icon("journal-whills"),
+```typst #fa-book-medical()```, fa-book-medical(), fa-book-medical(solid: true), fa-icon("book-medical"),
+```typst #fa-book-open()```, fa-book-open(), fa-book-open(solid: true), fa-icon("book-open"),
+```typst #fa-book-open-reader()```, fa-book-open-reader(), fa-book-open-reader(solid: true), fa-icon("book-open-reader"),
+```typst #fa-book-reader()```, fa-book-reader(), fa-book-reader(solid: true), fa-icon("book-reader"),
+```typst #fa-book-quran()```, fa-book-quran(), fa-book-quran(solid: true), fa-icon("book-quran"),
+```typst #fa-quran()```, fa-quran(), fa-quran(solid: true), fa-icon("quran"),
+```typst #fa-book-skull()```, fa-book-skull(), fa-book-skull(solid: true), fa-icon("book-skull"),
+```typst #fa-book-dead()```, fa-book-dead(), fa-book-dead(solid: true), fa-icon("book-dead"),
+```typst #fa-book-tanakh()```, fa-book-tanakh(), fa-book-tanakh(solid: true), fa-icon("book-tanakh"),
+```typst #fa-tanakh()```, fa-tanakh(), fa-tanakh(solid: true), fa-icon("tanakh"),
+```typst #fa-bookmark()```, fa-bookmark(), fa-bookmark(solid: true), fa-icon("bookmark"),
+```typst #fa-bootstrap()```, fa-bootstrap(), fa-bootstrap(solid: true), fa-icon("bootstrap"),
+```typst #fa-border-all()```, fa-border-all(), fa-border-all(solid: true), fa-icon("border-all"),
+```typst #fa-border-none()```, fa-border-none(), fa-border-none(solid: true), fa-icon("border-none"),
+```typst #fa-border-top-left()```, fa-border-top-left(), fa-border-top-left(solid: true), fa-icon("border-top-left"),
+```typst #fa-border-style()```, fa-border-style(), fa-border-style(solid: true), fa-icon("border-style"),
+```typst #fa-bore-hole()```, fa-bore-hole(), fa-bore-hole(solid: true), fa-icon("bore-hole"),
+```typst #fa-bots()```, fa-bots(), fa-bots(solid: true), fa-icon("bots"),
+```typst #fa-bottle-droplet()```, fa-bottle-droplet(), fa-bottle-droplet(solid: true), fa-icon("bottle-droplet"),
+```typst #fa-bottle-water()```, fa-bottle-water(), fa-bottle-water(solid: true), fa-icon("bottle-water"),
+```typst #fa-bowl-food()```, fa-bowl-food(), fa-bowl-food(solid: true), fa-icon("bowl-food"),
+```typst #fa-bowl-rice()```, fa-bowl-rice(), fa-bowl-rice(solid: true), fa-icon("bowl-rice"),
+```typst #fa-bowling-ball()```, fa-bowling-ball(), fa-bowling-ball(solid: true), fa-icon("bowling-ball"),
+```typst #fa-box()```, fa-box(), fa-box(solid: true), fa-icon("box"),
+```typst #fa-box-archive()```, fa-box-archive(), fa-box-archive(solid: true), fa-icon("box-archive"),
+```typst #fa-archive()```, fa-archive(), fa-archive(solid: true), fa-icon("archive"),
+```typst #fa-box-open()```, fa-box-open(), fa-box-open(solid: true), fa-icon("box-open"),
+```typst #fa-box-tissue()```, fa-box-tissue(), fa-box-tissue(solid: true), fa-icon("box-tissue"),
+```typst #fa-boxes-packing()```, fa-boxes-packing(), fa-boxes-packing(solid: true), fa-icon("boxes-packing"),
+```typst #fa-boxes-stacked()```, fa-boxes-stacked(), fa-boxes-stacked(solid: true), fa-icon("boxes-stacked"),
+```typst #fa-boxes()```, fa-boxes(), fa-boxes(solid: true), fa-icon("boxes"),
+```typst #fa-boxes-alt()```, fa-boxes-alt(), fa-boxes-alt(solid: true), fa-icon("boxes-alt"),
+```typst #fa-braille()```, fa-braille(), fa-braille(solid: true), fa-icon("braille"),
+```typst #fa-brain()```, fa-brain(), fa-brain(solid: true), fa-icon("brain"),
+```typst #fa-brave()```, fa-brave(), fa-brave(solid: true), fa-icon("brave"),
+```typst #fa-brave-reverse()```, fa-brave-reverse(), fa-brave-reverse(solid: true), fa-icon("brave-reverse"),
+```typst #fa-brazilian-real-sign()```, fa-brazilian-real-sign(), fa-brazilian-real-sign(solid: true), fa-icon("brazilian-real-sign"),
+```typst #fa-bread-slice()```, fa-bread-slice(), fa-bread-slice(solid: true), fa-icon("bread-slice"),
+```typst #fa-bridge()```, fa-bridge(), fa-bridge(solid: true), fa-icon("bridge"),
+```typst #fa-bridge-circle-check()```, fa-bridge-circle-check(), fa-bridge-circle-check(solid: true), fa-icon("bridge-circle-check"),
+```typst #fa-bridge-circle-exclamation()```, fa-bridge-circle-exclamation(), fa-bridge-circle-exclamation(solid: true), fa-icon("bridge-circle-exclamation"),
+```typst #fa-bridge-circle-xmark()```, fa-bridge-circle-xmark(), fa-bridge-circle-xmark(solid: true), fa-icon("bridge-circle-xmark"),
+```typst #fa-bridge-lock()```, fa-bridge-lock(), fa-bridge-lock(solid: true), fa-icon("bridge-lock"),
+```typst #fa-bridge-water()```, fa-bridge-water(), fa-bridge-water(solid: true), fa-icon("bridge-water"),
+```typst #fa-briefcase()```, fa-briefcase(), fa-briefcase(solid: true), fa-icon("briefcase"),
+```typst #fa-briefcase-medical()```, fa-briefcase-medical(), fa-briefcase-medical(solid: true), fa-icon("briefcase-medical"),
+```typst #fa-broom()```, fa-broom(), fa-broom(solid: true), fa-icon("broom"),
+```typst #fa-broom-ball()```, fa-broom-ball(), fa-broom-ball(solid: true), fa-icon("broom-ball"),
+```typst #fa-quidditch()```, fa-quidditch(), fa-quidditch(solid: true), fa-icon("quidditch"),
+```typst #fa-quidditch-broom-ball()```, fa-quidditch-broom-ball(), fa-quidditch-broom-ball(solid: true), fa-icon("quidditch-broom-ball"),
+```typst #fa-brush()```, fa-brush(), fa-brush(solid: true), fa-icon("brush"),
+```typst #fa-btc()```, fa-btc(), fa-btc(solid: true), fa-icon("btc"),
+```typst #fa-bucket()```, fa-bucket(), fa-bucket(solid: true), fa-icon("bucket"),
+```typst #fa-buffer()```, fa-buffer(), fa-buffer(solid: true), fa-icon("buffer"),
+```typst #fa-bug()```, fa-bug(), fa-bug(solid: true), fa-icon("bug"),
+```typst #fa-bug-slash()```, fa-bug-slash(), fa-bug-slash(solid: true), fa-icon("bug-slash"),
+```typst #fa-bugs()```, fa-bugs(), fa-bugs(solid: true), fa-icon("bugs"),
+```typst #fa-building()```, fa-building(), fa-building(solid: true), fa-icon("building"),
+```typst #fa-building-circle-arrow-right()```, fa-building-circle-arrow-right(), fa-building-circle-arrow-right(solid: true), fa-icon("building-circle-arrow-right"),
+```typst #fa-building-circle-check()```, fa-building-circle-check(), fa-building-circle-check(solid: true), fa-icon("building-circle-check"),
+```typst #fa-building-circle-exclamation()```, fa-building-circle-exclamation(), fa-building-circle-exclamation(solid: true), fa-icon("building-circle-exclamation"),
+```typst #fa-building-circle-xmark()```, fa-building-circle-xmark(), fa-building-circle-xmark(solid: true), fa-icon("building-circle-xmark"),
+```typst #fa-building-columns()```, fa-building-columns(), fa-building-columns(solid: true), fa-icon("building-columns"),
+```typst #fa-bank()```, fa-bank(), fa-bank(solid: true), fa-icon("bank"),
+```typst #fa-institution()```, fa-institution(), fa-institution(solid: true), fa-icon("institution"),
+```typst #fa-museum()```, fa-museum(), fa-museum(solid: true), fa-icon("museum"),
+```typst #fa-university()```, fa-university(), fa-university(solid: true), fa-icon("university"),
+```typst #fa-building-flag()```, fa-building-flag(), fa-building-flag(solid: true), fa-icon("building-flag"),
+```typst #fa-building-lock()```, fa-building-lock(), fa-building-lock(solid: true), fa-icon("building-lock"),
+```typst #fa-building-ngo()```, fa-building-ngo(), fa-building-ngo(solid: true), fa-icon("building-ngo"),
+```typst #fa-building-shield()```, fa-building-shield(), fa-building-shield(solid: true), fa-icon("building-shield"),
+```typst #fa-building-un()```, fa-building-un(), fa-building-un(solid: true), fa-icon("building-un"),
+```typst #fa-building-user()```, fa-building-user(), fa-building-user(solid: true), fa-icon("building-user"),
+```typst #fa-building-wheat()```, fa-building-wheat(), fa-building-wheat(solid: true), fa-icon("building-wheat"),
+```typst #fa-bullhorn()```, fa-bullhorn(), fa-bullhorn(solid: true), fa-icon("bullhorn"),
+```typst #fa-bullseye()```, fa-bullseye(), fa-bullseye(solid: true), fa-icon("bullseye"),
+```typst #fa-burger()```, fa-burger(), fa-burger(solid: true), fa-icon("burger"),
+```typst #fa-hamburger()```, fa-hamburger(), fa-hamburger(solid: true), fa-icon("hamburger"),
+```typst #fa-buromobelexperte()```, fa-buromobelexperte(), fa-buromobelexperte(solid: true), fa-icon("buromobelexperte"),
+```typst #fa-burst()```, fa-burst(), fa-burst(solid: true), fa-icon("burst"),
+```typst #fa-bus()```, fa-bus(), fa-bus(solid: true), fa-icon("bus"),
+```typst #fa-bus-simple()```, fa-bus-simple(), fa-bus-simple(solid: true), fa-icon("bus-simple"),
+```typst #fa-bus-alt()```, fa-bus-alt(), fa-bus-alt(solid: true), fa-icon("bus-alt"),
+```typst #fa-business-time()```, fa-business-time(), fa-business-time(solid: true), fa-icon("business-time"),
+```typst #fa-briefcase-clock()```, fa-briefcase-clock(), fa-briefcase-clock(solid: true), fa-icon("briefcase-clock"),
+```typst #fa-buy-n-large()```, fa-buy-n-large(), fa-buy-n-large(solid: true), fa-icon("buy-n-large"),
+```typst #fa-buysellads()```, fa-buysellads(), fa-buysellads(solid: true), fa-icon("buysellads"),
+```typst #fa-c()```, fa-c(), fa-c(solid: true), fa-icon("c"),
+```typst #fa-cable-car()```, fa-cable-car(), fa-cable-car(solid: true), fa-icon("cable-car"),
+```typst #fa-tram()```, fa-tram(), fa-tram(solid: true), fa-icon("tram"),
+```typst #fa-cake-candles()```, fa-cake-candles(), fa-cake-candles(solid: true), fa-icon("cake-candles"),
+```typst #fa-birthday-cake()```, fa-birthday-cake(), fa-birthday-cake(solid: true), fa-icon("birthday-cake"),
+```typst #fa-cake()```, fa-cake(), fa-cake(solid: true), fa-icon("cake"),
+```typst #fa-calculator()```, fa-calculator(), fa-calculator(solid: true), fa-icon("calculator"),
+```typst #fa-calendar()```, fa-calendar(), fa-calendar(solid: true), fa-icon("calendar"),
+```typst #fa-calendar-check()```, fa-calendar-check(), fa-calendar-check(solid: true), fa-icon("calendar-check"),
+```typst #fa-calendar-day()```, fa-calendar-day(), fa-calendar-day(solid: true), fa-icon("calendar-day"),
+```typst #fa-calendar-days()```, fa-calendar-days(), fa-calendar-days(solid: true), fa-icon("calendar-days"),
+```typst #fa-calendar-alt()```, fa-calendar-alt(), fa-calendar-alt(solid: true), fa-icon("calendar-alt"),
+```typst #fa-calendar-minus()```, fa-calendar-minus(), fa-calendar-minus(solid: true), fa-icon("calendar-minus"),
+```typst #fa-calendar-plus()```, fa-calendar-plus(), fa-calendar-plus(solid: true), fa-icon("calendar-plus"),
+```typst #fa-calendar-week()```, fa-calendar-week(), fa-calendar-week(solid: true), fa-icon("calendar-week"),
+```typst #fa-calendar-xmark()```, fa-calendar-xmark(), fa-calendar-xmark(solid: true), fa-icon("calendar-xmark"),
+```typst #fa-calendar-times()```, fa-calendar-times(), fa-calendar-times(solid: true), fa-icon("calendar-times"),
+```typst #fa-camera()```, fa-camera(), fa-camera(solid: true), fa-icon("camera"),
+```typst #fa-camera-alt()```, fa-camera-alt(), fa-camera-alt(solid: true), fa-icon("camera-alt"),
+```typst #fa-camera-retro()```, fa-camera-retro(), fa-camera-retro(solid: true), fa-icon("camera-retro"),
+```typst #fa-camera-rotate()```, fa-camera-rotate(), fa-camera-rotate(solid: true), fa-icon("camera-rotate"),
+```typst #fa-campground()```, fa-campground(), fa-campground(solid: true), fa-icon("campground"),
+```typst #fa-canadian-maple-leaf()```, fa-canadian-maple-leaf(), fa-canadian-maple-leaf(solid: true), fa-icon("canadian-maple-leaf"),
+```typst #fa-candy-cane()```, fa-candy-cane(), fa-candy-cane(solid: true), fa-icon("candy-cane"),
+```typst #fa-cannabis()```, fa-cannabis(), fa-cannabis(solid: true), fa-icon("cannabis"),
+```typst #fa-capsules()```, fa-capsules(), fa-capsules(solid: true), fa-icon("capsules"),
+```typst #fa-car()```, fa-car(), fa-car(solid: true), fa-icon("car"),
+```typst #fa-automobile()```, fa-automobile(), fa-automobile(solid: true), fa-icon("automobile"),
+```typst #fa-car-battery()```, fa-car-battery(), fa-car-battery(solid: true), fa-icon("car-battery"),
+```typst #fa-battery-car()```, fa-battery-car(), fa-battery-car(solid: true), fa-icon("battery-car"),
+```typst #fa-car-burst()```, fa-car-burst(), fa-car-burst(solid: true), fa-icon("car-burst"),
+```typst #fa-car-crash()```, fa-car-crash(), fa-car-crash(solid: true), fa-icon("car-crash"),
+```typst #fa-car-on()```, fa-car-on(), fa-car-on(solid: true), fa-icon("car-on"),
+```typst #fa-car-rear()```, fa-car-rear(), fa-car-rear(solid: true), fa-icon("car-rear"),
+```typst #fa-car-alt()```, fa-car-alt(), fa-car-alt(solid: true), fa-icon("car-alt"),
+```typst #fa-car-side()```, fa-car-side(), fa-car-side(solid: true), fa-icon("car-side"),
+```typst #fa-car-tunnel()```, fa-car-tunnel(), fa-car-tunnel(solid: true), fa-icon("car-tunnel"),
+```typst #fa-caravan()```, fa-caravan(), fa-caravan(solid: true), fa-icon("caravan"),
+```typst #fa-caret-down()```, fa-caret-down(), fa-caret-down(solid: true), fa-icon("caret-down"),
+```typst #fa-caret-left()```, fa-caret-left(), fa-caret-left(solid: true), fa-icon("caret-left"),
+```typst #fa-caret-right()```, fa-caret-right(), fa-caret-right(solid: true), fa-icon("caret-right"),
+```typst #fa-caret-up()```, fa-caret-up(), fa-caret-up(solid: true), fa-icon("caret-up"),
+```typst #fa-carrot()```, fa-carrot(), fa-carrot(solid: true), fa-icon("carrot"),
+```typst #fa-cart-arrow-down()```, fa-cart-arrow-down(), fa-cart-arrow-down(solid: true), fa-icon("cart-arrow-down"),
+```typst #fa-cart-flatbed()```, fa-cart-flatbed(), fa-cart-flatbed(solid: true), fa-icon("cart-flatbed"),
+```typst #fa-dolly-flatbed()```, fa-dolly-flatbed(), fa-dolly-flatbed(solid: true), fa-icon("dolly-flatbed"),
+```typst #fa-cart-flatbed-suitcase()```, fa-cart-flatbed-suitcase(), fa-cart-flatbed-suitcase(solid: true), fa-icon("cart-flatbed-suitcase"),
+```typst #fa-luggage-cart()```, fa-luggage-cart(), fa-luggage-cart(solid: true), fa-icon("luggage-cart"),
+```typst #fa-cart-plus()```, fa-cart-plus(), fa-cart-plus(solid: true), fa-icon("cart-plus"),
+```typst #fa-cart-shopping()```, fa-cart-shopping(), fa-cart-shopping(solid: true), fa-icon("cart-shopping"),
+```typst #fa-shopping-cart()```, fa-shopping-cart(), fa-shopping-cart(solid: true), fa-icon("shopping-cart"),
+```typst #fa-cash-register()```, fa-cash-register(), fa-cash-register(solid: true), fa-icon("cash-register"),
+```typst #fa-cat()```, fa-cat(), fa-cat(solid: true), fa-icon("cat"),
+```typst #fa-cc-amazon-pay()```, fa-cc-amazon-pay(), fa-cc-amazon-pay(solid: true), fa-icon("cc-amazon-pay"),
+```typst #fa-cc-amex()```, fa-cc-amex(), fa-cc-amex(solid: true), fa-icon("cc-amex"),
+```typst #fa-cc-apple-pay()```, fa-cc-apple-pay(), fa-cc-apple-pay(solid: true), fa-icon("cc-apple-pay"),
+```typst #fa-cc-diners-club()```, fa-cc-diners-club(), fa-cc-diners-club(solid: true), fa-icon("cc-diners-club"),
+```typst #fa-cc-discover()```, fa-cc-discover(), fa-cc-discover(solid: true), fa-icon("cc-discover"),
+```typst #fa-cc-jcb()```, fa-cc-jcb(), fa-cc-jcb(solid: true), fa-icon("cc-jcb"),
+```typst #fa-cc-mastercard()```, fa-cc-mastercard(), fa-cc-mastercard(solid: true), fa-icon("cc-mastercard"),
+```typst #fa-cc-paypal()```, fa-cc-paypal(), fa-cc-paypal(solid: true), fa-icon("cc-paypal"),
+```typst #fa-cc-stripe()```, fa-cc-stripe(), fa-cc-stripe(solid: true), fa-icon("cc-stripe"),
+```typst #fa-cc-visa()```, fa-cc-visa(), fa-cc-visa(solid: true), fa-icon("cc-visa"),
+```typst #fa-cedi-sign()```, fa-cedi-sign(), fa-cedi-sign(solid: true), fa-icon("cedi-sign"),
+```typst #fa-cent-sign()```, fa-cent-sign(), fa-cent-sign(solid: true), fa-icon("cent-sign"),
+```typst #fa-centercode()```, fa-centercode(), fa-centercode(solid: true), fa-icon("centercode"),
+```typst #fa-centos()```, fa-centos(), fa-centos(solid: true), fa-icon("centos"),
+```typst #fa-certificate()```, fa-certificate(), fa-certificate(solid: true), fa-icon("certificate"),
+```typst #fa-chair()```, fa-chair(), fa-chair(solid: true), fa-icon("chair"),
+```typst #fa-chalkboard()```, fa-chalkboard(), fa-chalkboard(solid: true), fa-icon("chalkboard"),
+```typst #fa-blackboard()```, fa-blackboard(), fa-blackboard(solid: true), fa-icon("blackboard"),
+```typst #fa-chalkboard-user()```, fa-chalkboard-user(), fa-chalkboard-user(solid: true), fa-icon("chalkboard-user"),
+```typst #fa-chalkboard-teacher()```, fa-chalkboard-teacher(), fa-chalkboard-teacher(solid: true), fa-icon("chalkboard-teacher"),
+```typst #fa-champagne-glasses()```, fa-champagne-glasses(), fa-champagne-glasses(solid: true), fa-icon("champagne-glasses"),
+```typst #fa-glass-cheers()```, fa-glass-cheers(), fa-glass-cheers(solid: true), fa-icon("glass-cheers"),
+```typst #fa-charging-station()```, fa-charging-station(), fa-charging-station(solid: true), fa-icon("charging-station"),
+```typst #fa-chart-area()```, fa-chart-area(), fa-chart-area(solid: true), fa-icon("chart-area"),
+```typst #fa-area-chart()```, fa-area-chart(), fa-area-chart(solid: true), fa-icon("area-chart"),
+```typst #fa-chart-bar()```, fa-chart-bar(), fa-chart-bar(solid: true), fa-icon("chart-bar"),
+```typst #fa-bar-chart()```, fa-bar-chart(), fa-bar-chart(solid: true), fa-icon("bar-chart"),
+```typst #fa-chart-column()```, fa-chart-column(), fa-chart-column(solid: true), fa-icon("chart-column"),
+```typst #fa-chart-gantt()```, fa-chart-gantt(), fa-chart-gantt(solid: true), fa-icon("chart-gantt"),
+```typst #fa-chart-line()```, fa-chart-line(), fa-chart-line(solid: true), fa-icon("chart-line"),
+```typst #fa-line-chart()```, fa-line-chart(), fa-line-chart(solid: true), fa-icon("line-chart"),
+```typst #fa-chart-pie()```, fa-chart-pie(), fa-chart-pie(solid: true), fa-icon("chart-pie"),
+```typst #fa-pie-chart()```, fa-pie-chart(), fa-pie-chart(solid: true), fa-icon("pie-chart"),
+```typst #fa-chart-simple()```, fa-chart-simple(), fa-chart-simple(solid: true), fa-icon("chart-simple"),
+```typst #fa-check()```, fa-check(), fa-check(solid: true), fa-icon("check"),
+```typst #fa-check-double()```, fa-check-double(), fa-check-double(solid: true), fa-icon("check-double"),
+```typst #fa-check-to-slot()```, fa-check-to-slot(), fa-check-to-slot(solid: true), fa-icon("check-to-slot"),
+```typst #fa-vote-yea()```, fa-vote-yea(), fa-vote-yea(solid: true), fa-icon("vote-yea"),
+```typst #fa-cheese()```, fa-cheese(), fa-cheese(solid: true), fa-icon("cheese"),
+```typst #fa-chess()```, fa-chess(), fa-chess(solid: true), fa-icon("chess"),
+```typst #fa-chess-bishop()```, fa-chess-bishop(), fa-chess-bishop(solid: true), fa-icon("chess-bishop"),
+```typst #fa-chess-board()```, fa-chess-board(), fa-chess-board(solid: true), fa-icon("chess-board"),
+```typst #fa-chess-king()```, fa-chess-king(), fa-chess-king(solid: true), fa-icon("chess-king"),
+```typst #fa-chess-knight()```, fa-chess-knight(), fa-chess-knight(solid: true), fa-icon("chess-knight"),
+```typst #fa-chess-pawn()```, fa-chess-pawn(), fa-chess-pawn(solid: true), fa-icon("chess-pawn"),
+```typst #fa-chess-queen()```, fa-chess-queen(), fa-chess-queen(solid: true), fa-icon("chess-queen"),
+```typst #fa-chess-rook()```, fa-chess-rook(), fa-chess-rook(solid: true), fa-icon("chess-rook"),
+```typst #fa-chevron-down()```, fa-chevron-down(), fa-chevron-down(solid: true), fa-icon("chevron-down"),
+```typst #fa-chevron-left()```, fa-chevron-left(), fa-chevron-left(solid: true), fa-icon("chevron-left"),
+```typst #fa-chevron-right()```, fa-chevron-right(), fa-chevron-right(solid: true), fa-icon("chevron-right"),
+```typst #fa-chevron-up()```, fa-chevron-up(), fa-chevron-up(solid: true), fa-icon("chevron-up"),
+```typst #fa-child()```, fa-child(), fa-child(solid: true), fa-icon("child"),
+```typst #fa-child-combatant()```, fa-child-combatant(), fa-child-combatant(solid: true), fa-icon("child-combatant"),
+```typst #fa-child-rifle()```, fa-child-rifle(), fa-child-rifle(solid: true), fa-icon("child-rifle"),
+```typst #fa-child-dress()```, fa-child-dress(), fa-child-dress(solid: true), fa-icon("child-dress"),
+```typst #fa-child-reaching()```, fa-child-reaching(), fa-child-reaching(solid: true), fa-icon("child-reaching"),
+```typst #fa-children()```, fa-children(), fa-children(solid: true), fa-icon("children"),
+```typst #fa-chrome()```, fa-chrome(), fa-chrome(solid: true), fa-icon("chrome"),
+```typst #fa-chromecast()```, fa-chromecast(), fa-chromecast(solid: true), fa-icon("chromecast"),
+```typst #fa-church()```, fa-church(), fa-church(solid: true), fa-icon("church"),
+```typst #fa-circle()```, fa-circle(), fa-circle(solid: true), fa-icon("circle"),
+```typst #fa-circle-arrow-down()```, fa-circle-arrow-down(), fa-circle-arrow-down(solid: true), fa-icon("circle-arrow-down"),
+```typst #fa-arrow-circle-down()```, fa-arrow-circle-down(), fa-arrow-circle-down(solid: true), fa-icon("arrow-circle-down"),
+```typst #fa-circle-arrow-left()```, fa-circle-arrow-left(), fa-circle-arrow-left(solid: true), fa-icon("circle-arrow-left"),
+```typst #fa-arrow-circle-left()```, fa-arrow-circle-left(), fa-arrow-circle-left(solid: true), fa-icon("arrow-circle-left"),
+```typst #fa-circle-arrow-right()```, fa-circle-arrow-right(), fa-circle-arrow-right(solid: true), fa-icon("circle-arrow-right"),
+```typst #fa-arrow-circle-right()```, fa-arrow-circle-right(), fa-arrow-circle-right(solid: true), fa-icon("arrow-circle-right"),
+```typst #fa-circle-arrow-up()```, fa-circle-arrow-up(), fa-circle-arrow-up(solid: true), fa-icon("circle-arrow-up"),
+```typst #fa-arrow-circle-up()```, fa-arrow-circle-up(), fa-arrow-circle-up(solid: true), fa-icon("arrow-circle-up"),
+```typst #fa-circle-check()```, fa-circle-check(), fa-circle-check(solid: true), fa-icon("circle-check"),
+```typst #fa-check-circle()```, fa-check-circle(), fa-check-circle(solid: true), fa-icon("check-circle"),
+```typst #fa-circle-chevron-down()```, fa-circle-chevron-down(), fa-circle-chevron-down(solid: true), fa-icon("circle-chevron-down"),
+```typst #fa-chevron-circle-down()```, fa-chevron-circle-down(), fa-chevron-circle-down(solid: true), fa-icon("chevron-circle-down"),
+```typst #fa-circle-chevron-left()```, fa-circle-chevron-left(), fa-circle-chevron-left(solid: true), fa-icon("circle-chevron-left"),
+```typst #fa-chevron-circle-left()```, fa-chevron-circle-left(), fa-chevron-circle-left(solid: true), fa-icon("chevron-circle-left"),
+```typst #fa-circle-chevron-right()```, fa-circle-chevron-right(), fa-circle-chevron-right(solid: true), fa-icon("circle-chevron-right"),
+```typst #fa-chevron-circle-right()```, fa-chevron-circle-right(), fa-chevron-circle-right(solid: true), fa-icon("chevron-circle-right"),
+```typst #fa-circle-chevron-up()```, fa-circle-chevron-up(), fa-circle-chevron-up(solid: true), fa-icon("circle-chevron-up"),
+```typst #fa-chevron-circle-up()```, fa-chevron-circle-up(), fa-chevron-circle-up(solid: true), fa-icon("chevron-circle-up"),
+```typst #fa-circle-dollar-to-slot()```, fa-circle-dollar-to-slot(), fa-circle-dollar-to-slot(solid: true), fa-icon("circle-dollar-to-slot"),
+```typst #fa-donate()```, fa-donate(), fa-donate(solid: true), fa-icon("donate"),
+```typst #fa-circle-dot()```, fa-circle-dot(), fa-circle-dot(solid: true), fa-icon("circle-dot"),
+```typst #fa-dot-circle()```, fa-dot-circle(), fa-dot-circle(solid: true), fa-icon("dot-circle"),
+```typst #fa-circle-down()```, fa-circle-down(), fa-circle-down(solid: true), fa-icon("circle-down"),
+```typst #fa-arrow-alt-circle-down()```, fa-arrow-alt-circle-down(), fa-arrow-alt-circle-down(solid: true), fa-icon("arrow-alt-circle-down"),
+```typst #fa-circle-exclamation()```, fa-circle-exclamation(), fa-circle-exclamation(solid: true), fa-icon("circle-exclamation"),
+```typst #fa-exclamation-circle()```, fa-exclamation-circle(), fa-exclamation-circle(solid: true), fa-icon("exclamation-circle"),
+```typst #fa-circle-h()```, fa-circle-h(), fa-circle-h(solid: true), fa-icon("circle-h"),
+```typst #fa-hospital-symbol()```, fa-hospital-symbol(), fa-hospital-symbol(solid: true), fa-icon("hospital-symbol"),
+```typst #fa-circle-half-stroke()```, fa-circle-half-stroke(), fa-circle-half-stroke(solid: true), fa-icon("circle-half-stroke"),
+```typst #fa-adjust()```, fa-adjust(), fa-adjust(solid: true), fa-icon("adjust"),
+```typst #fa-circle-info()```, fa-circle-info(), fa-circle-info(solid: true), fa-icon("circle-info"),
+```typst #fa-info-circle()```, fa-info-circle(), fa-info-circle(solid: true), fa-icon("info-circle"),
+```typst #fa-circle-left()```, fa-circle-left(), fa-circle-left(solid: true), fa-icon("circle-left"),
+```typst #fa-arrow-alt-circle-left()```, fa-arrow-alt-circle-left(), fa-arrow-alt-circle-left(solid: true), fa-icon("arrow-alt-circle-left"),
+```typst #fa-circle-minus()```, fa-circle-minus(), fa-circle-minus(solid: true), fa-icon("circle-minus"),
+```typst #fa-minus-circle()```, fa-minus-circle(), fa-minus-circle(solid: true), fa-icon("minus-circle"),
+```typst #fa-circle-nodes()```, fa-circle-nodes(), fa-circle-nodes(solid: true), fa-icon("circle-nodes"),
+```typst #fa-circle-notch()```, fa-circle-notch(), fa-circle-notch(solid: true), fa-icon("circle-notch"),
+```typst #fa-circle-pause()```, fa-circle-pause(), fa-circle-pause(solid: true), fa-icon("circle-pause"),
+```typst #fa-pause-circle()```, fa-pause-circle(), fa-pause-circle(solid: true), fa-icon("pause-circle"),
+```typst #fa-circle-play()```, fa-circle-play(), fa-circle-play(solid: true), fa-icon("circle-play"),
+```typst #fa-play-circle()```, fa-play-circle(), fa-play-circle(solid: true), fa-icon("play-circle"),
+```typst #fa-circle-plus()```, fa-circle-plus(), fa-circle-plus(solid: true), fa-icon("circle-plus"),
+```typst #fa-plus-circle()```, fa-plus-circle(), fa-plus-circle(solid: true), fa-icon("plus-circle"),
+```typst #fa-circle-question()```, fa-circle-question(), fa-circle-question(solid: true), fa-icon("circle-question"),
+```typst #fa-question-circle()```, fa-question-circle(), fa-question-circle(solid: true), fa-icon("question-circle"),
+```typst #fa-circle-radiation()```, fa-circle-radiation(), fa-circle-radiation(solid: true), fa-icon("circle-radiation"),
+```typst #fa-radiation-alt()```, fa-radiation-alt(), fa-radiation-alt(solid: true), fa-icon("radiation-alt"),
+```typst #fa-circle-right()```, fa-circle-right(), fa-circle-right(solid: true), fa-icon("circle-right"),
+```typst #fa-arrow-alt-circle-right()```, fa-arrow-alt-circle-right(), fa-arrow-alt-circle-right(solid: true), fa-icon("arrow-alt-circle-right"),
+```typst #fa-circle-stop()```, fa-circle-stop(), fa-circle-stop(solid: true), fa-icon("circle-stop"),
+```typst #fa-stop-circle()```, fa-stop-circle(), fa-stop-circle(solid: true), fa-icon("stop-circle"),
+```typst #fa-circle-up()```, fa-circle-up(), fa-circle-up(solid: true), fa-icon("circle-up"),
+```typst #fa-arrow-alt-circle-up()```, fa-arrow-alt-circle-up(), fa-arrow-alt-circle-up(solid: true), fa-icon("arrow-alt-circle-up"),
+```typst #fa-circle-user()```, fa-circle-user(), fa-circle-user(solid: true), fa-icon("circle-user"),
+```typst #fa-user-circle()```, fa-user-circle(), fa-user-circle(solid: true), fa-icon("user-circle"),
+```typst #fa-circle-xmark()```, fa-circle-xmark(), fa-circle-xmark(solid: true), fa-icon("circle-xmark"),
+```typst #fa-times-circle()```, fa-times-circle(), fa-times-circle(solid: true), fa-icon("times-circle"),
+```typst #fa-xmark-circle()```, fa-xmark-circle(), fa-xmark-circle(solid: true), fa-icon("xmark-circle"),
+```typst #fa-city()```, fa-city(), fa-city(solid: true), fa-icon("city"),
+```typst #fa-clapperboard()```, fa-clapperboard(), fa-clapperboard(solid: true), fa-icon("clapperboard"),
+```typst #fa-clipboard()```, fa-clipboard(), fa-clipboard(solid: true), fa-icon("clipboard"),
+```typst #fa-clipboard-check()```, fa-clipboard-check(), fa-clipboard-check(solid: true), fa-icon("clipboard-check"),
+```typst #fa-clipboard-list()```, fa-clipboard-list(), fa-clipboard-list(solid: true), fa-icon("clipboard-list"),
+```typst #fa-clipboard-question()```, fa-clipboard-question(), fa-clipboard-question(solid: true), fa-icon("clipboard-question"),
+```typst #fa-clipboard-user()```, fa-clipboard-user(), fa-clipboard-user(solid: true), fa-icon("clipboard-user"),
+```typst #fa-clock()```, fa-clock(), fa-clock(solid: true), fa-icon("clock"),
+```typst #fa-clock-four()```, fa-clock-four(), fa-clock-four(solid: true), fa-icon("clock-four"),
+```typst #fa-clock-rotate-left()```, fa-clock-rotate-left(), fa-clock-rotate-left(solid: true), fa-icon("clock-rotate-left"),
+```typst #fa-history()```, fa-history(), fa-history(solid: true), fa-icon("history"),
+```typst #fa-clone()```, fa-clone(), fa-clone(solid: true), fa-icon("clone"),
+```typst #fa-closed-captioning()```, fa-closed-captioning(), fa-closed-captioning(solid: true), fa-icon("closed-captioning"),
+```typst #fa-cloud()```, fa-cloud(), fa-cloud(solid: true), fa-icon("cloud"),
+```typst #fa-cloud-arrow-down()```, fa-cloud-arrow-down(), fa-cloud-arrow-down(solid: true), fa-icon("cloud-arrow-down"),
+```typst #fa-cloud-download()```, fa-cloud-download(), fa-cloud-download(solid: true), fa-icon("cloud-download"),
+```typst #fa-cloud-download-alt()```, fa-cloud-download-alt(), fa-cloud-download-alt(solid: true), fa-icon("cloud-download-alt"),
+```typst #fa-cloud-arrow-up()```, fa-cloud-arrow-up(), fa-cloud-arrow-up(solid: true), fa-icon("cloud-arrow-up"),
+```typst #fa-cloud-upload()```, fa-cloud-upload(), fa-cloud-upload(solid: true), fa-icon("cloud-upload"),
+```typst #fa-cloud-upload-alt()```, fa-cloud-upload-alt(), fa-cloud-upload-alt(solid: true), fa-icon("cloud-upload-alt"),
+```typst #fa-cloud-bolt()```, fa-cloud-bolt(), fa-cloud-bolt(solid: true), fa-icon("cloud-bolt"),
+```typst #fa-thunderstorm()```, fa-thunderstorm(), fa-thunderstorm(solid: true), fa-icon("thunderstorm"),
+```typst #fa-cloud-meatball()```, fa-cloud-meatball(), fa-cloud-meatball(solid: true), fa-icon("cloud-meatball"),
+```typst #fa-cloud-moon()```, fa-cloud-moon(), fa-cloud-moon(solid: true), fa-icon("cloud-moon"),
+```typst #fa-cloud-moon-rain()```, fa-cloud-moon-rain(), fa-cloud-moon-rain(solid: true), fa-icon("cloud-moon-rain"),
+```typst #fa-cloud-rain()```, fa-cloud-rain(), fa-cloud-rain(solid: true), fa-icon("cloud-rain"),
+```typst #fa-cloud-showers-heavy()```, fa-cloud-showers-heavy(), fa-cloud-showers-heavy(solid: true), fa-icon("cloud-showers-heavy"),
+```typst #fa-cloud-showers-water()```, fa-cloud-showers-water(), fa-cloud-showers-water(solid: true), fa-icon("cloud-showers-water"),
+```typst #fa-cloud-sun()```, fa-cloud-sun(), fa-cloud-sun(solid: true), fa-icon("cloud-sun"),
+```typst #fa-cloud-sun-rain()```, fa-cloud-sun-rain(), fa-cloud-sun-rain(solid: true), fa-icon("cloud-sun-rain"),
+```typst #fa-cloudflare()```, fa-cloudflare(), fa-cloudflare(solid: true), fa-icon("cloudflare"),
+```typst #fa-cloudscale()```, fa-cloudscale(), fa-cloudscale(solid: true), fa-icon("cloudscale"),
+```typst #fa-cloudsmith()```, fa-cloudsmith(), fa-cloudsmith(solid: true), fa-icon("cloudsmith"),
+```typst #fa-cloudversify()```, fa-cloudversify(), fa-cloudversify(solid: true), fa-icon("cloudversify"),
+```typst #fa-clover()```, fa-clover(), fa-clover(solid: true), fa-icon("clover"),
+```typst #fa-cmplid()```, fa-cmplid(), fa-cmplid(solid: true), fa-icon("cmplid"),
+```typst #fa-code()```, fa-code(), fa-code(solid: true), fa-icon("code"),
+```typst #fa-code-branch()```, fa-code-branch(), fa-code-branch(solid: true), fa-icon("code-branch"),
+```typst #fa-code-commit()```, fa-code-commit(), fa-code-commit(solid: true), fa-icon("code-commit"),
+```typst #fa-code-compare()```, fa-code-compare(), fa-code-compare(solid: true), fa-icon("code-compare"),
+```typst #fa-code-fork()```, fa-code-fork(), fa-code-fork(solid: true), fa-icon("code-fork"),
+```typst #fa-code-merge()```, fa-code-merge(), fa-code-merge(solid: true), fa-icon("code-merge"),
+```typst #fa-code-pull-request()```, fa-code-pull-request(), fa-code-pull-request(solid: true), fa-icon("code-pull-request"),
+```typst #fa-codepen()```, fa-codepen(), fa-codepen(solid: true), fa-icon("codepen"),
+```typst #fa-codiepie()```, fa-codiepie(), fa-codiepie(solid: true), fa-icon("codiepie"),
+```typst #fa-coins()```, fa-coins(), fa-coins(solid: true), fa-icon("coins"),
+```typst #fa-colon-sign()```, fa-colon-sign(), fa-colon-sign(solid: true), fa-icon("colon-sign"),
+```typst #fa-comment()```, fa-comment(), fa-comment(solid: true), fa-icon("comment"),
+```typst #fa-comment-dollar()```, fa-comment-dollar(), fa-comment-dollar(solid: true), fa-icon("comment-dollar"),
+```typst #fa-comment-dots()```, fa-comment-dots(), fa-comment-dots(solid: true), fa-icon("comment-dots"),
+```typst #fa-commenting()```, fa-commenting(), fa-commenting(solid: true), fa-icon("commenting"),
+```typst #fa-comment-medical()```, fa-comment-medical(), fa-comment-medical(solid: true), fa-icon("comment-medical"),
+```typst #fa-comment-slash()```, fa-comment-slash(), fa-comment-slash(solid: true), fa-icon("comment-slash"),
+```typst #fa-comment-sms()```, fa-comment-sms(), fa-comment-sms(solid: true), fa-icon("comment-sms"),
+```typst #fa-sms()```, fa-sms(), fa-sms(solid: true), fa-icon("sms"),
+```typst #fa-comments()```, fa-comments(), fa-comments(solid: true), fa-icon("comments"),
+```typst #fa-comments-dollar()```, fa-comments-dollar(), fa-comments-dollar(solid: true), fa-icon("comments-dollar"),
+```typst #fa-compact-disc()```, fa-compact-disc(), fa-compact-disc(solid: true), fa-icon("compact-disc"),
+```typst #fa-compass()```, fa-compass(), fa-compass(solid: true), fa-icon("compass"),
+```typst #fa-compass-drafting()```, fa-compass-drafting(), fa-compass-drafting(solid: true), fa-icon("compass-drafting"),
+```typst #fa-drafting-compass()```, fa-drafting-compass(), fa-drafting-compass(solid: true), fa-icon("drafting-compass"),
+```typst #fa-compress()```, fa-compress(), fa-compress(solid: true), fa-icon("compress"),
+```typst #fa-computer()```, fa-computer(), fa-computer(solid: true), fa-icon("computer"),
+```typst #fa-computer-mouse()```, fa-computer-mouse(), fa-computer-mouse(solid: true), fa-icon("computer-mouse"),
+```typst #fa-mouse()```, fa-mouse(), fa-mouse(solid: true), fa-icon("mouse"),
+```typst #fa-confluence()```, fa-confluence(), fa-confluence(solid: true), fa-icon("confluence"),
+```typst #fa-connectdevelop()```, fa-connectdevelop(), fa-connectdevelop(solid: true), fa-icon("connectdevelop"),
+```typst #fa-contao()```, fa-contao(), fa-contao(solid: true), fa-icon("contao"),
+```typst #fa-cookie()```, fa-cookie(), fa-cookie(solid: true), fa-icon("cookie"),
+```typst #fa-cookie-bite()```, fa-cookie-bite(), fa-cookie-bite(solid: true), fa-icon("cookie-bite"),
+```typst #fa-copy()```, fa-copy(), fa-copy(solid: true), fa-icon("copy"),
+```typst #fa-copyright()```, fa-copyright(), fa-copyright(solid: true), fa-icon("copyright"),
+```typst #fa-cotton-bureau()```, fa-cotton-bureau(), fa-cotton-bureau(solid: true), fa-icon("cotton-bureau"),
+```typst #fa-couch()```, fa-couch(), fa-couch(solid: true), fa-icon("couch"),
+```typst #fa-cow()```, fa-cow(), fa-cow(solid: true), fa-icon("cow"),
+```typst #fa-cpanel()```, fa-cpanel(), fa-cpanel(solid: true), fa-icon("cpanel"),
+```typst #fa-creative-commons()```, fa-creative-commons(), fa-creative-commons(solid: true), fa-icon("creative-commons"),
+```typst #fa-creative-commons-by()```, fa-creative-commons-by(), fa-creative-commons-by(solid: true), fa-icon("creative-commons-by"),
+```typst #fa-creative-commons-nc()```, fa-creative-commons-nc(), fa-creative-commons-nc(solid: true), fa-icon("creative-commons-nc"),
+```typst #fa-creative-commons-nc-eu()```, fa-creative-commons-nc-eu(), fa-creative-commons-nc-eu(solid: true), fa-icon("creative-commons-nc-eu"),
+```typst #fa-creative-commons-nc-jp()```, fa-creative-commons-nc-jp(), fa-creative-commons-nc-jp(solid: true), fa-icon("creative-commons-nc-jp"),
+```typst #fa-creative-commons-nd()```, fa-creative-commons-nd(), fa-creative-commons-nd(solid: true), fa-icon("creative-commons-nd"),
+```typst #fa-creative-commons-pd()```, fa-creative-commons-pd(), fa-creative-commons-pd(solid: true), fa-icon("creative-commons-pd"),
+```typst #fa-creative-commons-pd-alt()```, fa-creative-commons-pd-alt(), fa-creative-commons-pd-alt(solid: true), fa-icon("creative-commons-pd-alt"),
+```typst #fa-creative-commons-remix()```, fa-creative-commons-remix(), fa-creative-commons-remix(solid: true), fa-icon("creative-commons-remix"),
+```typst #fa-creative-commons-sa()```, fa-creative-commons-sa(), fa-creative-commons-sa(solid: true), fa-icon("creative-commons-sa"),
+```typst #fa-creative-commons-sampling()```, fa-creative-commons-sampling(), fa-creative-commons-sampling(solid: true), fa-icon("creative-commons-sampling"),
+```typst #fa-creative-commons-sampling-plus()```, fa-creative-commons-sampling-plus(), fa-creative-commons-sampling-plus(solid: true), fa-icon("creative-commons-sampling-plus"),
+```typst #fa-creative-commons-share()```, fa-creative-commons-share(), fa-creative-commons-share(solid: true), fa-icon("creative-commons-share"),
+```typst #fa-creative-commons-zero()```, fa-creative-commons-zero(), fa-creative-commons-zero(solid: true), fa-icon("creative-commons-zero"),
+```typst #fa-credit-card()```, fa-credit-card(), fa-credit-card(solid: true), fa-icon("credit-card"),
+```typst #fa-credit-card-alt()```, fa-credit-card-alt(), fa-credit-card-alt(solid: true), fa-icon("credit-card-alt"),
+```typst #fa-critical-role()```, fa-critical-role(), fa-critical-role(solid: true), fa-icon("critical-role"),
+```typst #fa-crop()```, fa-crop(), fa-crop(solid: true), fa-icon("crop"),
+```typst #fa-crop-simple()```, fa-crop-simple(), fa-crop-simple(solid: true), fa-icon("crop-simple"),
+```typst #fa-crop-alt()```, fa-crop-alt(), fa-crop-alt(solid: true), fa-icon("crop-alt"),
+```typst #fa-cross()```, fa-cross(), fa-cross(solid: true), fa-icon("cross"),
+```typst #fa-crosshairs()```, fa-crosshairs(), fa-crosshairs(solid: true), fa-icon("crosshairs"),
+```typst #fa-crow()```, fa-crow(), fa-crow(solid: true), fa-icon("crow"),
+```typst #fa-crown()```, fa-crown(), fa-crown(solid: true), fa-icon("crown"),
+```typst #fa-crutch()```, fa-crutch(), fa-crutch(solid: true), fa-icon("crutch"),
+```typst #fa-cruzeiro-sign()```, fa-cruzeiro-sign(), fa-cruzeiro-sign(solid: true), fa-icon("cruzeiro-sign"),
+```typst #fa-css3()```, fa-css3(), fa-css3(solid: true), fa-icon("css3"),
+```typst #fa-css3-alt()```, fa-css3-alt(), fa-css3-alt(solid: true), fa-icon("css3-alt"),
+```typst #fa-cube()```, fa-cube(), fa-cube(solid: true), fa-icon("cube"),
+```typst #fa-cubes()```, fa-cubes(), fa-cubes(solid: true), fa-icon("cubes"),
+```typst #fa-cubes-stacked()```, fa-cubes-stacked(), fa-cubes-stacked(solid: true), fa-icon("cubes-stacked"),
+```typst #fa-cuttlefish()```, fa-cuttlefish(), fa-cuttlefish(solid: true), fa-icon("cuttlefish"),
+```typst #fa-d()```, fa-d(), fa-d(solid: true), fa-icon("d"),
+```typst #fa-d-and-d()```, fa-d-and-d(), fa-d-and-d(solid: true), fa-icon("d-and-d"),
+```typst #fa-d-and-d-beyond()```, fa-d-and-d-beyond(), fa-d-and-d-beyond(solid: true), fa-icon("d-and-d-beyond"),
+```typst #fa-dailymotion()```, fa-dailymotion(), fa-dailymotion(solid: true), fa-icon("dailymotion"),
+```typst #fa-dashcube()```, fa-dashcube(), fa-dashcube(solid: true), fa-icon("dashcube"),
+```typst #fa-database()```, fa-database(), fa-database(solid: true), fa-icon("database"),
+```typst #fa-debian()```, fa-debian(), fa-debian(solid: true), fa-icon("debian"),
+```typst #fa-deezer()```, fa-deezer(), fa-deezer(solid: true), fa-icon("deezer"),
+```typst #fa-delete-left()```, fa-delete-left(), fa-delete-left(solid: true), fa-icon("delete-left"),
+```typst #fa-backspace()```, fa-backspace(), fa-backspace(solid: true), fa-icon("backspace"),
+```typst #fa-delicious()```, fa-delicious(), fa-delicious(solid: true), fa-icon("delicious"),
+```typst #fa-democrat()```, fa-democrat(), fa-democrat(solid: true), fa-icon("democrat"),
+```typst #fa-deploydog()```, fa-deploydog(), fa-deploydog(solid: true), fa-icon("deploydog"),
+```typst #fa-deskpro()```, fa-deskpro(), fa-deskpro(solid: true), fa-icon("deskpro"),
+```typst #fa-desktop()```, fa-desktop(), fa-desktop(solid: true), fa-icon("desktop"),
+```typst #fa-desktop-alt()```, fa-desktop-alt(), fa-desktop-alt(solid: true), fa-icon("desktop-alt"),
+```typst #fa-dev()```, fa-dev(), fa-dev(solid: true), fa-icon("dev"),
+```typst #fa-deviantart()```, fa-deviantart(), fa-deviantart(solid: true), fa-icon("deviantart"),
+```typst #fa-dharmachakra()```, fa-dharmachakra(), fa-dharmachakra(solid: true), fa-icon("dharmachakra"),
+```typst #fa-dhl()```, fa-dhl(), fa-dhl(solid: true), fa-icon("dhl"),
+```typst #fa-diagram-next()```, fa-diagram-next(), fa-diagram-next(solid: true), fa-icon("diagram-next"),
+```typst #fa-diagram-predecessor()```, fa-diagram-predecessor(), fa-diagram-predecessor(solid: true), fa-icon("diagram-predecessor"),
+```typst #fa-diagram-project()```, fa-diagram-project(), fa-diagram-project(solid: true), fa-icon("diagram-project"),
+```typst #fa-project-diagram()```, fa-project-diagram(), fa-project-diagram(solid: true), fa-icon("project-diagram"),
+```typst #fa-diagram-successor()```, fa-diagram-successor(), fa-diagram-successor(solid: true), fa-icon("diagram-successor"),
+```typst #fa-diamond()```, fa-diamond(), fa-diamond(solid: true), fa-icon("diamond"),
+```typst #fa-diamond-turn-right()```, fa-diamond-turn-right(), fa-diamond-turn-right(solid: true), fa-icon("diamond-turn-right"),
+```typst #fa-directions()```, fa-directions(), fa-directions(solid: true), fa-icon("directions"),
+```typst #fa-diaspora()```, fa-diaspora(), fa-diaspora(solid: true), fa-icon("diaspora"),
+```typst #fa-dice()```, fa-dice(), fa-dice(solid: true), fa-icon("dice"),
+```typst #fa-dice-d20()```, fa-dice-d20(), fa-dice-d20(solid: true), fa-icon("dice-d20"),
+```typst #fa-dice-d6()```, fa-dice-d6(), fa-dice-d6(solid: true), fa-icon("dice-d6"),
+```typst #fa-dice-five()```, fa-dice-five(), fa-dice-five(solid: true), fa-icon("dice-five"),
+```typst #fa-dice-four()```, fa-dice-four(), fa-dice-four(solid: true), fa-icon("dice-four"),
+```typst #fa-dice-one()```, fa-dice-one(), fa-dice-one(solid: true), fa-icon("dice-one"),
+```typst #fa-dice-six()```, fa-dice-six(), fa-dice-six(solid: true), fa-icon("dice-six"),
+```typst #fa-dice-three()```, fa-dice-three(), fa-dice-three(solid: true), fa-icon("dice-three"),
+```typst #fa-dice-two()```, fa-dice-two(), fa-dice-two(solid: true), fa-icon("dice-two"),
+```typst #fa-digg()```, fa-digg(), fa-digg(solid: true), fa-icon("digg"),
+```typst #fa-digital-ocean()```, fa-digital-ocean(), fa-digital-ocean(solid: true), fa-icon("digital-ocean"),
+```typst #fa-discord()```, fa-discord(), fa-discord(solid: true), fa-icon("discord"),
+```typst #fa-discourse()```, fa-discourse(), fa-discourse(solid: true), fa-icon("discourse"),
+```typst #fa-disease()```, fa-disease(), fa-disease(solid: true), fa-icon("disease"),
+```typst #fa-display()```, fa-display(), fa-display(solid: true), fa-icon("display"),
+```typst #fa-divide()```, fa-divide(), fa-divide(solid: true), fa-icon("divide"),
+```typst #fa-dna()```, fa-dna(), fa-dna(solid: true), fa-icon("dna"),
+```typst #fa-dochub()```, fa-dochub(), fa-dochub(solid: true), fa-icon("dochub"),
+```typst #fa-docker()```, fa-docker(), fa-docker(solid: true), fa-icon("docker"),
+```typst #fa-dog()```, fa-dog(), fa-dog(solid: true), fa-icon("dog"),
+```typst #fa-dollar-sign()```, fa-dollar-sign(), fa-dollar-sign(solid: true), fa-icon("dollar-sign"),
+```typst #fa-dollar()```, fa-dollar(), fa-dollar(solid: true), fa-icon("dollar"),
+```typst #fa-usd()```, fa-usd(), fa-usd(solid: true), fa-icon("usd"),
+```typst #fa-dolly()```, fa-dolly(), fa-dolly(solid: true), fa-icon("dolly"),
+```typst #fa-dolly-box()```, fa-dolly-box(), fa-dolly-box(solid: true), fa-icon("dolly-box"),
+```typst #fa-dong-sign()```, fa-dong-sign(), fa-dong-sign(solid: true), fa-icon("dong-sign"),
+```typst #fa-door-closed()```, fa-door-closed(), fa-door-closed(solid: true), fa-icon("door-closed"),
+```typst #fa-door-open()```, fa-door-open(), fa-door-open(solid: true), fa-icon("door-open"),
+```typst #fa-dove()```, fa-dove(), fa-dove(solid: true), fa-icon("dove"),
+```typst #fa-down-left-and-up-right-to-center()```, fa-down-left-and-up-right-to-center(), fa-down-left-and-up-right-to-center(solid: true), fa-icon("down-left-and-up-right-to-center"),
+```typst #fa-compress-alt()```, fa-compress-alt(), fa-compress-alt(solid: true), fa-icon("compress-alt"),
+```typst #fa-down-long()```, fa-down-long(), fa-down-long(solid: true), fa-icon("down-long"),
+```typst #fa-long-arrow-alt-down()```, fa-long-arrow-alt-down(), fa-long-arrow-alt-down(solid: true), fa-icon("long-arrow-alt-down"),
+```typst #fa-download()```, fa-download(), fa-download(solid: true), fa-icon("download"),
+```typst #fa-draft2digital()```, fa-draft2digital(), fa-draft2digital(solid: true), fa-icon("draft2digital"),
+```typst #fa-dragon()```, fa-dragon(), fa-dragon(solid: true), fa-icon("dragon"),
+```typst #fa-draw-polygon()```, fa-draw-polygon(), fa-draw-polygon(solid: true), fa-icon("draw-polygon"),
+```typst #fa-dribbble()```, fa-dribbble(), fa-dribbble(solid: true), fa-icon("dribbble"),
+```typst #fa-dropbox()```, fa-dropbox(), fa-dropbox(solid: true), fa-icon("dropbox"),
+```typst #fa-droplet()```, fa-droplet(), fa-droplet(solid: true), fa-icon("droplet"),
+```typst #fa-tint()```, fa-tint(), fa-tint(solid: true), fa-icon("tint"),
+```typst #fa-droplet-slash()```, fa-droplet-slash(), fa-droplet-slash(solid: true), fa-icon("droplet-slash"),
+```typst #fa-tint-slash()```, fa-tint-slash(), fa-tint-slash(solid: true), fa-icon("tint-slash"),
+```typst #fa-drum()```, fa-drum(), fa-drum(solid: true), fa-icon("drum"),
+```typst #fa-drum-steelpan()```, fa-drum-steelpan(), fa-drum-steelpan(solid: true), fa-icon("drum-steelpan"),
+```typst #fa-drumstick-bite()```, fa-drumstick-bite(), fa-drumstick-bite(solid: true), fa-icon("drumstick-bite"),
+```typst #fa-drupal()```, fa-drupal(), fa-drupal(solid: true), fa-icon("drupal"),
+```typst #fa-dumbbell()```, fa-dumbbell(), fa-dumbbell(solid: true), fa-icon("dumbbell"),
+```typst #fa-dumpster()```, fa-dumpster(), fa-dumpster(solid: true), fa-icon("dumpster"),
+```typst #fa-dumpster-fire()```, fa-dumpster-fire(), fa-dumpster-fire(solid: true), fa-icon("dumpster-fire"),
+```typst #fa-dungeon()```, fa-dungeon(), fa-dungeon(solid: true), fa-icon("dungeon"),
+```typst #fa-dyalog()```, fa-dyalog(), fa-dyalog(solid: true), fa-icon("dyalog"),
+```typst #fa-e()```, fa-e(), fa-e(solid: true), fa-icon("e"),
+```typst #fa-ear-deaf()```, fa-ear-deaf(), fa-ear-deaf(solid: true), fa-icon("ear-deaf"),
+```typst #fa-deaf()```, fa-deaf(), fa-deaf(solid: true), fa-icon("deaf"),
+```typst #fa-deafness()```, fa-deafness(), fa-deafness(solid: true), fa-icon("deafness"),
+```typst #fa-hard-of-hearing()```, fa-hard-of-hearing(), fa-hard-of-hearing(solid: true), fa-icon("hard-of-hearing"),
+```typst #fa-ear-listen()```, fa-ear-listen(), fa-ear-listen(solid: true), fa-icon("ear-listen"),
+```typst #fa-assistive-listening-systems()```, fa-assistive-listening-systems(), fa-assistive-listening-systems(solid: true), fa-icon("assistive-listening-systems"),
+```typst #fa-earlybirds()```, fa-earlybirds(), fa-earlybirds(solid: true), fa-icon("earlybirds"),
+```typst #fa-earth-africa()```, fa-earth-africa(), fa-earth-africa(solid: true), fa-icon("earth-africa"),
+```typst #fa-globe-africa()```, fa-globe-africa(), fa-globe-africa(solid: true), fa-icon("globe-africa"),
+```typst #fa-earth-americas()```, fa-earth-americas(), fa-earth-americas(solid: true), fa-icon("earth-americas"),
+```typst #fa-earth()```, fa-earth(), fa-earth(solid: true), fa-icon("earth"),
+```typst #fa-earth-america()```, fa-earth-america(), fa-earth-america(solid: true), fa-icon("earth-america"),
+```typst #fa-globe-americas()```, fa-globe-americas(), fa-globe-americas(solid: true), fa-icon("globe-americas"),
+```typst #fa-earth-asia()```, fa-earth-asia(), fa-earth-asia(solid: true), fa-icon("earth-asia"),
+```typst #fa-globe-asia()```, fa-globe-asia(), fa-globe-asia(solid: true), fa-icon("globe-asia"),
+```typst #fa-earth-europe()```, fa-earth-europe(), fa-earth-europe(solid: true), fa-icon("earth-europe"),
+```typst #fa-globe-europe()```, fa-globe-europe(), fa-globe-europe(solid: true), fa-icon("globe-europe"),
+```typst #fa-earth-oceania()```, fa-earth-oceania(), fa-earth-oceania(solid: true), fa-icon("earth-oceania"),
+```typst #fa-globe-oceania()```, fa-globe-oceania(), fa-globe-oceania(solid: true), fa-icon("globe-oceania"),
+```typst #fa-ebay()```, fa-ebay(), fa-ebay(solid: true), fa-icon("ebay"),
+```typst #fa-edge()```, fa-edge(), fa-edge(solid: true), fa-icon("edge"),
+```typst #fa-edge-legacy()```, fa-edge-legacy(), fa-edge-legacy(solid: true), fa-icon("edge-legacy"),
+```typst #fa-egg()```, fa-egg(), fa-egg(solid: true), fa-icon("egg"),
+```typst #fa-eject()```, fa-eject(), fa-eject(solid: true), fa-icon("eject"),
+```typst #fa-elementor()```, fa-elementor(), fa-elementor(solid: true), fa-icon("elementor"),
+```typst #fa-elevator()```, fa-elevator(), fa-elevator(solid: true), fa-icon("elevator"),
+```typst #fa-ellipsis()```, fa-ellipsis(), fa-ellipsis(solid: true), fa-icon("ellipsis"),
+```typst #fa-ellipsis-h()```, fa-ellipsis-h(), fa-ellipsis-h(solid: true), fa-icon("ellipsis-h"),
+```typst #fa-ellipsis-vertical()```, fa-ellipsis-vertical(), fa-ellipsis-vertical(solid: true), fa-icon("ellipsis-vertical"),
+```typst #fa-ellipsis-v()```, fa-ellipsis-v(), fa-ellipsis-v(solid: true), fa-icon("ellipsis-v"),
+```typst #fa-ello()```, fa-ello(), fa-ello(solid: true), fa-icon("ello"),
+```typst #fa-ember()```, fa-ember(), fa-ember(solid: true), fa-icon("ember"),
+```typst #fa-empire()```, fa-empire(), fa-empire(solid: true), fa-icon("empire"),
+```typst #fa-envelope()```, fa-envelope(), fa-envelope(solid: true), fa-icon("envelope"),
+```typst #fa-envelope-circle-check()```, fa-envelope-circle-check(), fa-envelope-circle-check(solid: true), fa-icon("envelope-circle-check"),
+```typst #fa-envelope-open()```, fa-envelope-open(), fa-envelope-open(solid: true), fa-icon("envelope-open"),
+```typst #fa-envelope-open-text()```, fa-envelope-open-text(), fa-envelope-open-text(solid: true), fa-icon("envelope-open-text"),
+```typst #fa-envelopes-bulk()```, fa-envelopes-bulk(), fa-envelopes-bulk(solid: true), fa-icon("envelopes-bulk"),
+```typst #fa-mail-bulk()```, fa-mail-bulk(), fa-mail-bulk(solid: true), fa-icon("mail-bulk"),
+```typst #fa-envira()```, fa-envira(), fa-envira(solid: true), fa-icon("envira"),
+```typst #fa-equals()```, fa-equals(), fa-equals(solid: true), fa-icon("equals"),
+```typst #fa-eraser()```, fa-eraser(), fa-eraser(solid: true), fa-icon("eraser"),
+```typst #fa-erlang()```, fa-erlang(), fa-erlang(solid: true), fa-icon("erlang"),
+```typst #fa-ethereum()```, fa-ethereum(), fa-ethereum(solid: true), fa-icon("ethereum"),
+```typst #fa-ethernet()```, fa-ethernet(), fa-ethernet(solid: true), fa-icon("ethernet"),
+```typst #fa-etsy()```, fa-etsy(), fa-etsy(solid: true), fa-icon("etsy"),
+```typst #fa-euro-sign()```, fa-euro-sign(), fa-euro-sign(solid: true), fa-icon("euro-sign"),
+```typst #fa-eur()```, fa-eur(), fa-eur(solid: true), fa-icon("eur"),
+```typst #fa-euro()```, fa-euro(), fa-euro(solid: true), fa-icon("euro"),
+```typst #fa-evernote()```, fa-evernote(), fa-evernote(solid: true), fa-icon("evernote"),
+```typst #fa-exclamation()```, fa-exclamation(), fa-exclamation(solid: true), fa-icon("exclamation"),
+```typst #fa-expand()```, fa-expand(), fa-expand(solid: true), fa-icon("expand"),
+```typst #fa-expeditedssl()```, fa-expeditedssl(), fa-expeditedssl(solid: true), fa-icon("expeditedssl"),
+```typst #fa-explosion()```, fa-explosion(), fa-explosion(solid: true), fa-icon("explosion"),
+```typst #fa-eye()```, fa-eye(), fa-eye(solid: true), fa-icon("eye"),
+```typst #fa-eye-dropper()```, fa-eye-dropper(), fa-eye-dropper(solid: true), fa-icon("eye-dropper"),
+```typst #fa-eye-dropper-empty()```, fa-eye-dropper-empty(), fa-eye-dropper-empty(solid: true), fa-icon("eye-dropper-empty"),
+```typst #fa-eyedropper()```, fa-eyedropper(), fa-eyedropper(solid: true), fa-icon("eyedropper"),
+```typst #fa-eye-low-vision()```, fa-eye-low-vision(), fa-eye-low-vision(solid: true), fa-icon("eye-low-vision"),
+```typst #fa-low-vision()```, fa-low-vision(), fa-low-vision(solid: true), fa-icon("low-vision"),
+```typst #fa-eye-slash()```, fa-eye-slash(), fa-eye-slash(solid: true), fa-icon("eye-slash"),
+```typst #fa-f()```, fa-f(), fa-f(solid: true), fa-icon("f"),
+```typst #fa-face-angry()```, fa-face-angry(), fa-face-angry(solid: true), fa-icon("face-angry"),
+```typst #fa-angry()```, fa-angry(), fa-angry(solid: true), fa-icon("angry"),
+```typst #fa-face-dizzy()```, fa-face-dizzy(), fa-face-dizzy(solid: true), fa-icon("face-dizzy"),
+```typst #fa-dizzy()```, fa-dizzy(), fa-dizzy(solid: true), fa-icon("dizzy"),
+```typst #fa-face-flushed()```, fa-face-flushed(), fa-face-flushed(solid: true), fa-icon("face-flushed"),
+```typst #fa-flushed()```, fa-flushed(), fa-flushed(solid: true), fa-icon("flushed"),
+```typst #fa-face-frown()```, fa-face-frown(), fa-face-frown(solid: true), fa-icon("face-frown"),
+```typst #fa-frown()```, fa-frown(), fa-frown(solid: true), fa-icon("frown"),
+```typst #fa-face-frown-open()```, fa-face-frown-open(), fa-face-frown-open(solid: true), fa-icon("face-frown-open"),
+```typst #fa-frown-open()```, fa-frown-open(), fa-frown-open(solid: true), fa-icon("frown-open"),
+```typst #fa-face-grimace()```, fa-face-grimace(), fa-face-grimace(solid: true), fa-icon("face-grimace"),
+```typst #fa-grimace()```, fa-grimace(), fa-grimace(solid: true), fa-icon("grimace"),
+```typst #fa-face-grin()```, fa-face-grin(), fa-face-grin(solid: true), fa-icon("face-grin"),
+```typst #fa-grin()```, fa-grin(), fa-grin(solid: true), fa-icon("grin"),
+```typst #fa-face-grin-beam()```, fa-face-grin-beam(), fa-face-grin-beam(solid: true), fa-icon("face-grin-beam"),
+```typst #fa-grin-beam()```, fa-grin-beam(), fa-grin-beam(solid: true), fa-icon("grin-beam"),
+```typst #fa-face-grin-beam-sweat()```, fa-face-grin-beam-sweat(), fa-face-grin-beam-sweat(solid: true), fa-icon("face-grin-beam-sweat"),
+```typst #fa-grin-beam-sweat()```, fa-grin-beam-sweat(), fa-grin-beam-sweat(solid: true), fa-icon("grin-beam-sweat"),
+```typst #fa-face-grin-hearts()```, fa-face-grin-hearts(), fa-face-grin-hearts(solid: true), fa-icon("face-grin-hearts"),
+```typst #fa-grin-hearts()```, fa-grin-hearts(), fa-grin-hearts(solid: true), fa-icon("grin-hearts"),
+```typst #fa-face-grin-squint()```, fa-face-grin-squint(), fa-face-grin-squint(solid: true), fa-icon("face-grin-squint"),
+```typst #fa-grin-squint()```, fa-grin-squint(), fa-grin-squint(solid: true), fa-icon("grin-squint"),
+```typst #fa-face-grin-squint-tears()```, fa-face-grin-squint-tears(), fa-face-grin-squint-tears(solid: true), fa-icon("face-grin-squint-tears"),
+```typst #fa-grin-squint-tears()```, fa-grin-squint-tears(), fa-grin-squint-tears(solid: true), fa-icon("grin-squint-tears"),
+```typst #fa-face-grin-stars()```, fa-face-grin-stars(), fa-face-grin-stars(solid: true), fa-icon("face-grin-stars"),
+```typst #fa-grin-stars()```, fa-grin-stars(), fa-grin-stars(solid: true), fa-icon("grin-stars"),
+```typst #fa-face-grin-tears()```, fa-face-grin-tears(), fa-face-grin-tears(solid: true), fa-icon("face-grin-tears"),
+```typst #fa-grin-tears()```, fa-grin-tears(), fa-grin-tears(solid: true), fa-icon("grin-tears"),
+```typst #fa-face-grin-tongue()```, fa-face-grin-tongue(), fa-face-grin-tongue(solid: true), fa-icon("face-grin-tongue"),
+```typst #fa-grin-tongue()```, fa-grin-tongue(), fa-grin-tongue(solid: true), fa-icon("grin-tongue"),
+```typst #fa-face-grin-tongue-squint()```, fa-face-grin-tongue-squint(), fa-face-grin-tongue-squint(solid: true), fa-icon("face-grin-tongue-squint"),
+```typst #fa-grin-tongue-squint()```, fa-grin-tongue-squint(), fa-grin-tongue-squint(solid: true), fa-icon("grin-tongue-squint"),
+```typst #fa-face-grin-tongue-wink()```, fa-face-grin-tongue-wink(), fa-face-grin-tongue-wink(solid: true), fa-icon("face-grin-tongue-wink"),
+```typst #fa-grin-tongue-wink()```, fa-grin-tongue-wink(), fa-grin-tongue-wink(solid: true), fa-icon("grin-tongue-wink"),
+```typst #fa-face-grin-wide()```, fa-face-grin-wide(), fa-face-grin-wide(solid: true), fa-icon("face-grin-wide"),
+```typst #fa-grin-alt()```, fa-grin-alt(), fa-grin-alt(solid: true), fa-icon("grin-alt"),
+```typst #fa-face-grin-wink()```, fa-face-grin-wink(), fa-face-grin-wink(solid: true), fa-icon("face-grin-wink"),
+```typst #fa-grin-wink()```, fa-grin-wink(), fa-grin-wink(solid: true), fa-icon("grin-wink"),
+```typst #fa-face-kiss()```, fa-face-kiss(), fa-face-kiss(solid: true), fa-icon("face-kiss"),
+```typst #fa-kiss()```, fa-kiss(), fa-kiss(solid: true), fa-icon("kiss"),
+```typst #fa-face-kiss-beam()```, fa-face-kiss-beam(), fa-face-kiss-beam(solid: true), fa-icon("face-kiss-beam"),
+```typst #fa-kiss-beam()```, fa-kiss-beam(), fa-kiss-beam(solid: true), fa-icon("kiss-beam"),
+```typst #fa-face-kiss-wink-heart()```, fa-face-kiss-wink-heart(), fa-face-kiss-wink-heart(solid: true), fa-icon("face-kiss-wink-heart"),
+```typst #fa-kiss-wink-heart()```, fa-kiss-wink-heart(), fa-kiss-wink-heart(solid: true), fa-icon("kiss-wink-heart"),
+```typst #fa-face-laugh()```, fa-face-laugh(), fa-face-laugh(solid: true), fa-icon("face-laugh"),
+```typst #fa-laugh()```, fa-laugh(), fa-laugh(solid: true), fa-icon("laugh"),
+```typst #fa-face-laugh-beam()```, fa-face-laugh-beam(), fa-face-laugh-beam(solid: true), fa-icon("face-laugh-beam"),
+```typst #fa-laugh-beam()```, fa-laugh-beam(), fa-laugh-beam(solid: true), fa-icon("laugh-beam"),
+```typst #fa-face-laugh-squint()```, fa-face-laugh-squint(), fa-face-laugh-squint(solid: true), fa-icon("face-laugh-squint"),
+```typst #fa-laugh-squint()```, fa-laugh-squint(), fa-laugh-squint(solid: true), fa-icon("laugh-squint"),
+```typst #fa-face-laugh-wink()```, fa-face-laugh-wink(), fa-face-laugh-wink(solid: true), fa-icon("face-laugh-wink"),
+```typst #fa-laugh-wink()```, fa-laugh-wink(), fa-laugh-wink(solid: true), fa-icon("laugh-wink"),
+```typst #fa-face-meh()```, fa-face-meh(), fa-face-meh(solid: true), fa-icon("face-meh"),
+```typst #fa-meh()```, fa-meh(), fa-meh(solid: true), fa-icon("meh"),
+```typst #fa-face-meh-blank()```, fa-face-meh-blank(), fa-face-meh-blank(solid: true), fa-icon("face-meh-blank"),
+```typst #fa-meh-blank()```, fa-meh-blank(), fa-meh-blank(solid: true), fa-icon("meh-blank"),
+```typst #fa-face-rolling-eyes()```, fa-face-rolling-eyes(), fa-face-rolling-eyes(solid: true), fa-icon("face-rolling-eyes"),
+```typst #fa-meh-rolling-eyes()```, fa-meh-rolling-eyes(), fa-meh-rolling-eyes(solid: true), fa-icon("meh-rolling-eyes"),
+```typst #fa-face-sad-cry()```, fa-face-sad-cry(), fa-face-sad-cry(solid: true), fa-icon("face-sad-cry"),
+```typst #fa-sad-cry()```, fa-sad-cry(), fa-sad-cry(solid: true), fa-icon("sad-cry"),
+```typst #fa-face-sad-tear()```, fa-face-sad-tear(), fa-face-sad-tear(solid: true), fa-icon("face-sad-tear"),
+```typst #fa-sad-tear()```, fa-sad-tear(), fa-sad-tear(solid: true), fa-icon("sad-tear"),
+```typst #fa-face-smile()```, fa-face-smile(), fa-face-smile(solid: true), fa-icon("face-smile"),
+```typst #fa-smile()```, fa-smile(), fa-smile(solid: true), fa-icon("smile"),
+```typst #fa-face-smile-beam()```, fa-face-smile-beam(), fa-face-smile-beam(solid: true), fa-icon("face-smile-beam"),
+```typst #fa-smile-beam()```, fa-smile-beam(), fa-smile-beam(solid: true), fa-icon("smile-beam"),
+```typst #fa-face-smile-wink()```, fa-face-smile-wink(), fa-face-smile-wink(solid: true), fa-icon("face-smile-wink"),
+```typst #fa-smile-wink()```, fa-smile-wink(), fa-smile-wink(solid: true), fa-icon("smile-wink"),
+```typst #fa-face-surprise()```, fa-face-surprise(), fa-face-surprise(solid: true), fa-icon("face-surprise"),
+```typst #fa-surprise()```, fa-surprise(), fa-surprise(solid: true), fa-icon("surprise"),
+```typst #fa-face-tired()```, fa-face-tired(), fa-face-tired(solid: true), fa-icon("face-tired"),
+```typst #fa-tired()```, fa-tired(), fa-tired(solid: true), fa-icon("tired"),
+```typst #fa-facebook()```, fa-facebook(), fa-facebook(solid: true), fa-icon("facebook"),
+```typst #fa-facebook-f()```, fa-facebook-f(), fa-facebook-f(solid: true), fa-icon("facebook-f"),
+```typst #fa-facebook-messenger()```, fa-facebook-messenger(), fa-facebook-messenger(solid: true), fa-icon("facebook-messenger"),
+```typst #fa-fan()```, fa-fan(), fa-fan(solid: true), fa-icon("fan"),
+```typst #fa-fantasy-flight-games()```, fa-fantasy-flight-games(), fa-fantasy-flight-games(solid: true), fa-icon("fantasy-flight-games"),
+```typst #fa-faucet()```, fa-faucet(), fa-faucet(solid: true), fa-icon("faucet"),
+```typst #fa-faucet-drip()```, fa-faucet-drip(), fa-faucet-drip(solid: true), fa-icon("faucet-drip"),
+```typst #fa-fax()```, fa-fax(), fa-fax(solid: true), fa-icon("fax"),
+```typst #fa-feather()```, fa-feather(), fa-feather(solid: true), fa-icon("feather"),
+```typst #fa-feather-pointed()```, fa-feather-pointed(), fa-feather-pointed(solid: true), fa-icon("feather-pointed"),
+```typst #fa-feather-alt()```, fa-feather-alt(), fa-feather-alt(solid: true), fa-icon("feather-alt"),
+```typst #fa-fedex()```, fa-fedex(), fa-fedex(solid: true), fa-icon("fedex"),
+```typst #fa-fedora()```, fa-fedora(), fa-fedora(solid: true), fa-icon("fedora"),
+```typst #fa-ferry()```, fa-ferry(), fa-ferry(solid: true), fa-icon("ferry"),
+```typst #fa-figma()```, fa-figma(), fa-figma(solid: true), fa-icon("figma"),
+```typst #fa-file()```, fa-file(), fa-file(solid: true), fa-icon("file"),
+```typst #fa-file-arrow-down()```, fa-file-arrow-down(), fa-file-arrow-down(solid: true), fa-icon("file-arrow-down"),
+```typst #fa-file-download()```, fa-file-download(), fa-file-download(solid: true), fa-icon("file-download"),
+```typst #fa-file-arrow-up()```, fa-file-arrow-up(), fa-file-arrow-up(solid: true), fa-icon("file-arrow-up"),
+```typst #fa-file-upload()```, fa-file-upload(), fa-file-upload(solid: true), fa-icon("file-upload"),
+```typst #fa-file-audio()```, fa-file-audio(), fa-file-audio(solid: true), fa-icon("file-audio"),
+```typst #fa-file-circle-check()```, fa-file-circle-check(), fa-file-circle-check(solid: true), fa-icon("file-circle-check"),
+```typst #fa-file-circle-exclamation()```, fa-file-circle-exclamation(), fa-file-circle-exclamation(solid: true), fa-icon("file-circle-exclamation"),
+```typst #fa-file-circle-minus()```, fa-file-circle-minus(), fa-file-circle-minus(solid: true), fa-icon("file-circle-minus"),
+```typst #fa-file-circle-plus()```, fa-file-circle-plus(), fa-file-circle-plus(solid: true), fa-icon("file-circle-plus"),
+```typst #fa-file-circle-question()```, fa-file-circle-question(), fa-file-circle-question(solid: true), fa-icon("file-circle-question"),
+```typst #fa-file-circle-xmark()```, fa-file-circle-xmark(), fa-file-circle-xmark(solid: true), fa-icon("file-circle-xmark"),
+```typst #fa-file-code()```, fa-file-code(), fa-file-code(solid: true), fa-icon("file-code"),
+```typst #fa-file-contract()```, fa-file-contract(), fa-file-contract(solid: true), fa-icon("file-contract"),
+```typst #fa-file-csv()```, fa-file-csv(), fa-file-csv(solid: true), fa-icon("file-csv"),
+```typst #fa-file-excel()```, fa-file-excel(), fa-file-excel(solid: true), fa-icon("file-excel"),
+```typst #fa-file-export()```, fa-file-export(), fa-file-export(solid: true), fa-icon("file-export"),
+```typst #fa-arrow-right-from-file()```, fa-arrow-right-from-file(), fa-arrow-right-from-file(solid: true), fa-icon("arrow-right-from-file"),
+```typst #fa-file-image()```, fa-file-image(), fa-file-image(solid: true), fa-icon("file-image"),
+```typst #fa-file-import()```, fa-file-import(), fa-file-import(solid: true), fa-icon("file-import"),
+```typst #fa-arrow-right-to-file()```, fa-arrow-right-to-file(), fa-arrow-right-to-file(solid: true), fa-icon("arrow-right-to-file"),
+```typst #fa-file-invoice()```, fa-file-invoice(), fa-file-invoice(solid: true), fa-icon("file-invoice"),
+```typst #fa-file-invoice-dollar()```, fa-file-invoice-dollar(), fa-file-invoice-dollar(solid: true), fa-icon("file-invoice-dollar"),
+```typst #fa-file-lines()```, fa-file-lines(), fa-file-lines(solid: true), fa-icon("file-lines"),
+```typst #fa-file-alt()```, fa-file-alt(), fa-file-alt(solid: true), fa-icon("file-alt"),
+```typst #fa-file-text()```, fa-file-text(), fa-file-text(solid: true), fa-icon("file-text"),
+```typst #fa-file-medical()```, fa-file-medical(), fa-file-medical(solid: true), fa-icon("file-medical"),
+```typst #fa-file-pdf()```, fa-file-pdf(), fa-file-pdf(solid: true), fa-icon("file-pdf"),
+```typst #fa-file-pen()```, fa-file-pen(), fa-file-pen(solid: true), fa-icon("file-pen"),
+```typst #fa-file-edit()```, fa-file-edit(), fa-file-edit(solid: true), fa-icon("file-edit"),
+```typst #fa-file-powerpoint()```, fa-file-powerpoint(), fa-file-powerpoint(solid: true), fa-icon("file-powerpoint"),
+```typst #fa-file-prescription()```, fa-file-prescription(), fa-file-prescription(solid: true), fa-icon("file-prescription"),
+```typst #fa-file-shield()```, fa-file-shield(), fa-file-shield(solid: true), fa-icon("file-shield"),
+```typst #fa-file-signature()```, fa-file-signature(), fa-file-signature(solid: true), fa-icon("file-signature"),
+```typst #fa-file-video()```, fa-file-video(), fa-file-video(solid: true), fa-icon("file-video"),
+```typst #fa-file-waveform()```, fa-file-waveform(), fa-file-waveform(solid: true), fa-icon("file-waveform"),
+```typst #fa-file-medical-alt()```, fa-file-medical-alt(), fa-file-medical-alt(solid: true), fa-icon("file-medical-alt"),
+```typst #fa-file-word()```, fa-file-word(), fa-file-word(solid: true), fa-icon("file-word"),
+```typst #fa-file-zipper()```, fa-file-zipper(), fa-file-zipper(solid: true), fa-icon("file-zipper"),
+```typst #fa-file-archive()```, fa-file-archive(), fa-file-archive(solid: true), fa-icon("file-archive"),
+```typst #fa-fill()```, fa-fill(), fa-fill(solid: true), fa-icon("fill"),
+```typst #fa-fill-drip()```, fa-fill-drip(), fa-fill-drip(solid: true), fa-icon("fill-drip"),
+```typst #fa-film()```, fa-film(), fa-film(solid: true), fa-icon("film"),
+```typst #fa-filter()```, fa-filter(), fa-filter(solid: true), fa-icon("filter"),
+```typst #fa-filter-circle-dollar()```, fa-filter-circle-dollar(), fa-filter-circle-dollar(solid: true), fa-icon("filter-circle-dollar"),
+```typst #fa-funnel-dollar()```, fa-funnel-dollar(), fa-funnel-dollar(solid: true), fa-icon("funnel-dollar"),
+```typst #fa-filter-circle-xmark()```, fa-filter-circle-xmark(), fa-filter-circle-xmark(solid: true), fa-icon("filter-circle-xmark"),
+```typst #fa-fingerprint()```, fa-fingerprint(), fa-fingerprint(solid: true), fa-icon("fingerprint"),
+```typst #fa-fire()```, fa-fire(), fa-fire(solid: true), fa-icon("fire"),
+```typst #fa-fire-burner()```, fa-fire-burner(), fa-fire-burner(solid: true), fa-icon("fire-burner"),
+```typst #fa-fire-extinguisher()```, fa-fire-extinguisher(), fa-fire-extinguisher(solid: true), fa-icon("fire-extinguisher"),
+```typst #fa-fire-flame-curved()```, fa-fire-flame-curved(), fa-fire-flame-curved(solid: true), fa-icon("fire-flame-curved"),
+```typst #fa-fire-alt()```, fa-fire-alt(), fa-fire-alt(solid: true), fa-icon("fire-alt"),
+```typst #fa-fire-flame-simple()```, fa-fire-flame-simple(), fa-fire-flame-simple(solid: true), fa-icon("fire-flame-simple"),
+```typst #fa-burn()```, fa-burn(), fa-burn(solid: true), fa-icon("burn"),
+```typst #fa-firefox()```, fa-firefox(), fa-firefox(solid: true), fa-icon("firefox"),
+```typst #fa-firefox-browser()```, fa-firefox-browser(), fa-firefox-browser(solid: true), fa-icon("firefox-browser"),
+```typst #fa-first-order()```, fa-first-order(), fa-first-order(solid: true), fa-icon("first-order"),
+```typst #fa-first-order-alt()```, fa-first-order-alt(), fa-first-order-alt(solid: true), fa-icon("first-order-alt"),
+```typst #fa-firstdraft()```, fa-firstdraft(), fa-firstdraft(solid: true), fa-icon("firstdraft"),
+```typst #fa-fish()```, fa-fish(), fa-fish(solid: true), fa-icon("fish"),
+```typst #fa-fish-fins()```, fa-fish-fins(), fa-fish-fins(solid: true), fa-icon("fish-fins"),
+```typst #fa-flag()```, fa-flag(), fa-flag(solid: true), fa-icon("flag"),
+```typst #fa-flag-checkered()```, fa-flag-checkered(), fa-flag-checkered(solid: true), fa-icon("flag-checkered"),
+```typst #fa-flag-usa()```, fa-flag-usa(), fa-flag-usa(solid: true), fa-icon("flag-usa"),
+```typst #fa-flask()```, fa-flask(), fa-flask(solid: true), fa-icon("flask"),
+```typst #fa-flask-vial()```, fa-flask-vial(), fa-flask-vial(solid: true), fa-icon("flask-vial"),
+```typst #fa-flickr()```, fa-flickr(), fa-flickr(solid: true), fa-icon("flickr"),
+```typst #fa-flipboard()```, fa-flipboard(), fa-flipboard(solid: true), fa-icon("flipboard"),
+```typst #fa-floppy-disk()```, fa-floppy-disk(), fa-floppy-disk(solid: true), fa-icon("floppy-disk"),
+```typst #fa-save()```, fa-save(), fa-save(solid: true), fa-icon("save"),
+```typst #fa-florin-sign()```, fa-florin-sign(), fa-florin-sign(solid: true), fa-icon("florin-sign"),
+```typst #fa-fly()```, fa-fly(), fa-fly(solid: true), fa-icon("fly"),
+```typst #fa-folder()```, fa-folder(), fa-folder(solid: true), fa-icon("folder"),
+```typst #fa-folder-blank()```, fa-folder-blank(), fa-folder-blank(solid: true), fa-icon("folder-blank"),
+```typst #fa-folder-closed()```, fa-folder-closed(), fa-folder-closed(solid: true), fa-icon("folder-closed"),
+```typst #fa-folder-minus()```, fa-folder-minus(), fa-folder-minus(solid: true), fa-icon("folder-minus"),
+```typst #fa-folder-open()```, fa-folder-open(), fa-folder-open(solid: true), fa-icon("folder-open"),
+```typst #fa-folder-plus()```, fa-folder-plus(), fa-folder-plus(solid: true), fa-icon("folder-plus"),
+```typst #fa-folder-tree()```, fa-folder-tree(), fa-folder-tree(solid: true), fa-icon("folder-tree"),
+```typst #fa-font()```, fa-font(), fa-font(solid: true), fa-icon("font"),
+```typst #fa-font-awesome()```, fa-font-awesome(), fa-font-awesome(solid: true), fa-icon("font-awesome"),
+```typst #fa-font-awesome-flag()```, fa-font-awesome-flag(), fa-font-awesome-flag(solid: true), fa-icon("font-awesome-flag"),
+```typst #fa-font-awesome-logo-full()```, fa-font-awesome-logo-full(), fa-font-awesome-logo-full(solid: true), fa-icon("font-awesome-logo-full"),
+```typst #fa-fonticons()```, fa-fonticons(), fa-fonticons(solid: true), fa-icon("fonticons"),
+```typst #fa-fonticons-fi()```, fa-fonticons-fi(), fa-fonticons-fi(solid: true), fa-icon("fonticons-fi"),
+```typst #fa-football()```, fa-football(), fa-football(solid: true), fa-icon("football"),
+```typst #fa-football-ball()```, fa-football-ball(), fa-football-ball(solid: true), fa-icon("football-ball"),
+```typst #fa-fort-awesome()```, fa-fort-awesome(), fa-fort-awesome(solid: true), fa-icon("fort-awesome"),
+```typst #fa-fort-awesome-alt()```, fa-fort-awesome-alt(), fa-fort-awesome-alt(solid: true), fa-icon("fort-awesome-alt"),
+```typst #fa-forumbee()```, fa-forumbee(), fa-forumbee(solid: true), fa-icon("forumbee"),
+```typst #fa-forward()```, fa-forward(), fa-forward(solid: true), fa-icon("forward"),
+```typst #fa-forward-fast()```, fa-forward-fast(), fa-forward-fast(solid: true), fa-icon("forward-fast"),
+```typst #fa-fast-forward()```, fa-fast-forward(), fa-fast-forward(solid: true), fa-icon("fast-forward"),
+```typst #fa-forward-step()```, fa-forward-step(), fa-forward-step(solid: true), fa-icon("forward-step"),
+```typst #fa-step-forward()```, fa-step-forward(), fa-step-forward(solid: true), fa-icon("step-forward"),
+```typst #fa-foursquare()```, fa-foursquare(), fa-foursquare(solid: true), fa-icon("foursquare"),
+```typst #fa-franc-sign()```, fa-franc-sign(), fa-franc-sign(solid: true), fa-icon("franc-sign"),
+```typst #fa-free-code-camp()```, fa-free-code-camp(), fa-free-code-camp(solid: true), fa-icon("free-code-camp"),
+```typst #fa-freebsd()```, fa-freebsd(), fa-freebsd(solid: true), fa-icon("freebsd"),
+```typst #fa-frog()```, fa-frog(), fa-frog(solid: true), fa-icon("frog"),
+```typst #fa-fulcrum()```, fa-fulcrum(), fa-fulcrum(solid: true), fa-icon("fulcrum"),
+```typst #fa-futbol()```, fa-futbol(), fa-futbol(solid: true), fa-icon("futbol"),
+```typst #fa-futbol-ball()```, fa-futbol-ball(), fa-futbol-ball(solid: true), fa-icon("futbol-ball"),
+```typst #fa-soccer-ball()```, fa-soccer-ball(), fa-soccer-ball(solid: true), fa-icon("soccer-ball"),
+```typst #fa-g()```, fa-g(), fa-g(solid: true), fa-icon("g"),
+```typst #fa-galactic-republic()```, fa-galactic-republic(), fa-galactic-republic(solid: true), fa-icon("galactic-republic"),
+```typst #fa-galactic-senate()```, fa-galactic-senate(), fa-galactic-senate(solid: true), fa-icon("galactic-senate"),
+```typst #fa-gamepad()```, fa-gamepad(), fa-gamepad(solid: true), fa-icon("gamepad"),
+```typst #fa-gas-pump()```, fa-gas-pump(), fa-gas-pump(solid: true), fa-icon("gas-pump"),
+```typst #fa-gauge()```, fa-gauge(), fa-gauge(solid: true), fa-icon("gauge"),
+```typst #fa-dashboard()```, fa-dashboard(), fa-dashboard(solid: true), fa-icon("dashboard"),
+```typst #fa-gauge-med()```, fa-gauge-med(), fa-gauge-med(solid: true), fa-icon("gauge-med"),
+```typst #fa-tachometer-alt-average()```, fa-tachometer-alt-average(), fa-tachometer-alt-average(solid: true), fa-icon("tachometer-alt-average"),
+```typst #fa-gauge-high()```, fa-gauge-high(), fa-gauge-high(solid: true), fa-icon("gauge-high"),
+```typst #fa-tachometer-alt()```, fa-tachometer-alt(), fa-tachometer-alt(solid: true), fa-icon("tachometer-alt"),
+```typst #fa-tachometer-alt-fast()```, fa-tachometer-alt-fast(), fa-tachometer-alt-fast(solid: true), fa-icon("tachometer-alt-fast"),
+```typst #fa-gauge-simple()```, fa-gauge-simple(), fa-gauge-simple(solid: true), fa-icon("gauge-simple"),
+```typst #fa-gauge-simple-med()```, fa-gauge-simple-med(), fa-gauge-simple-med(solid: true), fa-icon("gauge-simple-med"),
+```typst #fa-tachometer-average()```, fa-tachometer-average(), fa-tachometer-average(solid: true), fa-icon("tachometer-average"),
+```typst #fa-gauge-simple-high()```, fa-gauge-simple-high(), fa-gauge-simple-high(solid: true), fa-icon("gauge-simple-high"),
+```typst #fa-tachometer()```, fa-tachometer(), fa-tachometer(solid: true), fa-icon("tachometer"),
+```typst #fa-tachometer-fast()```, fa-tachometer-fast(), fa-tachometer-fast(solid: true), fa-icon("tachometer-fast"),
+```typst #fa-gavel()```, fa-gavel(), fa-gavel(solid: true), fa-icon("gavel"),
+```typst #fa-legal()```, fa-legal(), fa-legal(solid: true), fa-icon("legal"),
+```typst #fa-gear()```, fa-gear(), fa-gear(solid: true), fa-icon("gear"),
+```typst #fa-cog()```, fa-cog(), fa-cog(solid: true), fa-icon("cog"),
+```typst #fa-gears()```, fa-gears(), fa-gears(solid: true), fa-icon("gears"),
+```typst #fa-cogs()```, fa-cogs(), fa-cogs(solid: true), fa-icon("cogs"),
+```typst #fa-gem()```, fa-gem(), fa-gem(solid: true), fa-icon("gem"),
+```typst #fa-genderless()```, fa-genderless(), fa-genderless(solid: true), fa-icon("genderless"),
+```typst #fa-get-pocket()```, fa-get-pocket(), fa-get-pocket(solid: true), fa-icon("get-pocket"),
+```typst #fa-gg()```, fa-gg(), fa-gg(solid: true), fa-icon("gg"),
+```typst #fa-gg-circle()```, fa-gg-circle(), fa-gg-circle(solid: true), fa-icon("gg-circle"),
+```typst #fa-ghost()```, fa-ghost(), fa-ghost(solid: true), fa-icon("ghost"),
+```typst #fa-gift()```, fa-gift(), fa-gift(solid: true), fa-icon("gift"),
+```typst #fa-gifts()```, fa-gifts(), fa-gifts(solid: true), fa-icon("gifts"),
+```typst #fa-git()```, fa-git(), fa-git(solid: true), fa-icon("git"),
+```typst #fa-git-alt()```, fa-git-alt(), fa-git-alt(solid: true), fa-icon("git-alt"),
+```typst #fa-github()```, fa-github(), fa-github(solid: true), fa-icon("github"),
+```typst #fa-github-alt()```, fa-github-alt(), fa-github-alt(solid: true), fa-icon("github-alt"),
+```typst #fa-gitkraken()```, fa-gitkraken(), fa-gitkraken(solid: true), fa-icon("gitkraken"),
+```typst #fa-gitlab()```, fa-gitlab(), fa-gitlab(solid: true), fa-icon("gitlab"),
+```typst #fa-gitter()```, fa-gitter(), fa-gitter(solid: true), fa-icon("gitter"),
+```typst #fa-glass-water()```, fa-glass-water(), fa-glass-water(solid: true), fa-icon("glass-water"),
+```typst #fa-glass-water-droplet()```, fa-glass-water-droplet(), fa-glass-water-droplet(solid: true), fa-icon("glass-water-droplet"),
+```typst #fa-glasses()```, fa-glasses(), fa-glasses(solid: true), fa-icon("glasses"),
+```typst #fa-glide()```, fa-glide(), fa-glide(solid: true), fa-icon("glide"),
+```typst #fa-glide-g()```, fa-glide-g(), fa-glide-g(solid: true), fa-icon("glide-g"),
+```typst #fa-globe()```, fa-globe(), fa-globe(solid: true), fa-icon("globe"),
+```typst #fa-gofore()```, fa-gofore(), fa-gofore(solid: true), fa-icon("gofore"),
+```typst #fa-golang()```, fa-golang(), fa-golang(solid: true), fa-icon("golang"),
+```typst #fa-golf-ball-tee()```, fa-golf-ball-tee(), fa-golf-ball-tee(solid: true), fa-icon("golf-ball-tee"),
+```typst #fa-golf-ball()```, fa-golf-ball(), fa-golf-ball(solid: true), fa-icon("golf-ball"),
+```typst #fa-goodreads()```, fa-goodreads(), fa-goodreads(solid: true), fa-icon("goodreads"),
+```typst #fa-goodreads-g()```, fa-goodreads-g(), fa-goodreads-g(solid: true), fa-icon("goodreads-g"),
+```typst #fa-google()```, fa-google(), fa-google(solid: true), fa-icon("google"),
+```typst #fa-google-drive()```, fa-google-drive(), fa-google-drive(solid: true), fa-icon("google-drive"),
+```typst #fa-google-pay()```, fa-google-pay(), fa-google-pay(solid: true), fa-icon("google-pay"),
+```typst #fa-google-play()```, fa-google-play(), fa-google-play(solid: true), fa-icon("google-play"),
+```typst #fa-google-plus()```, fa-google-plus(), fa-google-plus(solid: true), fa-icon("google-plus"),
+```typst #fa-google-plus-g()```, fa-google-plus-g(), fa-google-plus-g(solid: true), fa-icon("google-plus-g"),
+```typst #fa-google-scholar()```, fa-google-scholar(), fa-google-scholar(solid: true), fa-icon("google-scholar"),
+```typst #fa-google-wallet()```, fa-google-wallet(), fa-google-wallet(solid: true), fa-icon("google-wallet"),
+```typst #fa-gopuram()```, fa-gopuram(), fa-gopuram(solid: true), fa-icon("gopuram"),
+```typst #fa-graduation-cap()```, fa-graduation-cap(), fa-graduation-cap(solid: true), fa-icon("graduation-cap"),
+```typst #fa-mortar-board()```, fa-mortar-board(), fa-mortar-board(solid: true), fa-icon("mortar-board"),
+```typst #fa-gratipay()```, fa-gratipay(), fa-gratipay(solid: true), fa-icon("gratipay"),
+```typst #fa-grav()```, fa-grav(), fa-grav(solid: true), fa-icon("grav"),
+```typst #fa-greater-than()```, fa-greater-than(), fa-greater-than(solid: true), fa-icon("greater-than"),
+```typst #fa-greater-than-equal()```, fa-greater-than-equal(), fa-greater-than-equal(solid: true), fa-icon("greater-than-equal"),
+```typst #fa-grip()```, fa-grip(), fa-grip(solid: true), fa-icon("grip"),
+```typst #fa-grip-horizontal()```, fa-grip-horizontal(), fa-grip-horizontal(solid: true), fa-icon("grip-horizontal"),
+```typst #fa-grip-lines()```, fa-grip-lines(), fa-grip-lines(solid: true), fa-icon("grip-lines"),
+```typst #fa-grip-lines-vertical()```, fa-grip-lines-vertical(), fa-grip-lines-vertical(solid: true), fa-icon("grip-lines-vertical"),
+```typst #fa-grip-vertical()```, fa-grip-vertical(), fa-grip-vertical(solid: true), fa-icon("grip-vertical"),
+```typst #fa-gripfire()```, fa-gripfire(), fa-gripfire(solid: true), fa-icon("gripfire"),
+```typst #fa-group-arrows-rotate()```, fa-group-arrows-rotate(), fa-group-arrows-rotate(solid: true), fa-icon("group-arrows-rotate"),
+```typst #fa-grunt()```, fa-grunt(), fa-grunt(solid: true), fa-icon("grunt"),
+```typst #fa-guarani-sign()```, fa-guarani-sign(), fa-guarani-sign(solid: true), fa-icon("guarani-sign"),
+```typst #fa-guilded()```, fa-guilded(), fa-guilded(solid: true), fa-icon("guilded"),
+```typst #fa-guitar()```, fa-guitar(), fa-guitar(solid: true), fa-icon("guitar"),
+```typst #fa-gulp()```, fa-gulp(), fa-gulp(solid: true), fa-icon("gulp"),
+```typst #fa-gun()```, fa-gun(), fa-gun(solid: true), fa-icon("gun"),
+```typst #fa-h()```, fa-h(), fa-h(solid: true), fa-icon("h"),
+```typst #fa-hacker-news()```, fa-hacker-news(), fa-hacker-news(solid: true), fa-icon("hacker-news"),
+```typst #fa-hackerrank()```, fa-hackerrank(), fa-hackerrank(solid: true), fa-icon("hackerrank"),
+```typst #fa-hammer()```, fa-hammer(), fa-hammer(solid: true), fa-icon("hammer"),
+```typst #fa-hamsa()```, fa-hamsa(), fa-hamsa(solid: true), fa-icon("hamsa"),
+```typst #fa-hand()```, fa-hand(), fa-hand(solid: true), fa-icon("hand"),
+```typst #fa-hand-paper()```, fa-hand-paper(), fa-hand-paper(solid: true), fa-icon("hand-paper"),
+```typst #fa-hand-back-fist()```, fa-hand-back-fist(), fa-hand-back-fist(solid: true), fa-icon("hand-back-fist"),
+```typst #fa-hand-rock()```, fa-hand-rock(), fa-hand-rock(solid: true), fa-icon("hand-rock"),
+```typst #fa-hand-dots()```, fa-hand-dots(), fa-hand-dots(solid: true), fa-icon("hand-dots"),
+```typst #fa-allergies()```, fa-allergies(), fa-allergies(solid: true), fa-icon("allergies"),
+```typst #fa-hand-fist()```, fa-hand-fist(), fa-hand-fist(solid: true), fa-icon("hand-fist"),
+```typst #fa-fist-raised()```, fa-fist-raised(), fa-fist-raised(solid: true), fa-icon("fist-raised"),
+```typst #fa-hand-holding()```, fa-hand-holding(), fa-hand-holding(solid: true), fa-icon("hand-holding"),
+```typst #fa-hand-holding-dollar()```, fa-hand-holding-dollar(), fa-hand-holding-dollar(solid: true), fa-icon("hand-holding-dollar"),
+```typst #fa-hand-holding-usd()```, fa-hand-holding-usd(), fa-hand-holding-usd(solid: true), fa-icon("hand-holding-usd"),
+```typst #fa-hand-holding-droplet()```, fa-hand-holding-droplet(), fa-hand-holding-droplet(solid: true), fa-icon("hand-holding-droplet"),
+```typst #fa-hand-holding-water()```, fa-hand-holding-water(), fa-hand-holding-water(solid: true), fa-icon("hand-holding-water"),
+```typst #fa-hand-holding-hand()```, fa-hand-holding-hand(), fa-hand-holding-hand(solid: true), fa-icon("hand-holding-hand"),
+```typst #fa-hand-holding-heart()```, fa-hand-holding-heart(), fa-hand-holding-heart(solid: true), fa-icon("hand-holding-heart"),
+```typst #fa-hand-holding-medical()```, fa-hand-holding-medical(), fa-hand-holding-medical(solid: true), fa-icon("hand-holding-medical"),
+```typst #fa-hand-lizard()```, fa-hand-lizard(), fa-hand-lizard(solid: true), fa-icon("hand-lizard"),
+```typst #fa-hand-middle-finger()```, fa-hand-middle-finger(), fa-hand-middle-finger(solid: true), fa-icon("hand-middle-finger"),
+```typst #fa-hand-peace()```, fa-hand-peace(), fa-hand-peace(solid: true), fa-icon("hand-peace"),
+```typst #fa-hand-point-down()```, fa-hand-point-down(), fa-hand-point-down(solid: true), fa-icon("hand-point-down"),
+```typst #fa-hand-point-left()```, fa-hand-point-left(), fa-hand-point-left(solid: true), fa-icon("hand-point-left"),
+```typst #fa-hand-point-right()```, fa-hand-point-right(), fa-hand-point-right(solid: true), fa-icon("hand-point-right"),
+```typst #fa-hand-point-up()```, fa-hand-point-up(), fa-hand-point-up(solid: true), fa-icon("hand-point-up"),
+```typst #fa-hand-pointer()```, fa-hand-pointer(), fa-hand-pointer(solid: true), fa-icon("hand-pointer"),
+```typst #fa-hand-scissors()```, fa-hand-scissors(), fa-hand-scissors(solid: true), fa-icon("hand-scissors"),
+```typst #fa-hand-sparkles()```, fa-hand-sparkles(), fa-hand-sparkles(solid: true), fa-icon("hand-sparkles"),
+```typst #fa-hand-spock()```, fa-hand-spock(), fa-hand-spock(solid: true), fa-icon("hand-spock"),
+```typst #fa-handcuffs()```, fa-handcuffs(), fa-handcuffs(solid: true), fa-icon("handcuffs"),
+```typst #fa-hands()```, fa-hands(), fa-hands(solid: true), fa-icon("hands"),
+```typst #fa-sign-language()```, fa-sign-language(), fa-sign-language(solid: true), fa-icon("sign-language"),
+```typst #fa-signing()```, fa-signing(), fa-signing(solid: true), fa-icon("signing"),
+```typst #fa-hands-asl-interpreting()```, fa-hands-asl-interpreting(), fa-hands-asl-interpreting(solid: true), fa-icon("hands-asl-interpreting"),
+```typst #fa-american-sign-language-interpreting()```, fa-american-sign-language-interpreting(), fa-american-sign-language-interpreting(solid: true), fa-icon("american-sign-language-interpreting"),
+```typst #fa-asl-interpreting()```, fa-asl-interpreting(), fa-asl-interpreting(solid: true), fa-icon("asl-interpreting"),
+```typst #fa-hands-american-sign-language-interpreting()```, fa-hands-american-sign-language-interpreting(), fa-hands-american-sign-language-interpreting(solid: true), fa-icon("hands-american-sign-language-interpreting"),
+```typst #fa-hands-bound()```, fa-hands-bound(), fa-hands-bound(solid: true), fa-icon("hands-bound"),
+```typst #fa-hands-bubbles()```, fa-hands-bubbles(), fa-hands-bubbles(solid: true), fa-icon("hands-bubbles"),
+```typst #fa-hands-wash()```, fa-hands-wash(), fa-hands-wash(solid: true), fa-icon("hands-wash"),
+```typst #fa-hands-clapping()```, fa-hands-clapping(), fa-hands-clapping(solid: true), fa-icon("hands-clapping"),
+```typst #fa-hands-holding()```, fa-hands-holding(), fa-hands-holding(solid: true), fa-icon("hands-holding"),
+```typst #fa-hands-holding-child()```, fa-hands-holding-child(), fa-hands-holding-child(solid: true), fa-icon("hands-holding-child"),
+```typst #fa-hands-holding-circle()```, fa-hands-holding-circle(), fa-hands-holding-circle(solid: true), fa-icon("hands-holding-circle"),
+```typst #fa-hands-praying()```, fa-hands-praying(), fa-hands-praying(solid: true), fa-icon("hands-praying"),
+```typst #fa-praying-hands()```, fa-praying-hands(), fa-praying-hands(solid: true), fa-icon("praying-hands"),
+```typst #fa-handshake()```, fa-handshake(), fa-handshake(solid: true), fa-icon("handshake"),
+```typst #fa-handshake-angle()```, fa-handshake-angle(), fa-handshake-angle(solid: true), fa-icon("handshake-angle"),
+```typst #fa-hands-helping()```, fa-hands-helping(), fa-hands-helping(solid: true), fa-icon("hands-helping"),
+```typst #fa-handshake-simple()```, fa-handshake-simple(), fa-handshake-simple(solid: true), fa-icon("handshake-simple"),
+```typst #fa-handshake-alt()```, fa-handshake-alt(), fa-handshake-alt(solid: true), fa-icon("handshake-alt"),
+```typst #fa-handshake-simple-slash()```, fa-handshake-simple-slash(), fa-handshake-simple-slash(solid: true), fa-icon("handshake-simple-slash"),
+```typst #fa-handshake-alt-slash()```, fa-handshake-alt-slash(), fa-handshake-alt-slash(solid: true), fa-icon("handshake-alt-slash"),
+```typst #fa-handshake-slash()```, fa-handshake-slash(), fa-handshake-slash(solid: true), fa-icon("handshake-slash"),
+```typst #fa-hanukiah()```, fa-hanukiah(), fa-hanukiah(solid: true), fa-icon("hanukiah"),
+```typst #fa-hard-drive()```, fa-hard-drive(), fa-hard-drive(solid: true), fa-icon("hard-drive"),
+```typst #fa-hdd()```, fa-hdd(), fa-hdd(solid: true), fa-icon("hdd"),
+```typst #fa-hashnode()```, fa-hashnode(), fa-hashnode(solid: true), fa-icon("hashnode"),
+```typst #fa-hashtag()```, fa-hashtag(), fa-hashtag(solid: true), fa-icon("hashtag"),
+```typst #fa-hat-cowboy()```, fa-hat-cowboy(), fa-hat-cowboy(solid: true), fa-icon("hat-cowboy"),
+```typst #fa-hat-cowboy-side()```, fa-hat-cowboy-side(), fa-hat-cowboy-side(solid: true), fa-icon("hat-cowboy-side"),
+```typst #fa-hat-wizard()```, fa-hat-wizard(), fa-hat-wizard(solid: true), fa-icon("hat-wizard"),
+```typst #fa-head-side-cough()```, fa-head-side-cough(), fa-head-side-cough(solid: true), fa-icon("head-side-cough"),
+```typst #fa-head-side-cough-slash()```, fa-head-side-cough-slash(), fa-head-side-cough-slash(solid: true), fa-icon("head-side-cough-slash"),
+```typst #fa-head-side-mask()```, fa-head-side-mask(), fa-head-side-mask(solid: true), fa-icon("head-side-mask"),
+```typst #fa-head-side-virus()```, fa-head-side-virus(), fa-head-side-virus(solid: true), fa-icon("head-side-virus"),
+```typst #fa-heading()```, fa-heading(), fa-heading(solid: true), fa-icon("heading"),
+```typst #fa-header()```, fa-header(), fa-header(solid: true), fa-icon("header"),
+```typst #fa-headphones()```, fa-headphones(), fa-headphones(solid: true), fa-icon("headphones"),
+```typst #fa-headphones-simple()```, fa-headphones-simple(), fa-headphones-simple(solid: true), fa-icon("headphones-simple"),
+```typst #fa-headphones-alt()```, fa-headphones-alt(), fa-headphones-alt(solid: true), fa-icon("headphones-alt"),
+```typst #fa-headset()```, fa-headset(), fa-headset(solid: true), fa-icon("headset"),
+```typst #fa-heart()```, fa-heart(), fa-heart(solid: true), fa-icon("heart"),
+```typst #fa-heart-circle-bolt()```, fa-heart-circle-bolt(), fa-heart-circle-bolt(solid: true), fa-icon("heart-circle-bolt"),
+```typst #fa-heart-circle-check()```, fa-heart-circle-check(), fa-heart-circle-check(solid: true), fa-icon("heart-circle-check"),
+```typst #fa-heart-circle-exclamation()```, fa-heart-circle-exclamation(), fa-heart-circle-exclamation(solid: true), fa-icon("heart-circle-exclamation"),
+```typst #fa-heart-circle-minus()```, fa-heart-circle-minus(), fa-heart-circle-minus(solid: true), fa-icon("heart-circle-minus"),
+```typst #fa-heart-circle-plus()```, fa-heart-circle-plus(), fa-heart-circle-plus(solid: true), fa-icon("heart-circle-plus"),
+```typst #fa-heart-circle-xmark()```, fa-heart-circle-xmark(), fa-heart-circle-xmark(solid: true), fa-icon("heart-circle-xmark"),
+```typst #fa-heart-crack()```, fa-heart-crack(), fa-heart-crack(solid: true), fa-icon("heart-crack"),
+```typst #fa-heart-broken()```, fa-heart-broken(), fa-heart-broken(solid: true), fa-icon("heart-broken"),
+```typst #fa-heart-pulse()```, fa-heart-pulse(), fa-heart-pulse(solid: true), fa-icon("heart-pulse"),
+```typst #fa-heartbeat()```, fa-heartbeat(), fa-heartbeat(solid: true), fa-icon("heartbeat"),
+```typst #fa-helicopter()```, fa-helicopter(), fa-helicopter(solid: true), fa-icon("helicopter"),
+```typst #fa-helicopter-symbol()```, fa-helicopter-symbol(), fa-helicopter-symbol(solid: true), fa-icon("helicopter-symbol"),
+```typst #fa-helmet-safety()```, fa-helmet-safety(), fa-helmet-safety(solid: true), fa-icon("helmet-safety"),
+```typst #fa-hard-hat()```, fa-hard-hat(), fa-hard-hat(solid: true), fa-icon("hard-hat"),
+```typst #fa-hat-hard()```, fa-hat-hard(), fa-hat-hard(solid: true), fa-icon("hat-hard"),
+```typst #fa-helmet-un()```, fa-helmet-un(), fa-helmet-un(solid: true), fa-icon("helmet-un"),
+```typst #fa-highlighter()```, fa-highlighter(), fa-highlighter(solid: true), fa-icon("highlighter"),
+```typst #fa-hill-avalanche()```, fa-hill-avalanche(), fa-hill-avalanche(solid: true), fa-icon("hill-avalanche"),
+```typst #fa-hill-rockslide()```, fa-hill-rockslide(), fa-hill-rockslide(solid: true), fa-icon("hill-rockslide"),
+```typst #fa-hippo()```, fa-hippo(), fa-hippo(solid: true), fa-icon("hippo"),
+```typst #fa-hips()```, fa-hips(), fa-hips(solid: true), fa-icon("hips"),
+```typst #fa-hire-a-helper()```, fa-hire-a-helper(), fa-hire-a-helper(solid: true), fa-icon("hire-a-helper"),
+```typst #fa-hive()```, fa-hive(), fa-hive(solid: true), fa-icon("hive"),
+```typst #fa-hockey-puck()```, fa-hockey-puck(), fa-hockey-puck(solid: true), fa-icon("hockey-puck"),
+```typst #fa-holly-berry()```, fa-holly-berry(), fa-holly-berry(solid: true), fa-icon("holly-berry"),
+```typst #fa-hooli()```, fa-hooli(), fa-hooli(solid: true), fa-icon("hooli"),
+```typst #fa-hornbill()```, fa-hornbill(), fa-hornbill(solid: true), fa-icon("hornbill"),
+```typst #fa-horse()```, fa-horse(), fa-horse(solid: true), fa-icon("horse"),
+```typst #fa-horse-head()```, fa-horse-head(), fa-horse-head(solid: true), fa-icon("horse-head"),
+```typst #fa-hospital()```, fa-hospital(), fa-hospital(solid: true), fa-icon("hospital"),
+```typst #fa-hospital-alt()```, fa-hospital-alt(), fa-hospital-alt(solid: true), fa-icon("hospital-alt"),
+```typst #fa-hospital-wide()```, fa-hospital-wide(), fa-hospital-wide(solid: true), fa-icon("hospital-wide"),
+```typst #fa-hospital-user()```, fa-hospital-user(), fa-hospital-user(solid: true), fa-icon("hospital-user"),
+```typst #fa-hot-tub-person()```, fa-hot-tub-person(), fa-hot-tub-person(solid: true), fa-icon("hot-tub-person"),
+```typst #fa-hot-tub()```, fa-hot-tub(), fa-hot-tub(solid: true), fa-icon("hot-tub"),
+```typst #fa-hotdog()```, fa-hotdog(), fa-hotdog(solid: true), fa-icon("hotdog"),
+```typst #fa-hotel()```, fa-hotel(), fa-hotel(solid: true), fa-icon("hotel"),
+```typst #fa-hotjar()```, fa-hotjar(), fa-hotjar(solid: true), fa-icon("hotjar"),
+```typst #fa-hourglass()```, fa-hourglass(), fa-hourglass(solid: true), fa-icon("hourglass"),
+```typst #fa-hourglass-empty()```, fa-hourglass-empty(), fa-hourglass-empty(solid: true), fa-icon("hourglass-empty"),
+```typst #fa-hourglass-end()```, fa-hourglass-end(), fa-hourglass-end(solid: true), fa-icon("hourglass-end"),
+```typst #fa-hourglass-3()```, fa-hourglass-3(), fa-hourglass-3(solid: true), fa-icon("hourglass-3"),
+```typst #fa-hourglass-half()```, fa-hourglass-half(), fa-hourglass-half(solid: true), fa-icon("hourglass-half"),
+```typst #fa-hourglass-2()```, fa-hourglass-2(), fa-hourglass-2(solid: true), fa-icon("hourglass-2"),
+```typst #fa-hourglass-start()```, fa-hourglass-start(), fa-hourglass-start(solid: true), fa-icon("hourglass-start"),
+```typst #fa-hourglass-1()```, fa-hourglass-1(), fa-hourglass-1(solid: true), fa-icon("hourglass-1"),
+```typst #fa-house()```, fa-house(), fa-house(solid: true), fa-icon("house"),
+```typst #fa-home()```, fa-home(), fa-home(solid: true), fa-icon("home"),
+```typst #fa-home-alt()```, fa-home-alt(), fa-home-alt(solid: true), fa-icon("home-alt"),
+```typst #fa-home-lg-alt()```, fa-home-lg-alt(), fa-home-lg-alt(solid: true), fa-icon("home-lg-alt"),
+```typst #fa-house-chimney()```, fa-house-chimney(), fa-house-chimney(solid: true), fa-icon("house-chimney"),
+```typst #fa-home-lg()```, fa-home-lg(), fa-home-lg(solid: true), fa-icon("home-lg"),
+```typst #fa-house-chimney-crack()```, fa-house-chimney-crack(), fa-house-chimney-crack(solid: true), fa-icon("house-chimney-crack"),
+```typst #fa-house-damage()```, fa-house-damage(), fa-house-damage(solid: true), fa-icon("house-damage"),
+```typst #fa-house-chimney-medical()```, fa-house-chimney-medical(), fa-house-chimney-medical(solid: true), fa-icon("house-chimney-medical"),
+```typst #fa-clinic-medical()```, fa-clinic-medical(), fa-clinic-medical(solid: true), fa-icon("clinic-medical"),
+```typst #fa-house-chimney-user()```, fa-house-chimney-user(), fa-house-chimney-user(solid: true), fa-icon("house-chimney-user"),
+```typst #fa-house-chimney-window()```, fa-house-chimney-window(), fa-house-chimney-window(solid: true), fa-icon("house-chimney-window"),
+```typst #fa-house-circle-check()```, fa-house-circle-check(), fa-house-circle-check(solid: true), fa-icon("house-circle-check"),
+```typst #fa-house-circle-exclamation()```, fa-house-circle-exclamation(), fa-house-circle-exclamation(solid: true), fa-icon("house-circle-exclamation"),
+```typst #fa-house-circle-xmark()```, fa-house-circle-xmark(), fa-house-circle-xmark(solid: true), fa-icon("house-circle-xmark"),
+```typst #fa-house-crack()```, fa-house-crack(), fa-house-crack(solid: true), fa-icon("house-crack"),
+```typst #fa-house-fire()```, fa-house-fire(), fa-house-fire(solid: true), fa-icon("house-fire"),
+```typst #fa-house-flag()```, fa-house-flag(), fa-house-flag(solid: true), fa-icon("house-flag"),
+```typst #fa-house-flood-water()```, fa-house-flood-water(), fa-house-flood-water(solid: true), fa-icon("house-flood-water"),
+```typst #fa-house-flood-water-circle-arrow-right()```, fa-house-flood-water-circle-arrow-right(), fa-house-flood-water-circle-arrow-right(solid: true), fa-icon("house-flood-water-circle-arrow-right"),
+```typst #fa-house-laptop()```, fa-house-laptop(), fa-house-laptop(solid: true), fa-icon("house-laptop"),
+```typst #fa-laptop-house()```, fa-laptop-house(), fa-laptop-house(solid: true), fa-icon("laptop-house"),
+```typst #fa-house-lock()```, fa-house-lock(), fa-house-lock(solid: true), fa-icon("house-lock"),
+```typst #fa-house-medical()```, fa-house-medical(), fa-house-medical(solid: true), fa-icon("house-medical"),
+```typst #fa-house-medical-circle-check()```, fa-house-medical-circle-check(), fa-house-medical-circle-check(solid: true), fa-icon("house-medical-circle-check"),
+```typst #fa-house-medical-circle-exclamation()```, fa-house-medical-circle-exclamation(), fa-house-medical-circle-exclamation(solid: true), fa-icon("house-medical-circle-exclamation"),
+```typst #fa-house-medical-circle-xmark()```, fa-house-medical-circle-xmark(), fa-house-medical-circle-xmark(solid: true), fa-icon("house-medical-circle-xmark"),
+```typst #fa-house-medical-flag()```, fa-house-medical-flag(), fa-house-medical-flag(solid: true), fa-icon("house-medical-flag"),
+```typst #fa-house-signal()```, fa-house-signal(), fa-house-signal(solid: true), fa-icon("house-signal"),
+```typst #fa-house-tsunami()```, fa-house-tsunami(), fa-house-tsunami(solid: true), fa-icon("house-tsunami"),
+```typst #fa-house-user()```, fa-house-user(), fa-house-user(solid: true), fa-icon("house-user"),
+```typst #fa-home-user()```, fa-home-user(), fa-home-user(solid: true), fa-icon("home-user"),
+```typst #fa-houzz()```, fa-houzz(), fa-houzz(solid: true), fa-icon("houzz"),
+```typst #fa-hryvnia-sign()```, fa-hryvnia-sign(), fa-hryvnia-sign(solid: true), fa-icon("hryvnia-sign"),
+```typst #fa-hryvnia()```, fa-hryvnia(), fa-hryvnia(solid: true), fa-icon("hryvnia"),
+```typst #fa-html5()```, fa-html5(), fa-html5(solid: true), fa-icon("html5"),
+```typst #fa-hubspot()```, fa-hubspot(), fa-hubspot(solid: true), fa-icon("hubspot"),
+```typst #fa-hurricane()```, fa-hurricane(), fa-hurricane(solid: true), fa-icon("hurricane"),
+```typst #fa-i()```, fa-i(), fa-i(solid: true), fa-icon("i"),
+```typst #fa-i-cursor()```, fa-i-cursor(), fa-i-cursor(solid: true), fa-icon("i-cursor"),
+```typst #fa-ice-cream()```, fa-ice-cream(), fa-ice-cream(solid: true), fa-icon("ice-cream"),
+```typst #fa-icicles()```, fa-icicles(), fa-icicles(solid: true), fa-icon("icicles"),
+```typst #fa-icons()```, fa-icons(), fa-icons(solid: true), fa-icon("icons"),
+```typst #fa-heart-music-camera-bolt()```, fa-heart-music-camera-bolt(), fa-heart-music-camera-bolt(solid: true), fa-icon("heart-music-camera-bolt"),
+```typst #fa-id-badge()```, fa-id-badge(), fa-id-badge(solid: true), fa-icon("id-badge"),
+```typst #fa-id-card()```, fa-id-card(), fa-id-card(solid: true), fa-icon("id-card"),
+```typst #fa-drivers-license()```, fa-drivers-license(), fa-drivers-license(solid: true), fa-icon("drivers-license"),
+```typst #fa-id-card-clip()```, fa-id-card-clip(), fa-id-card-clip(solid: true), fa-icon("id-card-clip"),
+```typst #fa-id-card-alt()```, fa-id-card-alt(), fa-id-card-alt(solid: true), fa-icon("id-card-alt"),
+```typst #fa-ideal()```, fa-ideal(), fa-ideal(solid: true), fa-icon("ideal"),
+```typst #fa-igloo()```, fa-igloo(), fa-igloo(solid: true), fa-icon("igloo"),
+```typst #fa-image()```, fa-image(), fa-image(solid: true), fa-icon("image"),
+```typst #fa-image-portrait()```, fa-image-portrait(), fa-image-portrait(solid: true), fa-icon("image-portrait"),
+```typst #fa-portrait()```, fa-portrait(), fa-portrait(solid: true), fa-icon("portrait"),
+```typst #fa-images()```, fa-images(), fa-images(solid: true), fa-icon("images"),
+```typst #fa-imdb()```, fa-imdb(), fa-imdb(solid: true), fa-icon("imdb"),
+```typst #fa-inbox()```, fa-inbox(), fa-inbox(solid: true), fa-icon("inbox"),
+```typst #fa-indent()```, fa-indent(), fa-indent(solid: true), fa-icon("indent"),
+```typst #fa-indian-rupee-sign()```, fa-indian-rupee-sign(), fa-indian-rupee-sign(solid: true), fa-icon("indian-rupee-sign"),
+```typst #fa-indian-rupee()```, fa-indian-rupee(), fa-indian-rupee(solid: true), fa-icon("indian-rupee"),
+```typst #fa-inr()```, fa-inr(), fa-inr(solid: true), fa-icon("inr"),
+```typst #fa-industry()```, fa-industry(), fa-industry(solid: true), fa-icon("industry"),
+```typst #fa-infinity()```, fa-infinity(), fa-infinity(solid: true), fa-icon("infinity"),
+```typst #fa-info()```, fa-info(), fa-info(solid: true), fa-icon("info"),
+```typst #fa-instagram()```, fa-instagram(), fa-instagram(solid: true), fa-icon("instagram"),
+```typst #fa-instalod()```, fa-instalod(), fa-instalod(solid: true), fa-icon("instalod"),
+```typst #fa-intercom()```, fa-intercom(), fa-intercom(solid: true), fa-icon("intercom"),
+```typst #fa-internet-explorer()```, fa-internet-explorer(), fa-internet-explorer(solid: true), fa-icon("internet-explorer"),
+```typst #fa-invision()```, fa-invision(), fa-invision(solid: true), fa-icon("invision"),
+```typst #fa-ioxhost()```, fa-ioxhost(), fa-ioxhost(solid: true), fa-icon("ioxhost"),
+```typst #fa-italic()```, fa-italic(), fa-italic(solid: true), fa-icon("italic"),
+```typst #fa-itch-io()```, fa-itch-io(), fa-itch-io(solid: true), fa-icon("itch-io"),
+```typst #fa-itunes()```, fa-itunes(), fa-itunes(solid: true), fa-icon("itunes"),
+```typst #fa-itunes-note()```, fa-itunes-note(), fa-itunes-note(solid: true), fa-icon("itunes-note"),
+```typst #fa-j()```, fa-j(), fa-j(solid: true), fa-icon("j"),
+```typst #fa-jar()```, fa-jar(), fa-jar(solid: true), fa-icon("jar"),
+```typst #fa-jar-wheat()```, fa-jar-wheat(), fa-jar-wheat(solid: true), fa-icon("jar-wheat"),
+```typst #fa-java()```, fa-java(), fa-java(solid: true), fa-icon("java"),
+```typst #fa-jedi()```, fa-jedi(), fa-jedi(solid: true), fa-icon("jedi"),
+```typst #fa-jedi-order()```, fa-jedi-order(), fa-jedi-order(solid: true), fa-icon("jedi-order"),
+```typst #fa-jenkins()```, fa-jenkins(), fa-jenkins(solid: true), fa-icon("jenkins"),
+```typst #fa-jet-fighter()```, fa-jet-fighter(), fa-jet-fighter(solid: true), fa-icon("jet-fighter"),
+```typst #fa-fighter-jet()```, fa-fighter-jet(), fa-fighter-jet(solid: true), fa-icon("fighter-jet"),
+```typst #fa-jet-fighter-up()```, fa-jet-fighter-up(), fa-jet-fighter-up(solid: true), fa-icon("jet-fighter-up"),
+```typst #fa-jira()```, fa-jira(), fa-jira(solid: true), fa-icon("jira"),
+```typst #fa-joget()```, fa-joget(), fa-joget(solid: true), fa-icon("joget"),
+```typst #fa-joint()```, fa-joint(), fa-joint(solid: true), fa-icon("joint"),
+```typst #fa-joomla()```, fa-joomla(), fa-joomla(solid: true), fa-icon("joomla"),
+```typst #fa-js()```, fa-js(), fa-js(solid: true), fa-icon("js"),
+```typst #fa-jsfiddle()```, fa-jsfiddle(), fa-jsfiddle(solid: true), fa-icon("jsfiddle"),
+```typst #fa-jug-detergent()```, fa-jug-detergent(), fa-jug-detergent(solid: true), fa-icon("jug-detergent"),
+```typst #fa-jxl()```, fa-jxl(), fa-jxl(solid: true), fa-icon("jxl"),
+```typst #fa-k()```, fa-k(), fa-k(solid: true), fa-icon("k"),
+```typst #fa-kaaba()```, fa-kaaba(), fa-kaaba(solid: true), fa-icon("kaaba"),
+```typst #fa-kaggle()```, fa-kaggle(), fa-kaggle(solid: true), fa-icon("kaggle"),
+```typst #fa-key()```, fa-key(), fa-key(solid: true), fa-icon("key"),
+```typst #fa-keybase()```, fa-keybase(), fa-keybase(solid: true), fa-icon("keybase"),
+```typst #fa-keyboard()```, fa-keyboard(), fa-keyboard(solid: true), fa-icon("keyboard"),
+```typst #fa-keycdn()```, fa-keycdn(), fa-keycdn(solid: true), fa-icon("keycdn"),
+```typst #fa-khanda()```, fa-khanda(), fa-khanda(solid: true), fa-icon("khanda"),
+```typst #fa-kickstarter()```, fa-kickstarter(), fa-kickstarter(solid: true), fa-icon("kickstarter"),
+```typst #fa-square-kickstarter()```, fa-square-kickstarter(), fa-square-kickstarter(solid: true), fa-icon("square-kickstarter"),
+```typst #fa-kickstarter-k()```, fa-kickstarter-k(), fa-kickstarter-k(solid: true), fa-icon("kickstarter-k"),
+```typst #fa-kip-sign()```, fa-kip-sign(), fa-kip-sign(solid: true), fa-icon("kip-sign"),
+```typst #fa-kit-medical()```, fa-kit-medical(), fa-kit-medical(solid: true), fa-icon("kit-medical"),
+```typst #fa-first-aid()```, fa-first-aid(), fa-first-aid(solid: true), fa-icon("first-aid"),
+```typst #fa-kitchen-set()```, fa-kitchen-set(), fa-kitchen-set(solid: true), fa-icon("kitchen-set"),
+```typst #fa-kiwi-bird()```, fa-kiwi-bird(), fa-kiwi-bird(solid: true), fa-icon("kiwi-bird"),
+```typst #fa-korvue()```, fa-korvue(), fa-korvue(solid: true), fa-icon("korvue"),
+```typst #fa-l()```, fa-l(), fa-l(solid: true), fa-icon("l"),
+```typst #fa-land-mine-on()```, fa-land-mine-on(), fa-land-mine-on(solid: true), fa-icon("land-mine-on"),
+```typst #fa-landmark()```, fa-landmark(), fa-landmark(solid: true), fa-icon("landmark"),
+```typst #fa-landmark-dome()```, fa-landmark-dome(), fa-landmark-dome(solid: true), fa-icon("landmark-dome"),
+```typst #fa-landmark-alt()```, fa-landmark-alt(), fa-landmark-alt(solid: true), fa-icon("landmark-alt"),
+```typst #fa-landmark-flag()```, fa-landmark-flag(), fa-landmark-flag(solid: true), fa-icon("landmark-flag"),
+```typst #fa-language()```, fa-language(), fa-language(solid: true), fa-icon("language"),
+```typst #fa-laptop()```, fa-laptop(), fa-laptop(solid: true), fa-icon("laptop"),
+```typst #fa-laptop-code()```, fa-laptop-code(), fa-laptop-code(solid: true), fa-icon("laptop-code"),
+```typst #fa-laptop-file()```, fa-laptop-file(), fa-laptop-file(solid: true), fa-icon("laptop-file"),
+```typst #fa-laptop-medical()```, fa-laptop-medical(), fa-laptop-medical(solid: true), fa-icon("laptop-medical"),
+```typst #fa-laravel()```, fa-laravel(), fa-laravel(solid: true), fa-icon("laravel"),
+```typst #fa-lari-sign()```, fa-lari-sign(), fa-lari-sign(solid: true), fa-icon("lari-sign"),
+```typst #fa-lastfm()```, fa-lastfm(), fa-lastfm(solid: true), fa-icon("lastfm"),
+```typst #fa-layer-group()```, fa-layer-group(), fa-layer-group(solid: true), fa-icon("layer-group"),
+```typst #fa-leaf()```, fa-leaf(), fa-leaf(solid: true), fa-icon("leaf"),
+```typst #fa-leanpub()```, fa-leanpub(), fa-leanpub(solid: true), fa-icon("leanpub"),
+```typst #fa-left-long()```, fa-left-long(), fa-left-long(solid: true), fa-icon("left-long"),
+```typst #fa-long-arrow-alt-left()```, fa-long-arrow-alt-left(), fa-long-arrow-alt-left(solid: true), fa-icon("long-arrow-alt-left"),
+```typst #fa-left-right()```, fa-left-right(), fa-left-right(solid: true), fa-icon("left-right"),
+```typst #fa-arrows-alt-h()```, fa-arrows-alt-h(), fa-arrows-alt-h(solid: true), fa-icon("arrows-alt-h"),
+```typst #fa-lemon()```, fa-lemon(), fa-lemon(solid: true), fa-icon("lemon"),
+```typst #fa-less()```, fa-less(), fa-less(solid: true), fa-icon("less"),
+```typst #fa-less-than()```, fa-less-than(), fa-less-than(solid: true), fa-icon("less-than"),
+```typst #fa-less-than-equal()```, fa-less-than-equal(), fa-less-than-equal(solid: true), fa-icon("less-than-equal"),
+```typst #fa-letterboxd()```, fa-letterboxd(), fa-letterboxd(solid: true), fa-icon("letterboxd"),
+```typst #fa-life-ring()```, fa-life-ring(), fa-life-ring(solid: true), fa-icon("life-ring"),
+```typst #fa-lightbulb()```, fa-lightbulb(), fa-lightbulb(solid: true), fa-icon("lightbulb"),
+```typst #fa-line()```, fa-line(), fa-line(solid: true), fa-icon("line"),
+```typst #fa-lines-leaning()```, fa-lines-leaning(), fa-lines-leaning(solid: true), fa-icon("lines-leaning"),
+```typst #fa-link()```, fa-link(), fa-link(solid: true), fa-icon("link"),
+```typst #fa-chain()```, fa-chain(), fa-chain(solid: true), fa-icon("chain"),
+```typst #fa-link-slash()```, fa-link-slash(), fa-link-slash(solid: true), fa-icon("link-slash"),
+```typst #fa-chain-broken()```, fa-chain-broken(), fa-chain-broken(solid: true), fa-icon("chain-broken"),
+```typst #fa-chain-slash()```, fa-chain-slash(), fa-chain-slash(solid: true), fa-icon("chain-slash"),
+```typst #fa-unlink()```, fa-unlink(), fa-unlink(solid: true), fa-icon("unlink"),
+```typst #fa-linkedin()```, fa-linkedin(), fa-linkedin(solid: true), fa-icon("linkedin"),
+```typst #fa-linkedin-in()```, fa-linkedin-in(), fa-linkedin-in(solid: true), fa-icon("linkedin-in"),
+```typst #fa-linode()```, fa-linode(), fa-linode(solid: true), fa-icon("linode"),
+```typst #fa-linux()```, fa-linux(), fa-linux(solid: true), fa-icon("linux"),
+```typst #fa-lira-sign()```, fa-lira-sign(), fa-lira-sign(solid: true), fa-icon("lira-sign"),
+```typst #fa-list()```, fa-list(), fa-list(solid: true), fa-icon("list"),
+```typst #fa-list-squares()```, fa-list-squares(), fa-list-squares(solid: true), fa-icon("list-squares"),
+```typst #fa-list-check()```, fa-list-check(), fa-list-check(solid: true), fa-icon("list-check"),
+```typst #fa-tasks()```, fa-tasks(), fa-tasks(solid: true), fa-icon("tasks"),
+```typst #fa-list-ol()```, fa-list-ol(), fa-list-ol(solid: true), fa-icon("list-ol"),
+```typst #fa-list-1-2()```, fa-list-1-2(), fa-list-1-2(solid: true), fa-icon("list-1-2"),
+```typst #fa-list-numeric()```, fa-list-numeric(), fa-list-numeric(solid: true), fa-icon("list-numeric"),
+```typst #fa-list-ul()```, fa-list-ul(), fa-list-ul(solid: true), fa-icon("list-ul"),
+```typst #fa-list-dots()```, fa-list-dots(), fa-list-dots(solid: true), fa-icon("list-dots"),
+```typst #fa-litecoin-sign()```, fa-litecoin-sign(), fa-litecoin-sign(solid: true), fa-icon("litecoin-sign"),
+```typst #fa-location-arrow()```, fa-location-arrow(), fa-location-arrow(solid: true), fa-icon("location-arrow"),
+```typst #fa-location-crosshairs()```, fa-location-crosshairs(), fa-location-crosshairs(solid: true), fa-icon("location-crosshairs"),
+```typst #fa-location()```, fa-location(), fa-location(solid: true), fa-icon("location"),
+```typst #fa-location-dot()```, fa-location-dot(), fa-location-dot(solid: true), fa-icon("location-dot"),
+```typst #fa-map-marker-alt()```, fa-map-marker-alt(), fa-map-marker-alt(solid: true), fa-icon("map-marker-alt"),
+```typst #fa-location-pin()```, fa-location-pin(), fa-location-pin(solid: true), fa-icon("location-pin"),
+```typst #fa-map-marker()```, fa-map-marker(), fa-map-marker(solid: true), fa-icon("map-marker"),
+```typst #fa-location-pin-lock()```, fa-location-pin-lock(), fa-location-pin-lock(solid: true), fa-icon("location-pin-lock"),
+```typst #fa-lock()```, fa-lock(), fa-lock(solid: true), fa-icon("lock"),
+```typst #fa-lock-open()```, fa-lock-open(), fa-lock-open(solid: true), fa-icon("lock-open"),
+```typst #fa-locust()```, fa-locust(), fa-locust(solid: true), fa-icon("locust"),
+```typst #fa-lungs()```, fa-lungs(), fa-lungs(solid: true), fa-icon("lungs"),
+```typst #fa-lungs-virus()```, fa-lungs-virus(), fa-lungs-virus(solid: true), fa-icon("lungs-virus"),
+```typst #fa-lyft()```, fa-lyft(), fa-lyft(solid: true), fa-icon("lyft"),
+```typst #fa-m()```, fa-m(), fa-m(solid: true), fa-icon("m"),
+```typst #fa-magento()```, fa-magento(), fa-magento(solid: true), fa-icon("magento"),
+```typst #fa-magnet()```, fa-magnet(), fa-magnet(solid: true), fa-icon("magnet"),
+```typst #fa-magnifying-glass()```, fa-magnifying-glass(), fa-magnifying-glass(solid: true), fa-icon("magnifying-glass"),
+```typst #fa-search()```, fa-search(), fa-search(solid: true), fa-icon("search"),
+```typst #fa-magnifying-glass-arrow-right()```, fa-magnifying-glass-arrow-right(), fa-magnifying-glass-arrow-right(solid: true), fa-icon("magnifying-glass-arrow-right"),
+```typst #fa-magnifying-glass-chart()```, fa-magnifying-glass-chart(), fa-magnifying-glass-chart(solid: true), fa-icon("magnifying-glass-chart"),
+```typst #fa-magnifying-glass-dollar()```, fa-magnifying-glass-dollar(), fa-magnifying-glass-dollar(solid: true), fa-icon("magnifying-glass-dollar"),
+```typst #fa-search-dollar()```, fa-search-dollar(), fa-search-dollar(solid: true), fa-icon("search-dollar"),
+```typst #fa-magnifying-glass-location()```, fa-magnifying-glass-location(), fa-magnifying-glass-location(solid: true), fa-icon("magnifying-glass-location"),
+```typst #fa-search-location()```, fa-search-location(), fa-search-location(solid: true), fa-icon("search-location"),
+```typst #fa-magnifying-glass-minus()```, fa-magnifying-glass-minus(), fa-magnifying-glass-minus(solid: true), fa-icon("magnifying-glass-minus"),
+```typst #fa-search-minus()```, fa-search-minus(), fa-search-minus(solid: true), fa-icon("search-minus"),
+```typst #fa-magnifying-glass-plus()```, fa-magnifying-glass-plus(), fa-magnifying-glass-plus(solid: true), fa-icon("magnifying-glass-plus"),
+```typst #fa-search-plus()```, fa-search-plus(), fa-search-plus(solid: true), fa-icon("search-plus"),
+```typst #fa-mailchimp()```, fa-mailchimp(), fa-mailchimp(solid: true), fa-icon("mailchimp"),
+```typst #fa-manat-sign()```, fa-manat-sign(), fa-manat-sign(solid: true), fa-icon("manat-sign"),
+```typst #fa-mandalorian()```, fa-mandalorian(), fa-mandalorian(solid: true), fa-icon("mandalorian"),
+```typst #fa-map()```, fa-map(), fa-map(solid: true), fa-icon("map"),
+```typst #fa-map-location()```, fa-map-location(), fa-map-location(solid: true), fa-icon("map-location"),
+```typst #fa-map-marked()```, fa-map-marked(), fa-map-marked(solid: true), fa-icon("map-marked"),
+```typst #fa-map-location-dot()```, fa-map-location-dot(), fa-map-location-dot(solid: true), fa-icon("map-location-dot"),
+```typst #fa-map-marked-alt()```, fa-map-marked-alt(), fa-map-marked-alt(solid: true), fa-icon("map-marked-alt"),
+```typst #fa-map-pin()```, fa-map-pin(), fa-map-pin(solid: true), fa-icon("map-pin"),
+```typst #fa-markdown()```, fa-markdown(), fa-markdown(solid: true), fa-icon("markdown"),
+```typst #fa-marker()```, fa-marker(), fa-marker(solid: true), fa-icon("marker"),
+```typst #fa-mars()```, fa-mars(), fa-mars(solid: true), fa-icon("mars"),
+```typst #fa-mars-and-venus()```, fa-mars-and-venus(), fa-mars-and-venus(solid: true), fa-icon("mars-and-venus"),
+```typst #fa-mars-and-venus-burst()```, fa-mars-and-venus-burst(), fa-mars-and-venus-burst(solid: true), fa-icon("mars-and-venus-burst"),
+```typst #fa-mars-double()```, fa-mars-double(), fa-mars-double(solid: true), fa-icon("mars-double"),
+```typst #fa-mars-stroke()```, fa-mars-stroke(), fa-mars-stroke(solid: true), fa-icon("mars-stroke"),
+```typst #fa-mars-stroke-right()```, fa-mars-stroke-right(), fa-mars-stroke-right(solid: true), fa-icon("mars-stroke-right"),
+```typst #fa-mars-stroke-h()```, fa-mars-stroke-h(), fa-mars-stroke-h(solid: true), fa-icon("mars-stroke-h"),
+```typst #fa-mars-stroke-up()```, fa-mars-stroke-up(), fa-mars-stroke-up(solid: true), fa-icon("mars-stroke-up"),
+```typst #fa-mars-stroke-v()```, fa-mars-stroke-v(), fa-mars-stroke-v(solid: true), fa-icon("mars-stroke-v"),
+```typst #fa-martini-glass()```, fa-martini-glass(), fa-martini-glass(solid: true), fa-icon("martini-glass"),
+```typst #fa-glass-martini-alt()```, fa-glass-martini-alt(), fa-glass-martini-alt(solid: true), fa-icon("glass-martini-alt"),
+```typst #fa-martini-glass-citrus()```, fa-martini-glass-citrus(), fa-martini-glass-citrus(solid: true), fa-icon("martini-glass-citrus"),
+```typst #fa-cocktail()```, fa-cocktail(), fa-cocktail(solid: true), fa-icon("cocktail"),
+```typst #fa-martini-glass-empty()```, fa-martini-glass-empty(), fa-martini-glass-empty(solid: true), fa-icon("martini-glass-empty"),
+```typst #fa-glass-martini()```, fa-glass-martini(), fa-glass-martini(solid: true), fa-icon("glass-martini"),
+```typst #fa-mask()```, fa-mask(), fa-mask(solid: true), fa-icon("mask"),
+```typst #fa-mask-face()```, fa-mask-face(), fa-mask-face(solid: true), fa-icon("mask-face"),
+```typst #fa-mask-ventilator()```, fa-mask-ventilator(), fa-mask-ventilator(solid: true), fa-icon("mask-ventilator"),
+```typst #fa-masks-theater()```, fa-masks-theater(), fa-masks-theater(solid: true), fa-icon("masks-theater"),
+```typst #fa-theater-masks()```, fa-theater-masks(), fa-theater-masks(solid: true), fa-icon("theater-masks"),
+```typst #fa-mastodon()```, fa-mastodon(), fa-mastodon(solid: true), fa-icon("mastodon"),
+```typst #fa-mattress-pillow()```, fa-mattress-pillow(), fa-mattress-pillow(solid: true), fa-icon("mattress-pillow"),
+```typst #fa-maxcdn()```, fa-maxcdn(), fa-maxcdn(solid: true), fa-icon("maxcdn"),
+```typst #fa-maximize()```, fa-maximize(), fa-maximize(solid: true), fa-icon("maximize"),
+```typst #fa-expand-arrows-alt()```, fa-expand-arrows-alt(), fa-expand-arrows-alt(solid: true), fa-icon("expand-arrows-alt"),
+```typst #fa-mdb()```, fa-mdb(), fa-mdb(solid: true), fa-icon("mdb"),
+```typst #fa-medal()```, fa-medal(), fa-medal(solid: true), fa-icon("medal"),
+```typst #fa-medapps()```, fa-medapps(), fa-medapps(solid: true), fa-icon("medapps"),
+```typst #fa-medium()```, fa-medium(), fa-medium(solid: true), fa-icon("medium"),
+```typst #fa-medium-m()```, fa-medium-m(), fa-medium-m(solid: true), fa-icon("medium-m"),
+```typst #fa-medrt()```, fa-medrt(), fa-medrt(solid: true), fa-icon("medrt"),
+```typst #fa-meetup()```, fa-meetup(), fa-meetup(solid: true), fa-icon("meetup"),
+```typst #fa-megaport()```, fa-megaport(), fa-megaport(solid: true), fa-icon("megaport"),
+```typst #fa-memory()```, fa-memory(), fa-memory(solid: true), fa-icon("memory"),
+```typst #fa-mendeley()```, fa-mendeley(), fa-mendeley(solid: true), fa-icon("mendeley"),
+```typst #fa-menorah()```, fa-menorah(), fa-menorah(solid: true), fa-icon("menorah"),
+```typst #fa-mercury()```, fa-mercury(), fa-mercury(solid: true), fa-icon("mercury"),
+```typst #fa-message()```, fa-message(), fa-message(solid: true), fa-icon("message"),
+```typst #fa-comment-alt()```, fa-comment-alt(), fa-comment-alt(solid: true), fa-icon("comment-alt"),
+```typst #fa-meta()```, fa-meta(), fa-meta(solid: true), fa-icon("meta"),
+```typst #fa-meteor()```, fa-meteor(), fa-meteor(solid: true), fa-icon("meteor"),
+```typst #fa-microblog()```, fa-microblog(), fa-microblog(solid: true), fa-icon("microblog"),
+```typst #fa-microchip()```, fa-microchip(), fa-microchip(solid: true), fa-icon("microchip"),
+```typst #fa-microphone()```, fa-microphone(), fa-microphone(solid: true), fa-icon("microphone"),
+```typst #fa-microphone-lines()```, fa-microphone-lines(), fa-microphone-lines(solid: true), fa-icon("microphone-lines"),
+```typst #fa-microphone-alt()```, fa-microphone-alt(), fa-microphone-alt(solid: true), fa-icon("microphone-alt"),
+```typst #fa-microphone-lines-slash()```, fa-microphone-lines-slash(), fa-microphone-lines-slash(solid: true), fa-icon("microphone-lines-slash"),
+```typst #fa-microphone-alt-slash()```, fa-microphone-alt-slash(), fa-microphone-alt-slash(solid: true), fa-icon("microphone-alt-slash"),
+```typst #fa-microphone-slash()```, fa-microphone-slash(), fa-microphone-slash(solid: true), fa-icon("microphone-slash"),
+```typst #fa-microscope()```, fa-microscope(), fa-microscope(solid: true), fa-icon("microscope"),
+```typst #fa-microsoft()```, fa-microsoft(), fa-microsoft(solid: true), fa-icon("microsoft"),
+```typst #fa-mill-sign()```, fa-mill-sign(), fa-mill-sign(solid: true), fa-icon("mill-sign"),
+```typst #fa-minimize()```, fa-minimize(), fa-minimize(solid: true), fa-icon("minimize"),
+```typst #fa-compress-arrows-alt()```, fa-compress-arrows-alt(), fa-compress-arrows-alt(solid: true), fa-icon("compress-arrows-alt"),
+```typst #fa-mintbit()```, fa-mintbit(), fa-mintbit(solid: true), fa-icon("mintbit"),
+```typst #fa-minus()```, fa-minus(), fa-minus(solid: true), fa-icon("minus"),
+```typst #fa-subtract()```, fa-subtract(), fa-subtract(solid: true), fa-icon("subtract"),
+```typst #fa-mitten()```, fa-mitten(), fa-mitten(solid: true), fa-icon("mitten"),
+```typst #fa-mix()```, fa-mix(), fa-mix(solid: true), fa-icon("mix"),
+```typst #fa-mixcloud()```, fa-mixcloud(), fa-mixcloud(solid: true), fa-icon("mixcloud"),
+```typst #fa-mixer()```, fa-mixer(), fa-mixer(solid: true), fa-icon("mixer"),
+```typst #fa-mizuni()```, fa-mizuni(), fa-mizuni(solid: true), fa-icon("mizuni"),
+```typst #fa-mobile()```, fa-mobile(), fa-mobile(solid: true), fa-icon("mobile"),
+```typst #fa-mobile-android()```, fa-mobile-android(), fa-mobile-android(solid: true), fa-icon("mobile-android"),
+```typst #fa-mobile-phone()```, fa-mobile-phone(), fa-mobile-phone(solid: true), fa-icon("mobile-phone"),
+```typst #fa-mobile-button()```, fa-mobile-button(), fa-mobile-button(solid: true), fa-icon("mobile-button"),
+```typst #fa-mobile-retro()```, fa-mobile-retro(), fa-mobile-retro(solid: true), fa-icon("mobile-retro"),
+```typst #fa-mobile-screen()```, fa-mobile-screen(), fa-mobile-screen(solid: true), fa-icon("mobile-screen"),
+```typst #fa-mobile-android-alt()```, fa-mobile-android-alt(), fa-mobile-android-alt(solid: true), fa-icon("mobile-android-alt"),
+```typst #fa-mobile-screen-button()```, fa-mobile-screen-button(), fa-mobile-screen-button(solid: true), fa-icon("mobile-screen-button"),
+```typst #fa-mobile-alt()```, fa-mobile-alt(), fa-mobile-alt(solid: true), fa-icon("mobile-alt"),
+```typst #fa-modx()```, fa-modx(), fa-modx(solid: true), fa-icon("modx"),
+```typst #fa-monero()```, fa-monero(), fa-monero(solid: true), fa-icon("monero"),
+```typst #fa-money-bill()```, fa-money-bill(), fa-money-bill(solid: true), fa-icon("money-bill"),
+```typst #fa-money-bill-1()```, fa-money-bill-1(), fa-money-bill-1(solid: true), fa-icon("money-bill-1"),
+```typst #fa-money-bill-alt()```, fa-money-bill-alt(), fa-money-bill-alt(solid: true), fa-icon("money-bill-alt"),
+```typst #fa-money-bill-1-wave()```, fa-money-bill-1-wave(), fa-money-bill-1-wave(solid: true), fa-icon("money-bill-1-wave"),
+```typst #fa-money-bill-wave-alt()```, fa-money-bill-wave-alt(), fa-money-bill-wave-alt(solid: true), fa-icon("money-bill-wave-alt"),
+```typst #fa-money-bill-transfer()```, fa-money-bill-transfer(), fa-money-bill-transfer(solid: true), fa-icon("money-bill-transfer"),
+```typst #fa-money-bill-trend-up()```, fa-money-bill-trend-up(), fa-money-bill-trend-up(solid: true), fa-icon("money-bill-trend-up"),
+```typst #fa-money-bill-wave()```, fa-money-bill-wave(), fa-money-bill-wave(solid: true), fa-icon("money-bill-wave"),
+```typst #fa-money-bill-wheat()```, fa-money-bill-wheat(), fa-money-bill-wheat(solid: true), fa-icon("money-bill-wheat"),
+```typst #fa-money-bills()```, fa-money-bills(), fa-money-bills(solid: true), fa-icon("money-bills"),
+```typst #fa-money-check()```, fa-money-check(), fa-money-check(solid: true), fa-icon("money-check"),
+```typst #fa-money-check-dollar()```, fa-money-check-dollar(), fa-money-check-dollar(solid: true), fa-icon("money-check-dollar"),
+```typst #fa-money-check-alt()```, fa-money-check-alt(), fa-money-check-alt(solid: true), fa-icon("money-check-alt"),
+```typst #fa-monument()```, fa-monument(), fa-monument(solid: true), fa-icon("monument"),
+```typst #fa-moon()```, fa-moon(), fa-moon(solid: true), fa-icon("moon"),
+```typst #fa-mortar-pestle()```, fa-mortar-pestle(), fa-mortar-pestle(solid: true), fa-icon("mortar-pestle"),
+```typst #fa-mosque()```, fa-mosque(), fa-mosque(solid: true), fa-icon("mosque"),
+```typst #fa-mosquito()```, fa-mosquito(), fa-mosquito(solid: true), fa-icon("mosquito"),
+```typst #fa-mosquito-net()```, fa-mosquito-net(), fa-mosquito-net(solid: true), fa-icon("mosquito-net"),
+```typst #fa-motorcycle()```, fa-motorcycle(), fa-motorcycle(solid: true), fa-icon("motorcycle"),
+```typst #fa-mound()```, fa-mound(), fa-mound(solid: true), fa-icon("mound"),
+```typst #fa-mountain()```, fa-mountain(), fa-mountain(solid: true), fa-icon("mountain"),
+```typst #fa-mountain-city()```, fa-mountain-city(), fa-mountain-city(solid: true), fa-icon("mountain-city"),
+```typst #fa-mountain-sun()```, fa-mountain-sun(), fa-mountain-sun(solid: true), fa-icon("mountain-sun"),
+```typst #fa-mug-hot()```, fa-mug-hot(), fa-mug-hot(solid: true), fa-icon("mug-hot"),
+```typst #fa-mug-saucer()```, fa-mug-saucer(), fa-mug-saucer(solid: true), fa-icon("mug-saucer"),
+```typst #fa-coffee()```, fa-coffee(), fa-coffee(solid: true), fa-icon("coffee"),
+```typst #fa-music()```, fa-music(), fa-music(solid: true), fa-icon("music"),
+```typst #fa-n()```, fa-n(), fa-n(solid: true), fa-icon("n"),
+```typst #fa-naira-sign()```, fa-naira-sign(), fa-naira-sign(solid: true), fa-icon("naira-sign"),
+```typst #fa-napster()```, fa-napster(), fa-napster(solid: true), fa-icon("napster"),
+```typst #fa-neos()```, fa-neos(), fa-neos(solid: true), fa-icon("neos"),
+```typst #fa-network-wired()```, fa-network-wired(), fa-network-wired(solid: true), fa-icon("network-wired"),
+```typst #fa-neuter()```, fa-neuter(), fa-neuter(solid: true), fa-icon("neuter"),
+```typst #fa-newspaper()```, fa-newspaper(), fa-newspaper(solid: true), fa-icon("newspaper"),
+```typst #fa-nfc-directional()```, fa-nfc-directional(), fa-nfc-directional(solid: true), fa-icon("nfc-directional"),
+```typst #fa-nfc-symbol()```, fa-nfc-symbol(), fa-nfc-symbol(solid: true), fa-icon("nfc-symbol"),
+```typst #fa-nimblr()```, fa-nimblr(), fa-nimblr(solid: true), fa-icon("nimblr"),
+```typst #fa-node()```, fa-node(), fa-node(solid: true), fa-icon("node"),
+```typst #fa-node-js()```, fa-node-js(), fa-node-js(solid: true), fa-icon("node-js"),
+```typst #fa-not-equal()```, fa-not-equal(), fa-not-equal(solid: true), fa-icon("not-equal"),
+```typst #fa-notdef()```, fa-notdef(), fa-notdef(solid: true), fa-icon("notdef"),
+```typst #fa-note-sticky()```, fa-note-sticky(), fa-note-sticky(solid: true), fa-icon("note-sticky"),
+```typst #fa-sticky-note()```, fa-sticky-note(), fa-sticky-note(solid: true), fa-icon("sticky-note"),
+```typst #fa-notes-medical()```, fa-notes-medical(), fa-notes-medical(solid: true), fa-icon("notes-medical"),
+```typst #fa-npm()```, fa-npm(), fa-npm(solid: true), fa-icon("npm"),
+```typst #fa-ns8()```, fa-ns8(), fa-ns8(solid: true), fa-icon("ns8"),
+```typst #fa-nutritionix()```, fa-nutritionix(), fa-nutritionix(solid: true), fa-icon("nutritionix"),
+```typst #fa-o()```, fa-o(), fa-o(solid: true), fa-icon("o"),
+```typst #fa-object-group()```, fa-object-group(), fa-object-group(solid: true), fa-icon("object-group"),
+```typst #fa-object-ungroup()```, fa-object-ungroup(), fa-object-ungroup(solid: true), fa-icon("object-ungroup"),
+```typst #fa-octopus-deploy()```, fa-octopus-deploy(), fa-octopus-deploy(solid: true), fa-icon("octopus-deploy"),
+```typst #fa-odnoklassniki()```, fa-odnoklassniki(), fa-odnoklassniki(solid: true), fa-icon("odnoklassniki"),
+```typst #fa-odysee()```, fa-odysee(), fa-odysee(solid: true), fa-icon("odysee"),
+```typst #fa-oil-can()```, fa-oil-can(), fa-oil-can(solid: true), fa-icon("oil-can"),
+```typst #fa-oil-well()```, fa-oil-well(), fa-oil-well(solid: true), fa-icon("oil-well"),
+```typst #fa-old-republic()```, fa-old-republic(), fa-old-republic(solid: true), fa-icon("old-republic"),
+```typst #fa-om()```, fa-om(), fa-om(solid: true), fa-icon("om"),
+```typst #fa-opencart()```, fa-opencart(), fa-opencart(solid: true), fa-icon("opencart"),
+```typst #fa-openid()```, fa-openid(), fa-openid(solid: true), fa-icon("openid"),
+```typst #fa-opensuse()```, fa-opensuse(), fa-opensuse(solid: true), fa-icon("opensuse"),
+```typst #fa-opera()```, fa-opera(), fa-opera(solid: true), fa-icon("opera"),
+```typst #fa-optin-monster()```, fa-optin-monster(), fa-optin-monster(solid: true), fa-icon("optin-monster"),
+```typst #fa-orcid()```, fa-orcid(), fa-orcid(solid: true), fa-icon("orcid"),
+```typst #fa-osi()```, fa-osi(), fa-osi(solid: true), fa-icon("osi"),
+```typst #fa-otter()```, fa-otter(), fa-otter(solid: true), fa-icon("otter"),
+```typst #fa-outdent()```, fa-outdent(), fa-outdent(solid: true), fa-icon("outdent"),
+```typst #fa-dedent()```, fa-dedent(), fa-dedent(solid: true), fa-icon("dedent"),
+```typst #fa-p()```, fa-p(), fa-p(solid: true), fa-icon("p"),
+```typst #fa-padlet()```, fa-padlet(), fa-padlet(solid: true), fa-icon("padlet"),
+```typst #fa-page4()```, fa-page4(), fa-page4(solid: true), fa-icon("page4"),
+```typst #fa-pagelines()```, fa-pagelines(), fa-pagelines(solid: true), fa-icon("pagelines"),
+```typst #fa-pager()```, fa-pager(), fa-pager(solid: true), fa-icon("pager"),
+```typst #fa-paint-roller()```, fa-paint-roller(), fa-paint-roller(solid: true), fa-icon("paint-roller"),
+```typst #fa-paintbrush()```, fa-paintbrush(), fa-paintbrush(solid: true), fa-icon("paintbrush"),
+```typst #fa-paint-brush()```, fa-paint-brush(), fa-paint-brush(solid: true), fa-icon("paint-brush"),
+```typst #fa-palette()```, fa-palette(), fa-palette(solid: true), fa-icon("palette"),
+```typst #fa-palfed()```, fa-palfed(), fa-palfed(solid: true), fa-icon("palfed"),
+```typst #fa-pallet()```, fa-pallet(), fa-pallet(solid: true), fa-icon("pallet"),
+```typst #fa-panorama()```, fa-panorama(), fa-panorama(solid: true), fa-icon("panorama"),
+```typst #fa-paper-plane()```, fa-paper-plane(), fa-paper-plane(solid: true), fa-icon("paper-plane"),
+```typst #fa-paperclip()```, fa-paperclip(), fa-paperclip(solid: true), fa-icon("paperclip"),
+```typst #fa-parachute-box()```, fa-parachute-box(), fa-parachute-box(solid: true), fa-icon("parachute-box"),
+```typst #fa-paragraph()```, fa-paragraph(), fa-paragraph(solid: true), fa-icon("paragraph"),
+```typst #fa-passport()```, fa-passport(), fa-passport(solid: true), fa-icon("passport"),
+```typst #fa-paste()```, fa-paste(), fa-paste(solid: true), fa-icon("paste"),
+```typst #fa-file-clipboard()```, fa-file-clipboard(), fa-file-clipboard(solid: true), fa-icon("file-clipboard"),
+```typst #fa-patreon()```, fa-patreon(), fa-patreon(solid: true), fa-icon("patreon"),
+```typst #fa-pause()```, fa-pause(), fa-pause(solid: true), fa-icon("pause"),
+```typst #fa-paw()```, fa-paw(), fa-paw(solid: true), fa-icon("paw"),
+```typst #fa-paypal()```, fa-paypal(), fa-paypal(solid: true), fa-icon("paypal"),
+```typst #fa-peace()```, fa-peace(), fa-peace(solid: true), fa-icon("peace"),
+```typst #fa-pen()```, fa-pen(), fa-pen(solid: true), fa-icon("pen"),
+```typst #fa-pen-clip()```, fa-pen-clip(), fa-pen-clip(solid: true), fa-icon("pen-clip"),
+```typst #fa-pen-alt()```, fa-pen-alt(), fa-pen-alt(solid: true), fa-icon("pen-alt"),
+```typst #fa-pen-fancy()```, fa-pen-fancy(), fa-pen-fancy(solid: true), fa-icon("pen-fancy"),
+```typst #fa-pen-nib()```, fa-pen-nib(), fa-pen-nib(solid: true), fa-icon("pen-nib"),
+```typst #fa-pen-ruler()```, fa-pen-ruler(), fa-pen-ruler(solid: true), fa-icon("pen-ruler"),
+```typst #fa-pencil-ruler()```, fa-pencil-ruler(), fa-pencil-ruler(solid: true), fa-icon("pencil-ruler"),
+```typst #fa-pen-to-square()```, fa-pen-to-square(), fa-pen-to-square(solid: true), fa-icon("pen-to-square"),
+```typst #fa-edit()```, fa-edit(), fa-edit(solid: true), fa-icon("edit"),
+```typst #fa-pencil()```, fa-pencil(), fa-pencil(solid: true), fa-icon("pencil"),
+```typst #fa-pencil-alt()```, fa-pencil-alt(), fa-pencil-alt(solid: true), fa-icon("pencil-alt"),
+```typst #fa-people-arrows()```, fa-people-arrows(), fa-people-arrows(solid: true), fa-icon("people-arrows"),
+```typst #fa-people-arrows-left-right()```, fa-people-arrows-left-right(), fa-people-arrows-left-right(solid: true), fa-icon("people-arrows-left-right"),
+```typst #fa-people-carry-box()```, fa-people-carry-box(), fa-people-carry-box(solid: true), fa-icon("people-carry-box"),
+```typst #fa-people-carry()```, fa-people-carry(), fa-people-carry(solid: true), fa-icon("people-carry"),
+```typst #fa-people-group()```, fa-people-group(), fa-people-group(solid: true), fa-icon("people-group"),
+```typst #fa-people-line()```, fa-people-line(), fa-people-line(solid: true), fa-icon("people-line"),
+```typst #fa-people-pulling()```, fa-people-pulling(), fa-people-pulling(solid: true), fa-icon("people-pulling"),
+```typst #fa-people-robbery()```, fa-people-robbery(), fa-people-robbery(solid: true), fa-icon("people-robbery"),
+```typst #fa-people-roof()```, fa-people-roof(), fa-people-roof(solid: true), fa-icon("people-roof"),
+```typst #fa-pepper-hot()```, fa-pepper-hot(), fa-pepper-hot(solid: true), fa-icon("pepper-hot"),
+```typst #fa-perbyte()```, fa-perbyte(), fa-perbyte(solid: true), fa-icon("perbyte"),
+```typst #fa-percent()```, fa-percent(), fa-percent(solid: true), fa-icon("percent"),
+```typst #fa-percentage()```, fa-percentage(), fa-percentage(solid: true), fa-icon("percentage"),
+```typst #fa-periscope()```, fa-periscope(), fa-periscope(solid: true), fa-icon("periscope"),
+```typst #fa-person()```, fa-person(), fa-person(solid: true), fa-icon("person"),
+```typst #fa-male()```, fa-male(), fa-male(solid: true), fa-icon("male"),
+```typst #fa-person-arrow-down-to-line()```, fa-person-arrow-down-to-line(), fa-person-arrow-down-to-line(solid: true), fa-icon("person-arrow-down-to-line"),
+```typst #fa-person-arrow-up-from-line()```, fa-person-arrow-up-from-line(), fa-person-arrow-up-from-line(solid: true), fa-icon("person-arrow-up-from-line"),
+```typst #fa-person-biking()```, fa-person-biking(), fa-person-biking(solid: true), fa-icon("person-biking"),
+```typst #fa-biking()```, fa-biking(), fa-biking(solid: true), fa-icon("biking"),
+```typst #fa-person-booth()```, fa-person-booth(), fa-person-booth(solid: true), fa-icon("person-booth"),
+```typst #fa-person-breastfeeding()```, fa-person-breastfeeding(), fa-person-breastfeeding(solid: true), fa-icon("person-breastfeeding"),
+```typst #fa-person-burst()```, fa-person-burst(), fa-person-burst(solid: true), fa-icon("person-burst"),
+```typst #fa-person-cane()```, fa-person-cane(), fa-person-cane(solid: true), fa-icon("person-cane"),
+```typst #fa-person-chalkboard()```, fa-person-chalkboard(), fa-person-chalkboard(solid: true), fa-icon("person-chalkboard"),
+```typst #fa-person-circle-check()```, fa-person-circle-check(), fa-person-circle-check(solid: true), fa-icon("person-circle-check"),
+```typst #fa-person-circle-exclamation()```, fa-person-circle-exclamation(), fa-person-circle-exclamation(solid: true), fa-icon("person-circle-exclamation"),
+```typst #fa-person-circle-minus()```, fa-person-circle-minus(), fa-person-circle-minus(solid: true), fa-icon("person-circle-minus"),
+```typst #fa-person-circle-plus()```, fa-person-circle-plus(), fa-person-circle-plus(solid: true), fa-icon("person-circle-plus"),
+```typst #fa-person-circle-question()```, fa-person-circle-question(), fa-person-circle-question(solid: true), fa-icon("person-circle-question"),
+```typst #fa-person-circle-xmark()```, fa-person-circle-xmark(), fa-person-circle-xmark(solid: true), fa-icon("person-circle-xmark"),
+```typst #fa-person-digging()```, fa-person-digging(), fa-person-digging(solid: true), fa-icon("person-digging"),
+```typst #fa-digging()```, fa-digging(), fa-digging(solid: true), fa-icon("digging"),
+```typst #fa-person-dots-from-line()```, fa-person-dots-from-line(), fa-person-dots-from-line(solid: true), fa-icon("person-dots-from-line"),
+```typst #fa-diagnoses()```, fa-diagnoses(), fa-diagnoses(solid: true), fa-icon("diagnoses"),
+```typst #fa-person-dress()```, fa-person-dress(), fa-person-dress(solid: true), fa-icon("person-dress"),
+```typst #fa-female()```, fa-female(), fa-female(solid: true), fa-icon("female"),
+```typst #fa-person-dress-burst()```, fa-person-dress-burst(), fa-person-dress-burst(solid: true), fa-icon("person-dress-burst"),
+```typst #fa-person-drowning()```, fa-person-drowning(), fa-person-drowning(solid: true), fa-icon("person-drowning"),
+```typst #fa-person-falling()```, fa-person-falling(), fa-person-falling(solid: true), fa-icon("person-falling"),
+```typst #fa-person-falling-burst()```, fa-person-falling-burst(), fa-person-falling-burst(solid: true), fa-icon("person-falling-burst"),
+```typst #fa-person-half-dress()```, fa-person-half-dress(), fa-person-half-dress(solid: true), fa-icon("person-half-dress"),
+```typst #fa-person-harassing()```, fa-person-harassing(), fa-person-harassing(solid: true), fa-icon("person-harassing"),
+```typst #fa-person-hiking()```, fa-person-hiking(), fa-person-hiking(solid: true), fa-icon("person-hiking"),
+```typst #fa-hiking()```, fa-hiking(), fa-hiking(solid: true), fa-icon("hiking"),
+```typst #fa-person-military-pointing()```, fa-person-military-pointing(), fa-person-military-pointing(solid: true), fa-icon("person-military-pointing"),
+```typst #fa-person-military-rifle()```, fa-person-military-rifle(), fa-person-military-rifle(solid: true), fa-icon("person-military-rifle"),
+```typst #fa-person-military-to-person()```, fa-person-military-to-person(), fa-person-military-to-person(solid: true), fa-icon("person-military-to-person"),
+```typst #fa-person-praying()```, fa-person-praying(), fa-person-praying(solid: true), fa-icon("person-praying"),
+```typst #fa-pray()```, fa-pray(), fa-pray(solid: true), fa-icon("pray"),
+```typst #fa-person-pregnant()```, fa-person-pregnant(), fa-person-pregnant(solid: true), fa-icon("person-pregnant"),
+```typst #fa-person-rays()```, fa-person-rays(), fa-person-rays(solid: true), fa-icon("person-rays"),
+```typst #fa-person-rifle()```, fa-person-rifle(), fa-person-rifle(solid: true), fa-icon("person-rifle"),
+```typst #fa-person-running()```, fa-person-running(), fa-person-running(solid: true), fa-icon("person-running"),
+```typst #fa-running()```, fa-running(), fa-running(solid: true), fa-icon("running"),
+```typst #fa-person-shelter()```, fa-person-shelter(), fa-person-shelter(solid: true), fa-icon("person-shelter"),
+```typst #fa-person-skating()```, fa-person-skating(), fa-person-skating(solid: true), fa-icon("person-skating"),
+```typst #fa-skating()```, fa-skating(), fa-skating(solid: true), fa-icon("skating"),
+```typst #fa-person-skiing()```, fa-person-skiing(), fa-person-skiing(solid: true), fa-icon("person-skiing"),
+```typst #fa-skiing()```, fa-skiing(), fa-skiing(solid: true), fa-icon("skiing"),
+```typst #fa-person-skiing-nordic()```, fa-person-skiing-nordic(), fa-person-skiing-nordic(solid: true), fa-icon("person-skiing-nordic"),
+```typst #fa-skiing-nordic()```, fa-skiing-nordic(), fa-skiing-nordic(solid: true), fa-icon("skiing-nordic"),
+```typst #fa-person-snowboarding()```, fa-person-snowboarding(), fa-person-snowboarding(solid: true), fa-icon("person-snowboarding"),
+```typst #fa-snowboarding()```, fa-snowboarding(), fa-snowboarding(solid: true), fa-icon("snowboarding"),
+```typst #fa-person-swimming()```, fa-person-swimming(), fa-person-swimming(solid: true), fa-icon("person-swimming"),
+```typst #fa-swimmer()```, fa-swimmer(), fa-swimmer(solid: true), fa-icon("swimmer"),
+```typst #fa-person-through-window()```, fa-person-through-window(), fa-person-through-window(solid: true), fa-icon("person-through-window"),
+```typst #fa-person-walking()```, fa-person-walking(), fa-person-walking(solid: true), fa-icon("person-walking"),
+```typst #fa-walking()```, fa-walking(), fa-walking(solid: true), fa-icon("walking"),
+```typst #fa-person-walking-arrow-loop-left()```, fa-person-walking-arrow-loop-left(), fa-person-walking-arrow-loop-left(solid: true), fa-icon("person-walking-arrow-loop-left"),
+```typst #fa-person-walking-arrow-right()```, fa-person-walking-arrow-right(), fa-person-walking-arrow-right(solid: true), fa-icon("person-walking-arrow-right"),
+```typst #fa-person-walking-dashed-line-arrow-right()```, fa-person-walking-dashed-line-arrow-right(), fa-person-walking-dashed-line-arrow-right(solid: true), fa-icon("person-walking-dashed-line-arrow-right"),
+```typst #fa-person-walking-luggage()```, fa-person-walking-luggage(), fa-person-walking-luggage(solid: true), fa-icon("person-walking-luggage"),
+```typst #fa-person-walking-with-cane()```, fa-person-walking-with-cane(), fa-person-walking-with-cane(solid: true), fa-icon("person-walking-with-cane"),
+```typst #fa-blind()```, fa-blind(), fa-blind(solid: true), fa-icon("blind"),
+```typst #fa-peseta-sign()```, fa-peseta-sign(), fa-peseta-sign(solid: true), fa-icon("peseta-sign"),
+```typst #fa-peso-sign()```, fa-peso-sign(), fa-peso-sign(solid: true), fa-icon("peso-sign"),
+```typst #fa-phabricator()```, fa-phabricator(), fa-phabricator(solid: true), fa-icon("phabricator"),
+```typst #fa-phoenix-framework()```, fa-phoenix-framework(), fa-phoenix-framework(solid: true), fa-icon("phoenix-framework"),
+```typst #fa-phoenix-squadron()```, fa-phoenix-squadron(), fa-phoenix-squadron(solid: true), fa-icon("phoenix-squadron"),
+```typst #fa-phone()```, fa-phone(), fa-phone(solid: true), fa-icon("phone"),
+```typst #fa-phone-flip()```, fa-phone-flip(), fa-phone-flip(solid: true), fa-icon("phone-flip"),
+```typst #fa-phone-alt()```, fa-phone-alt(), fa-phone-alt(solid: true), fa-icon("phone-alt"),
+```typst #fa-phone-slash()```, fa-phone-slash(), fa-phone-slash(solid: true), fa-icon("phone-slash"),
+```typst #fa-phone-volume()```, fa-phone-volume(), fa-phone-volume(solid: true), fa-icon("phone-volume"),
+```typst #fa-volume-control-phone()```, fa-volume-control-phone(), fa-volume-control-phone(solid: true), fa-icon("volume-control-phone"),
+```typst #fa-photo-film()```, fa-photo-film(), fa-photo-film(solid: true), fa-icon("photo-film"),
+```typst #fa-photo-video()```, fa-photo-video(), fa-photo-video(solid: true), fa-icon("photo-video"),
+```typst #fa-php()```, fa-php(), fa-php(solid: true), fa-icon("php"),
+```typst #fa-pied-piper()```, fa-pied-piper(), fa-pied-piper(solid: true), fa-icon("pied-piper"),
+```typst #fa-pied-piper-alt()```, fa-pied-piper-alt(), fa-pied-piper-alt(solid: true), fa-icon("pied-piper-alt"),
+```typst #fa-pied-piper-hat()```, fa-pied-piper-hat(), fa-pied-piper-hat(solid: true), fa-icon("pied-piper-hat"),
+```typst #fa-pied-piper-pp()```, fa-pied-piper-pp(), fa-pied-piper-pp(solid: true), fa-icon("pied-piper-pp"),
+```typst #fa-piggy-bank()```, fa-piggy-bank(), fa-piggy-bank(solid: true), fa-icon("piggy-bank"),
+```typst #fa-pills()```, fa-pills(), fa-pills(solid: true), fa-icon("pills"),
+```typst #fa-pinterest()```, fa-pinterest(), fa-pinterest(solid: true), fa-icon("pinterest"),
+```typst #fa-pinterest-p()```, fa-pinterest-p(), fa-pinterest-p(solid: true), fa-icon("pinterest-p"),
+```typst #fa-pix()```, fa-pix(), fa-pix(solid: true), fa-icon("pix"),
+```typst #fa-pixiv()```, fa-pixiv(), fa-pixiv(solid: true), fa-icon("pixiv"),
+```typst #fa-pizza-slice()```, fa-pizza-slice(), fa-pizza-slice(solid: true), fa-icon("pizza-slice"),
+```typst #fa-place-of-worship()```, fa-place-of-worship(), fa-place-of-worship(solid: true), fa-icon("place-of-worship"),
+```typst #fa-plane()```, fa-plane(), fa-plane(solid: true), fa-icon("plane"),
+```typst #fa-plane-arrival()```, fa-plane-arrival(), fa-plane-arrival(solid: true), fa-icon("plane-arrival"),
+```typst #fa-plane-circle-check()```, fa-plane-circle-check(), fa-plane-circle-check(solid: true), fa-icon("plane-circle-check"),
+```typst #fa-plane-circle-exclamation()```, fa-plane-circle-exclamation(), fa-plane-circle-exclamation(solid: true), fa-icon("plane-circle-exclamation"),
+```typst #fa-plane-circle-xmark()```, fa-plane-circle-xmark(), fa-plane-circle-xmark(solid: true), fa-icon("plane-circle-xmark"),
+```typst #fa-plane-departure()```, fa-plane-departure(), fa-plane-departure(solid: true), fa-icon("plane-departure"),
+```typst #fa-plane-lock()```, fa-plane-lock(), fa-plane-lock(solid: true), fa-icon("plane-lock"),
+```typst #fa-plane-slash()```, fa-plane-slash(), fa-plane-slash(solid: true), fa-icon("plane-slash"),
+```typst #fa-plane-up()```, fa-plane-up(), fa-plane-up(solid: true), fa-icon("plane-up"),
+```typst #fa-plant-wilt()```, fa-plant-wilt(), fa-plant-wilt(solid: true), fa-icon("plant-wilt"),
+```typst #fa-plate-wheat()```, fa-plate-wheat(), fa-plate-wheat(solid: true), fa-icon("plate-wheat"),
+```typst #fa-play()```, fa-play(), fa-play(solid: true), fa-icon("play"),
+```typst #fa-playstation()```, fa-playstation(), fa-playstation(solid: true), fa-icon("playstation"),
+```typst #fa-plug()```, fa-plug(), fa-plug(solid: true), fa-icon("plug"),
+```typst #fa-plug-circle-bolt()```, fa-plug-circle-bolt(), fa-plug-circle-bolt(solid: true), fa-icon("plug-circle-bolt"),
+```typst #fa-plug-circle-check()```, fa-plug-circle-check(), fa-plug-circle-check(solid: true), fa-icon("plug-circle-check"),
+```typst #fa-plug-circle-exclamation()```, fa-plug-circle-exclamation(), fa-plug-circle-exclamation(solid: true), fa-icon("plug-circle-exclamation"),
+```typst #fa-plug-circle-minus()```, fa-plug-circle-minus(), fa-plug-circle-minus(solid: true), fa-icon("plug-circle-minus"),
+```typst #fa-plug-circle-plus()```, fa-plug-circle-plus(), fa-plug-circle-plus(solid: true), fa-icon("plug-circle-plus"),
+```typst #fa-plug-circle-xmark()```, fa-plug-circle-xmark(), fa-plug-circle-xmark(solid: true), fa-icon("plug-circle-xmark"),
+```typst #fa-plus()```, fa-plus(), fa-plus(solid: true), fa-icon("plus"),
+```typst #fa-add()```, fa-add(), fa-add(solid: true), fa-icon("add"),
+```typst #fa-plus-minus()```, fa-plus-minus(), fa-plus-minus(solid: true), fa-icon("plus-minus"),
+```typst #fa-podcast()```, fa-podcast(), fa-podcast(solid: true), fa-icon("podcast"),
+```typst #fa-poo()```, fa-poo(), fa-poo(solid: true), fa-icon("poo"),
+```typst #fa-poo-storm()```, fa-poo-storm(), fa-poo-storm(solid: true), fa-icon("poo-storm"),
+```typst #fa-poo-bolt()```, fa-poo-bolt(), fa-poo-bolt(solid: true), fa-icon("poo-bolt"),
+```typst #fa-poop()```, fa-poop(), fa-poop(solid: true), fa-icon("poop"),
+```typst #fa-power-off()```, fa-power-off(), fa-power-off(solid: true), fa-icon("power-off"),
+```typst #fa-prescription()```, fa-prescription(), fa-prescription(solid: true), fa-icon("prescription"),
+```typst #fa-prescription-bottle()```, fa-prescription-bottle(), fa-prescription-bottle(solid: true), fa-icon("prescription-bottle"),
+```typst #fa-prescription-bottle-medical()```, fa-prescription-bottle-medical(), fa-prescription-bottle-medical(solid: true), fa-icon("prescription-bottle-medical"),
+```typst #fa-prescription-bottle-alt()```, fa-prescription-bottle-alt(), fa-prescription-bottle-alt(solid: true), fa-icon("prescription-bottle-alt"),
+```typst #fa-print()```, fa-print(), fa-print(solid: true), fa-icon("print"),
+```typst #fa-product-hunt()```, fa-product-hunt(), fa-product-hunt(solid: true), fa-icon("product-hunt"),
+```typst #fa-pump-medical()```, fa-pump-medical(), fa-pump-medical(solid: true), fa-icon("pump-medical"),
+```typst #fa-pump-soap()```, fa-pump-soap(), fa-pump-soap(solid: true), fa-icon("pump-soap"),
+```typst #fa-pushed()```, fa-pushed(), fa-pushed(solid: true), fa-icon("pushed"),
+```typst #fa-puzzle-piece()```, fa-puzzle-piece(), fa-puzzle-piece(solid: true), fa-icon("puzzle-piece"),
+```typst #fa-python()```, fa-python(), fa-python(solid: true), fa-icon("python"),
+```typst #fa-q()```, fa-q(), fa-q(solid: true), fa-icon("q"),
+```typst #fa-qq()```, fa-qq(), fa-qq(solid: true), fa-icon("qq"),
+```typst #fa-qrcode()```, fa-qrcode(), fa-qrcode(solid: true), fa-icon("qrcode"),
+```typst #fa-question()```, fa-question(), fa-question(solid: true), fa-icon("question"),
+```typst #fa-quinscape()```, fa-quinscape(), fa-quinscape(solid: true), fa-icon("quinscape"),
+```typst #fa-quora()```, fa-quora(), fa-quora(solid: true), fa-icon("quora"),
+```typst #fa-quote-left()```, fa-quote-left(), fa-quote-left(solid: true), fa-icon("quote-left"),
+```typst #fa-quote-left-alt()```, fa-quote-left-alt(), fa-quote-left-alt(solid: true), fa-icon("quote-left-alt"),
+```typst #fa-quote-right()```, fa-quote-right(), fa-quote-right(solid: true), fa-icon("quote-right"),
+```typst #fa-quote-right-alt()```, fa-quote-right-alt(), fa-quote-right-alt(solid: true), fa-icon("quote-right-alt"),
+```typst #fa-r()```, fa-r(), fa-r(solid: true), fa-icon("r"),
+```typst #fa-r-project()```, fa-r-project(), fa-r-project(solid: true), fa-icon("r-project"),
+```typst #fa-radiation()```, fa-radiation(), fa-radiation(solid: true), fa-icon("radiation"),
+```typst #fa-radio()```, fa-radio(), fa-radio(solid: true), fa-icon("radio"),
+```typst #fa-rainbow()```, fa-rainbow(), fa-rainbow(solid: true), fa-icon("rainbow"),
+```typst #fa-ranking-star()```, fa-ranking-star(), fa-ranking-star(solid: true), fa-icon("ranking-star"),
+```typst #fa-raspberry-pi()```, fa-raspberry-pi(), fa-raspberry-pi(solid: true), fa-icon("raspberry-pi"),
+```typst #fa-ravelry()```, fa-ravelry(), fa-ravelry(solid: true), fa-icon("ravelry"),
+```typst #fa-react()```, fa-react(), fa-react(solid: true), fa-icon("react"),
+```typst #fa-reacteurope()```, fa-reacteurope(), fa-reacteurope(solid: true), fa-icon("reacteurope"),
+```typst #fa-readme()```, fa-readme(), fa-readme(solid: true), fa-icon("readme"),
+```typst #fa-rebel()```, fa-rebel(), fa-rebel(solid: true), fa-icon("rebel"),
+```typst #fa-receipt()```, fa-receipt(), fa-receipt(solid: true), fa-icon("receipt"),
+```typst #fa-record-vinyl()```, fa-record-vinyl(), fa-record-vinyl(solid: true), fa-icon("record-vinyl"),
+```typst #fa-rectangle-ad()```, fa-rectangle-ad(), fa-rectangle-ad(solid: true), fa-icon("rectangle-ad"),
+```typst #fa-ad()```, fa-ad(), fa-ad(solid: true), fa-icon("ad"),
+```typst #fa-rectangle-list()```, fa-rectangle-list(), fa-rectangle-list(solid: true), fa-icon("rectangle-list"),
+```typst #fa-list-alt()```, fa-list-alt(), fa-list-alt(solid: true), fa-icon("list-alt"),
+```typst #fa-rectangle-xmark()```, fa-rectangle-xmark(), fa-rectangle-xmark(solid: true), fa-icon("rectangle-xmark"),
+```typst #fa-rectangle-times()```, fa-rectangle-times(), fa-rectangle-times(solid: true), fa-icon("rectangle-times"),
+```typst #fa-times-rectangle()```, fa-times-rectangle(), fa-times-rectangle(solid: true), fa-icon("times-rectangle"),
+```typst #fa-window-close()```, fa-window-close(), fa-window-close(solid: true), fa-icon("window-close"),
+```typst #fa-recycle()```, fa-recycle(), fa-recycle(solid: true), fa-icon("recycle"),
+```typst #fa-red-river()```, fa-red-river(), fa-red-river(solid: true), fa-icon("red-river"),
+```typst #fa-reddit()```, fa-reddit(), fa-reddit(solid: true), fa-icon("reddit"),
+```typst #fa-reddit-alien()```, fa-reddit-alien(), fa-reddit-alien(solid: true), fa-icon("reddit-alien"),
+```typst #fa-redhat()```, fa-redhat(), fa-redhat(solid: true), fa-icon("redhat"),
+```typst #fa-registered()```, fa-registered(), fa-registered(solid: true), fa-icon("registered"),
+```typst #fa-renren()```, fa-renren(), fa-renren(solid: true), fa-icon("renren"),
+```typst #fa-repeat()```, fa-repeat(), fa-repeat(solid: true), fa-icon("repeat"),
+```typst #fa-reply()```, fa-reply(), fa-reply(solid: true), fa-icon("reply"),
+```typst #fa-mail-reply()```, fa-mail-reply(), fa-mail-reply(solid: true), fa-icon("mail-reply"),
+```typst #fa-reply-all()```, fa-reply-all(), fa-reply-all(solid: true), fa-icon("reply-all"),
+```typst #fa-mail-reply-all()```, fa-mail-reply-all(), fa-mail-reply-all(solid: true), fa-icon("mail-reply-all"),
+```typst #fa-replyd()```, fa-replyd(), fa-replyd(solid: true), fa-icon("replyd"),
+```typst #fa-republican()```, fa-republican(), fa-republican(solid: true), fa-icon("republican"),
+```typst #fa-researchgate()```, fa-researchgate(), fa-researchgate(solid: true), fa-icon("researchgate"),
+```typst #fa-resolving()```, fa-resolving(), fa-resolving(solid: true), fa-icon("resolving"),
+```typst #fa-restroom()```, fa-restroom(), fa-restroom(solid: true), fa-icon("restroom"),
+```typst #fa-retweet()```, fa-retweet(), fa-retweet(solid: true), fa-icon("retweet"),
+```typst #fa-rev()```, fa-rev(), fa-rev(solid: true), fa-icon("rev"),
+```typst #fa-ribbon()```, fa-ribbon(), fa-ribbon(solid: true), fa-icon("ribbon"),
+```typst #fa-right-from-bracket()```, fa-right-from-bracket(), fa-right-from-bracket(solid: true), fa-icon("right-from-bracket"),
+```typst #fa-sign-out-alt()```, fa-sign-out-alt(), fa-sign-out-alt(solid: true), fa-icon("sign-out-alt"),
+```typst #fa-right-left()```, fa-right-left(), fa-right-left(solid: true), fa-icon("right-left"),
+```typst #fa-exchange-alt()```, fa-exchange-alt(), fa-exchange-alt(solid: true), fa-icon("exchange-alt"),
+```typst #fa-right-long()```, fa-right-long(), fa-right-long(solid: true), fa-icon("right-long"),
+```typst #fa-long-arrow-alt-right()```, fa-long-arrow-alt-right(), fa-long-arrow-alt-right(solid: true), fa-icon("long-arrow-alt-right"),
+```typst #fa-right-to-bracket()```, fa-right-to-bracket(), fa-right-to-bracket(solid: true), fa-icon("right-to-bracket"),
+```typst #fa-sign-in-alt()```, fa-sign-in-alt(), fa-sign-in-alt(solid: true), fa-icon("sign-in-alt"),
+```typst #fa-ring()```, fa-ring(), fa-ring(solid: true), fa-icon("ring"),
+```typst #fa-road()```, fa-road(), fa-road(solid: true), fa-icon("road"),
+```typst #fa-road-barrier()```, fa-road-barrier(), fa-road-barrier(solid: true), fa-icon("road-barrier"),
+```typst #fa-road-bridge()```, fa-road-bridge(), fa-road-bridge(solid: true), fa-icon("road-bridge"),
+```typst #fa-road-circle-check()```, fa-road-circle-check(), fa-road-circle-check(solid: true), fa-icon("road-circle-check"),
+```typst #fa-road-circle-exclamation()```, fa-road-circle-exclamation(), fa-road-circle-exclamation(solid: true), fa-icon("road-circle-exclamation"),
+```typst #fa-road-circle-xmark()```, fa-road-circle-xmark(), fa-road-circle-xmark(solid: true), fa-icon("road-circle-xmark"),
+```typst #fa-road-lock()```, fa-road-lock(), fa-road-lock(solid: true), fa-icon("road-lock"),
+```typst #fa-road-spikes()```, fa-road-spikes(), fa-road-spikes(solid: true), fa-icon("road-spikes"),
+```typst #fa-robot()```, fa-robot(), fa-robot(solid: true), fa-icon("robot"),
+```typst #fa-rocket()```, fa-rocket(), fa-rocket(solid: true), fa-icon("rocket"),
+```typst #fa-rocketchat()```, fa-rocketchat(), fa-rocketchat(solid: true), fa-icon("rocketchat"),
+```typst #fa-rockrms()```, fa-rockrms(), fa-rockrms(solid: true), fa-icon("rockrms"),
+```typst #fa-rotate()```, fa-rotate(), fa-rotate(solid: true), fa-icon("rotate"),
+```typst #fa-sync-alt()```, fa-sync-alt(), fa-sync-alt(solid: true), fa-icon("sync-alt"),
+```typst #fa-rotate-left()```, fa-rotate-left(), fa-rotate-left(solid: true), fa-icon("rotate-left"),
+```typst #fa-rotate-back()```, fa-rotate-back(), fa-rotate-back(solid: true), fa-icon("rotate-back"),
+```typst #fa-rotate-backward()```, fa-rotate-backward(), fa-rotate-backward(solid: true), fa-icon("rotate-backward"),
+```typst #fa-undo-alt()```, fa-undo-alt(), fa-undo-alt(solid: true), fa-icon("undo-alt"),
+```typst #fa-rotate-right()```, fa-rotate-right(), fa-rotate-right(solid: true), fa-icon("rotate-right"),
+```typst #fa-redo-alt()```, fa-redo-alt(), fa-redo-alt(solid: true), fa-icon("redo-alt"),
+```typst #fa-rotate-forward()```, fa-rotate-forward(), fa-rotate-forward(solid: true), fa-icon("rotate-forward"),
+```typst #fa-route()```, fa-route(), fa-route(solid: true), fa-icon("route"),
+```typst #fa-rss()```, fa-rss(), fa-rss(solid: true), fa-icon("rss"),
+```typst #fa-feed()```, fa-feed(), fa-feed(solid: true), fa-icon("feed"),
+```typst #fa-ruble-sign()```, fa-ruble-sign(), fa-ruble-sign(solid: true), fa-icon("ruble-sign"),
+```typst #fa-rouble()```, fa-rouble(), fa-rouble(solid: true), fa-icon("rouble"),
+```typst #fa-rub()```, fa-rub(), fa-rub(solid: true), fa-icon("rub"),
+```typst #fa-ruble()```, fa-ruble(), fa-ruble(solid: true), fa-icon("ruble"),
+```typst #fa-rug()```, fa-rug(), fa-rug(solid: true), fa-icon("rug"),
+```typst #fa-ruler()```, fa-ruler(), fa-ruler(solid: true), fa-icon("ruler"),
+```typst #fa-ruler-combined()```, fa-ruler-combined(), fa-ruler-combined(solid: true), fa-icon("ruler-combined"),
+```typst #fa-ruler-horizontal()```, fa-ruler-horizontal(), fa-ruler-horizontal(solid: true), fa-icon("ruler-horizontal"),
+```typst #fa-ruler-vertical()```, fa-ruler-vertical(), fa-ruler-vertical(solid: true), fa-icon("ruler-vertical"),
+```typst #fa-rupee-sign()```, fa-rupee-sign(), fa-rupee-sign(solid: true), fa-icon("rupee-sign"),
+```typst #fa-rupee()```, fa-rupee(), fa-rupee(solid: true), fa-icon("rupee"),
+```typst #fa-rupiah-sign()```, fa-rupiah-sign(), fa-rupiah-sign(solid: true), fa-icon("rupiah-sign"),
+```typst #fa-rust()```, fa-rust(), fa-rust(solid: true), fa-icon("rust"),
+```typst #fa-s()```, fa-s(), fa-s(solid: true), fa-icon("s"),
+```typst #fa-sack-dollar()```, fa-sack-dollar(), fa-sack-dollar(solid: true), fa-icon("sack-dollar"),
+```typst #fa-sack-xmark()```, fa-sack-xmark(), fa-sack-xmark(solid: true), fa-icon("sack-xmark"),
+```typst #fa-safari()```, fa-safari(), fa-safari(solid: true), fa-icon("safari"),
+```typst #fa-sailboat()```, fa-sailboat(), fa-sailboat(solid: true), fa-icon("sailboat"),
+```typst #fa-salesforce()```, fa-salesforce(), fa-salesforce(solid: true), fa-icon("salesforce"),
+```typst #fa-sass()```, fa-sass(), fa-sass(solid: true), fa-icon("sass"),
+```typst #fa-satellite()```, fa-satellite(), fa-satellite(solid: true), fa-icon("satellite"),
+```typst #fa-satellite-dish()```, fa-satellite-dish(), fa-satellite-dish(solid: true), fa-icon("satellite-dish"),
+```typst #fa-scale-balanced()```, fa-scale-balanced(), fa-scale-balanced(solid: true), fa-icon("scale-balanced"),
+```typst #fa-balance-scale()```, fa-balance-scale(), fa-balance-scale(solid: true), fa-icon("balance-scale"),
+```typst #fa-scale-unbalanced()```, fa-scale-unbalanced(), fa-scale-unbalanced(solid: true), fa-icon("scale-unbalanced"),
+```typst #fa-balance-scale-left()```, fa-balance-scale-left(), fa-balance-scale-left(solid: true), fa-icon("balance-scale-left"),
+```typst #fa-scale-unbalanced-flip()```, fa-scale-unbalanced-flip(), fa-scale-unbalanced-flip(solid: true), fa-icon("scale-unbalanced-flip"),
+```typst #fa-balance-scale-right()```, fa-balance-scale-right(), fa-balance-scale-right(solid: true), fa-icon("balance-scale-right"),
+```typst #fa-schlix()```, fa-schlix(), fa-schlix(solid: true), fa-icon("schlix"),
+```typst #fa-school()```, fa-school(), fa-school(solid: true), fa-icon("school"),
+```typst #fa-school-circle-check()```, fa-school-circle-check(), fa-school-circle-check(solid: true), fa-icon("school-circle-check"),
+```typst #fa-school-circle-exclamation()```, fa-school-circle-exclamation(), fa-school-circle-exclamation(solid: true), fa-icon("school-circle-exclamation"),
+```typst #fa-school-circle-xmark()```, fa-school-circle-xmark(), fa-school-circle-xmark(solid: true), fa-icon("school-circle-xmark"),
+```typst #fa-school-flag()```, fa-school-flag(), fa-school-flag(solid: true), fa-icon("school-flag"),
+```typst #fa-school-lock()```, fa-school-lock(), fa-school-lock(solid: true), fa-icon("school-lock"),
+```typst #fa-scissors()```, fa-scissors(), fa-scissors(solid: true), fa-icon("scissors"),
+```typst #fa-cut()```, fa-cut(), fa-cut(solid: true), fa-icon("cut"),
+```typst #fa-screenpal()```, fa-screenpal(), fa-screenpal(solid: true), fa-icon("screenpal"),
+```typst #fa-screwdriver()```, fa-screwdriver(), fa-screwdriver(solid: true), fa-icon("screwdriver"),
+```typst #fa-screwdriver-wrench()```, fa-screwdriver-wrench(), fa-screwdriver-wrench(solid: true), fa-icon("screwdriver-wrench"),
+```typst #fa-tools()```, fa-tools(), fa-tools(solid: true), fa-icon("tools"),
+```typst #fa-scribd()```, fa-scribd(), fa-scribd(solid: true), fa-icon("scribd"),
+```typst #fa-scroll()```, fa-scroll(), fa-scroll(solid: true), fa-icon("scroll"),
+```typst #fa-scroll-torah()```, fa-scroll-torah(), fa-scroll-torah(solid: true), fa-icon("scroll-torah"),
+```typst #fa-torah()```, fa-torah(), fa-torah(solid: true), fa-icon("torah"),
+```typst #fa-sd-card()```, fa-sd-card(), fa-sd-card(solid: true), fa-icon("sd-card"),
+```typst #fa-searchengin()```, fa-searchengin(), fa-searchengin(solid: true), fa-icon("searchengin"),
+```typst #fa-section()```, fa-section(), fa-section(solid: true), fa-icon("section"),
+```typst #fa-seedling()```, fa-seedling(), fa-seedling(solid: true), fa-icon("seedling"),
+```typst #fa-sprout()```, fa-sprout(), fa-sprout(solid: true), fa-icon("sprout"),
+```typst #fa-sellcast()```, fa-sellcast(), fa-sellcast(solid: true), fa-icon("sellcast"),
+```typst #fa-sellsy()```, fa-sellsy(), fa-sellsy(solid: true), fa-icon("sellsy"),
+```typst #fa-server()```, fa-server(), fa-server(solid: true), fa-icon("server"),
+```typst #fa-servicestack()```, fa-servicestack(), fa-servicestack(solid: true), fa-icon("servicestack"),
+```typst #fa-shapes()```, fa-shapes(), fa-shapes(solid: true), fa-icon("shapes"),
+```typst #fa-triangle-circle-square()```, fa-triangle-circle-square(), fa-triangle-circle-square(solid: true), fa-icon("triangle-circle-square"),
+```typst #fa-share()```, fa-share(), fa-share(solid: true), fa-icon("share"),
+```typst #fa-mail-forward()```, fa-mail-forward(), fa-mail-forward(solid: true), fa-icon("mail-forward"),
+```typst #fa-share-from-square()```, fa-share-from-square(), fa-share-from-square(solid: true), fa-icon("share-from-square"),
+```typst #fa-share-square()```, fa-share-square(), fa-share-square(solid: true), fa-icon("share-square"),
+```typst #fa-share-nodes()```, fa-share-nodes(), fa-share-nodes(solid: true), fa-icon("share-nodes"),
+```typst #fa-share-alt()```, fa-share-alt(), fa-share-alt(solid: true), fa-icon("share-alt"),
+```typst #fa-sheet-plastic()```, fa-sheet-plastic(), fa-sheet-plastic(solid: true), fa-icon("sheet-plastic"),
+```typst #fa-shekel-sign()```, fa-shekel-sign(), fa-shekel-sign(solid: true), fa-icon("shekel-sign"),
+```typst #fa-ils()```, fa-ils(), fa-ils(solid: true), fa-icon("ils"),
+```typst #fa-shekel()```, fa-shekel(), fa-shekel(solid: true), fa-icon("shekel"),
+```typst #fa-sheqel()```, fa-sheqel(), fa-sheqel(solid: true), fa-icon("sheqel"),
+```typst #fa-sheqel-sign()```, fa-sheqel-sign(), fa-sheqel-sign(solid: true), fa-icon("sheqel-sign"),
+```typst #fa-shield()```, fa-shield(), fa-shield(solid: true), fa-icon("shield"),
+```typst #fa-shield-blank()```, fa-shield-blank(), fa-shield-blank(solid: true), fa-icon("shield-blank"),
+```typst #fa-shield-cat()```, fa-shield-cat(), fa-shield-cat(solid: true), fa-icon("shield-cat"),
+```typst #fa-shield-dog()```, fa-shield-dog(), fa-shield-dog(solid: true), fa-icon("shield-dog"),
+```typst #fa-shield-halved()```, fa-shield-halved(), fa-shield-halved(solid: true), fa-icon("shield-halved"),
+```typst #fa-shield-alt()```, fa-shield-alt(), fa-shield-alt(solid: true), fa-icon("shield-alt"),
+```typst #fa-shield-heart()```, fa-shield-heart(), fa-shield-heart(solid: true), fa-icon("shield-heart"),
+```typst #fa-shield-virus()```, fa-shield-virus(), fa-shield-virus(solid: true), fa-icon("shield-virus"),
+```typst #fa-ship()```, fa-ship(), fa-ship(solid: true), fa-icon("ship"),
+```typst #fa-shirt()```, fa-shirt(), fa-shirt(solid: true), fa-icon("shirt"),
+```typst #fa-t-shirt()```, fa-t-shirt(), fa-t-shirt(solid: true), fa-icon("t-shirt"),
+```typst #fa-tshirt()```, fa-tshirt(), fa-tshirt(solid: true), fa-icon("tshirt"),
+```typst #fa-shirtsinbulk()```, fa-shirtsinbulk(), fa-shirtsinbulk(solid: true), fa-icon("shirtsinbulk"),
+```typst #fa-shoe-prints()```, fa-shoe-prints(), fa-shoe-prints(solid: true), fa-icon("shoe-prints"),
+```typst #fa-shoelace()```, fa-shoelace(), fa-shoelace(solid: true), fa-icon("shoelace"),
+```typst #fa-shop()```, fa-shop(), fa-shop(solid: true), fa-icon("shop"),
+```typst #fa-store-alt()```, fa-store-alt(), fa-store-alt(solid: true), fa-icon("store-alt"),
+```typst #fa-shop-lock()```, fa-shop-lock(), fa-shop-lock(solid: true), fa-icon("shop-lock"),
+```typst #fa-shop-slash()```, fa-shop-slash(), fa-shop-slash(solid: true), fa-icon("shop-slash"),
+```typst #fa-store-alt-slash()```, fa-store-alt-slash(), fa-store-alt-slash(solid: true), fa-icon("store-alt-slash"),
+```typst #fa-shopify()```, fa-shopify(), fa-shopify(solid: true), fa-icon("shopify"),
+```typst #fa-shopware()```, fa-shopware(), fa-shopware(solid: true), fa-icon("shopware"),
+```typst #fa-shower()```, fa-shower(), fa-shower(solid: true), fa-icon("shower"),
+```typst #fa-shrimp()```, fa-shrimp(), fa-shrimp(solid: true), fa-icon("shrimp"),
+```typst #fa-shuffle()```, fa-shuffle(), fa-shuffle(solid: true), fa-icon("shuffle"),
+```typst #fa-random()```, fa-random(), fa-random(solid: true), fa-icon("random"),
+```typst #fa-shuttle-space()```, fa-shuttle-space(), fa-shuttle-space(solid: true), fa-icon("shuttle-space"),
+```typst #fa-space-shuttle()```, fa-space-shuttle(), fa-space-shuttle(solid: true), fa-icon("space-shuttle"),
+```typst #fa-sign-hanging()```, fa-sign-hanging(), fa-sign-hanging(solid: true), fa-icon("sign-hanging"),
+```typst #fa-sign()```, fa-sign(), fa-sign(solid: true), fa-icon("sign"),
+```typst #fa-signal()```, fa-signal(), fa-signal(solid: true), fa-icon("signal"),
+```typst #fa-signal-5()```, fa-signal-5(), fa-signal-5(solid: true), fa-icon("signal-5"),
+```typst #fa-signal-perfect()```, fa-signal-perfect(), fa-signal-perfect(solid: true), fa-icon("signal-perfect"),
+```typst #fa-signal-messenger()```, fa-signal-messenger(), fa-signal-messenger(solid: true), fa-icon("signal-messenger"),
+```typst #fa-signature()```, fa-signature(), fa-signature(solid: true), fa-icon("signature"),
+```typst #fa-signs-post()```, fa-signs-post(), fa-signs-post(solid: true), fa-icon("signs-post"),
+```typst #fa-map-signs()```, fa-map-signs(), fa-map-signs(solid: true), fa-icon("map-signs"),
+```typst #fa-sim-card()```, fa-sim-card(), fa-sim-card(solid: true), fa-icon("sim-card"),
+```typst #fa-simplybuilt()```, fa-simplybuilt(), fa-simplybuilt(solid: true), fa-icon("simplybuilt"),
+```typst #fa-sink()```, fa-sink(), fa-sink(solid: true), fa-icon("sink"),
+```typst #fa-sistrix()```, fa-sistrix(), fa-sistrix(solid: true), fa-icon("sistrix"),
+```typst #fa-sitemap()```, fa-sitemap(), fa-sitemap(solid: true), fa-icon("sitemap"),
+```typst #fa-sith()```, fa-sith(), fa-sith(solid: true), fa-icon("sith"),
+```typst #fa-sitrox()```, fa-sitrox(), fa-sitrox(solid: true), fa-icon("sitrox"),
+```typst #fa-sketch()```, fa-sketch(), fa-sketch(solid: true), fa-icon("sketch"),
+```typst #fa-skull()```, fa-skull(), fa-skull(solid: true), fa-icon("skull"),
+```typst #fa-skull-crossbones()```, fa-skull-crossbones(), fa-skull-crossbones(solid: true), fa-icon("skull-crossbones"),
+```typst #fa-skyatlas()```, fa-skyatlas(), fa-skyatlas(solid: true), fa-icon("skyatlas"),
+```typst #fa-skype()```, fa-skype(), fa-skype(solid: true), fa-icon("skype"),
+```typst #fa-slack()```, fa-slack(), fa-slack(solid: true), fa-icon("slack"),
+```typst #fa-slack-hash()```, fa-slack-hash(), fa-slack-hash(solid: true), fa-icon("slack-hash"),
+```typst #fa-slash()```, fa-slash(), fa-slash(solid: true), fa-icon("slash"),
+```typst #fa-sleigh()```, fa-sleigh(), fa-sleigh(solid: true), fa-icon("sleigh"),
+```typst #fa-sliders()```, fa-sliders(), fa-sliders(solid: true), fa-icon("sliders"),
+```typst #fa-sliders-h()```, fa-sliders-h(), fa-sliders-h(solid: true), fa-icon("sliders-h"),
+```typst #fa-slideshare()```, fa-slideshare(), fa-slideshare(solid: true), fa-icon("slideshare"),
+```typst #fa-smog()```, fa-smog(), fa-smog(solid: true), fa-icon("smog"),
+```typst #fa-smoking()```, fa-smoking(), fa-smoking(solid: true), fa-icon("smoking"),
+```typst #fa-snapchat()```, fa-snapchat(), fa-snapchat(solid: true), fa-icon("snapchat"),
+```typst #fa-snapchat-ghost()```, fa-snapchat-ghost(), fa-snapchat-ghost(solid: true), fa-icon("snapchat-ghost"),
+```typst #fa-snowflake()```, fa-snowflake(), fa-snowflake(solid: true), fa-icon("snowflake"),
+```typst #fa-snowman()```, fa-snowman(), fa-snowman(solid: true), fa-icon("snowman"),
+```typst #fa-snowplow()```, fa-snowplow(), fa-snowplow(solid: true), fa-icon("snowplow"),
+```typst #fa-soap()```, fa-soap(), fa-soap(solid: true), fa-icon("soap"),
+```typst #fa-socks()```, fa-socks(), fa-socks(solid: true), fa-icon("socks"),
+```typst #fa-solar-panel()```, fa-solar-panel(), fa-solar-panel(solid: true), fa-icon("solar-panel"),
+```typst #fa-sort()```, fa-sort(), fa-sort(solid: true), fa-icon("sort"),
+```typst #fa-unsorted()```, fa-unsorted(), fa-unsorted(solid: true), fa-icon("unsorted"),
+```typst #fa-sort-down()```, fa-sort-down(), fa-sort-down(solid: true), fa-icon("sort-down"),
+```typst #fa-sort-desc()```, fa-sort-desc(), fa-sort-desc(solid: true), fa-icon("sort-desc"),
+```typst #fa-sort-up()```, fa-sort-up(), fa-sort-up(solid: true), fa-icon("sort-up"),
+```typst #fa-sort-asc()```, fa-sort-asc(), fa-sort-asc(solid: true), fa-icon("sort-asc"),
+```typst #fa-soundcloud()```, fa-soundcloud(), fa-soundcloud(solid: true), fa-icon("soundcloud"),
+```typst #fa-sourcetree()```, fa-sourcetree(), fa-sourcetree(solid: true), fa-icon("sourcetree"),
+```typst #fa-spa()```, fa-spa(), fa-spa(solid: true), fa-icon("spa"),
+```typst #fa-space-awesome()```, fa-space-awesome(), fa-space-awesome(solid: true), fa-icon("space-awesome"),
+```typst #fa-spaghetti-monster-flying()```, fa-spaghetti-monster-flying(), fa-spaghetti-monster-flying(solid: true), fa-icon("spaghetti-monster-flying"),
+```typst #fa-pastafarianism()```, fa-pastafarianism(), fa-pastafarianism(solid: true), fa-icon("pastafarianism"),
+```typst #fa-speakap()```, fa-speakap(), fa-speakap(solid: true), fa-icon("speakap"),
+```typst #fa-speaker-deck()```, fa-speaker-deck(), fa-speaker-deck(solid: true), fa-icon("speaker-deck"),
+```typst #fa-spell-check()```, fa-spell-check(), fa-spell-check(solid: true), fa-icon("spell-check"),
+```typst #fa-spider()```, fa-spider(), fa-spider(solid: true), fa-icon("spider"),
+```typst #fa-spinner()```, fa-spinner(), fa-spinner(solid: true), fa-icon("spinner"),
+```typst #fa-splotch()```, fa-splotch(), fa-splotch(solid: true), fa-icon("splotch"),
+```typst #fa-spoon()```, fa-spoon(), fa-spoon(solid: true), fa-icon("spoon"),
+```typst #fa-utensil-spoon()```, fa-utensil-spoon(), fa-utensil-spoon(solid: true), fa-icon("utensil-spoon"),
+```typst #fa-spotify()```, fa-spotify(), fa-spotify(solid: true), fa-icon("spotify"),
+```typst #fa-spray-can()```, fa-spray-can(), fa-spray-can(solid: true), fa-icon("spray-can"),
+```typst #fa-spray-can-sparkles()```, fa-spray-can-sparkles(), fa-spray-can-sparkles(solid: true), fa-icon("spray-can-sparkles"),
+```typst #fa-air-freshener()```, fa-air-freshener(), fa-air-freshener(solid: true), fa-icon("air-freshener"),
+```typst #fa-square()```, fa-square(), fa-square(solid: true), fa-icon("square"),
+```typst #fa-square-arrow-up-right()```, fa-square-arrow-up-right(), fa-square-arrow-up-right(solid: true), fa-icon("square-arrow-up-right"),
+```typst #fa-external-link-square()```, fa-external-link-square(), fa-external-link-square(solid: true), fa-icon("external-link-square"),
+```typst #fa-square-behance()```, fa-square-behance(), fa-square-behance(solid: true), fa-icon("square-behance"),
+```typst #fa-behance-square()```, fa-behance-square(), fa-behance-square(solid: true), fa-icon("behance-square"),
+```typst #fa-square-caret-down()```, fa-square-caret-down(), fa-square-caret-down(solid: true), fa-icon("square-caret-down"),
+```typst #fa-caret-square-down()```, fa-caret-square-down(), fa-caret-square-down(solid: true), fa-icon("caret-square-down"),
+```typst #fa-square-caret-left()```, fa-square-caret-left(), fa-square-caret-left(solid: true), fa-icon("square-caret-left"),
+```typst #fa-caret-square-left()```, fa-caret-square-left(), fa-caret-square-left(solid: true), fa-icon("caret-square-left"),
+```typst #fa-square-caret-right()```, fa-square-caret-right(), fa-square-caret-right(solid: true), fa-icon("square-caret-right"),
+```typst #fa-caret-square-right()```, fa-caret-square-right(), fa-caret-square-right(solid: true), fa-icon("caret-square-right"),
+```typst #fa-square-caret-up()```, fa-square-caret-up(), fa-square-caret-up(solid: true), fa-icon("square-caret-up"),
+```typst #fa-caret-square-up()```, fa-caret-square-up(), fa-caret-square-up(solid: true), fa-icon("caret-square-up"),
+```typst #fa-square-check()```, fa-square-check(), fa-square-check(solid: true), fa-icon("square-check"),
+```typst #fa-check-square()```, fa-check-square(), fa-check-square(solid: true), fa-icon("check-square"),
+```typst #fa-square-dribbble()```, fa-square-dribbble(), fa-square-dribbble(solid: true), fa-icon("square-dribbble"),
+```typst #fa-dribbble-square()```, fa-dribbble-square(), fa-dribbble-square(solid: true), fa-icon("dribbble-square"),
+```typst #fa-square-envelope()```, fa-square-envelope(), fa-square-envelope(solid: true), fa-icon("square-envelope"),
+```typst #fa-envelope-square()```, fa-envelope-square(), fa-envelope-square(solid: true), fa-icon("envelope-square"),
+```typst #fa-square-facebook()```, fa-square-facebook(), fa-square-facebook(solid: true), fa-icon("square-facebook"),
+```typst #fa-facebook-square()```, fa-facebook-square(), fa-facebook-square(solid: true), fa-icon("facebook-square"),
+```typst #fa-square-font-awesome()```, fa-square-font-awesome(), fa-square-font-awesome(solid: true), fa-icon("square-font-awesome"),
+```typst #fa-square-font-awesome-stroke()```, fa-square-font-awesome-stroke(), fa-square-font-awesome-stroke(solid: true), fa-icon("square-font-awesome-stroke"),
+```typst #fa-font-awesome-alt()```, fa-font-awesome-alt(), fa-font-awesome-alt(solid: true), fa-icon("font-awesome-alt"),
+```typst #fa-square-full()```, fa-square-full(), fa-square-full(solid: true), fa-icon("square-full"),
+```typst #fa-square-git()```, fa-square-git(), fa-square-git(solid: true), fa-icon("square-git"),
+```typst #fa-git-square()```, fa-git-square(), fa-git-square(solid: true), fa-icon("git-square"),
+```typst #fa-square-github()```, fa-square-github(), fa-square-github(solid: true), fa-icon("square-github"),
+```typst #fa-github-square()```, fa-github-square(), fa-github-square(solid: true), fa-icon("github-square"),
+```typst #fa-square-gitlab()```, fa-square-gitlab(), fa-square-gitlab(solid: true), fa-icon("square-gitlab"),
+```typst #fa-gitlab-square()```, fa-gitlab-square(), fa-gitlab-square(solid: true), fa-icon("gitlab-square"),
+```typst #fa-square-google-plus()```, fa-square-google-plus(), fa-square-google-plus(solid: true), fa-icon("square-google-plus"),
+```typst #fa-google-plus-square()```, fa-google-plus-square(), fa-google-plus-square(solid: true), fa-icon("google-plus-square"),
+```typst #fa-square-h()```, fa-square-h(), fa-square-h(solid: true), fa-icon("square-h"),
+```typst #fa-h-square()```, fa-h-square(), fa-h-square(solid: true), fa-icon("h-square"),
+```typst #fa-square-hacker-news()```, fa-square-hacker-news(), fa-square-hacker-news(solid: true), fa-icon("square-hacker-news"),
+```typst #fa-hacker-news-square()```, fa-hacker-news-square(), fa-hacker-news-square(solid: true), fa-icon("hacker-news-square"),
+```typst #fa-square-instagram()```, fa-square-instagram(), fa-square-instagram(solid: true), fa-icon("square-instagram"),
+```typst #fa-instagram-square()```, fa-instagram-square(), fa-instagram-square(solid: true), fa-icon("instagram-square"),
+```typst #fa-square-js()```, fa-square-js(), fa-square-js(solid: true), fa-icon("square-js"),
+```typst #fa-js-square()```, fa-js-square(), fa-js-square(solid: true), fa-icon("js-square"),
+```typst #fa-square-lastfm()```, fa-square-lastfm(), fa-square-lastfm(solid: true), fa-icon("square-lastfm"),
+```typst #fa-lastfm-square()```, fa-lastfm-square(), fa-lastfm-square(solid: true), fa-icon("lastfm-square"),
+```typst #fa-square-letterboxd()```, fa-square-letterboxd(), fa-square-letterboxd(solid: true), fa-icon("square-letterboxd"),
+```typst #fa-square-minus()```, fa-square-minus(), fa-square-minus(solid: true), fa-icon("square-minus"),
+```typst #fa-minus-square()```, fa-minus-square(), fa-minus-square(solid: true), fa-icon("minus-square"),
+```typst #fa-square-nfi()```, fa-square-nfi(), fa-square-nfi(solid: true), fa-icon("square-nfi"),
+```typst #fa-square-odnoklassniki()```, fa-square-odnoklassniki(), fa-square-odnoklassniki(solid: true), fa-icon("square-odnoklassniki"),
+```typst #fa-odnoklassniki-square()```, fa-odnoklassniki-square(), fa-odnoklassniki-square(solid: true), fa-icon("odnoklassniki-square"),
+```typst #fa-square-parking()```, fa-square-parking(), fa-square-parking(solid: true), fa-icon("square-parking"),
+```typst #fa-parking()```, fa-parking(), fa-parking(solid: true), fa-icon("parking"),
+```typst #fa-square-pen()```, fa-square-pen(), fa-square-pen(solid: true), fa-icon("square-pen"),
+```typst #fa-pen-square()```, fa-pen-square(), fa-pen-square(solid: true), fa-icon("pen-square"),
+```typst #fa-pencil-square()```, fa-pencil-square(), fa-pencil-square(solid: true), fa-icon("pencil-square"),
+```typst #fa-square-person-confined()```, fa-square-person-confined(), fa-square-person-confined(solid: true), fa-icon("square-person-confined"),
+```typst #fa-square-phone()```, fa-square-phone(), fa-square-phone(solid: true), fa-icon("square-phone"),
+```typst #fa-phone-square()```, fa-phone-square(), fa-phone-square(solid: true), fa-icon("phone-square"),
+```typst #fa-square-phone-flip()```, fa-square-phone-flip(), fa-square-phone-flip(solid: true), fa-icon("square-phone-flip"),
+```typst #fa-phone-square-alt()```, fa-phone-square-alt(), fa-phone-square-alt(solid: true), fa-icon("phone-square-alt"),
+```typst #fa-square-pied-piper()```, fa-square-pied-piper(), fa-square-pied-piper(solid: true), fa-icon("square-pied-piper"),
+```typst #fa-pied-piper-square()```, fa-pied-piper-square(), fa-pied-piper-square(solid: true), fa-icon("pied-piper-square"),
+```typst #fa-square-pinterest()```, fa-square-pinterest(), fa-square-pinterest(solid: true), fa-icon("square-pinterest"),
+```typst #fa-pinterest-square()```, fa-pinterest-square(), fa-pinterest-square(solid: true), fa-icon("pinterest-square"),
+```typst #fa-square-plus()```, fa-square-plus(), fa-square-plus(solid: true), fa-icon("square-plus"),
+```typst #fa-plus-square()```, fa-plus-square(), fa-plus-square(solid: true), fa-icon("plus-square"),
+```typst #fa-square-poll-horizontal()```, fa-square-poll-horizontal(), fa-square-poll-horizontal(solid: true), fa-icon("square-poll-horizontal"),
+```typst #fa-poll-h()```, fa-poll-h(), fa-poll-h(solid: true), fa-icon("poll-h"),
+```typst #fa-square-poll-vertical()```, fa-square-poll-vertical(), fa-square-poll-vertical(solid: true), fa-icon("square-poll-vertical"),
+```typst #fa-poll()```, fa-poll(), fa-poll(solid: true), fa-icon("poll"),
+```typst #fa-square-reddit()```, fa-square-reddit(), fa-square-reddit(solid: true), fa-icon("square-reddit"),
+```typst #fa-reddit-square()```, fa-reddit-square(), fa-reddit-square(solid: true), fa-icon("reddit-square"),
+```typst #fa-square-root-variable()```, fa-square-root-variable(), fa-square-root-variable(solid: true), fa-icon("square-root-variable"),
+```typst #fa-square-root-alt()```, fa-square-root-alt(), fa-square-root-alt(solid: true), fa-icon("square-root-alt"),
+```typst #fa-square-rss()```, fa-square-rss(), fa-square-rss(solid: true), fa-icon("square-rss"),
+```typst #fa-rss-square()```, fa-rss-square(), fa-rss-square(solid: true), fa-icon("rss-square"),
+```typst #fa-square-share-nodes()```, fa-square-share-nodes(), fa-square-share-nodes(solid: true), fa-icon("square-share-nodes"),
+```typst #fa-share-alt-square()```, fa-share-alt-square(), fa-share-alt-square(solid: true), fa-icon("share-alt-square"),
+```typst #fa-square-snapchat()```, fa-square-snapchat(), fa-square-snapchat(solid: true), fa-icon("square-snapchat"),
+```typst #fa-snapchat-square()```, fa-snapchat-square(), fa-snapchat-square(solid: true), fa-icon("snapchat-square"),
+```typst #fa-square-steam()```, fa-square-steam(), fa-square-steam(solid: true), fa-icon("square-steam"),
+```typst #fa-steam-square()```, fa-steam-square(), fa-steam-square(solid: true), fa-icon("steam-square"),
+```typst #fa-square-threads()```, fa-square-threads(), fa-square-threads(solid: true), fa-icon("square-threads"),
+```typst #fa-square-tumblr()```, fa-square-tumblr(), fa-square-tumblr(solid: true), fa-icon("square-tumblr"),
+```typst #fa-tumblr-square()```, fa-tumblr-square(), fa-tumblr-square(solid: true), fa-icon("tumblr-square"),
+```typst #fa-square-twitter()```, fa-square-twitter(), fa-square-twitter(solid: true), fa-icon("square-twitter"),
+```typst #fa-twitter-square()```, fa-twitter-square(), fa-twitter-square(solid: true), fa-icon("twitter-square"),
+```typst #fa-square-up-right()```, fa-square-up-right(), fa-square-up-right(solid: true), fa-icon("square-up-right"),
+```typst #fa-external-link-square-alt()```, fa-external-link-square-alt(), fa-external-link-square-alt(solid: true), fa-icon("external-link-square-alt"),
+```typst #fa-square-upwork()```, fa-square-upwork(), fa-square-upwork(solid: true), fa-icon("square-upwork"),
+```typst #fa-square-viadeo()```, fa-square-viadeo(), fa-square-viadeo(solid: true), fa-icon("square-viadeo"),
+```typst #fa-viadeo-square()```, fa-viadeo-square(), fa-viadeo-square(solid: true), fa-icon("viadeo-square"),
+```typst #fa-square-vimeo()```, fa-square-vimeo(), fa-square-vimeo(solid: true), fa-icon("square-vimeo"),
+```typst #fa-vimeo-square()```, fa-vimeo-square(), fa-vimeo-square(solid: true), fa-icon("vimeo-square"),
+```typst #fa-square-virus()```, fa-square-virus(), fa-square-virus(solid: true), fa-icon("square-virus"),
+```typst #fa-square-web-awesome()```, fa-square-web-awesome(), fa-square-web-awesome(solid: true), fa-icon("square-web-awesome"),
+```typst #fa-square-web-awesome-stroke()```, fa-square-web-awesome-stroke(), fa-square-web-awesome-stroke(solid: true), fa-icon("square-web-awesome-stroke"),
+```typst #fa-square-whatsapp()```, fa-square-whatsapp(), fa-square-whatsapp(solid: true), fa-icon("square-whatsapp"),
+```typst #fa-whatsapp-square()```, fa-whatsapp-square(), fa-whatsapp-square(solid: true), fa-icon("whatsapp-square"),
+```typst #fa-square-x-twitter()```, fa-square-x-twitter(), fa-square-x-twitter(solid: true), fa-icon("square-x-twitter"),
+```typst #fa-square-xing()```, fa-square-xing(), fa-square-xing(solid: true), fa-icon("square-xing"),
+```typst #fa-xing-square()```, fa-xing-square(), fa-xing-square(solid: true), fa-icon("xing-square"),
+```typst #fa-square-xmark()```, fa-square-xmark(), fa-square-xmark(solid: true), fa-icon("square-xmark"),
+```typst #fa-times-square()```, fa-times-square(), fa-times-square(solid: true), fa-icon("times-square"),
+```typst #fa-xmark-square()```, fa-xmark-square(), fa-xmark-square(solid: true), fa-icon("xmark-square"),
+```typst #fa-square-youtube()```, fa-square-youtube(), fa-square-youtube(solid: true), fa-icon("square-youtube"),
+```typst #fa-youtube-square()```, fa-youtube-square(), fa-youtube-square(solid: true), fa-icon("youtube-square"),
+```typst #fa-squarespace()```, fa-squarespace(), fa-squarespace(solid: true), fa-icon("squarespace"),
+```typst #fa-stack-exchange()```, fa-stack-exchange(), fa-stack-exchange(solid: true), fa-icon("stack-exchange"),
+```typst #fa-stack-overflow()```, fa-stack-overflow(), fa-stack-overflow(solid: true), fa-icon("stack-overflow"),
+```typst #fa-stackpath()```, fa-stackpath(), fa-stackpath(solid: true), fa-icon("stackpath"),
+```typst #fa-staff-snake()```, fa-staff-snake(), fa-staff-snake(solid: true), fa-icon("staff-snake"),
+```typst #fa-rod-asclepius()```, fa-rod-asclepius(), fa-rod-asclepius(solid: true), fa-icon("rod-asclepius"),
+```typst #fa-rod-snake()```, fa-rod-snake(), fa-rod-snake(solid: true), fa-icon("rod-snake"),
+```typst #fa-staff-aesculapius()```, fa-staff-aesculapius(), fa-staff-aesculapius(solid: true), fa-icon("staff-aesculapius"),
+```typst #fa-stairs()```, fa-stairs(), fa-stairs(solid: true), fa-icon("stairs"),
+```typst #fa-stamp()```, fa-stamp(), fa-stamp(solid: true), fa-icon("stamp"),
+```typst #fa-stapler()```, fa-stapler(), fa-stapler(solid: true), fa-icon("stapler"),
+```typst #fa-star()```, fa-star(), fa-star(solid: true), fa-icon("star"),
+```typst #fa-star-and-crescent()```, fa-star-and-crescent(), fa-star-and-crescent(solid: true), fa-icon("star-and-crescent"),
+```typst #fa-star-half()```, fa-star-half(), fa-star-half(solid: true), fa-icon("star-half"),
+```typst #fa-star-half-stroke()```, fa-star-half-stroke(), fa-star-half-stroke(solid: true), fa-icon("star-half-stroke"),
+```typst #fa-star-half-alt()```, fa-star-half-alt(), fa-star-half-alt(solid: true), fa-icon("star-half-alt"),
+```typst #fa-star-of-david()```, fa-star-of-david(), fa-star-of-david(solid: true), fa-icon("star-of-david"),
+```typst #fa-star-of-life()```, fa-star-of-life(), fa-star-of-life(solid: true), fa-icon("star-of-life"),
+```typst #fa-staylinked()```, fa-staylinked(), fa-staylinked(solid: true), fa-icon("staylinked"),
+```typst #fa-steam()```, fa-steam(), fa-steam(solid: true), fa-icon("steam"),
+```typst #fa-steam-symbol()```, fa-steam-symbol(), fa-steam-symbol(solid: true), fa-icon("steam-symbol"),
+```typst #fa-sterling-sign()```, fa-sterling-sign(), fa-sterling-sign(solid: true), fa-icon("sterling-sign"),
+```typst #fa-gbp()```, fa-gbp(), fa-gbp(solid: true), fa-icon("gbp"),
+```typst #fa-pound-sign()```, fa-pound-sign(), fa-pound-sign(solid: true), fa-icon("pound-sign"),
+```typst #fa-stethoscope()```, fa-stethoscope(), fa-stethoscope(solid: true), fa-icon("stethoscope"),
+```typst #fa-sticker-mule()```, fa-sticker-mule(), fa-sticker-mule(solid: true), fa-icon("sticker-mule"),
+```typst #fa-stop()```, fa-stop(), fa-stop(solid: true), fa-icon("stop"),
+```typst #fa-stopwatch()```, fa-stopwatch(), fa-stopwatch(solid: true), fa-icon("stopwatch"),
+```typst #fa-stopwatch-20()```, fa-stopwatch-20(), fa-stopwatch-20(solid: true), fa-icon("stopwatch-20"),
+```typst #fa-store()```, fa-store(), fa-store(solid: true), fa-icon("store"),
+```typst #fa-store-slash()```, fa-store-slash(), fa-store-slash(solid: true), fa-icon("store-slash"),
+```typst #fa-strava()```, fa-strava(), fa-strava(solid: true), fa-icon("strava"),
+```typst #fa-street-view()```, fa-street-view(), fa-street-view(solid: true), fa-icon("street-view"),
+```typst #fa-strikethrough()```, fa-strikethrough(), fa-strikethrough(solid: true), fa-icon("strikethrough"),
+```typst #fa-stripe()```, fa-stripe(), fa-stripe(solid: true), fa-icon("stripe"),
+```typst #fa-stripe-s()```, fa-stripe-s(), fa-stripe-s(solid: true), fa-icon("stripe-s"),
+```typst #fa-stroopwafel()```, fa-stroopwafel(), fa-stroopwafel(solid: true), fa-icon("stroopwafel"),
+```typst #fa-stubber()```, fa-stubber(), fa-stubber(solid: true), fa-icon("stubber"),
+```typst #fa-studiovinari()```, fa-studiovinari(), fa-studiovinari(solid: true), fa-icon("studiovinari"),
+```typst #fa-stumbleupon()```, fa-stumbleupon(), fa-stumbleupon(solid: true), fa-icon("stumbleupon"),
+```typst #fa-stumbleupon-circle()```, fa-stumbleupon-circle(), fa-stumbleupon-circle(solid: true), fa-icon("stumbleupon-circle"),
+```typst #fa-subscript()```, fa-subscript(), fa-subscript(solid: true), fa-icon("subscript"),
+```typst #fa-suitcase()```, fa-suitcase(), fa-suitcase(solid: true), fa-icon("suitcase"),
+```typst #fa-suitcase-medical()```, fa-suitcase-medical(), fa-suitcase-medical(solid: true), fa-icon("suitcase-medical"),
+```typst #fa-medkit()```, fa-medkit(), fa-medkit(solid: true), fa-icon("medkit"),
+```typst #fa-suitcase-rolling()```, fa-suitcase-rolling(), fa-suitcase-rolling(solid: true), fa-icon("suitcase-rolling"),
+```typst #fa-sun()```, fa-sun(), fa-sun(solid: true), fa-icon("sun"),
+```typst #fa-sun-plant-wilt()```, fa-sun-plant-wilt(), fa-sun-plant-wilt(solid: true), fa-icon("sun-plant-wilt"),
+```typst #fa-superpowers()```, fa-superpowers(), fa-superpowers(solid: true), fa-icon("superpowers"),
+```typst #fa-superscript()```, fa-superscript(), fa-superscript(solid: true), fa-icon("superscript"),
+```typst #fa-supple()```, fa-supple(), fa-supple(solid: true), fa-icon("supple"),
+```typst #fa-suse()```, fa-suse(), fa-suse(solid: true), fa-icon("suse"),
+```typst #fa-swatchbook()```, fa-swatchbook(), fa-swatchbook(solid: true), fa-icon("swatchbook"),
+```typst #fa-swift()```, fa-swift(), fa-swift(solid: true), fa-icon("swift"),
+```typst #fa-symfony()```, fa-symfony(), fa-symfony(solid: true), fa-icon("symfony"),
+```typst #fa-synagogue()```, fa-synagogue(), fa-synagogue(solid: true), fa-icon("synagogue"),
+```typst #fa-syringe()```, fa-syringe(), fa-syringe(solid: true), fa-icon("syringe"),
+```typst #fa-t()```, fa-t(), fa-t(solid: true), fa-icon("t"),
+```typst #fa-table()```, fa-table(), fa-table(solid: true), fa-icon("table"),
+```typst #fa-table-cells()```, fa-table-cells(), fa-table-cells(solid: true), fa-icon("table-cells"),
+```typst #fa-th()```, fa-th(), fa-th(solid: true), fa-icon("th"),
+```typst #fa-table-cells-column-lock()```, fa-table-cells-column-lock(), fa-table-cells-column-lock(solid: true), fa-icon("table-cells-column-lock"),
+```typst #fa-table-cells-large()```, fa-table-cells-large(), fa-table-cells-large(solid: true), fa-icon("table-cells-large"),
+```typst #fa-th-large()```, fa-th-large(), fa-th-large(solid: true), fa-icon("th-large"),
+```typst #fa-table-cells-row-lock()```, fa-table-cells-row-lock(), fa-table-cells-row-lock(solid: true), fa-icon("table-cells-row-lock"),
+```typst #fa-table-columns()```, fa-table-columns(), fa-table-columns(solid: true), fa-icon("table-columns"),
+```typst #fa-columns()```, fa-columns(), fa-columns(solid: true), fa-icon("columns"),
+```typst #fa-table-list()```, fa-table-list(), fa-table-list(solid: true), fa-icon("table-list"),
+```typst #fa-th-list()```, fa-th-list(), fa-th-list(solid: true), fa-icon("th-list"),
+```typst #fa-table-tennis-paddle-ball()```, fa-table-tennis-paddle-ball(), fa-table-tennis-paddle-ball(solid: true), fa-icon("table-tennis-paddle-ball"),
+```typst #fa-ping-pong-paddle-ball()```, fa-ping-pong-paddle-ball(), fa-ping-pong-paddle-ball(solid: true), fa-icon("ping-pong-paddle-ball"),
+```typst #fa-table-tennis()```, fa-table-tennis(), fa-table-tennis(solid: true), fa-icon("table-tennis"),
+```typst #fa-tablet()```, fa-tablet(), fa-tablet(solid: true), fa-icon("tablet"),
+```typst #fa-tablet-android()```, fa-tablet-android(), fa-tablet-android(solid: true), fa-icon("tablet-android"),
+```typst #fa-tablet-button()```, fa-tablet-button(), fa-tablet-button(solid: true), fa-icon("tablet-button"),
+```typst #fa-tablet-screen-button()```, fa-tablet-screen-button(), fa-tablet-screen-button(solid: true), fa-icon("tablet-screen-button"),
+```typst #fa-tablet-alt()```, fa-tablet-alt(), fa-tablet-alt(solid: true), fa-icon("tablet-alt"),
+```typst #fa-tablets()```, fa-tablets(), fa-tablets(solid: true), fa-icon("tablets"),
+```typst #fa-tachograph-digital()```, fa-tachograph-digital(), fa-tachograph-digital(solid: true), fa-icon("tachograph-digital"),
+```typst #fa-digital-tachograph()```, fa-digital-tachograph(), fa-digital-tachograph(solid: true), fa-icon("digital-tachograph"),
+```typst #fa-tag()```, fa-tag(), fa-tag(solid: true), fa-icon("tag"),
+```typst #fa-tags()```, fa-tags(), fa-tags(solid: true), fa-icon("tags"),
+```typst #fa-tape()```, fa-tape(), fa-tape(solid: true), fa-icon("tape"),
+```typst #fa-tarp()```, fa-tarp(), fa-tarp(solid: true), fa-icon("tarp"),
+```typst #fa-tarp-droplet()```, fa-tarp-droplet(), fa-tarp-droplet(solid: true), fa-icon("tarp-droplet"),
+```typst #fa-taxi()```, fa-taxi(), fa-taxi(solid: true), fa-icon("taxi"),
+```typst #fa-cab()```, fa-cab(), fa-cab(solid: true), fa-icon("cab"),
+```typst #fa-teamspeak()```, fa-teamspeak(), fa-teamspeak(solid: true), fa-icon("teamspeak"),
+```typst #fa-teeth()```, fa-teeth(), fa-teeth(solid: true), fa-icon("teeth"),
+```typst #fa-teeth-open()```, fa-teeth-open(), fa-teeth-open(solid: true), fa-icon("teeth-open"),
+```typst #fa-telegram()```, fa-telegram(), fa-telegram(solid: true), fa-icon("telegram"),
+```typst #fa-telegram-plane()```, fa-telegram-plane(), fa-telegram-plane(solid: true), fa-icon("telegram-plane"),
+```typst #fa-temperature-arrow-down()```, fa-temperature-arrow-down(), fa-temperature-arrow-down(solid: true), fa-icon("temperature-arrow-down"),
+```typst #fa-temperature-down()```, fa-temperature-down(), fa-temperature-down(solid: true), fa-icon("temperature-down"),
+```typst #fa-temperature-arrow-up()```, fa-temperature-arrow-up(), fa-temperature-arrow-up(solid: true), fa-icon("temperature-arrow-up"),
+```typst #fa-temperature-up()```, fa-temperature-up(), fa-temperature-up(solid: true), fa-icon("temperature-up"),
+```typst #fa-temperature-empty()```, fa-temperature-empty(), fa-temperature-empty(solid: true), fa-icon("temperature-empty"),
+```typst #fa-temperature-0()```, fa-temperature-0(), fa-temperature-0(solid: true), fa-icon("temperature-0"),
+```typst #fa-thermometer-0()```, fa-thermometer-0(), fa-thermometer-0(solid: true), fa-icon("thermometer-0"),
+```typst #fa-thermometer-empty()```, fa-thermometer-empty(), fa-thermometer-empty(solid: true), fa-icon("thermometer-empty"),
+```typst #fa-temperature-full()```, fa-temperature-full(), fa-temperature-full(solid: true), fa-icon("temperature-full"),
+```typst #fa-temperature-4()```, fa-temperature-4(), fa-temperature-4(solid: true), fa-icon("temperature-4"),
+```typst #fa-thermometer-4()```, fa-thermometer-4(), fa-thermometer-4(solid: true), fa-icon("thermometer-4"),
+```typst #fa-thermometer-full()```, fa-thermometer-full(), fa-thermometer-full(solid: true), fa-icon("thermometer-full"),
+```typst #fa-temperature-half()```, fa-temperature-half(), fa-temperature-half(solid: true), fa-icon("temperature-half"),
+```typst #fa-temperature-2()```, fa-temperature-2(), fa-temperature-2(solid: true), fa-icon("temperature-2"),
+```typst #fa-thermometer-2()```, fa-thermometer-2(), fa-thermometer-2(solid: true), fa-icon("thermometer-2"),
+```typst #fa-thermometer-half()```, fa-thermometer-half(), fa-thermometer-half(solid: true), fa-icon("thermometer-half"),
+```typst #fa-temperature-high()```, fa-temperature-high(), fa-temperature-high(solid: true), fa-icon("temperature-high"),
+```typst #fa-temperature-low()```, fa-temperature-low(), fa-temperature-low(solid: true), fa-icon("temperature-low"),
+```typst #fa-temperature-quarter()```, fa-temperature-quarter(), fa-temperature-quarter(solid: true), fa-icon("temperature-quarter"),
+```typst #fa-temperature-1()```, fa-temperature-1(), fa-temperature-1(solid: true), fa-icon("temperature-1"),
+```typst #fa-thermometer-1()```, fa-thermometer-1(), fa-thermometer-1(solid: true), fa-icon("thermometer-1"),
+```typst #fa-thermometer-quarter()```, fa-thermometer-quarter(), fa-thermometer-quarter(solid: true), fa-icon("thermometer-quarter"),
+```typst #fa-temperature-three-quarters()```, fa-temperature-three-quarters(), fa-temperature-three-quarters(solid: true), fa-icon("temperature-three-quarters"),
+```typst #fa-temperature-3()```, fa-temperature-3(), fa-temperature-3(solid: true), fa-icon("temperature-3"),
+```typst #fa-thermometer-3()```, fa-thermometer-3(), fa-thermometer-3(solid: true), fa-icon("thermometer-3"),
+```typst #fa-thermometer-three-quarters()```, fa-thermometer-three-quarters(), fa-thermometer-three-quarters(solid: true), fa-icon("thermometer-three-quarters"),
+```typst #fa-tencent-weibo()```, fa-tencent-weibo(), fa-tencent-weibo(solid: true), fa-icon("tencent-weibo"),
+```typst #fa-tenge-sign()```, fa-tenge-sign(), fa-tenge-sign(solid: true), fa-icon("tenge-sign"),
+```typst #fa-tenge()```, fa-tenge(), fa-tenge(solid: true), fa-icon("tenge"),
+```typst #fa-tent()```, fa-tent(), fa-tent(solid: true), fa-icon("tent"),
+```typst #fa-tent-arrow-down-to-line()```, fa-tent-arrow-down-to-line(), fa-tent-arrow-down-to-line(solid: true), fa-icon("tent-arrow-down-to-line"),
+```typst #fa-tent-arrow-left-right()```, fa-tent-arrow-left-right(), fa-tent-arrow-left-right(solid: true), fa-icon("tent-arrow-left-right"),
+```typst #fa-tent-arrow-turn-left()```, fa-tent-arrow-turn-left(), fa-tent-arrow-turn-left(solid: true), fa-icon("tent-arrow-turn-left"),
+```typst #fa-tent-arrows-down()```, fa-tent-arrows-down(), fa-tent-arrows-down(solid: true), fa-icon("tent-arrows-down"),
+```typst #fa-tents()```, fa-tents(), fa-tents(solid: true), fa-icon("tents"),
+```typst #fa-terminal()```, fa-terminal(), fa-terminal(solid: true), fa-icon("terminal"),
+```typst #fa-text-height()```, fa-text-height(), fa-text-height(solid: true), fa-icon("text-height"),
+```typst #fa-text-slash()```, fa-text-slash(), fa-text-slash(solid: true), fa-icon("text-slash"),
+```typst #fa-remove-format()```, fa-remove-format(), fa-remove-format(solid: true), fa-icon("remove-format"),
+```typst #fa-text-width()```, fa-text-width(), fa-text-width(solid: true), fa-icon("text-width"),
+```typst #fa-the-red-yeti()```, fa-the-red-yeti(), fa-the-red-yeti(solid: true), fa-icon("the-red-yeti"),
+```typst #fa-themeco()```, fa-themeco(), fa-themeco(solid: true), fa-icon("themeco"),
+```typst #fa-themeisle()```, fa-themeisle(), fa-themeisle(solid: true), fa-icon("themeisle"),
+```typst #fa-thermometer()```, fa-thermometer(), fa-thermometer(solid: true), fa-icon("thermometer"),
+```typst #fa-think-peaks()```, fa-think-peaks(), fa-think-peaks(solid: true), fa-icon("think-peaks"),
+```typst #fa-threads()```, fa-threads(), fa-threads(solid: true), fa-icon("threads"),
+```typst #fa-thumbs-down()```, fa-thumbs-down(), fa-thumbs-down(solid: true), fa-icon("thumbs-down"),
+```typst #fa-thumbs-up()```, fa-thumbs-up(), fa-thumbs-up(solid: true), fa-icon("thumbs-up"),
+```typst #fa-thumbtack()```, fa-thumbtack(), fa-thumbtack(solid: true), fa-icon("thumbtack"),
+```typst #fa-thumb-tack()```, fa-thumb-tack(), fa-thumb-tack(solid: true), fa-icon("thumb-tack"),
+```typst #fa-ticket()```, fa-ticket(), fa-ticket(solid: true), fa-icon("ticket"),
+```typst #fa-ticket-simple()```, fa-ticket-simple(), fa-ticket-simple(solid: true), fa-icon("ticket-simple"),
+```typst #fa-ticket-alt()```, fa-ticket-alt(), fa-ticket-alt(solid: true), fa-icon("ticket-alt"),
+```typst #fa-tiktok()```, fa-tiktok(), fa-tiktok(solid: true), fa-icon("tiktok"),
+```typst #fa-timeline()```, fa-timeline(), fa-timeline(solid: true), fa-icon("timeline"),
+```typst #fa-toggle-off()```, fa-toggle-off(), fa-toggle-off(solid: true), fa-icon("toggle-off"),
+```typst #fa-toggle-on()```, fa-toggle-on(), fa-toggle-on(solid: true), fa-icon("toggle-on"),
+```typst #fa-toilet()```, fa-toilet(), fa-toilet(solid: true), fa-icon("toilet"),
+```typst #fa-toilet-paper()```, fa-toilet-paper(), fa-toilet-paper(solid: true), fa-icon("toilet-paper"),
+```typst #fa-toilet-paper-slash()```, fa-toilet-paper-slash(), fa-toilet-paper-slash(solid: true), fa-icon("toilet-paper-slash"),
+```typst #fa-toilet-portable()```, fa-toilet-portable(), fa-toilet-portable(solid: true), fa-icon("toilet-portable"),
+```typst #fa-toilets-portable()```, fa-toilets-portable(), fa-toilets-portable(solid: true), fa-icon("toilets-portable"),
+```typst #fa-toolbox()```, fa-toolbox(), fa-toolbox(solid: true), fa-icon("toolbox"),
+```typst #fa-tooth()```, fa-tooth(), fa-tooth(solid: true), fa-icon("tooth"),
+```typst #fa-torii-gate()```, fa-torii-gate(), fa-torii-gate(solid: true), fa-icon("torii-gate"),
+```typst #fa-tornado()```, fa-tornado(), fa-tornado(solid: true), fa-icon("tornado"),
+```typst #fa-tower-broadcast()```, fa-tower-broadcast(), fa-tower-broadcast(solid: true), fa-icon("tower-broadcast"),
+```typst #fa-broadcast-tower()```, fa-broadcast-tower(), fa-broadcast-tower(solid: true), fa-icon("broadcast-tower"),
+```typst #fa-tower-cell()```, fa-tower-cell(), fa-tower-cell(solid: true), fa-icon("tower-cell"),
+```typst #fa-tower-observation()```, fa-tower-observation(), fa-tower-observation(solid: true), fa-icon("tower-observation"),
+```typst #fa-tractor()```, fa-tractor(), fa-tractor(solid: true), fa-icon("tractor"),
+```typst #fa-trade-federation()```, fa-trade-federation(), fa-trade-federation(solid: true), fa-icon("trade-federation"),
+```typst #fa-trademark()```, fa-trademark(), fa-trademark(solid: true), fa-icon("trademark"),
+```typst #fa-traffic-light()```, fa-traffic-light(), fa-traffic-light(solid: true), fa-icon("traffic-light"),
+```typst #fa-trailer()```, fa-trailer(), fa-trailer(solid: true), fa-icon("trailer"),
+```typst #fa-train()```, fa-train(), fa-train(solid: true), fa-icon("train"),
+```typst #fa-train-subway()```, fa-train-subway(), fa-train-subway(solid: true), fa-icon("train-subway"),
+```typst #fa-subway()```, fa-subway(), fa-subway(solid: true), fa-icon("subway"),
+```typst #fa-train-tram()```, fa-train-tram(), fa-train-tram(solid: true), fa-icon("train-tram"),
+```typst #fa-transgender()```, fa-transgender(), fa-transgender(solid: true), fa-icon("transgender"),
+```typst #fa-transgender-alt()```, fa-transgender-alt(), fa-transgender-alt(solid: true), fa-icon("transgender-alt"),
+```typst #fa-trash()```, fa-trash(), fa-trash(solid: true), fa-icon("trash"),
+```typst #fa-trash-arrow-up()```, fa-trash-arrow-up(), fa-trash-arrow-up(solid: true), fa-icon("trash-arrow-up"),
+```typst #fa-trash-restore()```, fa-trash-restore(), fa-trash-restore(solid: true), fa-icon("trash-restore"),
+```typst #fa-trash-can()```, fa-trash-can(), fa-trash-can(solid: true), fa-icon("trash-can"),
+```typst #fa-trash-alt()```, fa-trash-alt(), fa-trash-alt(solid: true), fa-icon("trash-alt"),
+```typst #fa-trash-can-arrow-up()```, fa-trash-can-arrow-up(), fa-trash-can-arrow-up(solid: true), fa-icon("trash-can-arrow-up"),
+```typst #fa-trash-restore-alt()```, fa-trash-restore-alt(), fa-trash-restore-alt(solid: true), fa-icon("trash-restore-alt"),
+```typst #fa-tree()```, fa-tree(), fa-tree(solid: true), fa-icon("tree"),
+```typst #fa-tree-city()```, fa-tree-city(), fa-tree-city(solid: true), fa-icon("tree-city"),
+```typst #fa-trello()```, fa-trello(), fa-trello(solid: true), fa-icon("trello"),
+```typst #fa-triangle-exclamation()```, fa-triangle-exclamation(), fa-triangle-exclamation(solid: true), fa-icon("triangle-exclamation"),
+```typst #fa-exclamation-triangle()```, fa-exclamation-triangle(), fa-exclamation-triangle(solid: true), fa-icon("exclamation-triangle"),
+```typst #fa-warning()```, fa-warning(), fa-warning(solid: true), fa-icon("warning"),
+```typst #fa-trophy()```, fa-trophy(), fa-trophy(solid: true), fa-icon("trophy"),
+```typst #fa-trowel()```, fa-trowel(), fa-trowel(solid: true), fa-icon("trowel"),
+```typst #fa-trowel-bricks()```, fa-trowel-bricks(), fa-trowel-bricks(solid: true), fa-icon("trowel-bricks"),
+```typst #fa-truck()```, fa-truck(), fa-truck(solid: true), fa-icon("truck"),
+```typst #fa-truck-arrow-right()```, fa-truck-arrow-right(), fa-truck-arrow-right(solid: true), fa-icon("truck-arrow-right"),
+```typst #fa-truck-droplet()```, fa-truck-droplet(), fa-truck-droplet(solid: true), fa-icon("truck-droplet"),
+```typst #fa-truck-fast()```, fa-truck-fast(), fa-truck-fast(solid: true), fa-icon("truck-fast"),
+```typst #fa-shipping-fast()```, fa-shipping-fast(), fa-shipping-fast(solid: true), fa-icon("shipping-fast"),
+```typst #fa-truck-field()```, fa-truck-field(), fa-truck-field(solid: true), fa-icon("truck-field"),
+```typst #fa-truck-field-un()```, fa-truck-field-un(), fa-truck-field-un(solid: true), fa-icon("truck-field-un"),
+```typst #fa-truck-front()```, fa-truck-front(), fa-truck-front(solid: true), fa-icon("truck-front"),
+```typst #fa-truck-medical()```, fa-truck-medical(), fa-truck-medical(solid: true), fa-icon("truck-medical"),
+```typst #fa-ambulance()```, fa-ambulance(), fa-ambulance(solid: true), fa-icon("ambulance"),
+```typst #fa-truck-monster()```, fa-truck-monster(), fa-truck-monster(solid: true), fa-icon("truck-monster"),
+```typst #fa-truck-moving()```, fa-truck-moving(), fa-truck-moving(solid: true), fa-icon("truck-moving"),
+```typst #fa-truck-pickup()```, fa-truck-pickup(), fa-truck-pickup(solid: true), fa-icon("truck-pickup"),
+```typst #fa-truck-plane()```, fa-truck-plane(), fa-truck-plane(solid: true), fa-icon("truck-plane"),
+```typst #fa-truck-ramp-box()```, fa-truck-ramp-box(), fa-truck-ramp-box(solid: true), fa-icon("truck-ramp-box"),
+```typst #fa-truck-loading()```, fa-truck-loading(), fa-truck-loading(solid: true), fa-icon("truck-loading"),
+```typst #fa-tty()```, fa-tty(), fa-tty(solid: true), fa-icon("tty"),
+```typst #fa-teletype()```, fa-teletype(), fa-teletype(solid: true), fa-icon("teletype"),
+```typst #fa-tumblr()```, fa-tumblr(), fa-tumblr(solid: true), fa-icon("tumblr"),
+```typst #fa-turkish-lira-sign()```, fa-turkish-lira-sign(), fa-turkish-lira-sign(solid: true), fa-icon("turkish-lira-sign"),
+```typst #fa-try()```, fa-try(), fa-try(solid: true), fa-icon("try"),
+```typst #fa-turkish-lira()```, fa-turkish-lira(), fa-turkish-lira(solid: true), fa-icon("turkish-lira"),
+```typst #fa-turn-down()```, fa-turn-down(), fa-turn-down(solid: true), fa-icon("turn-down"),
+```typst #fa-level-down-alt()```, fa-level-down-alt(), fa-level-down-alt(solid: true), fa-icon("level-down-alt"),
+```typst #fa-turn-up()```, fa-turn-up(), fa-turn-up(solid: true), fa-icon("turn-up"),
+```typst #fa-level-up-alt()```, fa-level-up-alt(), fa-level-up-alt(solid: true), fa-icon("level-up-alt"),
+```typst #fa-tv()```, fa-tv(), fa-tv(solid: true), fa-icon("tv"),
+```typst #fa-television()```, fa-television(), fa-television(solid: true), fa-icon("television"),
+```typst #fa-tv-alt()```, fa-tv-alt(), fa-tv-alt(solid: true), fa-icon("tv-alt"),
+```typst #fa-twitch()```, fa-twitch(), fa-twitch(solid: true), fa-icon("twitch"),
+```typst #fa-twitter()```, fa-twitter(), fa-twitter(solid: true), fa-icon("twitter"),
+```typst #fa-typo3()```, fa-typo3(), fa-typo3(solid: true), fa-icon("typo3"),
+```typst #fa-u()```, fa-u(), fa-u(solid: true), fa-icon("u"),
+```typst #fa-uber()```, fa-uber(), fa-uber(solid: true), fa-icon("uber"),
+```typst #fa-ubuntu()```, fa-ubuntu(), fa-ubuntu(solid: true), fa-icon("ubuntu"),
+```typst #fa-uikit()```, fa-uikit(), fa-uikit(solid: true), fa-icon("uikit"),
+```typst #fa-umbraco()```, fa-umbraco(), fa-umbraco(solid: true), fa-icon("umbraco"),
+```typst #fa-umbrella()```, fa-umbrella(), fa-umbrella(solid: true), fa-icon("umbrella"),
+```typst #fa-umbrella-beach()```, fa-umbrella-beach(), fa-umbrella-beach(solid: true), fa-icon("umbrella-beach"),
+```typst #fa-uncharted()```, fa-uncharted(), fa-uncharted(solid: true), fa-icon("uncharted"),
+```typst #fa-underline()```, fa-underline(), fa-underline(solid: true), fa-icon("underline"),
+```typst #fa-uniregistry()```, fa-uniregistry(), fa-uniregistry(solid: true), fa-icon("uniregistry"),
+```typst #fa-unity()```, fa-unity(), fa-unity(solid: true), fa-icon("unity"),
+```typst #fa-universal-access()```, fa-universal-access(), fa-universal-access(solid: true), fa-icon("universal-access"),
+```typst #fa-unlock()```, fa-unlock(), fa-unlock(solid: true), fa-icon("unlock"),
+```typst #fa-unlock-keyhole()```, fa-unlock-keyhole(), fa-unlock-keyhole(solid: true), fa-icon("unlock-keyhole"),
+```typst #fa-unlock-alt()```, fa-unlock-alt(), fa-unlock-alt(solid: true), fa-icon("unlock-alt"),
+```typst #fa-unsplash()```, fa-unsplash(), fa-unsplash(solid: true), fa-icon("unsplash"),
+```typst #fa-untappd()```, fa-untappd(), fa-untappd(solid: true), fa-icon("untappd"),
+```typst #fa-up-down()```, fa-up-down(), fa-up-down(solid: true), fa-icon("up-down"),
+```typst #fa-arrows-alt-v()```, fa-arrows-alt-v(), fa-arrows-alt-v(solid: true), fa-icon("arrows-alt-v"),
+```typst #fa-up-down-left-right()```, fa-up-down-left-right(), fa-up-down-left-right(solid: true), fa-icon("up-down-left-right"),
+```typst #fa-arrows-alt()```, fa-arrows-alt(), fa-arrows-alt(solid: true), fa-icon("arrows-alt"),
+```typst #fa-up-long()```, fa-up-long(), fa-up-long(solid: true), fa-icon("up-long"),
+```typst #fa-long-arrow-alt-up()```, fa-long-arrow-alt-up(), fa-long-arrow-alt-up(solid: true), fa-icon("long-arrow-alt-up"),
+```typst #fa-up-right-and-down-left-from-center()```, fa-up-right-and-down-left-from-center(), fa-up-right-and-down-left-from-center(solid: true), fa-icon("up-right-and-down-left-from-center"),
+```typst #fa-expand-alt()```, fa-expand-alt(), fa-expand-alt(solid: true), fa-icon("expand-alt"),
+```typst #fa-up-right-from-square()```, fa-up-right-from-square(), fa-up-right-from-square(solid: true), fa-icon("up-right-from-square"),
+```typst #fa-external-link-alt()```, fa-external-link-alt(), fa-external-link-alt(solid: true), fa-icon("external-link-alt"),
+```typst #fa-upload()```, fa-upload(), fa-upload(solid: true), fa-icon("upload"),
+```typst #fa-ups()```, fa-ups(), fa-ups(solid: true), fa-icon("ups"),
+```typst #fa-upwork()```, fa-upwork(), fa-upwork(solid: true), fa-icon("upwork"),
+```typst #fa-usb()```, fa-usb(), fa-usb(solid: true), fa-icon("usb"),
+```typst #fa-user()```, fa-user(), fa-user(solid: true), fa-icon("user"),
+```typst #fa-user-astronaut()```, fa-user-astronaut(), fa-user-astronaut(solid: true), fa-icon("user-astronaut"),
+```typst #fa-user-check()```, fa-user-check(), fa-user-check(solid: true), fa-icon("user-check"),
+```typst #fa-user-clock()```, fa-user-clock(), fa-user-clock(solid: true), fa-icon("user-clock"),
+```typst #fa-user-doctor()```, fa-user-doctor(), fa-user-doctor(solid: true), fa-icon("user-doctor"),
+```typst #fa-user-md()```, fa-user-md(), fa-user-md(solid: true), fa-icon("user-md"),
+```typst #fa-user-gear()```, fa-user-gear(), fa-user-gear(solid: true), fa-icon("user-gear"),
+```typst #fa-user-cog()```, fa-user-cog(), fa-user-cog(solid: true), fa-icon("user-cog"),
+```typst #fa-user-graduate()```, fa-user-graduate(), fa-user-graduate(solid: true), fa-icon("user-graduate"),
+```typst #fa-user-group()```, fa-user-group(), fa-user-group(solid: true), fa-icon("user-group"),
+```typst #fa-user-friends()```, fa-user-friends(), fa-user-friends(solid: true), fa-icon("user-friends"),
+```typst #fa-user-injured()```, fa-user-injured(), fa-user-injured(solid: true), fa-icon("user-injured"),
+```typst #fa-user-large()```, fa-user-large(), fa-user-large(solid: true), fa-icon("user-large"),
+```typst #fa-user-alt()```, fa-user-alt(), fa-user-alt(solid: true), fa-icon("user-alt"),
+```typst #fa-user-large-slash()```, fa-user-large-slash(), fa-user-large-slash(solid: true), fa-icon("user-large-slash"),
+```typst #fa-user-alt-slash()```, fa-user-alt-slash(), fa-user-alt-slash(solid: true), fa-icon("user-alt-slash"),
+```typst #fa-user-lock()```, fa-user-lock(), fa-user-lock(solid: true), fa-icon("user-lock"),
+```typst #fa-user-minus()```, fa-user-minus(), fa-user-minus(solid: true), fa-icon("user-minus"),
+```typst #fa-user-ninja()```, fa-user-ninja(), fa-user-ninja(solid: true), fa-icon("user-ninja"),
+```typst #fa-user-nurse()```, fa-user-nurse(), fa-user-nurse(solid: true), fa-icon("user-nurse"),
+```typst #fa-user-pen()```, fa-user-pen(), fa-user-pen(solid: true), fa-icon("user-pen"),
+```typst #fa-user-edit()```, fa-user-edit(), fa-user-edit(solid: true), fa-icon("user-edit"),
+```typst #fa-user-plus()```, fa-user-plus(), fa-user-plus(solid: true), fa-icon("user-plus"),
+```typst #fa-user-secret()```, fa-user-secret(), fa-user-secret(solid: true), fa-icon("user-secret"),
+```typst #fa-user-shield()```, fa-user-shield(), fa-user-shield(solid: true), fa-icon("user-shield"),
+```typst #fa-user-slash()```, fa-user-slash(), fa-user-slash(solid: true), fa-icon("user-slash"),
+```typst #fa-user-tag()```, fa-user-tag(), fa-user-tag(solid: true), fa-icon("user-tag"),
+```typst #fa-user-tie()```, fa-user-tie(), fa-user-tie(solid: true), fa-icon("user-tie"),
+```typst #fa-user-xmark()```, fa-user-xmark(), fa-user-xmark(solid: true), fa-icon("user-xmark"),
+```typst #fa-user-times()```, fa-user-times(), fa-user-times(solid: true), fa-icon("user-times"),
+```typst #fa-users()```, fa-users(), fa-users(solid: true), fa-icon("users"),
+```typst #fa-users-between-lines()```, fa-users-between-lines(), fa-users-between-lines(solid: true), fa-icon("users-between-lines"),
+```typst #fa-users-gear()```, fa-users-gear(), fa-users-gear(solid: true), fa-icon("users-gear"),
+```typst #fa-users-cog()```, fa-users-cog(), fa-users-cog(solid: true), fa-icon("users-cog"),
+```typst #fa-users-line()```, fa-users-line(), fa-users-line(solid: true), fa-icon("users-line"),
+```typst #fa-users-rays()```, fa-users-rays(), fa-users-rays(solid: true), fa-icon("users-rays"),
+```typst #fa-users-rectangle()```, fa-users-rectangle(), fa-users-rectangle(solid: true), fa-icon("users-rectangle"),
+```typst #fa-users-slash()```, fa-users-slash(), fa-users-slash(solid: true), fa-icon("users-slash"),
+```typst #fa-users-viewfinder()```, fa-users-viewfinder(), fa-users-viewfinder(solid: true), fa-icon("users-viewfinder"),
+```typst #fa-usps()```, fa-usps(), fa-usps(solid: true), fa-icon("usps"),
+```typst #fa-ussunnah()```, fa-ussunnah(), fa-ussunnah(solid: true), fa-icon("ussunnah"),
+```typst #fa-utensils()```, fa-utensils(), fa-utensils(solid: true), fa-icon("utensils"),
+```typst #fa-cutlery()```, fa-cutlery(), fa-cutlery(solid: true), fa-icon("cutlery"),
+```typst #fa-v()```, fa-v(), fa-v(solid: true), fa-icon("v"),
+```typst #fa-vaadin()```, fa-vaadin(), fa-vaadin(solid: true), fa-icon("vaadin"),
+```typst #fa-van-shuttle()```, fa-van-shuttle(), fa-van-shuttle(solid: true), fa-icon("van-shuttle"),
+```typst #fa-shuttle-van()```, fa-shuttle-van(), fa-shuttle-van(solid: true), fa-icon("shuttle-van"),
+```typst #fa-vault()```, fa-vault(), fa-vault(solid: true), fa-icon("vault"),
+```typst #fa-vector-square()```, fa-vector-square(), fa-vector-square(solid: true), fa-icon("vector-square"),
+```typst #fa-venus()```, fa-venus(), fa-venus(solid: true), fa-icon("venus"),
+```typst #fa-venus-double()```, fa-venus-double(), fa-venus-double(solid: true), fa-icon("venus-double"),
+```typst #fa-venus-mars()```, fa-venus-mars(), fa-venus-mars(solid: true), fa-icon("venus-mars"),
+```typst #fa-vest()```, fa-vest(), fa-vest(solid: true), fa-icon("vest"),
+```typst #fa-vest-patches()```, fa-vest-patches(), fa-vest-patches(solid: true), fa-icon("vest-patches"),
+```typst #fa-viacoin()```, fa-viacoin(), fa-viacoin(solid: true), fa-icon("viacoin"),
+```typst #fa-viadeo()```, fa-viadeo(), fa-viadeo(solid: true), fa-icon("viadeo"),
+```typst #fa-vial()```, fa-vial(), fa-vial(solid: true), fa-icon("vial"),
+```typst #fa-vial-circle-check()```, fa-vial-circle-check(), fa-vial-circle-check(solid: true), fa-icon("vial-circle-check"),
+```typst #fa-vial-virus()```, fa-vial-virus(), fa-vial-virus(solid: true), fa-icon("vial-virus"),
+```typst #fa-vials()```, fa-vials(), fa-vials(solid: true), fa-icon("vials"),
+```typst #fa-viber()```, fa-viber(), fa-viber(solid: true), fa-icon("viber"),
+```typst #fa-video()```, fa-video(), fa-video(solid: true), fa-icon("video"),
+```typst #fa-video-camera()```, fa-video-camera(), fa-video-camera(solid: true), fa-icon("video-camera"),
+```typst #fa-video-slash()```, fa-video-slash(), fa-video-slash(solid: true), fa-icon("video-slash"),
+```typst #fa-vihara()```, fa-vihara(), fa-vihara(solid: true), fa-icon("vihara"),
+```typst #fa-vimeo()```, fa-vimeo(), fa-vimeo(solid: true), fa-icon("vimeo"),
+```typst #fa-vimeo-v()```, fa-vimeo-v(), fa-vimeo-v(solid: true), fa-icon("vimeo-v"),
+```typst #fa-vine()```, fa-vine(), fa-vine(solid: true), fa-icon("vine"),
+```typst #fa-virus()```, fa-virus(), fa-virus(solid: true), fa-icon("virus"),
+```typst #fa-virus-covid()```, fa-virus-covid(), fa-virus-covid(solid: true), fa-icon("virus-covid"),
+```typst #fa-virus-covid-slash()```, fa-virus-covid-slash(), fa-virus-covid-slash(solid: true), fa-icon("virus-covid-slash"),
+```typst #fa-virus-slash()```, fa-virus-slash(), fa-virus-slash(solid: true), fa-icon("virus-slash"),
+```typst #fa-viruses()```, fa-viruses(), fa-viruses(solid: true), fa-icon("viruses"),
+```typst #fa-vk()```, fa-vk(), fa-vk(solid: true), fa-icon("vk"),
+```typst #fa-vnv()```, fa-vnv(), fa-vnv(solid: true), fa-icon("vnv"),
+```typst #fa-voicemail()```, fa-voicemail(), fa-voicemail(solid: true), fa-icon("voicemail"),
+```typst #fa-volcano()```, fa-volcano(), fa-volcano(solid: true), fa-icon("volcano"),
+```typst #fa-volleyball()```, fa-volleyball(), fa-volleyball(solid: true), fa-icon("volleyball"),
+```typst #fa-volleyball-ball()```, fa-volleyball-ball(), fa-volleyball-ball(solid: true), fa-icon("volleyball-ball"),
+```typst #fa-volume-high()```, fa-volume-high(), fa-volume-high(solid: true), fa-icon("volume-high"),
+```typst #fa-volume-up()```, fa-volume-up(), fa-volume-up(solid: true), fa-icon("volume-up"),
+```typst #fa-volume-low()```, fa-volume-low(), fa-volume-low(solid: true), fa-icon("volume-low"),
+```typst #fa-volume-down()```, fa-volume-down(), fa-volume-down(solid: true), fa-icon("volume-down"),
+```typst #fa-volume-off()```, fa-volume-off(), fa-volume-off(solid: true), fa-icon("volume-off"),
+```typst #fa-volume-xmark()```, fa-volume-xmark(), fa-volume-xmark(solid: true), fa-icon("volume-xmark"),
+```typst #fa-volume-mute()```, fa-volume-mute(), fa-volume-mute(solid: true), fa-icon("volume-mute"),
+```typst #fa-volume-times()```, fa-volume-times(), fa-volume-times(solid: true), fa-icon("volume-times"),
+```typst #fa-vr-cardboard()```, fa-vr-cardboard(), fa-vr-cardboard(solid: true), fa-icon("vr-cardboard"),
+```typst #fa-vuejs()```, fa-vuejs(), fa-vuejs(solid: true), fa-icon("vuejs"),
+```typst #fa-w()```, fa-w(), fa-w(solid: true), fa-icon("w"),
+```typst #fa-walkie-talkie()```, fa-walkie-talkie(), fa-walkie-talkie(solid: true), fa-icon("walkie-talkie"),
+```typst #fa-wallet()```, fa-wallet(), fa-wallet(solid: true), fa-icon("wallet"),
+```typst #fa-wand-magic()```, fa-wand-magic(), fa-wand-magic(solid: true), fa-icon("wand-magic"),
+```typst #fa-magic()```, fa-magic(), fa-magic(solid: true), fa-icon("magic"),
+```typst #fa-wand-magic-sparkles()```, fa-wand-magic-sparkles(), fa-wand-magic-sparkles(solid: true), fa-icon("wand-magic-sparkles"),
+```typst #fa-magic-wand-sparkles()```, fa-magic-wand-sparkles(), fa-magic-wand-sparkles(solid: true), fa-icon("magic-wand-sparkles"),
+```typst #fa-wand-sparkles()```, fa-wand-sparkles(), fa-wand-sparkles(solid: true), fa-icon("wand-sparkles"),
+```typst #fa-warehouse()```, fa-warehouse(), fa-warehouse(solid: true), fa-icon("warehouse"),
+```typst #fa-watchman-monitoring()```, fa-watchman-monitoring(), fa-watchman-monitoring(solid: true), fa-icon("watchman-monitoring"),
+```typst #fa-water()```, fa-water(), fa-water(solid: true), fa-icon("water"),
+```typst #fa-water-ladder()```, fa-water-ladder(), fa-water-ladder(solid: true), fa-icon("water-ladder"),
+```typst #fa-ladder-water()```, fa-ladder-water(), fa-ladder-water(solid: true), fa-icon("ladder-water"),
+```typst #fa-swimming-pool()```, fa-swimming-pool(), fa-swimming-pool(solid: true), fa-icon("swimming-pool"),
+```typst #fa-wave-square()```, fa-wave-square(), fa-wave-square(solid: true), fa-icon("wave-square"),
+```typst #fa-waze()```, fa-waze(), fa-waze(solid: true), fa-icon("waze"),
+```typst #fa-web-awesome()```, fa-web-awesome(), fa-web-awesome(solid: true), fa-icon("web-awesome"),
+```typst #fa-webflow()```, fa-webflow(), fa-webflow(solid: true), fa-icon("webflow"),
+```typst #fa-weebly()```, fa-weebly(), fa-weebly(solid: true), fa-icon("weebly"),
+```typst #fa-weibo()```, fa-weibo(), fa-weibo(solid: true), fa-icon("weibo"),
+```typst #fa-weight-hanging()```, fa-weight-hanging(), fa-weight-hanging(solid: true), fa-icon("weight-hanging"),
+```typst #fa-weight-scale()```, fa-weight-scale(), fa-weight-scale(solid: true), fa-icon("weight-scale"),
+```typst #fa-weight()```, fa-weight(), fa-weight(solid: true), fa-icon("weight"),
+```typst #fa-weixin()```, fa-weixin(), fa-weixin(solid: true), fa-icon("weixin"),
+```typst #fa-whatsapp()```, fa-whatsapp(), fa-whatsapp(solid: true), fa-icon("whatsapp"),
+```typst #fa-wheat-awn()```, fa-wheat-awn(), fa-wheat-awn(solid: true), fa-icon("wheat-awn"),
+```typst #fa-wheat-alt()```, fa-wheat-alt(), fa-wheat-alt(solid: true), fa-icon("wheat-alt"),
+```typst #fa-wheat-awn-circle-exclamation()```, fa-wheat-awn-circle-exclamation(), fa-wheat-awn-circle-exclamation(solid: true), fa-icon("wheat-awn-circle-exclamation"),
+```typst #fa-wheelchair()```, fa-wheelchair(), fa-wheelchair(solid: true), fa-icon("wheelchair"),
+```typst #fa-wheelchair-move()```, fa-wheelchair-move(), fa-wheelchair-move(solid: true), fa-icon("wheelchair-move"),
+```typst #fa-wheelchair-alt()```, fa-wheelchair-alt(), fa-wheelchair-alt(solid: true), fa-icon("wheelchair-alt"),
+```typst #fa-whiskey-glass()```, fa-whiskey-glass(), fa-whiskey-glass(solid: true), fa-icon("whiskey-glass"),
+```typst #fa-glass-whiskey()```, fa-glass-whiskey(), fa-glass-whiskey(solid: true), fa-icon("glass-whiskey"),
+```typst #fa-whmcs()```, fa-whmcs(), fa-whmcs(solid: true), fa-icon("whmcs"),
+```typst #fa-wifi()```, fa-wifi(), fa-wifi(solid: true), fa-icon("wifi"),
+```typst #fa-wifi-3()```, fa-wifi-3(), fa-wifi-3(solid: true), fa-icon("wifi-3"),
+```typst #fa-wifi-strong()```, fa-wifi-strong(), fa-wifi-strong(solid: true), fa-icon("wifi-strong"),
+```typst #fa-wikipedia-w()```, fa-wikipedia-w(), fa-wikipedia-w(solid: true), fa-icon("wikipedia-w"),
+```typst #fa-wind()```, fa-wind(), fa-wind(solid: true), fa-icon("wind"),
+```typst #fa-window-maximize()```, fa-window-maximize(), fa-window-maximize(solid: true), fa-icon("window-maximize"),
+```typst #fa-window-minimize()```, fa-window-minimize(), fa-window-minimize(solid: true), fa-icon("window-minimize"),
+```typst #fa-window-restore()```, fa-window-restore(), fa-window-restore(solid: true), fa-icon("window-restore"),
+```typst #fa-windows()```, fa-windows(), fa-windows(solid: true), fa-icon("windows"),
+```typst #fa-wine-bottle()```, fa-wine-bottle(), fa-wine-bottle(solid: true), fa-icon("wine-bottle"),
+```typst #fa-wine-glass()```, fa-wine-glass(), fa-wine-glass(solid: true), fa-icon("wine-glass"),
+```typst #fa-wine-glass-empty()```, fa-wine-glass-empty(), fa-wine-glass-empty(solid: true), fa-icon("wine-glass-empty"),
+```typst #fa-wine-glass-alt()```, fa-wine-glass-alt(), fa-wine-glass-alt(solid: true), fa-icon("wine-glass-alt"),
+```typst #fa-wirsindhandwerk()```, fa-wirsindhandwerk(), fa-wirsindhandwerk(solid: true), fa-icon("wirsindhandwerk"),
+```typst #fa-wsh()```, fa-wsh(), fa-wsh(solid: true), fa-icon("wsh"),
+```typst #fa-wix()```, fa-wix(), fa-wix(solid: true), fa-icon("wix"),
+```typst #fa-wizards-of-the-coast()```, fa-wizards-of-the-coast(), fa-wizards-of-the-coast(solid: true), fa-icon("wizards-of-the-coast"),
+```typst #fa-wodu()```, fa-wodu(), fa-wodu(solid: true), fa-icon("wodu"),
+```typst #fa-wolf-pack-battalion()```, fa-wolf-pack-battalion(), fa-wolf-pack-battalion(solid: true), fa-icon("wolf-pack-battalion"),
+```typst #fa-won-sign()```, fa-won-sign(), fa-won-sign(solid: true), fa-icon("won-sign"),
+```typst #fa-krw()```, fa-krw(), fa-krw(solid: true), fa-icon("krw"),
+```typst #fa-won()```, fa-won(), fa-won(solid: true), fa-icon("won"),
+```typst #fa-wordpress()```, fa-wordpress(), fa-wordpress(solid: true), fa-icon("wordpress"),
+```typst #fa-wordpress-simple()```, fa-wordpress-simple(), fa-wordpress-simple(solid: true), fa-icon("wordpress-simple"),
+```typst #fa-worm()```, fa-worm(), fa-worm(solid: true), fa-icon("worm"),
+```typst #fa-wpbeginner()```, fa-wpbeginner(), fa-wpbeginner(solid: true), fa-icon("wpbeginner"),
+```typst #fa-wpexplorer()```, fa-wpexplorer(), fa-wpexplorer(solid: true), fa-icon("wpexplorer"),
+```typst #fa-wpforms()```, fa-wpforms(), fa-wpforms(solid: true), fa-icon("wpforms"),
+```typst #fa-wpressr()```, fa-wpressr(), fa-wpressr(solid: true), fa-icon("wpressr"),
+```typst #fa-rendact()```, fa-rendact(), fa-rendact(solid: true), fa-icon("rendact"),
+```typst #fa-wrench()```, fa-wrench(), fa-wrench(solid: true), fa-icon("wrench"),
+```typst #fa-x()```, fa-x(), fa-x(solid: true), fa-icon("x"),
+```typst #fa-x-ray()```, fa-x-ray(), fa-x-ray(solid: true), fa-icon("x-ray"),
+```typst #fa-x-twitter()```, fa-x-twitter(), fa-x-twitter(solid: true), fa-icon("x-twitter"),
+```typst #fa-xbox()```, fa-xbox(), fa-xbox(solid: true), fa-icon("xbox"),
+```typst #fa-xing()```, fa-xing(), fa-xing(solid: true), fa-icon("xing"),
+```typst #fa-xmark()```, fa-xmark(), fa-xmark(solid: true), fa-icon("xmark"),
+```typst #fa-close()```, fa-close(), fa-close(solid: true), fa-icon("close"),
+```typst #fa-multiply()```, fa-multiply(), fa-multiply(solid: true), fa-icon("multiply"),
+```typst #fa-remove()```, fa-remove(), fa-remove(solid: true), fa-icon("remove"),
+```typst #fa-times()```, fa-times(), fa-times(solid: true), fa-icon("times"),
+```typst #fa-xmarks-lines()```, fa-xmarks-lines(), fa-xmarks-lines(solid: true), fa-icon("xmarks-lines"),
+```typst #fa-y()```, fa-y(), fa-y(solid: true), fa-icon("y"),
+```typst #fa-y-combinator()```, fa-y-combinator(), fa-y-combinator(solid: true), fa-icon("y-combinator"),
+```typst #fa-yahoo()```, fa-yahoo(), fa-yahoo(solid: true), fa-icon("yahoo"),
+```typst #fa-yammer()```, fa-yammer(), fa-yammer(solid: true), fa-icon("yammer"),
+```typst #fa-yandex()```, fa-yandex(), fa-yandex(solid: true), fa-icon("yandex"),
+```typst #fa-yandex-international()```, fa-yandex-international(), fa-yandex-international(solid: true), fa-icon("yandex-international"),
+```typst #fa-yarn()```, fa-yarn(), fa-yarn(solid: true), fa-icon("yarn"),
+```typst #fa-yelp()```, fa-yelp(), fa-yelp(solid: true), fa-icon("yelp"),
+```typst #fa-yen-sign()```, fa-yen-sign(), fa-yen-sign(solid: true), fa-icon("yen-sign"),
+```typst #fa-cny()```, fa-cny(), fa-cny(solid: true), fa-icon("cny"),
+```typst #fa-jpy()```, fa-jpy(), fa-jpy(solid: true), fa-icon("jpy"),
+```typst #fa-rmb()```, fa-rmb(), fa-rmb(solid: true), fa-icon("rmb"),
+```typst #fa-yen()```, fa-yen(), fa-yen(solid: true), fa-icon("yen"),
+```typst #fa-yin-yang()```, fa-yin-yang(), fa-yin-yang(solid: true), fa-icon("yin-yang"),
+```typst #fa-yoast()```, fa-yoast(), fa-yoast(solid: true), fa-icon("yoast"),
+```typst #fa-youtube()```, fa-youtube(), fa-youtube(solid: true), fa-icon("youtube"),
+```typst #fa-z()```, fa-z(), fa-z(solid: true), fa-icon("z"),
+```typst #fa-zhihu()```, fa-zhihu(), fa-zhihu(solid: true), fa-icon("zhihu"),
+)

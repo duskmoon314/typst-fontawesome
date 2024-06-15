@@ -74,6 +74,8 @@ If the icon only has a solid version, you can omit the `solid` parameter because
 
 However, some icons (e.g. 0, 1, 2...) have a regular version that isn't mentioned in the metadata. In this case, you need to set `solid` to `false` to use the regular version.
 
+Notice that `fa-icon` currently doesn't automatically set `solid` to `true` for icons that only have a solid version. Thus, you may not get the expected glyph if you don't set `solid` to `true` for these icons. I haven't decided whether to change this behavior yet.
+
 ==== Different sets
 
 By default, the library uses two sets: `Free` and `Brands`.
@@ -99,5 +101,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 ```typst #fa-chess-queen(size: 15pt)``` #fa-chess-queen(size: 15pt)
 
 == Gallery
+
+Here are all the icons in the library. The first column is the icon function you can use, and the second and third columns are the icon in regular and solid versions. The fourth column is what you get when you use `fa-icon` with the icon name.
 
 #include "gallery.typ"

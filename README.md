@@ -70,6 +70,8 @@ If the icon only has a solid version, you can omit the `solid` parameter because
 
 However, some icons (e.g. 0, 1, 2...) have a regular version that isn't mentioned in the metadata. In this case, you need to set `solid` to `false` to use the regular version.
 
+Notice that `fa-icon` currently doesn't automatically set `solid` to `true` for icons that only have a solid version. Thus, you may not get the expected glyph if you don't set `solid` to `true` for these icons. I haven't decided whether to change this behavior yet.
+
 #### Full list of icons
 
 You can find all icons on the [official website](https://fontawesome.com/search?o=r&m=free)

@@ -127,7 +127,10 @@ def generate_gallery(version, output):
             raise Exception("Cannot find metadata/icons.json")
         icons_file = icons_file[0]
 
-        f.write("#grid(columns: (20em, 10em, 3em), `typst code`, `regular`, `solid`)\n")
+        f.write(
+            # "#grid(columns: (20em, 3em, 3em, 3em), [typst code], [default], [solid], [`fa-icon` with text])\n"
+            "#table(columns: (3fr, 1fr, 1fr, 2fr), stroke: none, table.header([typst code], [default], [solid], [`fa-icon` with text]),\n"
+        )
 
         with open(icons_file, "r") as icons_f:
             icons_data = json.load(icons_f)
@@ -135,7 +138,8 @@ def generate_gallery(version, output):
             for icon_name, icon_data in icons_data.items():
                 # Generate the icon line
                 f.write(
-                    f"#grid(columns: (20em, 10em, 3em), ```typst #fa-{icon_name}()```, fa-{icon_name}(), fa-{icon_name}(solid: true))\n"
+                    # f'#grid(columns: (20em, 3em, 3em, 3em), ```typst #fa-{icon_name}()```, fa-{icon_name}(), fa-{icon_name}(solid: true)), fa-icon("{icon_name}")\n'
+                    f'```typst #fa-{icon_name}()```, fa-{icon_name}(), fa-{icon_name}(solid: true), fa-icon("{icon_name}"),\n'
                 )
 
                 # Generate the alias lines
@@ -143,8 +147,11 @@ def generate_gallery(version, output):
                     if "names" in icon_data["aliases"]:
                         for alias_name in icon_data["aliases"]["names"]:
                             f.write(
-                                f"#grid(columns: (20em, 10em, 3em), ```typst #fa-{alias_name}()```, fa-{alias_name}(), fa-{alias_name}(solid: true))\n"
+                                # f'#grid(columns: (20em, 3em, 3em, 3em), ```typst #fa-{alias_name}()```, fa-{alias_name}(), fa-{alias_name}(solid: true)), fa-icon("{alias_name}")\n'
+                                f'```typst #fa-{alias_name}()```, fa-{alias_name}(), fa-{alias_name}(solid: true), fa-icon("{alias_name}"),\n'
                             )
+
+        f.write(")")
 
 
 def main():
