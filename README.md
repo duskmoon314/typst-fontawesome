@@ -30,13 +30,17 @@ You can double click the `otf` files to install them.
 
 You can right-click the `otf` files and select `Install`.
 
+#### Some notes
+
+This library is tested with the otf files of the Font Awesome Free set. TrueType fonts may not work as expected. (Though I am not sure whether Font Awesome provides TrueType fonts, some issue is reported with TrueType fonts.)
+
 ### Import the library
 
 #### Using the typst packages
 
 You can install the library using the typst packages:
 
-`#import "@preview/fontawesome:0.2.0": *`
+`#import "@preview/fontawesome:0.2.1": *`
 
 #### Manually install
 
@@ -98,6 +102,16 @@ But you need to install the fonts first and take care of `solid` yourself.
 The `fa-icon` function passes args to `text`, so you can customize the icon by passing parameters to it:
 
 `#fa-icon("chess-queen", fill: blue)`
+
+#### Known Issues
+
+- [typst#2578](https://github.com/typst/typst/issues/2578) [typst-fontawesome#2](https://github.com/duskmoon314/typst-fontawesome/issues/2)
+
+  This is a known issue that the ligatures may not work in headings, list items, grid items, and other elements. You can use the Unicode from the [official website](https://fontawesome.com) to avoid this issue when using Pro sets.
+
+  For Free and Brands sets, Unicode is used implicitly, so you don't need to worry about this.
+
+  Any help on this issue is appreciated.
 
 ## Example
 
