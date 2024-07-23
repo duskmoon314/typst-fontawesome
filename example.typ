@@ -6,19 +6,13 @@ duskmoon314
 
 https://github.com/duskmoon314/typst-fontawesome
 
-A Typst library for Font Awesome 6.5.2 icons through the desktop fonts.
+A Typst library for Font Awesome 6.6.0 icons through the desktop fonts.
 
 == Usage
 
 === Install the fonts
 
 You can download the fonts from the official website: https://fontawesome.com/download
-
-Or you can use the helper script to download the fonts and metadata:
-
-`python helper.py -dd -v 6.5.2`
-
-Here `-dd` means download and extract the zip file. You can use `-d` to only download the zip file.
 
 After downloading the zip file, you can install the fonts depending on your OS.
 
@@ -44,7 +38,7 @@ This library is tested with the otf files of the Font Awesome Free set. TrueType
 
 You can install the library using the typst packages:
 
-`#import "@preview/fontawesome:0.2.1": *`
+`#import "@preview/fontawesome:0.3.0": *`
 
 ==== Manually install
 
@@ -74,20 +68,18 @@ You can also set `solid` to `true` to use the solid version of the icon:
 
 ```typst #fa-icon("chess-queen", solid: true)``` #fa-icon("chess-queen", solid: true)
 
-If the icon only has a solid version, you can omit the `solid` parameter because the library automatically sets `solid` to `true` for these icons. For instance, the generated function for these icons would be like ```typst #fa-icon().with("arrow-trend-up", solid: true)```.
-
-However, some icons (e.g. 0, 1, 2...) have a regular version that isn't mentioned in the metadata. In this case, you need to set `solid` to `false` to use the regular version.
-
-Notice that `fa-icon` currently doesn't automatically set `solid` to `true` for icons that only have a solid version. Thus, you may not get the expected glyph if you don't set `solid` to `true` for these icons. I haven't decided whether to change this behavior yet.
+Some icons only have the solid version in the Free set, so you need to set `solid` to `true` to use them if you are using the Free set.
+Otherwise, you may not get the expected glyph.
 
 ==== Full list of icons
 
-You can find all icons on the #link("https://fontawesome.com/search?o=r&m=free")[official website].
+You can find all icons on the #link("https://fontawesome.com/search")[official website].
 
 ==== Different sets
 
-By default, the library uses two sets: `Free` and `Brands`.
-That is, three font files are used:
+By default, the library supports `Free`, `Brands`, `Pro`, `Duotone` and `Sharp` sets.
+But only `Free` and `Brands` are tested by me.
+That is, three font files are used to test:
 - Font Awesome 6 Free (Also named as _Font Awesome 6 Free Regular_)
 - Font Awesome 6 Free Solid
 - Font Awesome 6 Brands
@@ -95,10 +87,11 @@ That is, three font files are used:
 Due to some limitations of typst 0.11.0, the regular and solid versions are treated as different fonts.
 In this library, `solid` is used to switch between the regular and solid versions.
 
-To use `Pro` or other sets, you can pass the `font` parameter to the inner `text` function: \
+To use other sets or specify one set, you can pass the `font` parameter to the inner `text` function: \
 ```typst #fa-icon("github", font: "Font Awesome 6 Pro Solid")```
 
-But you need to install the fonts first and take care of `solid` yourself.
+If you have Font Awesome Pro, please help me test the library with the Pro set.
+Any feedback is appreciated.
 
 ==== Customization
 
@@ -114,12 +107,14 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 
   This is a known issue that the ligatures may not work in headings, list items, grid items, and other elements. You can use the Unicode from the #link("https://fontawesome.com")[official website] to avoid this issue when using Pro sets.
 
-  For Free and Brands sets, Unicode is used implicitly, so you don't need to worry about this.
+  For most icons, Unicode is used implicitly. So I assume we usually don't need to worry about this.
 
   Any help on this issue is appreciated.
 
 == Gallery
 
 Here are all the icons in the library. The first column is the icon function you can use, and the second and third columns are the icon in regular and solid versions. The fourth column is what you get when you use `fa-icon` with the icon name.
+
+Since I only use the Free set, some icons may render as a square in the following table. Please turn to the official website for the correct glyph.
 
 #include "gallery.typ"
