@@ -24,7 +24,7 @@
       "Font Awesome 6 Pro" + if solid { " Solid" },
       "Font Awesome 6 Duotone",
       "Font Awesome 6 Sharp" + if solid { " Solid" },
-      "Font Awesome 6 Sharp Duotone" + if solid { " Solid"},
+      "Font Awesome 6 Sharp Duotone" + if solid { " Solid" },
     ),
     // TODO: We might need to check whether this is needed
     weight: if solid { 900 } else { 400 },

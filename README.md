@@ -2,19 +2,13 @@
 
 A Typst library for Font Awesome icons through the desktop fonts.
 
-p.s. The library is based on the Font Awesome 6 desktop fonts (v6.5.2)
+p.s. The library is based on the Font Awesome 6 desktop fonts (v6.6.0)
 
 ## Usage
 
 ### Install the fonts
 
 You can download the fonts from the official website: https://fontawesome.com/download
-
-Or you can use the helper script to download the fonts and metadata:
-
-`python helper.py -dd -v {version}`
-
-Here `-dd` means to download and extract the zip file. You can use `-d` to only download the zip file.
 
 After downloading the zip file, you can install the fonts depending on your OS.
 
@@ -40,7 +34,7 @@ This library is tested with the otf files of the Font Awesome Free set. TrueType
 
 You can install the library using the typst packages:
 
-`#import "@preview/fontawesome:0.2.1": *`
+`#import "@preview/fontawesome:0.3.0": *`
 
 #### Manually install
 
@@ -52,7 +46,7 @@ There are three files:
 
 - `lib.typ`: The main entrypoint of the library.
 - `lib-impl.typ`: The implementation of `fa-icon`.
-- `lib-gen.typ`: The generated icons.
+- `lib-gen.typ`: The generated icon map and functions.
 
 I recommend renaming these files to avoid conflicts with other libraries.
 
@@ -70,20 +64,18 @@ You can also set `solid` to `true` to use the solid version of the icon:
 
 `#fa-icon("chess-queen", solid: true)`
 
-If the icon only has a solid version, you can omit the `solid` parameter because the library automatically sets `solid` to `true` for these icons. For instance, the generated function for these icons would be like `#fa-icon().with("arrow-trend-up", solid: true)`.
-
-However, some icons (e.g. 0, 1, 2...) have a regular version that isn't mentioned in the metadata. In this case, you need to set `solid` to `false` to use the regular version.
-
-Notice that `fa-icon` currently doesn't automatically set `solid` to `true` for icons that only have a solid version. Thus, you may not get the expected glyph if you don't set `solid` to `true` for these icons. I haven't decided whether to change this behavior yet.
+Some icons only have the solid version in the Free set, so you need to set `solid` to `true` to use them if you are using the Free set.
+Otherwise, you may not get the expected glyph.
 
 #### Full list of icons
 
-You can find all icons on the [official website](https://fontawesome.com/search?o=r&m=free)
+You can find all icons on the [official website](https://fontawesome.com/search)
 
 #### Different sets
 
-By default, the library uses two sets: `Free` and `Brands`.
-That is, three font files are used:
+By default, the library supports `Free`, `Brands`, `Pro`, `Duotone` and `Sharp` sets.
+But only `Free` and `Brands` are tested by me.
+That is, three font files are used to test:
 
 - Font Awesome 6 Free (Also named as _Font Awesome 6 Free Regular_)
 - Font Awesome 6 Free Solid
@@ -92,10 +84,11 @@ That is, three font files are used:
 Due to some limitations of typst 0.11.0, the regular and solid versions are treated as different fonts.
 In this library, `solid` is used to switch between the regular and solid versions.
 
-To use `Pro` or other sets, you can pass the `font` parameter to the inner `text` function: \
+To use other sets or specify one set, you can pass the `font` parameter to the inner `text` function: \
 `fa-icon("github", font: "Font Awesome 6 Pro Solid")`
 
-But you need to install the fonts first and take care of `solid` yourself.
+If you have Font Awesome Pro, please help me test the library with the Pro set.
+Any feedback is appreciated.
 
 #### Customization
 
@@ -109,7 +102,7 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 
   This is a known issue that the ligatures may not work in headings, list items, grid items, and other elements. You can use the Unicode from the [official website](https://fontawesome.com) to avoid this issue when using Pro sets.
 
-  For Free and Brands sets, Unicode is used implicitly, so you don't need to worry about this.
+  For most icons, Unicode is used implicitly. So I assume we usually don't need to worry about this.
 
   Any help on this issue is appreciated.
 
@@ -123,11 +116,11 @@ Feel free to open an issue or a pull request if you find any problems or have an
 
 ### Python helper
 
-The `helper.py` script is used to download fonts and generate typst code. I aim only to use standard python libraries, so running it on any platform with python installed should be easy.
+The `helper.py` script is used to get metadata via the GraphQL API and generate typst code. I aim only to use standard python libraries, so running it on any platform with python installed should be easy.
 
 ### Repo structure
 
-- `helper.py`: The helper script to download fonts and generate typst code.
+- `helper.py`: The helper script to get metadata and generate typst code.
 - `lib.typ`: The main entrypoint of the library.
 - `lib-impl.typ`: The implementation of `fa-icon`.
 - `lib-gen.typ`: The generated functions of icons.
