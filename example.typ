@@ -101,6 +101,23 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 
 ```typst #fa-chess-queen(size: 15pt)``` #fa-chess-queen(size: 15pt)
 
+==== Stacking icons
+
+The `fa-stack` function can be used to create stacked icons:
+
+```typst #fa-stack(fa-icon-args: (solid: true), "square", ("chess-queen", (fill: white, size: 5.5pt)))``` #fa-stack(fa-icon-args: (solid: true), "square", ("chess-queen", (fill: white, size: 5.5pt)))
+
+Declaration is `fa-stack(box-args: (:), grid-args: (:), fa-icon-args: (:), ..icons)`
+
+- The order of the icons is from the bottom to the top.
+- `fa-icon-args` is used to set the default args for all icons.
+- You can also control the internal `box` and `grid` by passing the `box-args` and `grid-args` to the `fa-stack` function.
+- Currently, four types of icons are supported. The first three types leverage the `fa-icon` function, and the last type is just a content you want to put in the stack.
+  - `str`, e.g., `"square"`
+  - `array`, e.g., `("chess-queen", (fill: white, size: 5.5pt))`
+  - `arguments`, e.g. `arguments("chess-queen", solid: true, fill: white)`
+  - `content`, e.g. `fa-chess-queen(solid: true, fill: white)`
+
 ==== Known Issues
 
 - #link("https://github.com/typst/typst/issues/2578")[typst\#2578] #link("https://github.com/duskmoon314/typst-fontawesome/issues/2")[typst-fontawesome\#2]
