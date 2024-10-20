@@ -1,3 +1,6 @@
+#let _useProFonts = state("pro-fonts", false);
+#let use-pro-fonts() = { _useProFonts.update(true) }
+
 /// Render a Font Awesome icon by its name or unicode
 ///
 /// Parameters:
@@ -16,16 +19,21 @@
   fa-icon-map: (:),
   ..args,
 ) = {
-  text(
-    font: (
+  context {
+    let fonts = (
       "Font Awesome 6 Free" + if solid { " Solid" },
       "Font Awesome 6 Brands",
-      // TODO: Help needed to test following fonts
-      "Font Awesome 6 Pro" + if solid { " Solid" },
-      "Font Awesome 6 Duotone",
-      "Font Awesome 6 Sharp" + if solid { " Solid" },
-      "Font Awesome 6 Sharp Duotone" + if solid { " Solid" },
-    ),
+      )
+    if (_useProFonts.get()) {
+      fonts += (
+         "Font Awesome 6 Pro" + if solid { " Solid" },
+        "Font Awesome 6 Duotone",
+        "Font Awesome 6 Sharp" + if solid { " Solid" },
+        "Font Awesome 6 Sharp Duotone" + if solid { " Solid" },
+      )
+    }
+  text(
+    font: fonts,
     // TODO: We might need to check whether this is needed
     weight: if solid { 900 } else { 400 },
     // If the name is in the map, use the unicode from the map
@@ -33,4 +41,5 @@
     fa-icon-map.at(name, default: name),
     ..args,
   )
+  }
 }

@@ -1,5 +1,8 @@
 #import "lib.typ": *
 
+// uncomment to use pro fonts
+// #use-pro-fonts()
+
 = typst-fontawesome
 
 duskmoon314
