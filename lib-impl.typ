@@ -1,3 +1,10 @@
+// Currently, we assume there is no need to enable Pro sets for only a part of the document,
+// so no method is provided to disable Pro sets
+#let _fa_use_pro = state("_fa_use_pro", false)
+#let fa_use_pro() = {
+  _fa_use_pro.update(true)
+}
+
 /// Render a Font Awesome icon by its name or unicode
 ///
 /// Parameters:
@@ -15,17 +22,34 @@
   solid: false,
   fa-icon-map: (:),
   ..args,
-) = {
-  text(
-    font: (
-      "Font Awesome 6 Free" + if solid { " Solid" },
+) = (
+  context {
+    let default_fonts = (
+      "Font Awesome 6 Free" + if solid {
+        " Solid"
+      },
       "Font Awesome 6 Brands",
+    )
+
+    if _fa_use_pro.get() {
       // TODO: Help needed to test following fonts
-      "Font Awesome 6 Pro" + if solid { " Solid" },
-      "Font Awesome 6 Duotone",
-      "Font Awesome 6 Sharp" + if solid { " Solid" },
-      "Font Awesome 6 Sharp Duotone" + if solid { " Solid" },
-    ),
+      default_fonts += (
+        "Font Awesome 6 Pro" + if solid {
+          " Solid"
+        },
+        "Font Awesome 6 Duotone",
+        "Font Awesome 6 Sharp" + if solid {
+          " Solid"
+        },
+        "Font Awesome 6 Sharp Duotone" + if solid {
+          " Solid"
+        },
+      )
+    }
+
+    text(
+    font: default_fonts, // If you see warning here, please check whether the FA font is installed
+
     // TODO: We might need to check whether this is needed
     weight: if solid { 900 } else { 400 },
     // If the name is in the map, use the unicode from the map
@@ -33,4 +57,5 @@
     fa-icon-map.at(name, default: name),
     ..args,
   )
-}
+  }
+)

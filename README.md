@@ -34,7 +34,7 @@ This library is tested with the otf files of the Font Awesome Free set. TrueType
 
 You can install the library using the typst packages:
 
-`#import "@preview/fontawesome:0.4.0": *`
+`#import "@preview/fontawesome:0.5.0": *`
 
 #### Manually install
 
@@ -74,6 +74,8 @@ You can find all icons on the [official website](https://fontawesome.com/search)
 #### Different sets
 
 By default, the library supports `Free`, `Brands`, `Pro`, `Duotone` and `Sharp` sets.
+(See [Enable Pro sets](#enable-pro-sets) for enabling Pro sets.)
+
 But only `Free` and `Brands` are tested by me.
 That is, three font files are used to test:
 
@@ -81,7 +83,7 @@ That is, three font files are used to test:
 - Font Awesome 6 Free Solid
 - Font Awesome 6 Brands
 
-Due to some limitations of typst 0.11.0, the regular and solid versions are treated as different fonts.
+Due to some limitations of typst 0.12.0, the regular and solid versions are treated as different fonts.
 In this library, `solid` is used to switch between the regular and solid versions.
 
 To use other sets or specify one set, you can pass the `font` parameter to the inner `text` function: \
@@ -89,6 +91,17 @@ To use other sets or specify one set, you can pass the `font` parameter to the i
 
 If you have Font Awesome Pro, please help me test the library with the Pro set.
 Any feedback is appreciated.
+
+##### Enable Pro sets
+
+Typst 0.12.0 raise a warning when the font is not found.
+To use the Pro set, `typst #fa_use_pro()` should be called before any `fa-*` functions.
+
+```typst
+#fa_use_pro()                 // Enable Pro sets
+
+#fa-icon("chess-queen-piece") // Use icons from Pro sets
+```
 
 #### Customization
 
