@@ -25,37 +25,41 @@
 ) = (
   context {
     let default_fonts = (
-      "Font Awesome 6 Free" + if solid {
-        " Solid"
-      },
-      "Font Awesome 6 Brands",
+      "Font Awesome 7 Free"
+        + if solid {
+          " Solid"
+        },
+      "Font Awesome 7 Brands",
     )
 
     if _fa_use_pro.get() {
       // TODO: Help needed to test following fonts
       default_fonts += (
-        "Font Awesome 6 Pro" + if solid {
-          " Solid"
-        },
-        "Font Awesome 6 Duotone",
-        "Font Awesome 6 Sharp" + if solid {
-          " Solid"
-        },
-        "Font Awesome 6 Sharp Duotone" + if solid {
-          " Solid"
-        },
+        "Font Awesome 7 Pro"
+          + if solid {
+            " Solid"
+          },
+        "Font Awesome 7 Duotone",
+        "Font Awesome 7 Sharp"
+          + if solid {
+            " Solid"
+          },
+        "Font Awesome 7 Sharp Duotone"
+          + if solid {
+            " Solid"
+          },
       )
     }
 
     text(
-    font: default_fonts, // If you see warning here, please check whether the FA font is installed
+      font: default_fonts, // If you see warning here, please check whether the FA font is installed
 
-    // TODO: We might need to check whether this is needed
-    weight: if solid { 900 } else { 400 },
-    // If the name is in the map, use the unicode from the map
-    // If not, pass the name and let the ligature feature handle it
-    fa-icon-map.at(name, default: name),
-    ..args,
-  )
+      // TODO: We might need to check whether this is needed
+      weight: if solid { 900 } else { 400 },
+      // If the name is in the map, use the unicode from the map
+      // If not, pass the name and let the ligature feature handle it
+      fa-icon-map.at(name, default: name),
+      ..args,
+    )
   }
 )

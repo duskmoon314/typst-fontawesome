@@ -1,6 +1,6 @@
 #import "lib-impl.typ": fa-icon
 
-// Generated icon list of Font Aewsome 6.6.0
+// Generated icon list of Font Aewsome 7.0.0
 
 #let fa-icon-map = (
   "0": "\u{30}",
@@ -35,8 +35,10 @@
   "airbnb": "\u{f834}",
   "air-conditioner": "\u{f8f4}",
   "airplay": "\u{e089}",
+  "airplay-audio": "\u{e77b}",
   "alarm-clock": "\u{f34e}",
   "alarm-exclamation": "\u{f843}",
+  "alarm-minus": "\u{e803}",
   "alarm-plus": "\u{f844}",
   "alarm-snooze": "\u{f845}",
   "album": "\u{f89f}",
@@ -56,6 +58,7 @@
   "align-right": "\u{f038}",
   "align-slash": "\u{f846}",
   "alipay": "\u{f642}",
+  "almost-equal-to": "\u{e818}",
   "alt": "\u{e08a}",
   "amazon": "\u{f270}",
   "amazon-pay": "\u{f42c}",
@@ -124,6 +127,7 @@
   "arrow-down-left-and-arrow-up-right-to-center": "\u{e092}",
   "arrow-down-long": "\u{f175}",
   "long-arrow-down": "\u{f175}",
+  "arrow-down-long-to-line": "\u{e6b7}",
   "arrow-down-right": "\u{e093}",
   "arrow-down-short-wide": "\u{f884}",
   "sort-amount-desc": "\u{f884}",
@@ -149,8 +153,10 @@
   "sort-alpha-desc": "\u{f881}",
   "sort-alpha-down-alt": "\u{f881}",
   "arrow-left": "\u{f060}",
+  "arrow-left-arrow-right": "\u{e6b8}",
   "arrow-left-from-arc": "\u{e615}",
   "arrow-left-from-bracket": "\u{e668}",
+  "arrow-left-from-dotted-line": "\u{e6b9}",
   "arrow-left-from-line": "\u{f344}",
   "arrow-from-right": "\u{f344}",
   "arrow-left-long": "\u{f177}",
@@ -158,6 +164,7 @@
   "arrow-left-long-to-line": "\u{e3d4}",
   "arrow-left-to-arc": "\u{e616}",
   "arrow-left-to-bracket": "\u{e669}",
+  "arrow-left-to-dotted-line": "\u{e6ba}",
   "arrow-left-to-line": "\u{f33e}",
   "arrow-to-left": "\u{f33e}",
   "arrow-pointer": "\u{f245}",
@@ -169,6 +176,7 @@
   "arrow-right-from-arc": "\u{e4b1}",
   "arrow-right-from-bracket": "\u{f08b}",
   "sign-out": "\u{f08b}",
+  "arrow-right-from-dotted-line": "\u{e6bb}",
   "arrow-right-from-line": "\u{f343}",
   "arrow-from-left": "\u{f343}",
   "arrow-right-long": "\u{f178}",
@@ -178,6 +186,7 @@
   "arrow-right-to-bracket": "\u{f090}",
   "sign-in": "\u{f090}",
   "arrow-right-to-city": "\u{e4b3}",
+  "arrow-right-to-dotted-line": "\u{e6bc}",
   "arrow-right-to-line": "\u{f340}",
   "arrow-to-right": "\u{f340}",
   "arrow-rotate-left": "\u{f0e2}",
@@ -260,6 +269,7 @@
   "arrow-up-left-from-circle": "\u{e09e}",
   "arrow-up-long": "\u{f176}",
   "long-arrow-up": "\u{f176}",
+  "arrow-up-long-to-line": "\u{e6bd}",
   "arrow-up-right": "\u{e09f}",
   "arrow-up-right-and-arrow-down-left-from-center": "\u{e0a0}",
   "arrow-up-right-dots": "\u{e4b7}",
@@ -282,6 +292,14 @@
   "sort-amount-up": "\u{f161}",
   "arrow-up-z-a": "\u{f882}",
   "sort-alpha-up-alt": "\u{f882}",
+  "arrow-u-turn-down-left": "\u{e7e7}",
+  "arrow-u-turn-down-right": "\u{e7e8}",
+  "arrow-u-turn-left-down": "\u{e7e9}",
+  "arrow-u-turn-left-up": "\u{e7ea}",
+  "arrow-u-turn-right-down": "\u{e7eb}",
+  "arrow-u-turn-right-up": "\u{e7ec}",
+  "arrow-u-turn-up-left": "\u{e7ed}",
+  "arrow-u-turn-up-right": "\u{e7ee}",
   "artstation": "\u{f77a}",
   "asterisk": "\u{2a}",
   "asymmetrik": "\u{f372}",
@@ -293,6 +311,7 @@
   "audible": "\u{f373}",
   "audio-description": "\u{f29e}",
   "audio-description-slash": "\u{e0a8}",
+  "australian-dollar-sign": "\u{e6fe}",
   "austral-sign": "\u{e0a9}",
   "autoprefixer": "\u{f41c}",
   "avianex": "\u{f374}",
@@ -339,6 +358,7 @@
   "ballot": "\u{f732}",
   "ballot-check": "\u{f733}",
   "ball-pile": "\u{f77e}",
+  "ball-yarn": "\u{e6ce}",
   "ban": "\u{f05e}",
   "cancel": "\u{f05e}",
   "banana": "\u{e2e5}",
@@ -356,6 +376,13 @@
   "barcode": "\u{f02a}",
   "barcode-read": "\u{f464}",
   "barcode-scan": "\u{f465}",
+  "barn": "\u{e6c7}",
+  "bar-progress": "\u{e6a4}",
+  "bar-progress-empty": "\u{e6a5}",
+  "bar-progress-full": "\u{e6a6}",
+  "bar-progress-half": "\u{e6a7}",
+  "bar-progress-quarter": "\u{e6a8}",
+  "bar-progress-three-quarters": "\u{e6a9}",
   "bars": "\u{f0c9}",
   "navicon": "\u{f0c9}",
   "bars-filter": "\u{e0ad}",
@@ -367,6 +394,7 @@
   "stream": "\u{f550}",
   "baseball": "\u{f433}",
   "baseball-ball": "\u{f433}",
+  "baseball-bat": "\u{e7e5}",
   "baseball-bat-ball": "\u{f432}",
   "basketball": "\u{f434}",
   "basketball-ball": "\u{f434}",
@@ -427,6 +455,7 @@
   "bilibili": "\u{e3d9}",
   "billboard": "\u{e5cd}",
   "bimobject": "\u{f378}",
+  "bin": "\u{e763}",
   "binary": "\u{e33b}",
   "binary-circle-check": "\u{e33c}",
   "binary-lock": "\u{e33d}",
@@ -492,11 +521,13 @@
   "book-journal-whills": "\u{f66a}",
   "journal-whills": "\u{f66a}",
   "bookmark": "\u{f02e}",
+  "bookmark-plus": "\u{e755}",
   "bookmark-slash": "\u{e0c2}",
   "book-medical": "\u{f7e6}",
   "book-open": "\u{f518}",
   "book-open-cover": "\u{e0c0}",
   "book-open-alt": "\u{e0c0}",
+  "book-open-lines": "\u{e753}",
   "book-open-reader": "\u{f5da}",
   "book-reader": "\u{f5da}",
   "book-quran": "\u{f687}",
@@ -509,6 +540,7 @@
   "books-medical": "\u{f7e8}",
   "book-sparkles": "\u{f6b8}",
   "book-spells": "\u{f6b8}",
+  "book-spine": "\u{e754}",
   "book-tanakh": "\u{f827}",
   "tanakh": "\u{f827}",
   "book-user": "\u{f7e7}",
@@ -554,6 +586,9 @@
   "box": "\u{f466}",
   "box-archive": "\u{f187}",
   "archive": "\u{f187}",
+  "box-arrow-down": "\u{e794}",
+  "box-arrow-down-arrow-up": "\u{e795}",
+  "box-arrow-down-magnifying-glass": "\u{e796}",
   "box-ballot": "\u{f735}",
   "box-check": "\u{f467}",
   "box-circle-check": "\u{e0c4}",
@@ -566,12 +601,15 @@
   "box-heart": "\u{f49d}",
   "boxing-glove": "\u{f438}",
   "glove-boxing": "\u{f438}",
+  "box-isometric": "\u{e797}",
+  "box-isometric-tape": "\u{e798}",
   "box-open": "\u{f49e}",
   "box-open-full": "\u{f49c}",
   "box-full": "\u{f49c}",
   "box-taped": "\u{f49a}",
   "box-alt": "\u{f49a}",
   "box-tissue": "\u{e05b}",
+  "bra": "\u{e6cf}",
   "bracket-curly": "\u{7b}",
   "bracket-curly-left": "\u{7b}",
   "bracket-curly-right": "\u{7d}",
@@ -610,6 +648,7 @@
   "briefcase-arrow-right": "\u{e2f2}",
   "briefcase-blank": "\u{e0c8}",
   "briefcase-medical": "\u{f469}",
+  "briefs": "\u{e6d0}",
   "brightness": "\u{e0c9}",
   "brightness-low": "\u{e0ca}",
   "bring-forward": "\u{f856}",
@@ -671,9 +710,12 @@
   "business-time": "\u{f64a}",
   "briefcase-clock": "\u{f64a}",
   "bus-school": "\u{f5dd}",
+  "bus-side": "\u{e81d}",
   "bus-simple": "\u{f55e}",
   "bus-alt": "\u{f55e}",
+  "bus-stop": "\u{e81e}",
   "butter": "\u{e3e4}",
+  "butterfly": "\u{e811}",
   "buy-n-large": "\u{f8a6}",
   "buysellads": "\u{f20d}",
   "c": "\u{43}",
@@ -729,12 +771,15 @@
   "camera-alt": "\u{f030}",
   "camera-cctv": "\u{f8ac}",
   "cctv": "\u{f8ac}",
+  "camera-circle-ellipsis": "\u{e766}",
+  "camera-clock": "\u{e767}",
   "camera-movie": "\u{f8a9}",
   "camera-polaroid": "\u{f8aa}",
   "camera-retro": "\u{f083}",
   "camera-rotate": "\u{e0d8}",
   "camera-security": "\u{f8fe}",
   "camera-home": "\u{f8fe}",
+  "camera-shutter": "\u{e768}",
   "camera-slash": "\u{e0d9}",
   "camera-viewfinder": "\u{e0da}",
   "screenshot": "\u{e0da}",
@@ -754,6 +799,7 @@
   "can-food": "\u{e3e6}",
   "cannabis": "\u{f55f}",
   "cannon": "\u{e642}",
+  "capsule": "\u{e75a}",
   "capsules": "\u{f46b}",
   "car": "\u{f1b9}",
   "automobile": "\u{f1b9}",
@@ -780,14 +826,19 @@
   "caret-right": "\u{f0da}",
   "caret-up": "\u{f0d8}",
   "car-garage": "\u{f5e2}",
+  "car-key": "\u{e7c0}",
   "car-mirrors": "\u{e343}",
   "car-on": "\u{e4dd}",
+  "carpool": "\u{e69c}",
+  "car-people": "\u{e69c}",
   "car-rear": "\u{f5de}",
   "car-alt": "\u{f5de}",
   "carrot": "\u{f787}",
   "cars": "\u{f85b}",
   "car-side": "\u{f5e4}",
   "car-side-bolt": "\u{e344}",
+  "car-siren": "\u{e7c1}",
+  "car-siren-on": "\u{e7c2}",
   "cart-arrow-down": "\u{f218}",
   "cart-arrow-up": "\u{e3ee}",
   "cart-circle-arrow-down": "\u{e3ef}",
@@ -815,6 +866,7 @@
   "car-wash": "\u{f5e6}",
   "car-wrench": "\u{f5e3}",
   "car-mechanic": "\u{f5e3}",
+  "cash-app": "\u{e7d4}",
   "cash-register": "\u{f788}",
   "cassette-betamax": "\u{f8a4}",
   "betamax": "\u{f8a4}",
@@ -858,6 +910,8 @@
   "chart-bullet": "\u{e0e1}",
   "chart-candlestick": "\u{e0e2}",
   "chart-column": "\u{e0e3}",
+  "chart-diagram": "\u{e695}",
+  "chart-fft": "\u{e69e}",
   "chart-gantt": "\u{e0e4}",
   "chart-kanban": "\u{e64f}",
   "chart-line": "\u{f201}",
@@ -883,6 +937,7 @@
   "chart-scatter-bubble": "\u{e0e9}",
   "chart-simple": "\u{e473}",
   "chart-simple-horizontal": "\u{e474}",
+  "chart-sine": "\u{e69d}",
   "chart-tree-map": "\u{e0ea}",
   "chart-user": "\u{f6a3}",
   "user-chart": "\u{f6a3}",
@@ -955,6 +1010,7 @@
   "circle-9": "\u{e0f6}",
   "circle-a": "\u{e0f7}",
   "circle-ampersand": "\u{e0f8}",
+  "circleapore-dollar": "\u{e71e}",
   "circle-arrow-down": "\u{f0ab}",
   "arrow-circle-down": "\u{f0ab}",
   "circle-arrow-down-left": "\u{e0f9}",
@@ -967,12 +1023,18 @@
   "arrow-circle-up": "\u{f0aa}",
   "circle-arrow-up-left": "\u{e0fb}",
   "circle-arrow-up-right": "\u{e0fc}",
+  "circle-austral": "\u{e71b}",
+  "circle-australian-dollar": "\u{e730}",
   "circle-b": "\u{e0fd}",
+  "circle-baht": "\u{e72d}",
+  "circle-bangladeshi-taka": "\u{e701}",
+  "circle-bitcoin": "\u{e737}",
   "circle-bolt": "\u{e0fe}",
   "circle-bookmark": "\u{e100}",
   "bookmark-circle": "\u{e100}",
   "circle-book-open": "\u{e0ff}",
   "book-circle": "\u{e0ff}",
+  "circle-brazilian-real": "\u{e6eb}",
   "circle-c": "\u{e101}",
   "circle-calendar": "\u{e102}",
   "calendar-circle": "\u{e102}",
@@ -986,6 +1048,8 @@
   "caret-circle-right": "\u{f330}",
   "circle-caret-up": "\u{f331}",
   "caret-circle-up": "\u{f331}",
+  "circle-cedi": "\u{e742}",
+  "circle-cent": "\u{e72a}",
   "circle-check": "\u{f058}",
   "check-circle": "\u{f058}",
   "circle-chevron-down": "\u{f13a}",
@@ -996,7 +1060,12 @@
   "chevron-circle-right": "\u{f138}",
   "circle-chevron-up": "\u{f139}",
   "chevron-circle-up": "\u{f139}",
+  "circle-chf": "\u{e72c}",
+  "circle-colon": "\u{e6fc}",
+  "circle-cruzeiro": "\u{e722}",
+  "circle-currency": "\u{e6ee}",
   "circle-d": "\u{e104}",
+  "circle-danish-krone": "\u{e746}",
   "circle-dashed": "\u{e105}",
   "circle-divide": "\u{e106}",
   "circle-dollar": "\u{f2e8}",
@@ -1004,6 +1073,7 @@
   "usd-circle": "\u{f2e8}",
   "circle-dollar-to-slot": "\u{f4b9}",
   "donate": "\u{f4b9}",
+  "circle-dong": "\u{e723}",
   "circle-dot": "\u{f192}",
   "dot-circle": "\u{f192}",
   "circle-down": "\u{f358}",
@@ -1015,39 +1085,59 @@
   "circle-ellipsis-vertical": "\u{e10b}",
   "circle-envelope": "\u{e10c}",
   "envelope-circle": "\u{e10c}",
+  "circle-equals": "\u{e6b1}",
   "circle-euro": "\u{e5ce}",
+  "circle-eurozone": "\u{e745}",
   "circle-exclamation": "\u{f06a}",
   "exclamation-circle": "\u{f06a}",
   "circle-exclamation-check": "\u{e10d}",
   "circle-f": "\u{e10e}",
+  "circle-florin": "\u{e6e4}",
+  "circle-franc": "\u{e721}",
   "circle-g": "\u{e10f}",
   "circle-gf": "\u{e67f}",
+  "circle-guarani": "\u{e73b}",
   "circle-h": "\u{f47e}",
   "hospital-symbol": "\u{f47e}",
   "circle-half": "\u{e110}",
+  "circle-half-horizontal": "\u{e80c}",
   "circle-half-stroke": "\u{f042}",
   "adjust": "\u{f042}",
+  "circle-half-stroke-horizontal": "\u{e80d}",
   "circle-heart": "\u{f4c7}",
   "heart-circle": "\u{f4c7}",
+  "circle-house": "\u{e6c8}",
+  "circle-hryvnia": "\u{e6ef}",
   "circle-i": "\u{e111}",
+  "circle-indian-rupee": "\u{e734}",
   "circle-info": "\u{f05a}",
   "info-circle": "\u{f05a}",
   "circle-j": "\u{e112}",
   "circle-k": "\u{e113}",
+  "circle-kip": "\u{e6fd}",
   "circle-l": "\u{e114}",
+  "circle-lari": "\u{e71d}",
   "circle-left": "\u{f359}",
   "arrow-alt-circle-left": "\u{f359}",
+  "circle-lira": "\u{e6f6}",
+  "circle-litecoin": "\u{e6f4}",
   "circle-location-arrow": "\u{f602}",
   "location-circle": "\u{f602}",
   "circle-m": "\u{e115}",
+  "circle-malaysian-ringgit": "\u{e6f9}",
+  "circle-manat": "\u{e6fb}",
   "circle-microphone": "\u{e116}",
   "microphone-circle": "\u{e116}",
   "circle-microphone-lines": "\u{e117}",
   "microphone-circle-alt": "\u{e117}",
+  "circle-mill": "\u{e702}",
   "circle-minus": "\u{f056}",
   "minus-circle": "\u{f056}",
+  "circle-moon": "\u{e7e0}",
   "circle-n": "\u{e118}",
+  "circle-naira": "\u{e749}",
   "circle-nodes": "\u{e4e2}",
+  "circle-norwegian-krone": "\u{e738}",
   "circle-notch": "\u{f1ce}",
   "circle-o": "\u{e119}",
   "circle-p": "\u{e11a}",
@@ -1055,6 +1145,9 @@
   "parking-circle": "\u{f615}",
   "circle-pause": "\u{f28b}",
   "pause-circle": "\u{f28b}",
+  "circle-peruvian-soles": "\u{e6f3}",
+  "circle-peseta": "\u{e741}",
+  "circle-peso": "\u{e6ff}",
   "circle-phone": "\u{e11b}",
   "phone-circle": "\u{e11b}",
   "circle-phone-flip": "\u{e11c}",
@@ -1065,6 +1158,7 @@
   "play-circle": "\u{f144}",
   "circle-plus": "\u{f055}",
   "plus-circle": "\u{f055}",
+  "circle-polish-zloty": "\u{e700}",
   "circle-q": "\u{e11e}",
   "circle-quarter": "\u{e11f}",
   "circle-quarters": "\u{e3f8}",
@@ -1074,9 +1168,15 @@
   "circle-r": "\u{e120}",
   "circle-radiation": "\u{f7ba}",
   "radiation-alt": "\u{f7ba}",
+  "circle-renminbi": "\u{e6e9}",
   "circle-right": "\u{f35a}",
   "arrow-alt-circle-right": "\u{f35a}",
+  "circle-ruble": "\u{e6e5}",
+  "circle-rupee": "\u{e714}",
+  "circle-rupiah": "\u{e706}",
   "circle-s": "\u{e121}",
+  "circle-share-nodes": "\u{e6db}",
+  "circle-shekel": "\u{e703}",
   "circle-small": "\u{e122}",
   "circle-sort": "\u{e030}",
   "sort-circle": "\u{e030}",
@@ -1085,16 +1185,22 @@
   "circle-sort-up": "\u{e032}",
   "sort-circle-up": "\u{e032}",
   "circles-overlap": "\u{e600}",
+  "circles-overlap-3": "\u{e6a1}",
+  "pronoun": "\u{e6a1}",
   "circle-star": "\u{e123}",
   "star-circle": "\u{e123}",
   "circle-sterling": "\u{e5cf}",
   "circle-stop": "\u{f28d}",
   "stop-circle": "\u{f28d}",
+  "circle-swedish-krona": "\u{e743}",
   "circle-t": "\u{e124}",
+  "circle-tenge": "\u{e725}",
   "circle-three-quarters": "\u{e125}",
   "circle-three-quarters-stroke": "\u{e5d4}",
   "circle-trash": "\u{e126}",
   "trash-circle": "\u{e126}",
+  "circle-tugrik": "\u{e711}",
+  "circle-turkish-lira": "\u{e739}",
   "circle-u": "\u{e127}",
   "circle-up": "\u{f35b}",
   "arrow-alt-circle-up": "\u{f35b}",
@@ -1102,6 +1208,15 @@
   "circle-up-right": "\u{e129}",
   "circle-user": "\u{f2bd}",
   "user-circle": "\u{f2bd}",
+  "circle-user-circle-check": "\u{e79f}",
+  "circle-user-circle-exclamation": "\u{e7a0}",
+  "circle-user-circle-minus": "\u{e7a1}",
+  "circle-user-circle-moon": "\u{e7a2}",
+  "circle-user-circle-plus": "\u{e7a3}",
+  "circle-user-circle-question": "\u{e7a4}",
+  "circle-user-circle-user": "\u{e7a5}",
+  "circle-user-circle-xmark": "\u{e7a6}",
+  "circle-user-clock": "\u{e7a7}",
   "circle-v": "\u{e12a}",
   "circle-video": "\u{e12b}",
   "video-circle": "\u{e12b}",
@@ -1111,6 +1226,7 @@
   "circle-wifi": "\u{e67d}",
   "circle-wifi-circle-wifi": "\u{e67e}",
   "circle-wifi-group": "\u{e67e}",
+  "circle-won": "\u{e6ec}",
   "circle-x": "\u{e12e}",
   "circle-xmark": "\u{f057}",
   "times-circle": "\u{f057}",
@@ -1127,6 +1243,8 @@
   "claw-marks": "\u{f6c2}",
   "clipboard": "\u{f328}",
   "clipboard-check": "\u{f46c}",
+  "clipboard-clock": "\u{e756}",
+  "clipboard-exclamation": "\u{e757}",
   "clipboard-list": "\u{f46d}",
   "clipboard-list-check": "\u{f737}",
   "clipboard-medical": "\u{e133}",
@@ -1162,6 +1280,7 @@
   "clock-two": "\u{e35a}",
   "clock-two-thirty": "\u{e35b}",
   "clone": "\u{f24d}",
+  "clone-plus": "\u{e74c}",
   "closed-captioning": "\u{f20a}",
   "closed-captioning-slash": "\u{e135}",
   "clothes-hanger": "\u{e136}",
@@ -1252,6 +1371,7 @@
   "comment-check": "\u{f4ac}",
   "comment-code": "\u{e147}",
   "comment-dollar": "\u{f651}",
+  "comment-dot": "\u{e6dc}",
   "comment-dots": "\u{f4ad}",
   "commenting": "\u{f4ad}",
   "comment-exclamation": "\u{f4af}",
@@ -1263,6 +1383,7 @@
   "comment-middle-top": "\u{e14a}",
   "comment-minus": "\u{f4b1}",
   "comment-music": "\u{f8b0}",
+  "comment-nodes": "\u{e696}",
   "comment-pen": "\u{f4ae}",
   "comment-edit": "\u{f4ae}",
   "comment-plus": "\u{f4b2}",
@@ -1277,6 +1398,7 @@
   "comments-question": "\u{e14e}",
   "comments-question-check": "\u{e14f}",
   "comment-text": "\u{e14d}",
+  "comment-waveform": "\u{e6dd}",
   "comment-xmark": "\u{f4b5}",
   "comment-times": "\u{f4b5}",
   "compact-disc": "\u{f51f}",
@@ -1290,6 +1412,8 @@
   "computer-classic": "\u{f8b1}",
   "computer-mouse": "\u{f8cc}",
   "mouse": "\u{f8cc}",
+  "computer-mouse-button-left": "\u{e7cd}",
+  "computer-mouse-button-right": "\u{e7ce}",
   "computer-mouse-scrollwheel": "\u{f8cd}",
   "mouse-alt": "\u{f8cd}",
   "computer-speaker": "\u{f8b2}",
@@ -1354,6 +1478,7 @@
   "crutches": "\u{f7f8}",
   "cruzeiro-sign": "\u{e152}",
   "crystal-ball": "\u{e362}",
+  "css": "\u{e6a2}",
   "css3": "\u{f13c}",
   "css3-alt": "\u{f38b}",
   "cube": "\u{f1b2}",
@@ -1367,6 +1492,7 @@
   "coffee-togo": "\u{f6c5}",
   "curling-stone": "\u{f44a}",
   "curling": "\u{f44a}",
+  "currency-sign": "\u{e72b}",
   "custard": "\u{e403}",
   "cuttlefish": "\u{f38c}",
   "d": "\u{44}",
@@ -1374,6 +1500,7 @@
   "dailymotion": "\u{e052}",
   "d-and-d": "\u{f38d}",
   "d-and-d-beyond": "\u{f6ca}",
+  "danish-krone-sign": "\u{e720}",
   "dart-lang": "\u{e693}",
   "dash": "\u{e404}",
   "minus-large": "\u{e404}",
@@ -1418,6 +1545,7 @@
   "dial-med-low": "\u{e160}",
   "dial-min": "\u{e161}",
   "dial-off": "\u{e162}",
+  "dialpad": "\u{e7cc}",
   "diamond": "\u{f219}",
   "diamond-exclamation": "\u{e405}",
   "diamond-half": "\u{e5b7}",
@@ -1444,6 +1572,8 @@
   "dinosaur": "\u{e5fe}",
   "diploma": "\u{f5ea}",
   "scroll-ribbon": "\u{f5ea}",
+  "direction-left-right": "\u{e6be}",
+  "direction-up-down": "\u{e6bf}",
   "disc-drive": "\u{f8b5}",
   "discord": "\u{f392}",
   "discourse": "\u{f393}",
@@ -1459,6 +1589,7 @@
   "desktop-medical": "\u{e166}",
   "display-slash": "\u{e2fa}",
   "desktop-slash": "\u{e2fa}",
+  "disqus": "\u{e7d5}",
   "distribute-spacing-horizontal": "\u{e365}",
   "distribute-spacing-vertical": "\u{e366}",
   "ditto": "\u{22}",
@@ -1481,6 +1612,7 @@
   "doughnut": "\u{e406}",
   "door-closed": "\u{f52a}",
   "door-open": "\u{f52b}",
+  "dot": "\u{e7d1}",
   "dove": "\u{f4ba}",
   "down": "\u{f354}",
   "arrow-alt-down": "\u{f354}",
@@ -1494,17 +1626,23 @@
   "download": "\u{f019}",
   "down-long": "\u{f309}",
   "long-arrow-alt-down": "\u{f309}",
+  "down-long-to-line": "\u{e6c0}",
   "down-right": "\u{e16b}",
   "down-to-bracket": "\u{e4e7}",
   "down-to-dotted-line": "\u{e408}",
   "down-to-line": "\u{f34a}",
   "arrow-alt-to-bottom": "\u{f34a}",
+  "down-up": "\u{e6c1}",
   "draft2digital": "\u{f396}",
   "dragon": "\u{f6d5}",
   "draw-circle": "\u{f5ed}",
+  "vector-circle": "\u{f5ed}",
   "draw-polygon": "\u{f5ee}",
+  "vector-polygon": "\u{f5ee}",
   "draw-square": "\u{f5ef}",
+  "vector-square": "\u{f5ef}",
   "dreidel": "\u{f792}",
+  "dress": "\u{e6d1}",
   "dribbble": "\u{f17d}",
   "drone": "\u{f85f}",
   "drone-front": "\u{f860}",
@@ -1516,6 +1654,7 @@
   "dewpoint": "\u{f748}",
   "droplet-percent": "\u{f750}",
   "humidity": "\u{f750}",
+  "droplet-plus": "\u{e800}",
   "droplet-slash": "\u{f5c7}",
   "tint-slash": "\u{f5c7}",
   "drum": "\u{f569}",
@@ -1531,9 +1670,11 @@
   "dumpster": "\u{f793}",
   "dumpster-fire": "\u{f794}",
   "dungeon": "\u{f6d9}",
+  "duolingo": "\u{e812}",
   "dyalog": "\u{f399}",
   "e": "\u{45}",
   "ear": "\u{f5f0}",
+  "ear-circle-checkmark": "\u{e75b}",
   "ear-deaf": "\u{f2a4}",
   "deaf": "\u{f2a4}",
   "deafness": "\u{f2a4}",
@@ -1554,6 +1695,8 @@
   "globe-europe": "\u{f7a2}",
   "earth-oceania": "\u{e47b}",
   "globe-oceania": "\u{e47b}",
+  "ear-triangle-exclamation": "\u{e75c}",
+  "ear-waveform": "\u{e75d}",
   "ebay": "\u{f4f4}",
   "eclipse": "\u{f749}",
   "edge": "\u{f282}",
@@ -1565,6 +1708,8 @@
   "elementor": "\u{f430}",
   "elephant": "\u{f6da}",
   "elevator": "\u{e16d}",
+  "eleventy": "\u{e7d6}",
+  "11ty": "\u{e7d6}",
   "ellipsis": "\u{f141}",
   "ellipsis-h": "\u{f141}",
   "ellipsis-stroke": "\u{f39b}",
@@ -1582,6 +1727,7 @@
   "engine-exclamation": "\u{f5f2}",
   "envelope": "\u{f0e0}",
   "envelope-circle-check": "\u{e4e8}",
+  "envelope-circle-user": "\u{e6de}",
   "envelope-dot": "\u{e16f}",
   "envelope-badge": "\u{e16f}",
   "envelope-open": "\u{f2b6}",
@@ -1601,6 +1747,7 @@
   "euro-sign": "\u{f153}",
   "eur": "\u{f153}",
   "euro": "\u{f153}",
+  "eurozone-sign": "\u{e740}",
   "evernote": "\u{f839}",
   "excavator": "\u{e656}",
   "exclamation": "\u{21}",
@@ -1734,6 +1881,9 @@
   "sad-tear": "\u{f5b4}",
   "face-saluting": "\u{e484}",
   "face-scream": "\u{e38b}",
+  "face-shaking": "\u{e79c}",
+  "face-shaking-horizontal": "\u{e79d}",
+  "face-shaking-vertical": "\u{e79e}",
   "face-shush": "\u{e38c}",
   "face-sleeping": "\u{e38d}",
   "face-sleepy": "\u{e38e}",
@@ -1798,12 +1948,15 @@
   "field-hockey": "\u{f44c}",
   "figma": "\u{f799}",
   "file": "\u{f15b}",
+  "file-aiff": "\u{e7fb}",
   "file-arrow-down": "\u{f56d}",
   "file-download": "\u{f56d}",
   "file-arrow-up": "\u{f574}",
   "file-upload": "\u{f574}",
   "file-audio": "\u{f1c7}",
+  "file-ban": "\u{e758}",
   "file-binary": "\u{e175}",
+  "file-brackets-curly": "\u{e804}",
   "file-cad": "\u{e672}",
   "file-certificate": "\u{f5f3}",
   "file-award": "\u{f5f3}",
@@ -1829,7 +1982,9 @@
   "file-exclamation": "\u{f31a}",
   "file-export": "\u{f56e}",
   "arrow-right-from-file": "\u{f56e}",
+  "file-fragment": "\u{e697}",
   "file-gif": "\u{e645}",
+  "file-half-dashed": "\u{e698}",
   "file-heart": "\u{e176}",
   "file-image": "\u{f1c5}",
   "file-import": "\u{f56f}",
@@ -1844,11 +1999,13 @@
   "file-magnifying-glass": "\u{f865}",
   "file-search": "\u{f865}",
   "file-medical": "\u{f477}",
+  "file-midi": "\u{e805}",
   "file-minus": "\u{f318}",
   "file-mov": "\u{e647}",
   "file-mp3": "\u{e648}",
   "file-mp4": "\u{e649}",
   "file-music": "\u{f8b6}",
+  "file-odf": "\u{e7fc}",
   "file-pdf": "\u{f1c1}",
   "file-pen": "\u{f31c}",
   "file-edit": "\u{f31c}",
@@ -1863,11 +2020,14 @@
   "file-signature": "\u{f573}",
   "file-slash": "\u{e3a7}",
   "files-medical": "\u{f7fd}",
+  "files-pinwheel": "\u{e69f}",
   "file-spreadsheet": "\u{f65b}",
   "file-svg": "\u{e64b}",
+  "file-tex": "\u{e7fd}",
   "file-user": "\u{f65c}",
   "file-vector": "\u{e64c}",
   "file-video": "\u{f1c8}",
+  "file-wav": "\u{e7fe}",
   "file-waveform": "\u{f478}",
   "file-medical-alt": "\u{f478}",
   "file-word": "\u{f1c2}",
@@ -1881,12 +2041,14 @@
   "fill": "\u{f575}",
   "fill-drip": "\u{f576}",
   "film": "\u{f008}",
+  "film-alt": "\u{f008}",
+  "film-simple": "\u{f008}",
   "film-canister": "\u{f8b7}",
   "film-cannister": "\u{f8b7}",
+  "film-music": "\u{e769}",
   "films": "\u{e17a}",
-  "film-simple": "\u{f3a0}",
-  "film-alt": "\u{f3a0}",
   "film-slash": "\u{e179}",
+  "film-stack": "\u{e76b}",
   "filter": "\u{f0b0}",
   "filter-circle-dollar": "\u{f662}",
   "funnel-dollar": "\u{f662}",
@@ -1959,6 +2121,8 @@
   "folder-blank": "\u{f07b}",
   "folder-arrow-down": "\u{e053}",
   "folder-download": "\u{e053}",
+  "folder-arrow-left": "\u{e7d2}",
+  "folder-arrow-right": "\u{e7d3}",
   "folder-arrow-up": "\u{e054}",
   "folder-upload": "\u{e054}",
   "folder-bookmark": "\u{e186}",
@@ -2033,9 +2197,12 @@
   "gamepad-alt": "\u{e5a2}",
   "garage": "\u{e009}",
   "garage-car": "\u{e00a}",
+  "garage-empty": "\u{e6c9}",
   "garage-open": "\u{e00b}",
   "garlic": "\u{e40e}",
   "gas-pump": "\u{f52f}",
+  "gas-pump-left": "\u{e778}",
+  "gas-pump-right": "\u{e779}",
   "gas-pump-slash": "\u{f5f4}",
   "gauge": "\u{f624}",
   "dashboard": "\u{f624}",
@@ -2141,13 +2308,14 @@
   "grid": "\u{e195}",
   "grid-3": "\u{e195}",
   "grid-2": "\u{e196}",
+  "grid-2-minus": "\u{e6aa}",
   "grid-2-plus": "\u{e197}",
   "grid-4": "\u{e198}",
   "grid-5": "\u{e199}",
   "grid-dividers": "\u{e3ad}",
-  "grid-horizontal": "\u{e307}",
   "grid-round": "\u{e5da}",
   "grid-round-2": "\u{e5db}",
+  "grid-round-2-minus": "\u{e6ab}",
   "grid-round-2-plus": "\u{e5dc}",
   "grid-round-4": "\u{e5dd}",
   "grid-round-5": "\u{e5de}",
@@ -2155,6 +2323,7 @@
   "grill-fire": "\u{e5a4}",
   "grill-hot": "\u{e5a5}",
   "grip": "\u{f58d}",
+  "grid-horizontal": "\u{f58d}",
   "grip-horizontal": "\u{f58d}",
   "grip-dots": "\u{e410}",
   "grip-dots-vertical": "\u{e411}",
@@ -2162,6 +2331,7 @@
   "grip-lines": "\u{f7a4}",
   "grip-lines-vertical": "\u{f7a5}",
   "grip-vertical": "\u{f58e}",
+  "grid-vertical": "\u{f58e}",
   "group-arrows-rotate": "\u{e4f6}",
   "grunt": "\u{f3ad}",
   "guarani-sign": "\u{e19a}",
@@ -2216,6 +2386,7 @@
   "hand-holding-medical": "\u{e05c}",
   "hand-holding-seedling": "\u{f4bf}",
   "hand-holding-skull": "\u{e1a4}",
+  "hand-holding-star": "\u{e801}",
   "hand-horns": "\u{e1a9}",
   "hand-lizard": "\u{f258}",
   "hand-love": "\u{e1a5}",
@@ -2240,13 +2411,13 @@
   "hand-scissors": "\u{f257}",
   "hands-clapping": "\u{e1a8}",
   "handshake": "\u{f2b5}",
+  "handshake-alt": "\u{f2b5}",
+  "handshake-simple": "\u{f2b5}",
   "handshake-angle": "\u{f4c4}",
   "hands-helping": "\u{f4c4}",
-  "handshake-simple": "\u{f4c6}",
-  "handshake-alt": "\u{f4c6}",
-  "handshake-simple-slash": "\u{e05f}",
-  "handshake-alt-slash": "\u{e05f}",
   "handshake-slash": "\u{e060}",
+  "handshake-alt-slash": "\u{e060}",
+  "handshake-simple-slash": "\u{e060}",
   "hands-holding": "\u{f4c2}",
   "hands-holding-child": "\u{e4fa}",
   "hands-holding-circle": "\u{e4fb}",
@@ -2278,11 +2449,13 @@
   "heading": "\u{f1dc}",
   "header": "\u{f1dc}",
   "headphones": "\u{f025}",
-  "headphones-simple": "\u{f58f}",
-  "headphones-alt": "\u{f58f}",
+  "headphones-alt": "\u{f025}",
+  "headphones-simple": "\u{f025}",
+  "headphones-slash": "\u{e77c}",
   "headset": "\u{f590}",
   "head-side": "\u{f6e9}",
   "head-side-brain": "\u{f808}",
+  "head-side-circuit": "\u{e75e}",
   "head-side-cough": "\u{e061}",
   "head-side-cough-slash": "\u{e062}",
   "head-side-gear": "\u{e611}",
@@ -2292,6 +2465,7 @@
   "head-side-heart": "\u{e1aa}",
   "head-side-mask": "\u{e063}",
   "head-side-medical": "\u{f809}",
+  "head-side-speak": "\u{e75f}",
   "head-side-virus": "\u{e064}",
   "heart": "\u{f004}",
   "heart-circle-bolt": "\u{e4fc}",
@@ -2307,6 +2481,8 @@
   "heart-half-alt": "\u{e1ac}",
   "heart-pulse": "\u{f21e}",
   "heartbeat": "\u{f21e}",
+  "hearts": "\u{e78f}",
+  "heart-slash": "\u{e78e}",
   "heat": "\u{e00c}",
   "helicopter": "\u{f533}",
   "helicopter-symbol": "\u{e502}",
@@ -2318,14 +2494,17 @@
   "hexagon": "\u{f312}",
   "hexagon-check": "\u{e416}",
   "hexagon-divide": "\u{e1ad}",
+  "hexagon-equals": "\u{e6b2}",
   "hexagon-exclamation": "\u{e417}",
   "hexagon-image": "\u{e504}",
   "hexagon-minus": "\u{f307}",
   "minus-hexagon": "\u{f307}",
+  "hexagon-nodes": "\u{e699}",
+  "hexagon-nodes-bolt": "\u{e69a}",
   "hexagon-plus": "\u{f300}",
   "plus-hexagon": "\u{f300}",
   "hexagon-vertical-nft": "\u{e505}",
-  "hexagon-vertical-nft-slanted": "\u{e506}",
+  "hexagon-vertical-nft-slanted": "\u{e505}",
   "hexagon-xmark": "\u{f2ee}",
   "times-hexagon": "\u{f2ee}",
   "xmark-hexagon": "\u{f2ee}",
@@ -2341,6 +2520,7 @@
   "hive": "\u{e07f}",
   "hockey-mask": "\u{f6ee}",
   "hockey-puck": "\u{f453}",
+  "hockey-stick": "\u{e7e6}",
   "hockey-stick-puck": "\u{e3ae}",
   "hockey-sticks": "\u{f454}",
   "holly-berry": "\u{f7aa}",
@@ -2352,6 +2532,7 @@
   "horse": "\u{f6f0}",
   "horse-head": "\u{f7ab}",
   "horse-saddle": "\u{f8c3}",
+  "horseshoe": "\u{e81a}",
   "hose": "\u{e419}",
   "hose-reel": "\u{e41a}",
   "hospital": "\u{f0f8}",
@@ -2420,6 +2601,7 @@
   "house-tree": "\u{e1b3}",
   "house-tsunami": "\u{e515}",
   "house-turret": "\u{e1b4}",
+  "house-unlock": "\u{e6ca}",
   "house-user": "\u{e1b0}",
   "home-user": "\u{e1b0}",
   "house-water": "\u{f74f}",
@@ -2450,14 +2632,20 @@
   "ideal": "\u{e013}",
   "igloo": "\u{f7ae}",
   "image": "\u{f03e}",
+  "image-circle-arrow-down": "\u{e76c}",
+  "image-circle-check": "\u{e76d}",
+  "image-circle-plus": "\u{e76e}",
+  "image-circle-xmark": "\u{e76f}",
   "image-landscape": "\u{e1b5}",
   "landscape": "\u{e1b5}",
+  "image-music": "\u{e770}",
   "image-polaroid": "\u{f8c4}",
   "image-polaroid-user": "\u{e1b6}",
   "image-portrait": "\u{f3e0}",
   "portrait": "\u{f3e0}",
   "images": "\u{f302}",
   "image-slash": "\u{e1b7}",
+  "image-stack": "\u{e771}",
   "images-user": "\u{e1b9}",
   "image-user": "\u{e1b8}",
   "imdb": "\u{f2d8}",
@@ -2501,6 +2689,8 @@
   "jar": "\u{e516}",
   "jar-wheat": "\u{e517}",
   "java": "\u{f4e4}",
+  "jeans": "\u{e6d2}",
+  "jeans-straight": "\u{e6d3}",
   "jedi": "\u{f669}",
   "jedi-order": "\u{f50e}",
   "jenkins": "\u{f3b6}",
@@ -2521,6 +2711,7 @@
   "k": "\u{4b}",
   "kaaba": "\u{f66b}",
   "kaggle": "\u{f5fa}",
+  "kakao-talk": "\u{e7d7}",
   "kazoo": "\u{f8c7}",
   "kerning": "\u{f86f}",
   "key": "\u{f084}",
@@ -2593,6 +2784,7 @@
   "left": "\u{f355}",
   "arrow-alt-left": "\u{f355}",
   "left-from-bracket": "\u{e66c}",
+  "left-from-dotted-line": "\u{e6c2}",
   "left-from-line": "\u{f348}",
   "arrow-alt-from-right": "\u{f348}",
   "left-long": "\u{f30a}",
@@ -2601,6 +2793,7 @@
   "left-right": "\u{f337}",
   "arrows-alt-h": "\u{f337}",
   "left-to-bracket": "\u{e66d}",
+  "left-to-dotted-line": "\u{e6c3}",
   "left-to-line": "\u{f34b}",
   "arrow-alt-to-left": "\u{f34b}",
   "lemon": "\u{f094}",
@@ -2645,6 +2838,7 @@
   "chain-broken": "\u{f127}",
   "chain-slash": "\u{f127}",
   "unlink": "\u{f127}",
+  "linktree": "\u{e7d8}",
   "linode": "\u{f2b8}",
   "linux": "\u{f17c}",
   "lips": "\u{f600}",
@@ -2667,6 +2861,7 @@
   "loader": "\u{e1d4}",
   "lobster": "\u{e421}",
   "location-arrow": "\u{f124}",
+  "location-arrow-slash": "\u{e77a}",
   "location-arrow-up": "\u{e63a}",
   "location-check": "\u{f606}",
   "map-marker-check": "\u{f606}",
@@ -2714,6 +2909,8 @@
   "luchador-mask": "\u{f455}",
   "luchador": "\u{f455}",
   "mask-luchador": "\u{f455}",
+  "lumon": "\u{e7e2}",
+  "lumon-drop": "\u{e7e3}",
   "lungs": "\u{f604}",
   "lungs-virus": "\u{e067}",
   "lyft": "\u{f3c3}",
@@ -2740,6 +2937,7 @@
   "mailbox": "\u{f813}",
   "mailbox-flag-up": "\u{e5bb}",
   "mailchimp": "\u{f59e}",
+  "malaysian-ringgit-sign": "\u{e6fa}",
   "manat-sign": "\u{e1d5}",
   "mandalorian": "\u{f50f}",
   "mandolin": "\u{f6f9}",
@@ -2815,6 +3013,7 @@
   "message-code": "\u{e1df}",
   "message-dollar": "\u{f650}",
   "comment-alt-dollar": "\u{f650}",
+  "message-dot": "\u{e6df}",
   "message-dots": "\u{f4a3}",
   "comment-alt-dots": "\u{f4a3}",
   "messaging": "\u{f4a3}",
@@ -2855,6 +3054,7 @@
   "messages-question": "\u{e1e7}",
   "message-text": "\u{e1e6}",
   "comment-alt-text": "\u{e1e6}",
+  "message-waveform": "\u{e6e0}",
   "message-xmark": "\u{f4ab}",
   "comment-alt-times": "\u{f4ab}",
   "message-times": "\u{f4ab}",
@@ -2868,15 +3068,19 @@
   "microchip": "\u{f2db}",
   "microchip-ai": "\u{e1ec}",
   "microphone": "\u{f130}",
+  "microphone-circle-plus": "\u{e77d}",
+  "microphone-circle-xmark": "\u{e77e}",
   "microphone-lines": "\u{f3c9}",
   "microphone-alt": "\u{f3c9}",
   "microphone-lines-slash": "\u{f539}",
   "microphone-alt-slash": "\u{f539}",
+  "microphone-signal-meter": "\u{e760}",
   "microphone-slash": "\u{f131}",
   "microphone-stand": "\u{f8cb}",
   "microscope": "\u{f610}",
   "microsoft": "\u{f3ca}",
   "microwave": "\u{e01b}",
+  "midi": "\u{e806}",
   "mill-sign": "\u{e1ed}",
   "minimize": "\u{f78c}",
   "compress-arrows-alt": "\u{f78c}",
@@ -2892,16 +3096,22 @@
   "mobile": "\u{f3ce}",
   "mobile-android": "\u{f3ce}",
   "mobile-phone": "\u{f3ce}",
+  "mobile-arrow-down": "\u{e74b}",
   "mobile-button": "\u{f10b}",
   "mobile-notch": "\u{e1ee}",
   "mobile-iphone": "\u{e1ee}",
   "mobile-retro": "\u{e527}",
+  "mobile-rotate": "\u{e813}",
+  "mobile-rotate-reverse": "\u{e814}",
   "mobile-screen": "\u{f3cf}",
   "mobile-android-alt": "\u{f3cf}",
   "mobile-screen-button": "\u{f3cd}",
   "mobile-alt": "\u{f3cd}",
   "mobile-signal": "\u{e1ef}",
   "mobile-signal-out": "\u{e1f0}",
+  "mobile-slash": "\u{e815}",
+  "mobile-vibrate": "\u{e816}",
+  "mobile-vibrate-slash": "\u{e817}",
   "modx": "\u{f285}",
   "monero": "\u{f3d0}",
   "money-bill": "\u{f0d6}",
@@ -2935,6 +3145,7 @@
   "moon-cloud": "\u{f754}",
   "moon-over-sun": "\u{f74a}",
   "eclipse-alt": "\u{f74a}",
+  "moon-star": "\u{e7c9}",
   "moon-stars": "\u{f755}",
   "moped": "\u{e3b9}",
   "mortar-pestle": "\u{f5a7}",
@@ -2986,6 +3197,8 @@
   "nimblr": "\u{f5a8}",
   "node": "\u{f419}",
   "node-js": "\u{f3d3}",
+  "non-binary": "\u{e807}",
+  "norwegian-krone-sign": "\u{e6e8}",
   "nose": "\u{e5bd}",
   "notdef": "\u{e1fe}",
   "note": "\u{e1ff}",
@@ -2994,8 +3207,10 @@
   "not-equal": "\u{f53e}",
   "notes": "\u{e202}",
   "notes-medical": "\u{f481}",
+  "notes-sticky": "\u{e759}",
   "note-sticky": "\u{f249}",
   "sticky-note": "\u{f249}",
+  "notion": "\u{e7d9}",
   "npm": "\u{f3d4}",
   "ns8": "\u{f3d5}",
   "nutritionix": "\u{f3d6}",
@@ -3016,6 +3231,7 @@
   "octagon": "\u{f306}",
   "octagon-check": "\u{e426}",
   "octagon-divide": "\u{e203}",
+  "octagon-equals": "\u{e6b3}",
   "octagon-exclamation": "\u{e204}",
   "octagon-minus": "\u{f308}",
   "minus-octagon": "\u{f308}",
@@ -3039,6 +3255,8 @@
   "om": "\u{f679}",
   "omega": "\u{f67a}",
   "onion": "\u{e427}",
+  "openai": "\u{e7cf}",
+  "open-captioning": "\u{e77f}",
   "opencart": "\u{f23d}",
   "openid": "\u{f19b}",
   "opensuse": "\u{e62b}",
@@ -3070,7 +3288,9 @@
   "paint-brush-alt": "\u{f5a9}",
   "paint-brush-fine": "\u{f5a9}",
   "paintbrush-alt": "\u{f5a9}",
+  "paintbrush-fine-slash": "\u{e74d}",
   "paintbrush-pencil": "\u{e206}",
+  "paintbrush-slash": "\u{e74e}",
   "paint-roller": "\u{f5aa}",
   "palette": "\u{f53f}",
   "palfed": "\u{f3d8}",
@@ -3080,11 +3300,15 @@
   "palette-boxes": "\u{f483}",
   "pallet-alt": "\u{f483}",
   "pancakes": "\u{e42d}",
+  "pandora": "\u{e7da}",
   "panel-ews": "\u{e42e}",
   "panel-fire": "\u{e42f}",
   "pan-food": "\u{e42b}",
   "pan-frying": "\u{e42c}",
   "panorama": "\u{e209}",
+  "panties": "\u{e6d4}",
+  "pants": "\u{e6d5}",
+  "pants-straight": "\u{e6d6}",
   "paperclip": "\u{f0c6}",
   "paperclip-vertical": "\u{e3c2}",
   "paper-plane": "\u{f1d8}",
@@ -3118,6 +3342,7 @@
   "pen": "\u{f304}",
   "pencil": "\u{f303}",
   "pencil-alt": "\u{f303}",
+  "pencil-line": "\u{e74f}",
   "pencil-mechanical": "\u{e5ca}",
   "pencil-slash": "\u{e215}",
   "pen-circle": "\u{e20e}",
@@ -3137,6 +3362,7 @@
   "pencil-ruler": "\u{f5ae}",
   "pen-slash": "\u{e213}",
   "pen-swirl": "\u{e214}",
+  "pentagon": "\u{e790}",
   "pen-to-square": "\u{f044}",
   "edit": "\u{f044}",
   "people": "\u{e216}",
@@ -3163,8 +3389,10 @@
   "periscope": "\u{f3da}",
   "person": "\u{f183}",
   "male": "\u{f183}",
+  "person-arms-raised": "\u{e783}",
   "person-arrow-down-to-line": "\u{e538}",
   "person-arrow-up-from-line": "\u{e539}",
+  "person-basketball": "\u{e784}",
   "person-biking": "\u{f84a}",
   "biking": "\u{f84a}",
   "person-biking-mountain": "\u{f84b}",
@@ -3175,6 +3403,7 @@
   "person-cane": "\u{e53c}",
   "person-carry-box": "\u{f4cf}",
   "person-carry": "\u{f4cf}",
+  "person-carry-empty": "\u{e785}",
   "person-chalkboard": "\u{e53d}",
   "person-circle-check": "\u{e53e}",
   "person-circle-exclamation": "\u{e53f}",
@@ -3199,10 +3428,13 @@
   "person-falling-burst": "\u{e547}",
   "person-from-portal": "\u{e023}",
   "portal-exit": "\u{e023}",
+  "person-golfing": "\u{e786}",
   "person-half-dress": "\u{e548}",
   "person-harassing": "\u{e549}",
   "person-hiking": "\u{f6ec}",
   "hiking": "\u{f6ec}",
+  "person-limbs-wide": "\u{e787}",
+  "person-meditating": "\u{e7e1}",
   "person-military-pointing": "\u{e54a}",
   "person-military-rifle": "\u{e54b}",
   "person-military-to-person": "\u{e54c}",
@@ -3217,6 +3449,7 @@
   "person-running-fast": "\u{e5ff}",
   "person-seat": "\u{e21e}",
   "person-seat-reclined": "\u{e21f}",
+  "person-seat-window": "\u{e788}",
   "person-shelter": "\u{e54f}",
   "person-sign": "\u{f757}",
   "person-simple": "\u{e220}",
@@ -3236,8 +3469,11 @@
   "snowboarding": "\u{f7ce}",
   "person-snowmobiling": "\u{f7d1}",
   "snowmobile": "\u{f7d1}",
+  "person-soccer": "\u{e789}",
   "person-swimming": "\u{f5c4}",
   "swimmer": "\u{f5c4}",
+  "person-swimming-pool": "\u{e78a}",
+  "person-swimming-water": "\u{e78b}",
   "person-through-window": "\u{e5a9}",
   "person-to-door": "\u{e433}",
   "person-to-portal": "\u{e022}",
@@ -3250,6 +3486,9 @@
   "person-walking-luggage": "\u{e554}",
   "person-walking-with-cane": "\u{f29d}",
   "blind": "\u{f29d}",
+  "person-water-arms-raised": "\u{e78c}",
+  "person-waving": "\u{e78d}",
+  "peruvian-soles-sign": "\u{e705}",
   "peseta-sign": "\u{e221}",
   "peso-sign": "\u{e222}",
   "phabricator": "\u{f3db}",
@@ -3263,6 +3502,7 @@
   "phone-arrow-up-right": "\u{e224}",
   "phone-arrow-up": "\u{e224}",
   "phone-outgoing": "\u{e224}",
+  "phone-connection": "\u{e6e1}",
   "phone-flip": "\u{f879}",
   "phone-alt": "\u{f879}",
   "phone-hangup": "\u{e225}",
@@ -3274,6 +3514,7 @@
   "phone-slash": "\u{f3dd}",
   "phone-volume": "\u{f2a0}",
   "volume-control-phone": "\u{f2a0}",
+  "phone-waveform": "\u{e6e2}",
   "phone-xmark": "\u{e227}",
   "photo-film": "\u{f87c}",
   "photo-video": "\u{f87c}",
@@ -3284,6 +3525,7 @@
   "piano-keyboard": "\u{f8d5}",
   "pickaxe": "\u{e5bf}",
   "pickleball": "\u{e435}",
+  "picture-in-picture": "\u{e80b}",
   "pie": "\u{f705}",
   "pied-piper": "\u{f2ae}",
   "pied-piper-alt": "\u{f1a8}",
@@ -3304,6 +3546,7 @@
   "pipe-smoking": "\u{e3c4}",
   "pipe-valve": "\u{e439}",
   "pix": "\u{e43a}",
+  "pixelfed": "\u{e7db}",
   "pixiv": "\u{e640}",
   "pizza": "\u{f817}",
   "pizza-slice": "\u{f818}",
@@ -3316,6 +3559,8 @@
   "plane-departure": "\u{f5b0}",
   "plane-engines": "\u{f3de}",
   "plane-alt": "\u{f3de}",
+  "plane-flying": "\u{e7bb}",
+  "plane-landing-gear": "\u{e7bc}",
   "plane-lock": "\u{e558}",
   "plane-prop": "\u{e22b}",
   "plane-slash": "\u{e069}",
@@ -3328,6 +3573,7 @@
   "plate-utensils": "\u{e43b}",
   "plate-wheat": "\u{e55a}",
   "play": "\u{f04b}",
+  "play-flip": "\u{e780}",
   "play-pause": "\u{e22f}",
   "playstation": "\u{f3df}",
   "plug": "\u{f1e6}",
@@ -3345,6 +3591,7 @@
   "podium": "\u{f680}",
   "podium-star": "\u{f758}",
   "police-box": "\u{e021}",
+  "polish-zloty-sign": "\u{e70b}",
   "poll-people": "\u{f759}",
   "pompebled": "\u{e43d}",
   "poo": "\u{f2fe}",
@@ -3354,6 +3601,7 @@
   "poo-bolt": "\u{f75a}",
   "popcorn": "\u{f819}",
   "popsicle": "\u{e43e}",
+  "postage-stamp": "\u{e6e3}",
   "potato": "\u{e440}",
   "pot-food": "\u{e43f}",
   "power-off": "\u{f011}",
@@ -3384,6 +3632,7 @@
   "q": "\u{51}",
   "qq": "\u{f1d6}",
   "qrcode": "\u{f029}",
+  "qrcode-read": "\u{e799}",
   "question": "\u{3f}",
   "quinscape": "\u{f459}",
   "quora": "\u{f2c4}",
@@ -3404,6 +3653,7 @@
   "radio-tuner": "\u{f8d8}",
   "radio-alt": "\u{f8d8}",
   "rainbow": "\u{f75b}",
+  "rainbow-half": "\u{e7ca}",
   "raindrops": "\u{f75c}",
   "ram": "\u{f70a}",
   "ramp-loading": "\u{f4d4}",
@@ -3419,23 +3669,30 @@
   "record-vinyl": "\u{f8d9}",
   "rectangle": "\u{f2fa}",
   "rectangle-landscape": "\u{f2fa}",
+  "rectangle-4k": "\u{e772}",
   "rectangle-ad": "\u{f641}",
   "ad": "\u{f641}",
   "rectangle-barcode": "\u{f463}",
   "barcode-alt": "\u{f463}",
+  "rectangle-beta": "\u{e808}",
   "rectangle-code": "\u{e322}",
+  "rectangle-high-dynamic-range": "\u{e773}",
   "rectangle-history": "\u{e4a2}",
   "rectangle-history-circle-plus": "\u{e4a3}",
   "rectangle-history-circle-user": "\u{e4a4}",
   "rectangle-list": "\u{f022}",
   "list-alt": "\u{f022}",
+  "rectangle-minus": "\u{e6b4}",
+  "rectangle-plus": "\u{e6b5}",
   "rectangle-pro": "\u{e235}",
   "pro": "\u{e235}",
   "rectangles-mixed": "\u{e323}",
+  "rectangle-tall": "\u{e791}",
   "rectangle-terminal": "\u{e236}",
   "rectangle-vertical": "\u{f2fb}",
   "rectangle-portrait": "\u{f2fb}",
   "rectangle-vertical-history": "\u{e237}",
+  "rectangle-video-on-demand": "\u{e774}",
   "rectangle-wide": "\u{f2fc}",
   "rectangle-xmark": "\u{f410}",
   "rectangle-times": "\u{f410}",
@@ -3452,6 +3709,7 @@
   "reflect-vertical": "\u{e665}",
   "refrigerator": "\u{e026}",
   "registered": "\u{f25d}",
+  "renminbi-sign": "\u{e73c}",
   "renren": "\u{f18b}",
   "repeat": "\u{f363}",
   "repeat-1": "\u{f365}",
@@ -3475,6 +3733,7 @@
   "arrow-alt-right": "\u{f356}",
   "right-from-bracket": "\u{f2f5}",
   "sign-out-alt": "\u{f2f5}",
+  "right-from-dotted-line": "\u{e6c4}",
   "right-from-line": "\u{f347}",
   "arrow-alt-from-left": "\u{f347}",
   "right-left": "\u{f362}",
@@ -3485,6 +3744,7 @@
   "right-long-to-line": "\u{e444}",
   "right-to-bracket": "\u{f2f6}",
   "sign-in-alt": "\u{f2f6}",
+  "right-to-dotted-line": "\u{e6c5}",
   "right-to-line": "\u{f34c}",
   "arrow-alt-to-right": "\u{f34c}",
   "ring": "\u{f70b}",
@@ -3503,6 +3763,7 @@
   "rocket": "\u{f135}",
   "rocketchat": "\u{f3e8}",
   "rocket-launch": "\u{e027}",
+  "rocket-vertical": "\u{e7bd}",
   "rockrms": "\u{f3e9}",
   "roller-coaster": "\u{e324}",
   "rotate": "\u{f2f1}",
@@ -3580,8 +3841,10 @@
   "school-circle-xmark": "\u{e56d}",
   "school-flag": "\u{e56e}",
   "school-lock": "\u{e56f}",
+  "school-unlock": "\u{e6cb}",
   "scissors": "\u{f0c4}",
   "cut": "\u{f0c4}",
+  "scooter": "\u{e7c3}",
   "screencast": "\u{e23e}",
   "screenpal": "\u{e570}",
   "screen-users": "\u{f63d}",
@@ -3603,7 +3866,10 @@
   "seal-exclamation": "\u{e242}",
   "seal-question": "\u{e243}",
   "searchengin": "\u{f3eb}",
+  "seat": "\u{e764}",
   "seat-airline": "\u{e244}",
+  "seat-airline-window": "\u{e7be}",
+  "seats": "\u{e765}",
   "section": "\u{e447}",
   "seedling": "\u{f4d8}",
   "sprout": "\u{f4d8}",
@@ -3619,6 +3885,8 @@
   "sensor-on": "\u{e02b}",
   "sensor-triangle-exclamation": "\u{e029}",
   "sensor-alert": "\u{e029}",
+  "septagon": "\u{e820}",
+  "heptagon": "\u{e820}",
   "server": "\u{f233}",
   "servicestack": "\u{f3ec}",
   "shapes": "\u{f61f}",
@@ -3655,27 +3923,33 @@
   "shield-plus": "\u{e24a}",
   "shield-quartered": "\u{e575}",
   "shield-slash": "\u{e24b}",
+  "shield-user": "\u{e809}",
   "shield-virus": "\u{e06c}",
   "shield-xmark": "\u{e24c}",
   "shield-times": "\u{e24c}",
   "ship": "\u{f21a}",
+  "ship-large": "\u{e810}",
   "shirt": "\u{f553}",
   "t-shirt": "\u{f553}",
   "tshirt": "\u{f553}",
+  "shirt-jersey": "\u{e6d7}",
   "shirt-long-sleeve": "\u{e3c7}",
   "shirt-running": "\u{e3c8}",
   "shirtsinbulk": "\u{f214}",
   "shirt-tank-top": "\u{e3c9}",
   "shish-kebab": "\u{f821}",
+  "shoe": "\u{e6d8}",
   "shoelace": "\u{e60c}",
   "shoe-prints": "\u{f54b}",
   "shop": "\u{f54f}",
   "store-alt": "\u{f54f}",
+  "shop-24": "\u{e79a}",
   "shopify": "\u{e057}",
   "shop-lock": "\u{e4a5}",
   "shop-slash": "\u{e070}",
   "store-alt-slash": "\u{e070}",
   "shopware": "\u{f5b5}",
+  "shorts": "\u{e6d9}",
   "shovel": "\u{f713}",
   "shovel-snow": "\u{f7c3}",
   "shower": "\u{f2cc}",
@@ -3689,6 +3963,7 @@
   "shuttlecock": "\u{f45b}",
   "shuttle-space": "\u{f197}",
   "space-shuttle": "\u{f197}",
+  "shuttle-space-vertical": "\u{e7bf}",
   "sickle": "\u{f822}",
   "sidebar": "\u{e24e}",
   "sidebar-flip": "\u{e24f}",
@@ -3720,6 +3995,7 @@
   "signal-4": "\u{f68f}",
   "signal-weak": "\u{f68c}",
   "signal-1": "\u{f68c}",
+  "signapore-dollar-sign": "\u{e72e}",
   "signature": "\u{f5b7}",
   "signature-lock": "\u{e3ca}",
   "signature-slash": "\u{e3cb}",
@@ -3733,6 +4009,8 @@
   "sim-card": "\u{f7c4}",
   "sim-cards": "\u{e251}",
   "simplybuilt": "\u{f215}",
+  "single-quote-left": "\u{e81b}",
+  "single-quote-right": "\u{e81c}",
   "sink": "\u{e06d}",
   "siren": "\u{e02d}",
   "siren-on": "\u{e02e}",
@@ -3757,6 +4035,7 @@
   "slash-forward": "\u{2f}",
   "sleigh": "\u{f7cc}",
   "slider": "\u{e252}",
+  "slider-circle": "\u{e750}",
   "sliders": "\u{f1de}",
   "sliders-h": "\u{f1de}",
   "sliders-simple": "\u{e253}",
@@ -3770,6 +4049,8 @@
   "snake": "\u{f716}",
   "snapchat": "\u{f2ab}",
   "snapchat-ghost": "\u{f2ab}",
+  "sneaker": "\u{e6da}",
+  "sneaker-running": "\u{e819}",
   "snooze": "\u{f880}",
   "zzz": "\u{f880}",
   "snow-blowing": "\u{f761}",
@@ -3779,6 +4060,7 @@
   "snowman": "\u{f7d0}",
   "snowman-head": "\u{f79b}",
   "frosty-head": "\u{f79b}",
+  "snowmobile-blank": "\u{e7c4}",
   "snowplow": "\u{f7d2}",
   "soap": "\u{e06e}",
   "socks": "\u{f696}",
@@ -3812,9 +4094,11 @@
   "spider": "\u{f717}",
   "spider-black-widow": "\u{f718}",
   "spider-web": "\u{f719}",
+  "spine": "\u{e761}",
   "spinner": "\u{f110}",
   "spinner-scale": "\u{e62a}",
   "spinner-third": "\u{f3f4}",
+  "spiral": "\u{e80a}",
   "split": "\u{e254}",
   "splotch": "\u{f5bc}",
   "spoon": "\u{f2e5}",
@@ -3840,6 +4124,7 @@
   "square-a": "\u{e25f}",
   "square-a-lock": "\u{e44d}",
   "square-ampersand": "\u{e260}",
+  "squareapore-dollar": "\u{e733}",
   "square-arrow-down": "\u{f339}",
   "arrow-square-down": "\u{f339}",
   "square-arrow-down-left": "\u{e261}",
@@ -3853,10 +4138,18 @@
   "square-arrow-up-left": "\u{e263}",
   "square-arrow-up-right": "\u{f14c}",
   "external-link-square": "\u{f14c}",
+  "square-austral": "\u{e726}",
+  "square-australian-dollar": "\u{e718}",
   "square-b": "\u{e264}",
+  "square-baht": "\u{e719}",
+  "square-bangladeshi-taka": "\u{e744}",
   "square-behance": "\u{f1b5}",
   "behance-square": "\u{f1b5}",
+  "square-binary": "\u{e69b}",
+  "square-bitcoin": "\u{e6f2}",
+  "square-bluesky": "\u{e6a3}",
   "square-bolt": "\u{e265}",
+  "square-brazilian-real": "\u{e6f1}",
   "square-c": "\u{e266}",
   "square-caret-down": "\u{f150}",
   "caret-square-down": "\u{f150}",
@@ -3866,6 +4159,8 @@
   "caret-square-right": "\u{f152}",
   "square-caret-up": "\u{f151}",
   "caret-square-up": "\u{f151}",
+  "square-cedi": "\u{e729}",
+  "square-cent": "\u{e6f0}",
   "square-check": "\u{f14a}",
   "check-square": "\u{f14a}",
   "square-chevron-down": "\u{f329}",
@@ -3876,14 +4171,20 @@
   "chevron-square-right": "\u{f32b}",
   "square-chevron-up": "\u{f32c}",
   "chevron-square-up": "\u{f32c}",
+  "square-chf": "\u{e6e6}",
   "square-code": "\u{e267}",
+  "square-colon": "\u{e73a}",
+  "square-cruzeiro": "\u{e6ed}",
+  "square-currency": "\u{e70c}",
   "square-d": "\u{e268}",
+  "square-danish-krone": "\u{e747}",
   "square-dashed": "\u{e269}",
   "square-dashed-circle-plus": "\u{e5c2}",
   "square-divide": "\u{e26a}",
   "square-dollar": "\u{f2e9}",
   "dollar-square": "\u{f2e9}",
   "usd-square": "\u{f2e9}",
+  "square-dong": "\u{e70f}",
   "square-down": "\u{f350}",
   "arrow-alt-square-down": "\u{f350}",
   "square-down-left": "\u{e26b}",
@@ -3895,17 +4196,23 @@
   "square-ellipsis-vertical": "\u{e26f}",
   "square-envelope": "\u{f199}",
   "envelope-square": "\u{f199}",
+  "square-equals": "\u{e6b6}",
+  "square-euro": "\u{e732}",
+  "square-eurozone": "\u{e727}",
   "square-exclamation": "\u{f321}",
   "exclamation-square": "\u{f321}",
   "square-f": "\u{e270}",
   "square-facebook": "\u{f082}",
   "facebook-square": "\u{f082}",
+  "square-figma": "\u{e7e4}",
+  "square-florin": "\u{e717}",
   "square-font-awesome": "\u{e5ad}",
   "square-font-awesome-stroke": "\u{f35c}",
   "font-awesome-alt": "\u{f35c}",
   "square-fragile": "\u{f49b}",
   "box-fragile": "\u{f49b}",
   "square-wine-glass-crack": "\u{f49b}",
+  "square-franc": "\u{e72f}",
   "square-full": "\u{f45c}",
   "square-g": "\u{e271}",
   "square-git": "\u{f1d2}",
@@ -3916,13 +4223,20 @@
   "gitlab-square": "\u{e5ae}",
   "square-google-plus": "\u{f0d4}",
   "google-plus-square": "\u{f0d4}",
+  "square-guarani": "\u{e70e}",
   "square-h": "\u{f0fd}",
   "h-square": "\u{f0fd}",
   "square-hacker-news": "\u{f3af}",
   "hacker-news-square": "\u{f3af}",
+  "square-half": "\u{e792}",
+  "square-half-horizontal": "\u{e80e}",
+  "square-half-stroke": "\u{e793}",
+  "square-half-stroke-horizontal": "\u{e80f}",
   "square-heart": "\u{f4c8}",
   "heart-square": "\u{f4c8}",
+  "square-hryvnia": "\u{e710}",
   "square-i": "\u{e272}",
+  "square-indian-rupee": "\u{e6f5}",
   "square-info": "\u{f30f}",
   "info-square": "\u{f30f}",
   "square-instagram": "\u{e055}",
@@ -3932,18 +4246,29 @@
   "js-square": "\u{f3b9}",
   "square-k": "\u{e274}",
   "square-kanban": "\u{e488}",
+  "square-kip": "\u{e70d}",
   "square-l": "\u{e275}",
+  "square-lari": "\u{e73f}",
   "square-lastfm": "\u{f203}",
   "lastfm-square": "\u{f203}",
   "square-left": "\u{f351}",
   "arrow-alt-square-left": "\u{f351}",
   "square-letterboxd": "\u{e62e}",
+  "square-linkedin": "\u{e7d0}",
+  "square-lira": "\u{e6e7}",
   "square-list": "\u{e489}",
+  "square-litecoin": "\u{e6f7}",
   "square-m": "\u{e276}",
+  "square-malaysian-ringgit": "\u{e748}",
+  "square-manat": "\u{e704}",
+  "square-microphone": "\u{e781}",
+  "square-mill": "\u{e70a}",
   "square-minus": "\u{f146}",
   "minus-square": "\u{f146}",
   "square-n": "\u{e277}",
+  "square-naira": "\u{e708}",
   "square-nfi": "\u{e576}",
+  "square-norwegian-krone": "\u{e707}",
   "square-o": "\u{e278}",
   "square-odnoklassniki": "\u{f264}",
   "odnoklassniki-square": "\u{f264}",
@@ -3956,6 +4281,9 @@
   "pen-square": "\u{f14b}",
   "pencil-square": "\u{f14b}",
   "square-person-confined": "\u{e577}",
+  "square-peruvian-soles": "\u{e716}",
+  "square-peseta": "\u{e6ea}",
+  "square-peso": "\u{e71a}",
   "square-phone": "\u{f098}",
   "phone-square": "\u{f098}",
   "square-phone-flip": "\u{f87b}",
@@ -3968,6 +4296,7 @@
   "pinterest-square": "\u{f0d3}",
   "square-plus": "\u{f0fe}",
   "plus-square": "\u{f0fe}",
+  "square-polish-zloty": "\u{e736}",
   "square-poll-horizontal": "\u{f682}",
   "poll-h": "\u{f682}",
   "square-poll-vertical": "\u{f681}",
@@ -3980,6 +4309,7 @@
   "square-r": "\u{e27c}",
   "square-reddit": "\u{f1a2}",
   "reddit-square": "\u{f1a2}",
+  "square-renminbi": "\u{e73d}",
   "square-right": "\u{f352}",
   "arrow-alt-square-right": "\u{f352}",
   "square-ring": "\u{e44f}",
@@ -3988,9 +4318,13 @@
   "square-root-alt": "\u{f698}",
   "square-rss": "\u{f143}",
   "rss-square": "\u{f143}",
+  "square-ruble": "\u{e6f8}",
+  "square-rupee": "\u{e715}",
+  "square-rupiah": "\u{e712}",
   "square-s": "\u{e27d}",
   "square-share-nodes": "\u{f1e1}",
   "share-alt-square": "\u{f1e1}",
+  "square-shekel": "\u{e735}",
   "square-sliders": "\u{f3f0}",
   "sliders-h-square": "\u{f3f0}",
   "square-sliders-vertical": "\u{f3f2}",
@@ -4002,13 +4336,18 @@
   "square-star": "\u{e27f}",
   "square-steam": "\u{f1b7}",
   "steam-square": "\u{f1b7}",
+  "square-sterling": "\u{e713}",
+  "square-swedish-krona": "\u{e71c}",
   "square-t": "\u{e280}",
+  "square-tenge": "\u{e731}",
   "square-terminal": "\u{e32a}",
   "square-this-way-up": "\u{f49f}",
   "box-up": "\u{f49f}",
   "square-threads": "\u{e619}",
+  "square-tugrik": "\u{e728}",
   "square-tumblr": "\u{f174}",
   "tumblr-square": "\u{f174}",
+  "square-turkish-lira": "\u{e71f}",
   "square-twitter": "\u{f081}",
   "twitter-square": "\u{f081}",
   "square-u": "\u{e281}",
@@ -4030,6 +4369,7 @@
   "square-web-awesome-stroke": "\u{e684}",
   "square-whatsapp": "\u{f40c}",
   "whatsapp-square": "\u{f40c}",
+  "square-won": "\u{e709}",
   "square-x": "\u{e286}",
   "square-xing": "\u{f169}",
   "xing-square": "\u{f169}",
@@ -4038,6 +4378,7 @@
   "xmark-square": "\u{f2d3}",
   "square-x-twitter": "\u{e61a}",
   "square-y": "\u{e287}",
+  "square-yen": "\u{e724}",
   "square-youtube": "\u{f431}",
   "youtube-square": "\u{f431}",
   "square-z": "\u{e288}",
@@ -4046,11 +4387,13 @@
   "stack-exchange": "\u{f18d}",
   "stack-overflow": "\u{f16c}",
   "stackpath": "\u{f842}",
+  "stadium": "\u{e6cc}",
   "staff": "\u{f71b}",
   "staff-snake": "\u{e579}",
   "rod-asclepius": "\u{e579}",
   "rod-snake": "\u{e579}",
   "staff-aesculapius": "\u{e579}",
+  "stair-car": "\u{e7c5}",
   "stairs": "\u{e289}",
   "stamp": "\u{f5bf}",
   "standard-definition": "\u{e28a}",
@@ -4094,6 +4437,7 @@
   "stopwatch": "\u{f2f2}",
   "stopwatch-20": "\u{e06f}",
   "store": "\u{f54e}",
+  "store-24": "\u{e79b}",
   "store-lock": "\u{e4a6}",
   "store-slash": "\u{e071}",
   "strava": "\u{f428}",
@@ -4137,6 +4481,7 @@
   "swap": "\u{e609}",
   "swap-arrows": "\u{e60a}",
   "swatchbook": "\u{f5c3}",
+  "swedish-krona-sign": "\u{e73e}",
   "swift": "\u{f8e1}",
   "sword": "\u{f71c}",
   "sword-laser": "\u{e03b}",
@@ -4153,11 +4498,16 @@
   "table-cells": "\u{f00a}",
   "th": "\u{f00a}",
   "table-cells-column-lock": "\u{e678}",
+  "table-cells-columns": "\u{e6ac}",
   "table-cells-column-unlock": "\u{e690}",
+  "table-cells-header": "\u{e6ad}",
+  "table-cells-header-lock": "\u{e6ae}",
+  "table-cells-header-unlock": "\u{e6af}",
   "table-cells-large": "\u{f009}",
   "th-large": "\u{f009}",
   "table-cells-lock": "\u{e679}",
   "table-cells-row-lock": "\u{e67a}",
+  "table-cells-rows": "\u{e6b0}",
   "table-cells-row-unlock": "\u{e691}",
   "table-cells-unlock": "\u{e692}",
   "table-columns": "\u{f0db}",
@@ -4231,6 +4581,7 @@
   "temperature-1": "\u{f2ca}",
   "thermometer-1": "\u{f2ca}",
   "thermometer-quarter": "\u{f2ca}",
+  "temperature-slash": "\u{e7cb}",
   "temperature-snow": "\u{f768}",
   "temperature-frigid": "\u{f768}",
   "temperature-sun": "\u{f76a}",
@@ -4248,9 +4599,11 @@
   "tent-arrow-left-right": "\u{e57f}",
   "tent-arrows-down": "\u{e581}",
   "tent-arrow-turn-left": "\u{e580}",
+  "tent-circus": "\u{e6cd}",
   "tent-double-peak": "\u{e627}",
   "tents": "\u{e582}",
   "terminal": "\u{f120}",
+  "tex": "\u{e7ff}",
   "text": "\u{f893}",
   "text-height": "\u{f034}",
   "text-size": "\u{f894}",
@@ -4269,6 +4622,8 @@
   "thumbs-up": "\u{f164}",
   "thumbtack": "\u{f08d}",
   "thumb-tack": "\u{f08d}",
+  "thumbtack-angle": "\u{e751}",
+  "thumbtack-angle-slash": "\u{e752}",
   "thumbtack-slash": "\u{e68f}",
   "thumb-tack-slash": "\u{e68f}",
   "tick": "\u{e32f}",
@@ -4285,6 +4640,7 @@
   "ticket-alt": "\u{f3ff}",
   "tickets-perforated": "\u{e63f}",
   "tickets-simple": "\u{e659}",
+  "tidal": "\u{e7dc}",
   "tiktok": "\u{e07b}",
   "tilde": "\u{7e}",
   "timeline": "\u{e29c}",
@@ -4300,14 +4656,14 @@
   "toggle-on": "\u{f205}",
   "toilet": "\u{f7d8}",
   "toilet-paper": "\u{f71e}",
-  "toilet-paper-blank": "\u{f71f}",
-  "toilet-paper-alt": "\u{f71f}",
-  "toilet-paper-blank-under": "\u{e29f}",
-  "toilet-paper-reverse-alt": "\u{e29f}",
+  "toilet-paper-alt": "\u{f71e}",
+  "toilet-paper-blank": "\u{f71e}",
   "toilet-paper-check": "\u{e5b2}",
   "toilet-paper-slash": "\u{e072}",
   "toilet-paper-under": "\u{e2a0}",
+  "toilet-paper-blank-under": "\u{e2a0}",
   "toilet-paper-reverse": "\u{e2a0}",
+  "toilet-paper-reverse-alt": "\u{e2a0}",
   "toilet-paper-under-slash": "\u{e2a1}",
   "toilet-paper-reverse-slash": "\u{e2a1}",
   "toilet-paper-xmark": "\u{e5b3}",
@@ -4337,6 +4693,7 @@
   "traffic-light-stop": "\u{f63a}",
   "trailer": "\u{e041}",
   "train": "\u{f238}",
+  "train-stop": "\u{e81f}",
   "train-subway": "\u{f239}",
   "subway": "\u{f239}",
   "train-subway-tunnel": "\u{e2a3}",
@@ -4347,6 +4704,7 @@
   "transformer-bolt": "\u{e2a4}",
   "transgender": "\u{f225}",
   "transgender-alt": "\u{f225}",
+  "transmission": "\u{e802}",
   "transporter": "\u{e042}",
   "transporter-1": "\u{e043}",
   "transporter-2": "\u{e044}",
@@ -4404,6 +4762,11 @@
   "tricycle": "\u{e5c3}",
   "tricycle-adult": "\u{e5c4}",
   "trillium": "\u{e588}",
+  "triple-chevrons-down": "\u{e7f7}",
+  "triple-chevrons-left": "\u{e7f8}",
+  "triple-chevrons-right": "\u{e7f9}",
+  "triple-chevrons-up": "\u{e7fa}",
+  "trombone": "\u{e782}",
   "trophy": "\u{f091}",
   "trophy-star": "\u{f2eb}",
   "trophy-alt": "\u{f2eb}",
@@ -4437,6 +4800,7 @@
   "truck-loading": "\u{f4de}",
   "truck-ramp-couch": "\u{f4dd}",
   "truck-couch": "\u{f4dd}",
+  "truck-suv": "\u{e7c6}",
   "truck-tow": "\u{e2b8}",
   "truck-utensils": "\u{e628}",
   "trumpet": "\u{f8e3}",
@@ -4485,6 +4849,7 @@
   "uncharted": "\u{e084}",
   "underline": "\u{f0cd}",
   "unicorn": "\u{f727}",
+  "unicycle": "\u{e7c7}",
   "uniform-martial-arts": "\u{e3d1}",
   "union": "\u{f6a2}",
   "uniregistry": "\u{f404}",
@@ -4509,6 +4874,7 @@
   "upload": "\u{f093}",
   "up-long": "\u{f30c}",
   "long-arrow-alt-up": "\u{f30c}",
+  "up-long-to-line": "\u{e6c6}",
   "up-right": "\u{e2be}",
   "up-right-and-down-left-from-center": "\u{f424}",
   "expand-alt": "\u{f424}",
@@ -4523,19 +4889,27 @@
   "usb": "\u{f287}",
   "usb-drive": "\u{f8e9}",
   "user": "\u{f007}",
+  "user-alt": "\u{f007}",
+  "user-large": "\u{f007}",
   "user-alien": "\u{e04a}",
   "user-astronaut": "\u{f4fb}",
+  "user-beard": "\u{e7a8}",
   "user-beard-bolt": "\u{e689}",
   "user-bounty-hunter": "\u{e2bf}",
   "user-check": "\u{f4fc}",
   "user-chef": "\u{e3d2}",
+  "user-chef-hair-long": "\u{e7a9}",
+  "user-circle-minus": "\u{e7aa}",
+  "user-circle-plus": "\u{e7ab}",
   "user-clock": "\u{f4fd}",
   "user-cowboy": "\u{f8ea}",
   "user-crown": "\u{f6a4}",
+  "user-dashed": "\u{e7ac}",
   "user-doctor": "\u{f0f0}",
   "user-md": "\u{f0f0}",
   "user-doctor-hair": "\u{e458}",
   "user-doctor-hair-long": "\u{e459}",
+  "user-doctor-hair-mullet": "\u{e7ad}",
   "user-doctor-message": "\u{f82e}",
   "user-md-chat": "\u{f82e}",
   "user-gear": "\u{f4fe}",
@@ -4553,18 +4927,19 @@
   "business-front": "\u{e45c}",
   "party-back": "\u{e45c}",
   "trian-balbot": "\u{e45c}",
+  "user-hat-tie": "\u{e7ae}",
+  "user-hat-tie-magnifying-glass": "\u{e7af}",
   "user-headset": "\u{f82d}",
   "user-helmet-safety": "\u{f82c}",
   "user-construction": "\u{f82c}",
   "user-hard-hat": "\u{f82c}",
   "user-hoodie": "\u{e68a}",
   "user-injured": "\u{f728}",
-  "user-large": "\u{f406}",
-  "user-alt": "\u{f406}",
-  "user-large-slash": "\u{f4fa}",
-  "user-alt-slash": "\u{f4fa}",
+  "user-key": "\u{e7b0}",
   "user-lock": "\u{f502}",
   "user-magnifying-glass": "\u{e5c5}",
+  "user-message": "\u{e7b1}",
+  "user-microphone": "\u{e7b2}",
   "user-minus": "\u{f503}",
   "user-music": "\u{f8eb}",
   "user-ninja": "\u{f504}",
@@ -4574,10 +4949,15 @@
   "user-pen": "\u{f4ff}",
   "user-edit": "\u{f4ff}",
   "user-pilot": "\u{e2c0}",
+  "user-pilot-hair-long": "\u{e7b3}",
   "user-pilot-tie": "\u{e2c1}",
+  "user-pilot-tie-hair-long": "\u{e7b4}",
   "user-plus": "\u{f234}",
   "user-police": "\u{e333}",
+  "user-police-hair-long": "\u{e7b5}",
   "user-police-tie": "\u{e334}",
+  "user-police-tie-hair-long": "\u{e7b6}",
+  "user-question": "\u{e7b7}",
   "user-robot": "\u{e04b}",
   "user-robot-xmarks": "\u{e4a7}",
   "users": "\u{f0c0}",
@@ -4587,7 +4967,10 @@
   "users-cog": "\u{f509}",
   "user-shakespeare": "\u{e2c2}",
   "user-shield": "\u{f505}",
+  "user-sith": "\u{e7b8}",
   "user-slash": "\u{f506}",
+  "user-alt-slash": "\u{f506}",
+  "user-large-slash": "\u{f506}",
   "users-line": "\u{e592}",
   "users-medical": "\u{f830}",
   "users-rays": "\u{e593}",
@@ -4598,11 +4981,14 @@
   "user-tie": "\u{f508}",
   "user-tie-hair": "\u{e45f}",
   "user-tie-hair-long": "\u{e460}",
+  "user-tie-hair-mullet": "\u{e7b9}",
   "user-unlock": "\u{e058}",
+  "user-viewfinder": "\u{e775}",
   "user-visor": "\u{e04c}",
   "user-vneck": "\u{e461}",
   "user-vneck-hair": "\u{e462}",
   "user-vneck-hair-long": "\u{e463}",
+  "user-vneck-hair-mullet": "\u{e7ba}",
   "user-xmark": "\u{f235}",
   "user-times": "\u{f235}",
   "usps": "\u{f7e1}",
@@ -4612,17 +4998,24 @@
   "utensils-slash": "\u{e464}",
   "utility-pole": "\u{e2c3}",
   "utility-pole-double": "\u{e2c4}",
+  "u-turn-down-left": "\u{e7ef}",
+  "u-turn-down-right": "\u{e7f0}",
+  "u-turn-left-down": "\u{e7f1}",
+  "u-turn": "\u{e7f1}",
+  "u-turn-left-up": "\u{e7f2}",
+  "u-turn-right-down": "\u{e7f3}",
+  "u-turn-right-up": "\u{e7f4}",
+  "u-turn-up-left": "\u{e7f5}",
+  "u-turn-up-right": "\u{e7f6}",
   "v": "\u{56}",
   "vaadin": "\u{f408}",
   "vacuum": "\u{e04d}",
   "vacuum-robot": "\u{e04e}",
   "value-absolute": "\u{f6a6}",
+  "van": "\u{e7c8}",
   "van-shuttle": "\u{f5b6}",
   "shuttle-van": "\u{f5b6}",
   "vault": "\u{e2c5}",
-  "vector-circle": "\u{e2c6}",
-  "vector-polygon": "\u{e2c7}",
-  "vector-square": "\u{f5cb}",
   "vent-damper": "\u{e465}",
   "venus": "\u{f221}",
   "venus-double": "\u{f226}",
@@ -4634,13 +5027,16 @@
   "vial": "\u{f492}",
   "vial-circle-check": "\u{e596}",
   "vials": "\u{f493}",
+  "vial-vertical": "\u{e762}",
   "vial-virus": "\u{e597}",
   "viber": "\u{f409}",
   "video": "\u{f03d}",
   "video-camera": "\u{f03d}",
   "video-arrow-down-left": "\u{e2c8}",
   "video-arrow-up-right": "\u{e2c9}",
+  "video-down-to-line": "\u{e776}",
   "video-plus": "\u{f4e1}",
+  "video-question": "\u{e777}",
   "video-slash": "\u{f4e2}",
   "vihara": "\u{f6a7}",
   "vimeo": "\u{f40a}",
@@ -4670,8 +5066,10 @@
   "volume-mute": "\u{f6a9}",
   "volume-times": "\u{f6a9}",
   "vr-cardboard": "\u{f729}",
+  "vsco": "\u{e7dd}",
   "vuejs": "\u{f41f}",
   "w": "\u{57}",
+  "w3c": "\u{e7de}",
   "waffle": "\u{e466}",
   "wagon-covered": "\u{f8ee}",
   "walker": "\u{f831}",
@@ -4770,6 +5168,7 @@
   "fragile": "\u{f4bb}",
   "wine-glass-empty": "\u{f5ce}",
   "wine-glass-alt": "\u{f5ce}",
+  "wireless": "\u{e7df}",
   "wirsindhandwerk": "\u{e2d0}",
   "wsh": "\u{e2d0}",
   "wix": "\u{f5cf}",
@@ -4857,8 +5256,10 @@
 #let fa-airbnb = fa-icon.with("\u{f834}")
 #let fa-air-conditioner = fa-icon.with("\u{f8f4}")
 #let fa-airplay = fa-icon.with("\u{e089}")
+#let fa-airplay-audio = fa-icon.with("\u{e77b}")
 #let fa-alarm-clock = fa-icon.with("\u{f34e}")
 #let fa-alarm-exclamation = fa-icon.with("\u{f843}")
+#let fa-alarm-minus = fa-icon.with("\u{e803}")
 #let fa-alarm-plus = fa-icon.with("\u{f844}")
 #let fa-alarm-snooze = fa-icon.with("\u{f845}")
 #let fa-album = fa-icon.with("\u{f89f}")
@@ -4878,6 +5279,7 @@
 #let fa-align-right = fa-icon.with("\u{f038}")
 #let fa-align-slash = fa-icon.with("\u{f846}")
 #let fa-alipay = fa-icon.with("\u{f642}")
+#let fa-almost-equal-to = fa-icon.with("\u{e818}")
 #let fa-alt = fa-icon.with("\u{e08a}")
 #let fa-amazon = fa-icon.with("\u{f270}")
 #let fa-amazon-pay = fa-icon.with("\u{f42c}")
@@ -4946,6 +5348,7 @@
 #let fa-arrow-down-left-and-arrow-up-right-to-center = fa-icon.with("\u{e092}")
 #let fa-arrow-down-long = fa-icon.with("\u{f175}")
 #let fa-long-arrow-down = fa-icon.with("\u{f175}")
+#let fa-arrow-down-long-to-line = fa-icon.with("\u{e6b7}")
 #let fa-arrow-down-right = fa-icon.with("\u{e093}")
 #let fa-arrow-down-short-wide = fa-icon.with("\u{f884}")
 #let fa-sort-amount-desc = fa-icon.with("\u{f884}")
@@ -4971,8 +5374,10 @@
 #let fa-sort-alpha-desc = fa-icon.with("\u{f881}")
 #let fa-sort-alpha-down-alt = fa-icon.with("\u{f881}")
 #let fa-arrow-left = fa-icon.with("\u{f060}")
+#let fa-arrow-left-arrow-right = fa-icon.with("\u{e6b8}")
 #let fa-arrow-left-from-arc = fa-icon.with("\u{e615}")
 #let fa-arrow-left-from-bracket = fa-icon.with("\u{e668}")
+#let fa-arrow-left-from-dotted-line = fa-icon.with("\u{e6b9}")
 #let fa-arrow-left-from-line = fa-icon.with("\u{f344}")
 #let fa-arrow-from-right = fa-icon.with("\u{f344}")
 #let fa-arrow-left-long = fa-icon.with("\u{f177}")
@@ -4980,6 +5385,7 @@
 #let fa-arrow-left-long-to-line = fa-icon.with("\u{e3d4}")
 #let fa-arrow-left-to-arc = fa-icon.with("\u{e616}")
 #let fa-arrow-left-to-bracket = fa-icon.with("\u{e669}")
+#let fa-arrow-left-to-dotted-line = fa-icon.with("\u{e6ba}")
 #let fa-arrow-left-to-line = fa-icon.with("\u{f33e}")
 #let fa-arrow-to-left = fa-icon.with("\u{f33e}")
 #let fa-arrow-pointer = fa-icon.with("\u{f245}")
@@ -4991,6 +5397,7 @@
 #let fa-arrow-right-from-arc = fa-icon.with("\u{e4b1}")
 #let fa-arrow-right-from-bracket = fa-icon.with("\u{f08b}")
 #let fa-sign-out = fa-icon.with("\u{f08b}")
+#let fa-arrow-right-from-dotted-line = fa-icon.with("\u{e6bb}")
 #let fa-arrow-right-from-line = fa-icon.with("\u{f343}")
 #let fa-arrow-from-left = fa-icon.with("\u{f343}")
 #let fa-arrow-right-long = fa-icon.with("\u{f178}")
@@ -5000,6 +5407,7 @@
 #let fa-arrow-right-to-bracket = fa-icon.with("\u{f090}")
 #let fa-sign-in = fa-icon.with("\u{f090}")
 #let fa-arrow-right-to-city = fa-icon.with("\u{e4b3}")
+#let fa-arrow-right-to-dotted-line = fa-icon.with("\u{e6bc}")
 #let fa-arrow-right-to-line = fa-icon.with("\u{f340}")
 #let fa-arrow-to-right = fa-icon.with("\u{f340}")
 #let fa-arrow-rotate-left = fa-icon.with("\u{f0e2}")
@@ -5082,6 +5490,7 @@
 #let fa-arrow-up-left-from-circle = fa-icon.with("\u{e09e}")
 #let fa-arrow-up-long = fa-icon.with("\u{f176}")
 #let fa-long-arrow-up = fa-icon.with("\u{f176}")
+#let fa-arrow-up-long-to-line = fa-icon.with("\u{e6bd}")
 #let fa-arrow-up-right = fa-icon.with("\u{e09f}")
 #let fa-arrow-up-right-and-arrow-down-left-from-center = fa-icon.with("\u{e0a0}")
 #let fa-arrow-up-right-dots = fa-icon.with("\u{e4b7}")
@@ -5104,6 +5513,14 @@
 #let fa-sort-amount-up = fa-icon.with("\u{f161}")
 #let fa-arrow-up-z-a = fa-icon.with("\u{f882}")
 #let fa-sort-alpha-up-alt = fa-icon.with("\u{f882}")
+#let fa-arrow-u-turn-down-left = fa-icon.with("\u{e7e7}")
+#let fa-arrow-u-turn-down-right = fa-icon.with("\u{e7e8}")
+#let fa-arrow-u-turn-left-down = fa-icon.with("\u{e7e9}")
+#let fa-arrow-u-turn-left-up = fa-icon.with("\u{e7ea}")
+#let fa-arrow-u-turn-right-down = fa-icon.with("\u{e7eb}")
+#let fa-arrow-u-turn-right-up = fa-icon.with("\u{e7ec}")
+#let fa-arrow-u-turn-up-left = fa-icon.with("\u{e7ed}")
+#let fa-arrow-u-turn-up-right = fa-icon.with("\u{e7ee}")
 #let fa-artstation = fa-icon.with("\u{f77a}")
 #let fa-asterisk = fa-icon.with("\u{2a}")
 #let fa-asymmetrik = fa-icon.with("\u{f372}")
@@ -5115,6 +5532,7 @@
 #let fa-audible = fa-icon.with("\u{f373}")
 #let fa-audio-description = fa-icon.with("\u{f29e}")
 #let fa-audio-description-slash = fa-icon.with("\u{e0a8}")
+#let fa-australian-dollar-sign = fa-icon.with("\u{e6fe}")
 #let fa-austral-sign = fa-icon.with("\u{e0a9}")
 #let fa-autoprefixer = fa-icon.with("\u{f41c}")
 #let fa-avianex = fa-icon.with("\u{f374}")
@@ -5161,6 +5579,7 @@
 #let fa-ballot = fa-icon.with("\u{f732}")
 #let fa-ballot-check = fa-icon.with("\u{f733}")
 #let fa-ball-pile = fa-icon.with("\u{f77e}")
+#let fa-ball-yarn = fa-icon.with("\u{e6ce}")
 #let fa-ban = fa-icon.with("\u{f05e}")
 #let fa-cancel = fa-icon.with("\u{f05e}")
 #let fa-banana = fa-icon.with("\u{e2e5}")
@@ -5178,6 +5597,13 @@
 #let fa-barcode = fa-icon.with("\u{f02a}")
 #let fa-barcode-read = fa-icon.with("\u{f464}")
 #let fa-barcode-scan = fa-icon.with("\u{f465}")
+#let fa-barn = fa-icon.with("\u{e6c7}")
+#let fa-bar-progress = fa-icon.with("\u{e6a4}")
+#let fa-bar-progress-empty = fa-icon.with("\u{e6a5}")
+#let fa-bar-progress-full = fa-icon.with("\u{e6a6}")
+#let fa-bar-progress-half = fa-icon.with("\u{e6a7}")
+#let fa-bar-progress-quarter = fa-icon.with("\u{e6a8}")
+#let fa-bar-progress-three-quarters = fa-icon.with("\u{e6a9}")
 #let fa-bars = fa-icon.with("\u{f0c9}")
 #let fa-navicon = fa-icon.with("\u{f0c9}")
 #let fa-bars-filter = fa-icon.with("\u{e0ad}")
@@ -5189,6 +5615,7 @@
 #let fa-stream = fa-icon.with("\u{f550}")
 #let fa-baseball = fa-icon.with("\u{f433}")
 #let fa-baseball-ball = fa-icon.with("\u{f433}")
+#let fa-baseball-bat = fa-icon.with("\u{e7e5}")
 #let fa-baseball-bat-ball = fa-icon.with("\u{f432}")
 #let fa-basketball = fa-icon.with("\u{f434}")
 #let fa-basketball-ball = fa-icon.with("\u{f434}")
@@ -5249,6 +5676,7 @@
 #let fa-bilibili = fa-icon.with("\u{e3d9}")
 #let fa-billboard = fa-icon.with("\u{e5cd}")
 #let fa-bimobject = fa-icon.with("\u{f378}")
+#let fa-bin = fa-icon.with("\u{e763}")
 #let fa-binary = fa-icon.with("\u{e33b}")
 #let fa-binary-circle-check = fa-icon.with("\u{e33c}")
 #let fa-binary-lock = fa-icon.with("\u{e33d}")
@@ -5314,11 +5742,13 @@
 #let fa-book-journal-whills = fa-icon.with("\u{f66a}")
 #let fa-journal-whills = fa-icon.with("\u{f66a}")
 #let fa-bookmark = fa-icon.with("\u{f02e}")
+#let fa-bookmark-plus = fa-icon.with("\u{e755}")
 #let fa-bookmark-slash = fa-icon.with("\u{e0c2}")
 #let fa-book-medical = fa-icon.with("\u{f7e6}")
 #let fa-book-open = fa-icon.with("\u{f518}")
 #let fa-book-open-cover = fa-icon.with("\u{e0c0}")
 #let fa-book-open-alt = fa-icon.with("\u{e0c0}")
+#let fa-book-open-lines = fa-icon.with("\u{e753}")
 #let fa-book-open-reader = fa-icon.with("\u{f5da}")
 #let fa-book-reader = fa-icon.with("\u{f5da}")
 #let fa-book-quran = fa-icon.with("\u{f687}")
@@ -5331,6 +5761,7 @@
 #let fa-books-medical = fa-icon.with("\u{f7e8}")
 #let fa-book-sparkles = fa-icon.with("\u{f6b8}")
 #let fa-book-spells = fa-icon.with("\u{f6b8}")
+#let fa-book-spine = fa-icon.with("\u{e754}")
 #let fa-book-tanakh = fa-icon.with("\u{f827}")
 #let fa-tanakh = fa-icon.with("\u{f827}")
 #let fa-book-user = fa-icon.with("\u{f7e7}")
@@ -5376,6 +5807,9 @@
 #let fa-box = fa-icon.with("\u{f466}")
 #let fa-box-archive = fa-icon.with("\u{f187}")
 #let fa-archive = fa-icon.with("\u{f187}")
+#let fa-box-arrow-down = fa-icon.with("\u{e794}")
+#let fa-box-arrow-down-arrow-up = fa-icon.with("\u{e795}")
+#let fa-box-arrow-down-magnifying-glass = fa-icon.with("\u{e796}")
 #let fa-box-ballot = fa-icon.with("\u{f735}")
 #let fa-box-check = fa-icon.with("\u{f467}")
 #let fa-box-circle-check = fa-icon.with("\u{e0c4}")
@@ -5388,12 +5822,15 @@
 #let fa-box-heart = fa-icon.with("\u{f49d}")
 #let fa-boxing-glove = fa-icon.with("\u{f438}")
 #let fa-glove-boxing = fa-icon.with("\u{f438}")
+#let fa-box-isometric = fa-icon.with("\u{e797}")
+#let fa-box-isometric-tape = fa-icon.with("\u{e798}")
 #let fa-box-open = fa-icon.with("\u{f49e}")
 #let fa-box-open-full = fa-icon.with("\u{f49c}")
 #let fa-box-full = fa-icon.with("\u{f49c}")
 #let fa-box-taped = fa-icon.with("\u{f49a}")
 #let fa-box-alt = fa-icon.with("\u{f49a}")
 #let fa-box-tissue = fa-icon.with("\u{e05b}")
+#let fa-bra = fa-icon.with("\u{e6cf}")
 #let fa-bracket-curly = fa-icon.with("\u{7b}")
 #let fa-bracket-curly-left = fa-icon.with("\u{7b}")
 #let fa-bracket-curly-right = fa-icon.with("\u{7d}")
@@ -5432,6 +5869,7 @@
 #let fa-briefcase-arrow-right = fa-icon.with("\u{e2f2}")
 #let fa-briefcase-blank = fa-icon.with("\u{e0c8}")
 #let fa-briefcase-medical = fa-icon.with("\u{f469}")
+#let fa-briefs = fa-icon.with("\u{e6d0}")
 #let fa-brightness = fa-icon.with("\u{e0c9}")
 #let fa-brightness-low = fa-icon.with("\u{e0ca}")
 #let fa-bring-forward = fa-icon.with("\u{f856}")
@@ -5493,9 +5931,12 @@
 #let fa-business-time = fa-icon.with("\u{f64a}")
 #let fa-briefcase-clock = fa-icon.with("\u{f64a}")
 #let fa-bus-school = fa-icon.with("\u{f5dd}")
+#let fa-bus-side = fa-icon.with("\u{e81d}")
 #let fa-bus-simple = fa-icon.with("\u{f55e}")
 #let fa-bus-alt = fa-icon.with("\u{f55e}")
+#let fa-bus-stop = fa-icon.with("\u{e81e}")
 #let fa-butter = fa-icon.with("\u{e3e4}")
+#let fa-butterfly = fa-icon.with("\u{e811}")
 #let fa-buy-n-large = fa-icon.with("\u{f8a6}")
 #let fa-buysellads = fa-icon.with("\u{f20d}")
 #let fa-c = fa-icon.with("\u{43}")
@@ -5551,12 +5992,15 @@
 #let fa-camera-alt = fa-icon.with("\u{f030}")
 #let fa-camera-cctv = fa-icon.with("\u{f8ac}")
 #let fa-cctv = fa-icon.with("\u{f8ac}")
+#let fa-camera-circle-ellipsis = fa-icon.with("\u{e766}")
+#let fa-camera-clock = fa-icon.with("\u{e767}")
 #let fa-camera-movie = fa-icon.with("\u{f8a9}")
 #let fa-camera-polaroid = fa-icon.with("\u{f8aa}")
 #let fa-camera-retro = fa-icon.with("\u{f083}")
 #let fa-camera-rotate = fa-icon.with("\u{e0d8}")
 #let fa-camera-security = fa-icon.with("\u{f8fe}")
 #let fa-camera-home = fa-icon.with("\u{f8fe}")
+#let fa-camera-shutter = fa-icon.with("\u{e768}")
 #let fa-camera-slash = fa-icon.with("\u{e0d9}")
 #let fa-camera-viewfinder = fa-icon.with("\u{e0da}")
 #let fa-screenshot = fa-icon.with("\u{e0da}")
@@ -5576,6 +6020,7 @@
 #let fa-can-food = fa-icon.with("\u{e3e6}")
 #let fa-cannabis = fa-icon.with("\u{f55f}")
 #let fa-cannon = fa-icon.with("\u{e642}")
+#let fa-capsule = fa-icon.with("\u{e75a}")
 #let fa-capsules = fa-icon.with("\u{f46b}")
 #let fa-car = fa-icon.with("\u{f1b9}")
 #let fa-automobile = fa-icon.with("\u{f1b9}")
@@ -5602,14 +6047,19 @@
 #let fa-caret-right = fa-icon.with("\u{f0da}")
 #let fa-caret-up = fa-icon.with("\u{f0d8}")
 #let fa-car-garage = fa-icon.with("\u{f5e2}")
+#let fa-car-key = fa-icon.with("\u{e7c0}")
 #let fa-car-mirrors = fa-icon.with("\u{e343}")
 #let fa-car-on = fa-icon.with("\u{e4dd}")
+#let fa-carpool = fa-icon.with("\u{e69c}")
+#let fa-car-people = fa-icon.with("\u{e69c}")
 #let fa-car-rear = fa-icon.with("\u{f5de}")
 #let fa-car-alt = fa-icon.with("\u{f5de}")
 #let fa-carrot = fa-icon.with("\u{f787}")
 #let fa-cars = fa-icon.with("\u{f85b}")
 #let fa-car-side = fa-icon.with("\u{f5e4}")
 #let fa-car-side-bolt = fa-icon.with("\u{e344}")
+#let fa-car-siren = fa-icon.with("\u{e7c1}")
+#let fa-car-siren-on = fa-icon.with("\u{e7c2}")
 #let fa-cart-arrow-down = fa-icon.with("\u{f218}")
 #let fa-cart-arrow-up = fa-icon.with("\u{e3ee}")
 #let fa-cart-circle-arrow-down = fa-icon.with("\u{e3ef}")
@@ -5637,6 +6087,7 @@
 #let fa-car-wash = fa-icon.with("\u{f5e6}")
 #let fa-car-wrench = fa-icon.with("\u{f5e3}")
 #let fa-car-mechanic = fa-icon.with("\u{f5e3}")
+#let fa-cash-app = fa-icon.with("\u{e7d4}")
 #let fa-cash-register = fa-icon.with("\u{f788}")
 #let fa-cassette-betamax = fa-icon.with("\u{f8a4}")
 #let fa-betamax = fa-icon.with("\u{f8a4}")
@@ -5680,6 +6131,8 @@
 #let fa-chart-bullet = fa-icon.with("\u{e0e1}")
 #let fa-chart-candlestick = fa-icon.with("\u{e0e2}")
 #let fa-chart-column = fa-icon.with("\u{e0e3}")
+#let fa-chart-diagram = fa-icon.with("\u{e695}")
+#let fa-chart-fft = fa-icon.with("\u{e69e}")
 #let fa-chart-gantt = fa-icon.with("\u{e0e4}")
 #let fa-chart-kanban = fa-icon.with("\u{e64f}")
 #let fa-chart-line = fa-icon.with("\u{f201}")
@@ -5705,6 +6158,7 @@
 #let fa-chart-scatter-bubble = fa-icon.with("\u{e0e9}")
 #let fa-chart-simple = fa-icon.with("\u{e473}")
 #let fa-chart-simple-horizontal = fa-icon.with("\u{e474}")
+#let fa-chart-sine = fa-icon.with("\u{e69d}")
 #let fa-chart-tree-map = fa-icon.with("\u{e0ea}")
 #let fa-chart-user = fa-icon.with("\u{f6a3}")
 #let fa-user-chart = fa-icon.with("\u{f6a3}")
@@ -5777,6 +6231,7 @@
 #let fa-circle-9 = fa-icon.with("\u{e0f6}")
 #let fa-circle-a = fa-icon.with("\u{e0f7}")
 #let fa-circle-ampersand = fa-icon.with("\u{e0f8}")
+#let fa-circleapore-dollar = fa-icon.with("\u{e71e}")
 #let fa-circle-arrow-down = fa-icon.with("\u{f0ab}")
 #let fa-arrow-circle-down = fa-icon.with("\u{f0ab}")
 #let fa-circle-arrow-down-left = fa-icon.with("\u{e0f9}")
@@ -5789,12 +6244,18 @@
 #let fa-arrow-circle-up = fa-icon.with("\u{f0aa}")
 #let fa-circle-arrow-up-left = fa-icon.with("\u{e0fb}")
 #let fa-circle-arrow-up-right = fa-icon.with("\u{e0fc}")
+#let fa-circle-austral = fa-icon.with("\u{e71b}")
+#let fa-circle-australian-dollar = fa-icon.with("\u{e730}")
 #let fa-circle-b = fa-icon.with("\u{e0fd}")
+#let fa-circle-baht = fa-icon.with("\u{e72d}")
+#let fa-circle-bangladeshi-taka = fa-icon.with("\u{e701}")
+#let fa-circle-bitcoin = fa-icon.with("\u{e737}")
 #let fa-circle-bolt = fa-icon.with("\u{e0fe}")
 #let fa-circle-bookmark = fa-icon.with("\u{e100}")
 #let fa-bookmark-circle = fa-icon.with("\u{e100}")
 #let fa-circle-book-open = fa-icon.with("\u{e0ff}")
 #let fa-book-circle = fa-icon.with("\u{e0ff}")
+#let fa-circle-brazilian-real = fa-icon.with("\u{e6eb}")
 #let fa-circle-c = fa-icon.with("\u{e101}")
 #let fa-circle-calendar = fa-icon.with("\u{e102}")
 #let fa-calendar-circle = fa-icon.with("\u{e102}")
@@ -5808,6 +6269,8 @@
 #let fa-caret-circle-right = fa-icon.with("\u{f330}")
 #let fa-circle-caret-up = fa-icon.with("\u{f331}")
 #let fa-caret-circle-up = fa-icon.with("\u{f331}")
+#let fa-circle-cedi = fa-icon.with("\u{e742}")
+#let fa-circle-cent = fa-icon.with("\u{e72a}")
 #let fa-circle-check = fa-icon.with("\u{f058}")
 #let fa-check-circle = fa-icon.with("\u{f058}")
 #let fa-circle-chevron-down = fa-icon.with("\u{f13a}")
@@ -5818,7 +6281,12 @@
 #let fa-chevron-circle-right = fa-icon.with("\u{f138}")
 #let fa-circle-chevron-up = fa-icon.with("\u{f139}")
 #let fa-chevron-circle-up = fa-icon.with("\u{f139}")
+#let fa-circle-chf = fa-icon.with("\u{e72c}")
+#let fa-circle-colon = fa-icon.with("\u{e6fc}")
+#let fa-circle-cruzeiro = fa-icon.with("\u{e722}")
+#let fa-circle-currency = fa-icon.with("\u{e6ee}")
 #let fa-circle-d = fa-icon.with("\u{e104}")
+#let fa-circle-danish-krone = fa-icon.with("\u{e746}")
 #let fa-circle-dashed = fa-icon.with("\u{e105}")
 #let fa-circle-divide = fa-icon.with("\u{e106}")
 #let fa-circle-dollar = fa-icon.with("\u{f2e8}")
@@ -5826,6 +6294,7 @@
 #let fa-usd-circle = fa-icon.with("\u{f2e8}")
 #let fa-circle-dollar-to-slot = fa-icon.with("\u{f4b9}")
 #let fa-donate = fa-icon.with("\u{f4b9}")
+#let fa-circle-dong = fa-icon.with("\u{e723}")
 #let fa-circle-dot = fa-icon.with("\u{f192}")
 #let fa-dot-circle = fa-icon.with("\u{f192}")
 #let fa-circle-down = fa-icon.with("\u{f358}")
@@ -5837,39 +6306,59 @@
 #let fa-circle-ellipsis-vertical = fa-icon.with("\u{e10b}")
 #let fa-circle-envelope = fa-icon.with("\u{e10c}")
 #let fa-envelope-circle = fa-icon.with("\u{e10c}")
+#let fa-circle-equals = fa-icon.with("\u{e6b1}")
 #let fa-circle-euro = fa-icon.with("\u{e5ce}")
+#let fa-circle-eurozone = fa-icon.with("\u{e745}")
 #let fa-circle-exclamation = fa-icon.with("\u{f06a}")
 #let fa-exclamation-circle = fa-icon.with("\u{f06a}")
 #let fa-circle-exclamation-check = fa-icon.with("\u{e10d}")
 #let fa-circle-f = fa-icon.with("\u{e10e}")
+#let fa-circle-florin = fa-icon.with("\u{e6e4}")
+#let fa-circle-franc = fa-icon.with("\u{e721}")
 #let fa-circle-g = fa-icon.with("\u{e10f}")
 #let fa-circle-gf = fa-icon.with("\u{e67f}")
+#let fa-circle-guarani = fa-icon.with("\u{e73b}")
 #let fa-circle-h = fa-icon.with("\u{f47e}")
 #let fa-hospital-symbol = fa-icon.with("\u{f47e}")
 #let fa-circle-half = fa-icon.with("\u{e110}")
+#let fa-circle-half-horizontal = fa-icon.with("\u{e80c}")
 #let fa-circle-half-stroke = fa-icon.with("\u{f042}")
 #let fa-adjust = fa-icon.with("\u{f042}")
+#let fa-circle-half-stroke-horizontal = fa-icon.with("\u{e80d}")
 #let fa-circle-heart = fa-icon.with("\u{f4c7}")
 #let fa-heart-circle = fa-icon.with("\u{f4c7}")
+#let fa-circle-house = fa-icon.with("\u{e6c8}")
+#let fa-circle-hryvnia = fa-icon.with("\u{e6ef}")
 #let fa-circle-i = fa-icon.with("\u{e111}")
+#let fa-circle-indian-rupee = fa-icon.with("\u{e734}")
 #let fa-circle-info = fa-icon.with("\u{f05a}")
 #let fa-info-circle = fa-icon.with("\u{f05a}")
 #let fa-circle-j = fa-icon.with("\u{e112}")
 #let fa-circle-k = fa-icon.with("\u{e113}")
+#let fa-circle-kip = fa-icon.with("\u{e6fd}")
 #let fa-circle-l = fa-icon.with("\u{e114}")
+#let fa-circle-lari = fa-icon.with("\u{e71d}")
 #let fa-circle-left = fa-icon.with("\u{f359}")
 #let fa-arrow-alt-circle-left = fa-icon.with("\u{f359}")
+#let fa-circle-lira = fa-icon.with("\u{e6f6}")
+#let fa-circle-litecoin = fa-icon.with("\u{e6f4}")
 #let fa-circle-location-arrow = fa-icon.with("\u{f602}")
 #let fa-location-circle = fa-icon.with("\u{f602}")
 #let fa-circle-m = fa-icon.with("\u{e115}")
+#let fa-circle-malaysian-ringgit = fa-icon.with("\u{e6f9}")
+#let fa-circle-manat = fa-icon.with("\u{e6fb}")
 #let fa-circle-microphone = fa-icon.with("\u{e116}")
 #let fa-microphone-circle = fa-icon.with("\u{e116}")
 #let fa-circle-microphone-lines = fa-icon.with("\u{e117}")
 #let fa-microphone-circle-alt = fa-icon.with("\u{e117}")
+#let fa-circle-mill = fa-icon.with("\u{e702}")
 #let fa-circle-minus = fa-icon.with("\u{f056}")
 #let fa-minus-circle = fa-icon.with("\u{f056}")
+#let fa-circle-moon = fa-icon.with("\u{e7e0}")
 #let fa-circle-n = fa-icon.with("\u{e118}")
+#let fa-circle-naira = fa-icon.with("\u{e749}")
 #let fa-circle-nodes = fa-icon.with("\u{e4e2}")
+#let fa-circle-norwegian-krone = fa-icon.with("\u{e738}")
 #let fa-circle-notch = fa-icon.with("\u{f1ce}")
 #let fa-circle-o = fa-icon.with("\u{e119}")
 #let fa-circle-p = fa-icon.with("\u{e11a}")
@@ -5877,6 +6366,9 @@
 #let fa-parking-circle = fa-icon.with("\u{f615}")
 #let fa-circle-pause = fa-icon.with("\u{f28b}")
 #let fa-pause-circle = fa-icon.with("\u{f28b}")
+#let fa-circle-peruvian-soles = fa-icon.with("\u{e6f3}")
+#let fa-circle-peseta = fa-icon.with("\u{e741}")
+#let fa-circle-peso = fa-icon.with("\u{e6ff}")
 #let fa-circle-phone = fa-icon.with("\u{e11b}")
 #let fa-phone-circle = fa-icon.with("\u{e11b}")
 #let fa-circle-phone-flip = fa-icon.with("\u{e11c}")
@@ -5887,6 +6379,7 @@
 #let fa-play-circle = fa-icon.with("\u{f144}")
 #let fa-circle-plus = fa-icon.with("\u{f055}")
 #let fa-plus-circle = fa-icon.with("\u{f055}")
+#let fa-circle-polish-zloty = fa-icon.with("\u{e700}")
 #let fa-circle-q = fa-icon.with("\u{e11e}")
 #let fa-circle-quarter = fa-icon.with("\u{e11f}")
 #let fa-circle-quarters = fa-icon.with("\u{e3f8}")
@@ -5896,9 +6389,15 @@
 #let fa-circle-r = fa-icon.with("\u{e120}")
 #let fa-circle-radiation = fa-icon.with("\u{f7ba}")
 #let fa-radiation-alt = fa-icon.with("\u{f7ba}")
+#let fa-circle-renminbi = fa-icon.with("\u{e6e9}")
 #let fa-circle-right = fa-icon.with("\u{f35a}")
 #let fa-arrow-alt-circle-right = fa-icon.with("\u{f35a}")
+#let fa-circle-ruble = fa-icon.with("\u{e6e5}")
+#let fa-circle-rupee = fa-icon.with("\u{e714}")
+#let fa-circle-rupiah = fa-icon.with("\u{e706}")
 #let fa-circle-s = fa-icon.with("\u{e121}")
+#let fa-circle-share-nodes = fa-icon.with("\u{e6db}")
+#let fa-circle-shekel = fa-icon.with("\u{e703}")
 #let fa-circle-small = fa-icon.with("\u{e122}")
 #let fa-circle-sort = fa-icon.with("\u{e030}")
 #let fa-sort-circle = fa-icon.with("\u{e030}")
@@ -5907,16 +6406,22 @@
 #let fa-circle-sort-up = fa-icon.with("\u{e032}")
 #let fa-sort-circle-up = fa-icon.with("\u{e032}")
 #let fa-circles-overlap = fa-icon.with("\u{e600}")
+#let fa-circles-overlap-3 = fa-icon.with("\u{e6a1}")
+#let fa-pronoun = fa-icon.with("\u{e6a1}")
 #let fa-circle-star = fa-icon.with("\u{e123}")
 #let fa-star-circle = fa-icon.with("\u{e123}")
 #let fa-circle-sterling = fa-icon.with("\u{e5cf}")
 #let fa-circle-stop = fa-icon.with("\u{f28d}")
 #let fa-stop-circle = fa-icon.with("\u{f28d}")
+#let fa-circle-swedish-krona = fa-icon.with("\u{e743}")
 #let fa-circle-t = fa-icon.with("\u{e124}")
+#let fa-circle-tenge = fa-icon.with("\u{e725}")
 #let fa-circle-three-quarters = fa-icon.with("\u{e125}")
 #let fa-circle-three-quarters-stroke = fa-icon.with("\u{e5d4}")
 #let fa-circle-trash = fa-icon.with("\u{e126}")
 #let fa-trash-circle = fa-icon.with("\u{e126}")
+#let fa-circle-tugrik = fa-icon.with("\u{e711}")
+#let fa-circle-turkish-lira = fa-icon.with("\u{e739}")
 #let fa-circle-u = fa-icon.with("\u{e127}")
 #let fa-circle-up = fa-icon.with("\u{f35b}")
 #let fa-arrow-alt-circle-up = fa-icon.with("\u{f35b}")
@@ -5924,6 +6429,15 @@
 #let fa-circle-up-right = fa-icon.with("\u{e129}")
 #let fa-circle-user = fa-icon.with("\u{f2bd}")
 #let fa-user-circle = fa-icon.with("\u{f2bd}")
+#let fa-circle-user-circle-check = fa-icon.with("\u{e79f}")
+#let fa-circle-user-circle-exclamation = fa-icon.with("\u{e7a0}")
+#let fa-circle-user-circle-minus = fa-icon.with("\u{e7a1}")
+#let fa-circle-user-circle-moon = fa-icon.with("\u{e7a2}")
+#let fa-circle-user-circle-plus = fa-icon.with("\u{e7a3}")
+#let fa-circle-user-circle-question = fa-icon.with("\u{e7a4}")
+#let fa-circle-user-circle-user = fa-icon.with("\u{e7a5}")
+#let fa-circle-user-circle-xmark = fa-icon.with("\u{e7a6}")
+#let fa-circle-user-clock = fa-icon.with("\u{e7a7}")
 #let fa-circle-v = fa-icon.with("\u{e12a}")
 #let fa-circle-video = fa-icon.with("\u{e12b}")
 #let fa-video-circle = fa-icon.with("\u{e12b}")
@@ -5933,6 +6447,7 @@
 #let fa-circle-wifi = fa-icon.with("\u{e67d}")
 #let fa-circle-wifi-circle-wifi = fa-icon.with("\u{e67e}")
 #let fa-circle-wifi-group = fa-icon.with("\u{e67e}")
+#let fa-circle-won = fa-icon.with("\u{e6ec}")
 #let fa-circle-x = fa-icon.with("\u{e12e}")
 #let fa-circle-xmark = fa-icon.with("\u{f057}")
 #let fa-times-circle = fa-icon.with("\u{f057}")
@@ -5949,6 +6464,8 @@
 #let fa-claw-marks = fa-icon.with("\u{f6c2}")
 #let fa-clipboard = fa-icon.with("\u{f328}")
 #let fa-clipboard-check = fa-icon.with("\u{f46c}")
+#let fa-clipboard-clock = fa-icon.with("\u{e756}")
+#let fa-clipboard-exclamation = fa-icon.with("\u{e757}")
 #let fa-clipboard-list = fa-icon.with("\u{f46d}")
 #let fa-clipboard-list-check = fa-icon.with("\u{f737}")
 #let fa-clipboard-medical = fa-icon.with("\u{e133}")
@@ -5984,6 +6501,7 @@
 #let fa-clock-two = fa-icon.with("\u{e35a}")
 #let fa-clock-two-thirty = fa-icon.with("\u{e35b}")
 #let fa-clone = fa-icon.with("\u{f24d}")
+#let fa-clone-plus = fa-icon.with("\u{e74c}")
 #let fa-closed-captioning = fa-icon.with("\u{f20a}")
 #let fa-closed-captioning-slash = fa-icon.with("\u{e135}")
 #let fa-clothes-hanger = fa-icon.with("\u{e136}")
@@ -6074,6 +6592,7 @@
 #let fa-comment-check = fa-icon.with("\u{f4ac}")
 #let fa-comment-code = fa-icon.with("\u{e147}")
 #let fa-comment-dollar = fa-icon.with("\u{f651}")
+#let fa-comment-dot = fa-icon.with("\u{e6dc}")
 #let fa-comment-dots = fa-icon.with("\u{f4ad}")
 #let fa-commenting = fa-icon.with("\u{f4ad}")
 #let fa-comment-exclamation = fa-icon.with("\u{f4af}")
@@ -6085,6 +6604,7 @@
 #let fa-comment-middle-top = fa-icon.with("\u{e14a}")
 #let fa-comment-minus = fa-icon.with("\u{f4b1}")
 #let fa-comment-music = fa-icon.with("\u{f8b0}")
+#let fa-comment-nodes = fa-icon.with("\u{e696}")
 #let fa-comment-pen = fa-icon.with("\u{f4ae}")
 #let fa-comment-edit = fa-icon.with("\u{f4ae}")
 #let fa-comment-plus = fa-icon.with("\u{f4b2}")
@@ -6099,6 +6619,7 @@
 #let fa-comments-question = fa-icon.with("\u{e14e}")
 #let fa-comments-question-check = fa-icon.with("\u{e14f}")
 #let fa-comment-text = fa-icon.with("\u{e14d}")
+#let fa-comment-waveform = fa-icon.with("\u{e6dd}")
 #let fa-comment-xmark = fa-icon.with("\u{f4b5}")
 #let fa-comment-times = fa-icon.with("\u{f4b5}")
 #let fa-compact-disc = fa-icon.with("\u{f51f}")
@@ -6112,6 +6633,8 @@
 #let fa-computer-classic = fa-icon.with("\u{f8b1}")
 #let fa-computer-mouse = fa-icon.with("\u{f8cc}")
 #let fa-mouse = fa-icon.with("\u{f8cc}")
+#let fa-computer-mouse-button-left = fa-icon.with("\u{e7cd}")
+#let fa-computer-mouse-button-right = fa-icon.with("\u{e7ce}")
 #let fa-computer-mouse-scrollwheel = fa-icon.with("\u{f8cd}")
 #let fa-mouse-alt = fa-icon.with("\u{f8cd}")
 #let fa-computer-speaker = fa-icon.with("\u{f8b2}")
@@ -6176,6 +6699,7 @@
 #let fa-crutches = fa-icon.with("\u{f7f8}")
 #let fa-cruzeiro-sign = fa-icon.with("\u{e152}")
 #let fa-crystal-ball = fa-icon.with("\u{e362}")
+#let fa-css = fa-icon.with("\u{e6a2}")
 #let fa-css3 = fa-icon.with("\u{f13c}")
 #let fa-css3-alt = fa-icon.with("\u{f38b}")
 #let fa-cube = fa-icon.with("\u{f1b2}")
@@ -6189,6 +6713,7 @@
 #let fa-coffee-togo = fa-icon.with("\u{f6c5}")
 #let fa-curling-stone = fa-icon.with("\u{f44a}")
 #let fa-curling = fa-icon.with("\u{f44a}")
+#let fa-currency-sign = fa-icon.with("\u{e72b}")
 #let fa-custard = fa-icon.with("\u{e403}")
 #let fa-cuttlefish = fa-icon.with("\u{f38c}")
 #let fa-d = fa-icon.with("\u{44}")
@@ -6196,6 +6721,7 @@
 #let fa-dailymotion = fa-icon.with("\u{e052}")
 #let fa-d-and-d = fa-icon.with("\u{f38d}")
 #let fa-d-and-d-beyond = fa-icon.with("\u{f6ca}")
+#let fa-danish-krone-sign = fa-icon.with("\u{e720}")
 #let fa-dart-lang = fa-icon.with("\u{e693}")
 #let fa-dash = fa-icon.with("\u{e404}")
 #let fa-minus-large = fa-icon.with("\u{e404}")
@@ -6240,6 +6766,7 @@
 #let fa-dial-med-low = fa-icon.with("\u{e160}")
 #let fa-dial-min = fa-icon.with("\u{e161}")
 #let fa-dial-off = fa-icon.with("\u{e162}")
+#let fa-dialpad = fa-icon.with("\u{e7cc}")
 #let fa-diamond = fa-icon.with("\u{f219}")
 #let fa-diamond-exclamation = fa-icon.with("\u{e405}")
 #let fa-diamond-half = fa-icon.with("\u{e5b7}")
@@ -6266,6 +6793,8 @@
 #let fa-dinosaur = fa-icon.with("\u{e5fe}")
 #let fa-diploma = fa-icon.with("\u{f5ea}")
 #let fa-scroll-ribbon = fa-icon.with("\u{f5ea}")
+#let fa-direction-left-right = fa-icon.with("\u{e6be}")
+#let fa-direction-up-down = fa-icon.with("\u{e6bf}")
 #let fa-disc-drive = fa-icon.with("\u{f8b5}")
 #let fa-discord = fa-icon.with("\u{f392}")
 #let fa-discourse = fa-icon.with("\u{f393}")
@@ -6281,6 +6810,7 @@
 #let fa-desktop-medical = fa-icon.with("\u{e166}")
 #let fa-display-slash = fa-icon.with("\u{e2fa}")
 #let fa-desktop-slash = fa-icon.with("\u{e2fa}")
+#let fa-disqus = fa-icon.with("\u{e7d5}")
 #let fa-distribute-spacing-horizontal = fa-icon.with("\u{e365}")
 #let fa-distribute-spacing-vertical = fa-icon.with("\u{e366}")
 #let fa-ditto = fa-icon.with("\u{22}")
@@ -6303,6 +6833,7 @@
 #let fa-doughnut = fa-icon.with("\u{e406}")
 #let fa-door-closed = fa-icon.with("\u{f52a}")
 #let fa-door-open = fa-icon.with("\u{f52b}")
+#let fa-dot = fa-icon.with("\u{e7d1}")
 #let fa-dove = fa-icon.with("\u{f4ba}")
 #let fa-down = fa-icon.with("\u{f354}")
 #let fa-arrow-alt-down = fa-icon.with("\u{f354}")
@@ -6316,17 +6847,23 @@
 #let fa-download = fa-icon.with("\u{f019}")
 #let fa-down-long = fa-icon.with("\u{f309}")
 #let fa-long-arrow-alt-down = fa-icon.with("\u{f309}")
+#let fa-down-long-to-line = fa-icon.with("\u{e6c0}")
 #let fa-down-right = fa-icon.with("\u{e16b}")
 #let fa-down-to-bracket = fa-icon.with("\u{e4e7}")
 #let fa-down-to-dotted-line = fa-icon.with("\u{e408}")
 #let fa-down-to-line = fa-icon.with("\u{f34a}")
 #let fa-arrow-alt-to-bottom = fa-icon.with("\u{f34a}")
+#let fa-down-up = fa-icon.with("\u{e6c1}")
 #let fa-draft2digital = fa-icon.with("\u{f396}")
 #let fa-dragon = fa-icon.with("\u{f6d5}")
 #let fa-draw-circle = fa-icon.with("\u{f5ed}")
+#let fa-vector-circle = fa-icon.with("\u{f5ed}")
 #let fa-draw-polygon = fa-icon.with("\u{f5ee}")
+#let fa-vector-polygon = fa-icon.with("\u{f5ee}")
 #let fa-draw-square = fa-icon.with("\u{f5ef}")
+#let fa-vector-square = fa-icon.with("\u{f5ef}")
 #let fa-dreidel = fa-icon.with("\u{f792}")
+#let fa-dress = fa-icon.with("\u{e6d1}")
 #let fa-dribbble = fa-icon.with("\u{f17d}")
 #let fa-drone = fa-icon.with("\u{f85f}")
 #let fa-drone-front = fa-icon.with("\u{f860}")
@@ -6338,6 +6875,7 @@
 #let fa-dewpoint = fa-icon.with("\u{f748}")
 #let fa-droplet-percent = fa-icon.with("\u{f750}")
 #let fa-humidity = fa-icon.with("\u{f750}")
+#let fa-droplet-plus = fa-icon.with("\u{e800}")
 #let fa-droplet-slash = fa-icon.with("\u{f5c7}")
 #let fa-tint-slash = fa-icon.with("\u{f5c7}")
 #let fa-drum = fa-icon.with("\u{f569}")
@@ -6353,9 +6891,11 @@
 #let fa-dumpster = fa-icon.with("\u{f793}")
 #let fa-dumpster-fire = fa-icon.with("\u{f794}")
 #let fa-dungeon = fa-icon.with("\u{f6d9}")
+#let fa-duolingo = fa-icon.with("\u{e812}")
 #let fa-dyalog = fa-icon.with("\u{f399}")
 #let fa-e = fa-icon.with("\u{45}")
 #let fa-ear = fa-icon.with("\u{f5f0}")
+#let fa-ear-circle-checkmark = fa-icon.with("\u{e75b}")
 #let fa-ear-deaf = fa-icon.with("\u{f2a4}")
 #let fa-deaf = fa-icon.with("\u{f2a4}")
 #let fa-deafness = fa-icon.with("\u{f2a4}")
@@ -6376,6 +6916,8 @@
 #let fa-globe-europe = fa-icon.with("\u{f7a2}")
 #let fa-earth-oceania = fa-icon.with("\u{e47b}")
 #let fa-globe-oceania = fa-icon.with("\u{e47b}")
+#let fa-ear-triangle-exclamation = fa-icon.with("\u{e75c}")
+#let fa-ear-waveform = fa-icon.with("\u{e75d}")
 #let fa-ebay = fa-icon.with("\u{f4f4}")
 #let fa-eclipse = fa-icon.with("\u{f749}")
 #let fa-edge = fa-icon.with("\u{f282}")
@@ -6387,6 +6929,8 @@
 #let fa-elementor = fa-icon.with("\u{f430}")
 #let fa-elephant = fa-icon.with("\u{f6da}")
 #let fa-elevator = fa-icon.with("\u{e16d}")
+#let fa-eleventy = fa-icon.with("\u{e7d6}")
+#let fa-11ty = fa-icon.with("\u{e7d6}")
 #let fa-ellipsis = fa-icon.with("\u{f141}")
 #let fa-ellipsis-h = fa-icon.with("\u{f141}")
 #let fa-ellipsis-stroke = fa-icon.with("\u{f39b}")
@@ -6404,6 +6948,7 @@
 #let fa-engine-exclamation = fa-icon.with("\u{f5f2}")
 #let fa-envelope = fa-icon.with("\u{f0e0}")
 #let fa-envelope-circle-check = fa-icon.with("\u{e4e8}")
+#let fa-envelope-circle-user = fa-icon.with("\u{e6de}")
 #let fa-envelope-dot = fa-icon.with("\u{e16f}")
 #let fa-envelope-badge = fa-icon.with("\u{e16f}")
 #let fa-envelope-open = fa-icon.with("\u{f2b6}")
@@ -6423,6 +6968,7 @@
 #let fa-euro-sign = fa-icon.with("\u{f153}")
 #let fa-eur = fa-icon.with("\u{f153}")
 #let fa-euro = fa-icon.with("\u{f153}")
+#let fa-eurozone-sign = fa-icon.with("\u{e740}")
 #let fa-evernote = fa-icon.with("\u{f839}")
 #let fa-excavator = fa-icon.with("\u{e656}")
 #let fa-exclamation = fa-icon.with("\u{21}")
@@ -6556,6 +7102,9 @@
 #let fa-sad-tear = fa-icon.with("\u{f5b4}")
 #let fa-face-saluting = fa-icon.with("\u{e484}")
 #let fa-face-scream = fa-icon.with("\u{e38b}")
+#let fa-face-shaking = fa-icon.with("\u{e79c}")
+#let fa-face-shaking-horizontal = fa-icon.with("\u{e79d}")
+#let fa-face-shaking-vertical = fa-icon.with("\u{e79e}")
 #let fa-face-shush = fa-icon.with("\u{e38c}")
 #let fa-face-sleeping = fa-icon.with("\u{e38d}")
 #let fa-face-sleepy = fa-icon.with("\u{e38e}")
@@ -6620,12 +7169,15 @@
 #let fa-field-hockey = fa-icon.with("\u{f44c}")
 #let fa-figma = fa-icon.with("\u{f799}")
 #let fa-file = fa-icon.with("\u{f15b}")
+#let fa-file-aiff = fa-icon.with("\u{e7fb}")
 #let fa-file-arrow-down = fa-icon.with("\u{f56d}")
 #let fa-file-download = fa-icon.with("\u{f56d}")
 #let fa-file-arrow-up = fa-icon.with("\u{f574}")
 #let fa-file-upload = fa-icon.with("\u{f574}")
 #let fa-file-audio = fa-icon.with("\u{f1c7}")
+#let fa-file-ban = fa-icon.with("\u{e758}")
 #let fa-file-binary = fa-icon.with("\u{e175}")
+#let fa-file-brackets-curly = fa-icon.with("\u{e804}")
 #let fa-file-cad = fa-icon.with("\u{e672}")
 #let fa-file-certificate = fa-icon.with("\u{f5f3}")
 #let fa-file-award = fa-icon.with("\u{f5f3}")
@@ -6651,7 +7203,9 @@
 #let fa-file-exclamation = fa-icon.with("\u{f31a}")
 #let fa-file-export = fa-icon.with("\u{f56e}")
 #let fa-arrow-right-from-file = fa-icon.with("\u{f56e}")
+#let fa-file-fragment = fa-icon.with("\u{e697}")
 #let fa-file-gif = fa-icon.with("\u{e645}")
+#let fa-file-half-dashed = fa-icon.with("\u{e698}")
 #let fa-file-heart = fa-icon.with("\u{e176}")
 #let fa-file-image = fa-icon.with("\u{f1c5}")
 #let fa-file-import = fa-icon.with("\u{f56f}")
@@ -6666,11 +7220,13 @@
 #let fa-file-magnifying-glass = fa-icon.with("\u{f865}")
 #let fa-file-search = fa-icon.with("\u{f865}")
 #let fa-file-medical = fa-icon.with("\u{f477}")
+#let fa-file-midi = fa-icon.with("\u{e805}")
 #let fa-file-minus = fa-icon.with("\u{f318}")
 #let fa-file-mov = fa-icon.with("\u{e647}")
 #let fa-file-mp3 = fa-icon.with("\u{e648}")
 #let fa-file-mp4 = fa-icon.with("\u{e649}")
 #let fa-file-music = fa-icon.with("\u{f8b6}")
+#let fa-file-odf = fa-icon.with("\u{e7fc}")
 #let fa-file-pdf = fa-icon.with("\u{f1c1}")
 #let fa-file-pen = fa-icon.with("\u{f31c}")
 #let fa-file-edit = fa-icon.with("\u{f31c}")
@@ -6685,11 +7241,14 @@
 #let fa-file-signature = fa-icon.with("\u{f573}")
 #let fa-file-slash = fa-icon.with("\u{e3a7}")
 #let fa-files-medical = fa-icon.with("\u{f7fd}")
+#let fa-files-pinwheel = fa-icon.with("\u{e69f}")
 #let fa-file-spreadsheet = fa-icon.with("\u{f65b}")
 #let fa-file-svg = fa-icon.with("\u{e64b}")
+#let fa-file-tex = fa-icon.with("\u{e7fd}")
 #let fa-file-user = fa-icon.with("\u{f65c}")
 #let fa-file-vector = fa-icon.with("\u{e64c}")
 #let fa-file-video = fa-icon.with("\u{f1c8}")
+#let fa-file-wav = fa-icon.with("\u{e7fe}")
 #let fa-file-waveform = fa-icon.with("\u{f478}")
 #let fa-file-medical-alt = fa-icon.with("\u{f478}")
 #let fa-file-word = fa-icon.with("\u{f1c2}")
@@ -6703,12 +7262,14 @@
 #let fa-fill = fa-icon.with("\u{f575}")
 #let fa-fill-drip = fa-icon.with("\u{f576}")
 #let fa-film = fa-icon.with("\u{f008}")
+#let fa-film-alt = fa-icon.with("\u{f008}")
+#let fa-film-simple = fa-icon.with("\u{f008}")
 #let fa-film-canister = fa-icon.with("\u{f8b7}")
 #let fa-film-cannister = fa-icon.with("\u{f8b7}")
+#let fa-film-music = fa-icon.with("\u{e769}")
 #let fa-films = fa-icon.with("\u{e17a}")
-#let fa-film-simple = fa-icon.with("\u{f3a0}")
-#let fa-film-alt = fa-icon.with("\u{f3a0}")
 #let fa-film-slash = fa-icon.with("\u{e179}")
+#let fa-film-stack = fa-icon.with("\u{e76b}")
 #let fa-filter = fa-icon.with("\u{f0b0}")
 #let fa-filter-circle-dollar = fa-icon.with("\u{f662}")
 #let fa-funnel-dollar = fa-icon.with("\u{f662}")
@@ -6781,6 +7342,8 @@
 #let fa-folder-blank = fa-icon.with("\u{f07b}")
 #let fa-folder-arrow-down = fa-icon.with("\u{e053}")
 #let fa-folder-download = fa-icon.with("\u{e053}")
+#let fa-folder-arrow-left = fa-icon.with("\u{e7d2}")
+#let fa-folder-arrow-right = fa-icon.with("\u{e7d3}")
 #let fa-folder-arrow-up = fa-icon.with("\u{e054}")
 #let fa-folder-upload = fa-icon.with("\u{e054}")
 #let fa-folder-bookmark = fa-icon.with("\u{e186}")
@@ -6855,9 +7418,12 @@
 #let fa-gamepad-alt = fa-icon.with("\u{e5a2}")
 #let fa-garage = fa-icon.with("\u{e009}")
 #let fa-garage-car = fa-icon.with("\u{e00a}")
+#let fa-garage-empty = fa-icon.with("\u{e6c9}")
 #let fa-garage-open = fa-icon.with("\u{e00b}")
 #let fa-garlic = fa-icon.with("\u{e40e}")
 #let fa-gas-pump = fa-icon.with("\u{f52f}")
+#let fa-gas-pump-left = fa-icon.with("\u{e778}")
+#let fa-gas-pump-right = fa-icon.with("\u{e779}")
 #let fa-gas-pump-slash = fa-icon.with("\u{f5f4}")
 #let fa-gauge = fa-icon.with("\u{f624}")
 #let fa-dashboard = fa-icon.with("\u{f624}")
@@ -6963,13 +7529,14 @@
 #let fa-grid = fa-icon.with("\u{e195}")
 #let fa-grid-3 = fa-icon.with("\u{e195}")
 #let fa-grid-2 = fa-icon.with("\u{e196}")
+#let fa-grid-2-minus = fa-icon.with("\u{e6aa}")
 #let fa-grid-2-plus = fa-icon.with("\u{e197}")
 #let fa-grid-4 = fa-icon.with("\u{e198}")
 #let fa-grid-5 = fa-icon.with("\u{e199}")
 #let fa-grid-dividers = fa-icon.with("\u{e3ad}")
-#let fa-grid-horizontal = fa-icon.with("\u{e307}")
 #let fa-grid-round = fa-icon.with("\u{e5da}")
 #let fa-grid-round-2 = fa-icon.with("\u{e5db}")
+#let fa-grid-round-2-minus = fa-icon.with("\u{e6ab}")
 #let fa-grid-round-2-plus = fa-icon.with("\u{e5dc}")
 #let fa-grid-round-4 = fa-icon.with("\u{e5dd}")
 #let fa-grid-round-5 = fa-icon.with("\u{e5de}")
@@ -6977,6 +7544,7 @@
 #let fa-grill-fire = fa-icon.with("\u{e5a4}")
 #let fa-grill-hot = fa-icon.with("\u{e5a5}")
 #let fa-grip = fa-icon.with("\u{f58d}")
+#let fa-grid-horizontal = fa-icon.with("\u{f58d}")
 #let fa-grip-horizontal = fa-icon.with("\u{f58d}")
 #let fa-grip-dots = fa-icon.with("\u{e410}")
 #let fa-grip-dots-vertical = fa-icon.with("\u{e411}")
@@ -6984,6 +7552,7 @@
 #let fa-grip-lines = fa-icon.with("\u{f7a4}")
 #let fa-grip-lines-vertical = fa-icon.with("\u{f7a5}")
 #let fa-grip-vertical = fa-icon.with("\u{f58e}")
+#let fa-grid-vertical = fa-icon.with("\u{f58e}")
 #let fa-group-arrows-rotate = fa-icon.with("\u{e4f6}")
 #let fa-grunt = fa-icon.with("\u{f3ad}")
 #let fa-guarani-sign = fa-icon.with("\u{e19a}")
@@ -7038,6 +7607,7 @@
 #let fa-hand-holding-medical = fa-icon.with("\u{e05c}")
 #let fa-hand-holding-seedling = fa-icon.with("\u{f4bf}")
 #let fa-hand-holding-skull = fa-icon.with("\u{e1a4}")
+#let fa-hand-holding-star = fa-icon.with("\u{e801}")
 #let fa-hand-horns = fa-icon.with("\u{e1a9}")
 #let fa-hand-lizard = fa-icon.with("\u{f258}")
 #let fa-hand-love = fa-icon.with("\u{e1a5}")
@@ -7062,13 +7632,13 @@
 #let fa-hand-scissors = fa-icon.with("\u{f257}")
 #let fa-hands-clapping = fa-icon.with("\u{e1a8}")
 #let fa-handshake = fa-icon.with("\u{f2b5}")
+#let fa-handshake-alt = fa-icon.with("\u{f2b5}")
+#let fa-handshake-simple = fa-icon.with("\u{f2b5}")
 #let fa-handshake-angle = fa-icon.with("\u{f4c4}")
 #let fa-hands-helping = fa-icon.with("\u{f4c4}")
-#let fa-handshake-simple = fa-icon.with("\u{f4c6}")
-#let fa-handshake-alt = fa-icon.with("\u{f4c6}")
-#let fa-handshake-simple-slash = fa-icon.with("\u{e05f}")
-#let fa-handshake-alt-slash = fa-icon.with("\u{e05f}")
 #let fa-handshake-slash = fa-icon.with("\u{e060}")
+#let fa-handshake-alt-slash = fa-icon.with("\u{e060}")
+#let fa-handshake-simple-slash = fa-icon.with("\u{e060}")
 #let fa-hands-holding = fa-icon.with("\u{f4c2}")
 #let fa-hands-holding-child = fa-icon.with("\u{e4fa}")
 #let fa-hands-holding-circle = fa-icon.with("\u{e4fb}")
@@ -7100,11 +7670,13 @@
 #let fa-heading = fa-icon.with("\u{f1dc}")
 #let fa-header = fa-icon.with("\u{f1dc}")
 #let fa-headphones = fa-icon.with("\u{f025}")
-#let fa-headphones-simple = fa-icon.with("\u{f58f}")
-#let fa-headphones-alt = fa-icon.with("\u{f58f}")
+#let fa-headphones-alt = fa-icon.with("\u{f025}")
+#let fa-headphones-simple = fa-icon.with("\u{f025}")
+#let fa-headphones-slash = fa-icon.with("\u{e77c}")
 #let fa-headset = fa-icon.with("\u{f590}")
 #let fa-head-side = fa-icon.with("\u{f6e9}")
 #let fa-head-side-brain = fa-icon.with("\u{f808}")
+#let fa-head-side-circuit = fa-icon.with("\u{e75e}")
 #let fa-head-side-cough = fa-icon.with("\u{e061}")
 #let fa-head-side-cough-slash = fa-icon.with("\u{e062}")
 #let fa-head-side-gear = fa-icon.with("\u{e611}")
@@ -7114,6 +7686,7 @@
 #let fa-head-side-heart = fa-icon.with("\u{e1aa}")
 #let fa-head-side-mask = fa-icon.with("\u{e063}")
 #let fa-head-side-medical = fa-icon.with("\u{f809}")
+#let fa-head-side-speak = fa-icon.with("\u{e75f}")
 #let fa-head-side-virus = fa-icon.with("\u{e064}")
 #let fa-heart = fa-icon.with("\u{f004}")
 #let fa-heart-circle-bolt = fa-icon.with("\u{e4fc}")
@@ -7129,6 +7702,8 @@
 #let fa-heart-half-alt = fa-icon.with("\u{e1ac}")
 #let fa-heart-pulse = fa-icon.with("\u{f21e}")
 #let fa-heartbeat = fa-icon.with("\u{f21e}")
+#let fa-hearts = fa-icon.with("\u{e78f}")
+#let fa-heart-slash = fa-icon.with("\u{e78e}")
 #let fa-heat = fa-icon.with("\u{e00c}")
 #let fa-helicopter = fa-icon.with("\u{f533}")
 #let fa-helicopter-symbol = fa-icon.with("\u{e502}")
@@ -7140,14 +7715,17 @@
 #let fa-hexagon = fa-icon.with("\u{f312}")
 #let fa-hexagon-check = fa-icon.with("\u{e416}")
 #let fa-hexagon-divide = fa-icon.with("\u{e1ad}")
+#let fa-hexagon-equals = fa-icon.with("\u{e6b2}")
 #let fa-hexagon-exclamation = fa-icon.with("\u{e417}")
 #let fa-hexagon-image = fa-icon.with("\u{e504}")
 #let fa-hexagon-minus = fa-icon.with("\u{f307}")
 #let fa-minus-hexagon = fa-icon.with("\u{f307}")
+#let fa-hexagon-nodes = fa-icon.with("\u{e699}")
+#let fa-hexagon-nodes-bolt = fa-icon.with("\u{e69a}")
 #let fa-hexagon-plus = fa-icon.with("\u{f300}")
 #let fa-plus-hexagon = fa-icon.with("\u{f300}")
 #let fa-hexagon-vertical-nft = fa-icon.with("\u{e505}")
-#let fa-hexagon-vertical-nft-slanted = fa-icon.with("\u{e506}")
+#let fa-hexagon-vertical-nft-slanted = fa-icon.with("\u{e505}")
 #let fa-hexagon-xmark = fa-icon.with("\u{f2ee}")
 #let fa-times-hexagon = fa-icon.with("\u{f2ee}")
 #let fa-xmark-hexagon = fa-icon.with("\u{f2ee}")
@@ -7163,6 +7741,7 @@
 #let fa-hive = fa-icon.with("\u{e07f}")
 #let fa-hockey-mask = fa-icon.with("\u{f6ee}")
 #let fa-hockey-puck = fa-icon.with("\u{f453}")
+#let fa-hockey-stick = fa-icon.with("\u{e7e6}")
 #let fa-hockey-stick-puck = fa-icon.with("\u{e3ae}")
 #let fa-hockey-sticks = fa-icon.with("\u{f454}")
 #let fa-holly-berry = fa-icon.with("\u{f7aa}")
@@ -7174,6 +7753,7 @@
 #let fa-horse = fa-icon.with("\u{f6f0}")
 #let fa-horse-head = fa-icon.with("\u{f7ab}")
 #let fa-horse-saddle = fa-icon.with("\u{f8c3}")
+#let fa-horseshoe = fa-icon.with("\u{e81a}")
 #let fa-hose = fa-icon.with("\u{e419}")
 #let fa-hose-reel = fa-icon.with("\u{e41a}")
 #let fa-hospital = fa-icon.with("\u{f0f8}")
@@ -7242,6 +7822,7 @@
 #let fa-house-tree = fa-icon.with("\u{e1b3}")
 #let fa-house-tsunami = fa-icon.with("\u{e515}")
 #let fa-house-turret = fa-icon.with("\u{e1b4}")
+#let fa-house-unlock = fa-icon.with("\u{e6ca}")
 #let fa-house-user = fa-icon.with("\u{e1b0}")
 #let fa-home-user = fa-icon.with("\u{e1b0}")
 #let fa-house-water = fa-icon.with("\u{f74f}")
@@ -7272,14 +7853,20 @@
 #let fa-ideal = fa-icon.with("\u{e013}")
 #let fa-igloo = fa-icon.with("\u{f7ae}")
 #let fa-image = fa-icon.with("\u{f03e}")
+#let fa-image-circle-arrow-down = fa-icon.with("\u{e76c}")
+#let fa-image-circle-check = fa-icon.with("\u{e76d}")
+#let fa-image-circle-plus = fa-icon.with("\u{e76e}")
+#let fa-image-circle-xmark = fa-icon.with("\u{e76f}")
 #let fa-image-landscape = fa-icon.with("\u{e1b5}")
 #let fa-landscape = fa-icon.with("\u{e1b5}")
+#let fa-image-music = fa-icon.with("\u{e770}")
 #let fa-image-polaroid = fa-icon.with("\u{f8c4}")
 #let fa-image-polaroid-user = fa-icon.with("\u{e1b6}")
 #let fa-image-portrait = fa-icon.with("\u{f3e0}")
 #let fa-portrait = fa-icon.with("\u{f3e0}")
 #let fa-images = fa-icon.with("\u{f302}")
 #let fa-image-slash = fa-icon.with("\u{e1b7}")
+#let fa-image-stack = fa-icon.with("\u{e771}")
 #let fa-images-user = fa-icon.with("\u{e1b9}")
 #let fa-image-user = fa-icon.with("\u{e1b8}")
 #let fa-imdb = fa-icon.with("\u{f2d8}")
@@ -7323,6 +7910,8 @@
 #let fa-jar = fa-icon.with("\u{e516}")
 #let fa-jar-wheat = fa-icon.with("\u{e517}")
 #let fa-java = fa-icon.with("\u{f4e4}")
+#let fa-jeans = fa-icon.with("\u{e6d2}")
+#let fa-jeans-straight = fa-icon.with("\u{e6d3}")
 #let fa-jedi = fa-icon.with("\u{f669}")
 #let fa-jedi-order = fa-icon.with("\u{f50e}")
 #let fa-jenkins = fa-icon.with("\u{f3b6}")
@@ -7343,6 +7932,7 @@
 #let fa-k = fa-icon.with("\u{4b}")
 #let fa-kaaba = fa-icon.with("\u{f66b}")
 #let fa-kaggle = fa-icon.with("\u{f5fa}")
+#let fa-kakao-talk = fa-icon.with("\u{e7d7}")
 #let fa-kazoo = fa-icon.with("\u{f8c7}")
 #let fa-kerning = fa-icon.with("\u{f86f}")
 #let fa-key = fa-icon.with("\u{f084}")
@@ -7415,6 +8005,7 @@
 #let fa-left = fa-icon.with("\u{f355}")
 #let fa-arrow-alt-left = fa-icon.with("\u{f355}")
 #let fa-left-from-bracket = fa-icon.with("\u{e66c}")
+#let fa-left-from-dotted-line = fa-icon.with("\u{e6c2}")
 #let fa-left-from-line = fa-icon.with("\u{f348}")
 #let fa-arrow-alt-from-right = fa-icon.with("\u{f348}")
 #let fa-left-long = fa-icon.with("\u{f30a}")
@@ -7423,6 +8014,7 @@
 #let fa-left-right = fa-icon.with("\u{f337}")
 #let fa-arrows-alt-h = fa-icon.with("\u{f337}")
 #let fa-left-to-bracket = fa-icon.with("\u{e66d}")
+#let fa-left-to-dotted-line = fa-icon.with("\u{e6c3}")
 #let fa-left-to-line = fa-icon.with("\u{f34b}")
 #let fa-arrow-alt-to-left = fa-icon.with("\u{f34b}")
 #let fa-lemon = fa-icon.with("\u{f094}")
@@ -7467,6 +8059,7 @@
 #let fa-chain-broken = fa-icon.with("\u{f127}")
 #let fa-chain-slash = fa-icon.with("\u{f127}")
 #let fa-unlink = fa-icon.with("\u{f127}")
+#let fa-linktree = fa-icon.with("\u{e7d8}")
 #let fa-linode = fa-icon.with("\u{f2b8}")
 #let fa-linux = fa-icon.with("\u{f17c}")
 #let fa-lips = fa-icon.with("\u{f600}")
@@ -7489,6 +8082,7 @@
 #let fa-loader = fa-icon.with("\u{e1d4}")
 #let fa-lobster = fa-icon.with("\u{e421}")
 #let fa-location-arrow = fa-icon.with("\u{f124}")
+#let fa-location-arrow-slash = fa-icon.with("\u{e77a}")
 #let fa-location-arrow-up = fa-icon.with("\u{e63a}")
 #let fa-location-check = fa-icon.with("\u{f606}")
 #let fa-map-marker-check = fa-icon.with("\u{f606}")
@@ -7536,6 +8130,8 @@
 #let fa-luchador-mask = fa-icon.with("\u{f455}")
 #let fa-luchador = fa-icon.with("\u{f455}")
 #let fa-mask-luchador = fa-icon.with("\u{f455}")
+#let fa-lumon = fa-icon.with("\u{e7e2}")
+#let fa-lumon-drop = fa-icon.with("\u{e7e3}")
 #let fa-lungs = fa-icon.with("\u{f604}")
 #let fa-lungs-virus = fa-icon.with("\u{e067}")
 #let fa-lyft = fa-icon.with("\u{f3c3}")
@@ -7562,6 +8158,7 @@
 #let fa-mailbox = fa-icon.with("\u{f813}")
 #let fa-mailbox-flag-up = fa-icon.with("\u{e5bb}")
 #let fa-mailchimp = fa-icon.with("\u{f59e}")
+#let fa-malaysian-ringgit-sign = fa-icon.with("\u{e6fa}")
 #let fa-manat-sign = fa-icon.with("\u{e1d5}")
 #let fa-mandalorian = fa-icon.with("\u{f50f}")
 #let fa-mandolin = fa-icon.with("\u{f6f9}")
@@ -7637,6 +8234,7 @@
 #let fa-message-code = fa-icon.with("\u{e1df}")
 #let fa-message-dollar = fa-icon.with("\u{f650}")
 #let fa-comment-alt-dollar = fa-icon.with("\u{f650}")
+#let fa-message-dot = fa-icon.with("\u{e6df}")
 #let fa-message-dots = fa-icon.with("\u{f4a3}")
 #let fa-comment-alt-dots = fa-icon.with("\u{f4a3}")
 #let fa-messaging = fa-icon.with("\u{f4a3}")
@@ -7677,6 +8275,7 @@
 #let fa-messages-question = fa-icon.with("\u{e1e7}")
 #let fa-message-text = fa-icon.with("\u{e1e6}")
 #let fa-comment-alt-text = fa-icon.with("\u{e1e6}")
+#let fa-message-waveform = fa-icon.with("\u{e6e0}")
 #let fa-message-xmark = fa-icon.with("\u{f4ab}")
 #let fa-comment-alt-times = fa-icon.with("\u{f4ab}")
 #let fa-message-times = fa-icon.with("\u{f4ab}")
@@ -7690,15 +8289,19 @@
 #let fa-microchip = fa-icon.with("\u{f2db}")
 #let fa-microchip-ai = fa-icon.with("\u{e1ec}")
 #let fa-microphone = fa-icon.with("\u{f130}")
+#let fa-microphone-circle-plus = fa-icon.with("\u{e77d}")
+#let fa-microphone-circle-xmark = fa-icon.with("\u{e77e}")
 #let fa-microphone-lines = fa-icon.with("\u{f3c9}")
 #let fa-microphone-alt = fa-icon.with("\u{f3c9}")
 #let fa-microphone-lines-slash = fa-icon.with("\u{f539}")
 #let fa-microphone-alt-slash = fa-icon.with("\u{f539}")
+#let fa-microphone-signal-meter = fa-icon.with("\u{e760}")
 #let fa-microphone-slash = fa-icon.with("\u{f131}")
 #let fa-microphone-stand = fa-icon.with("\u{f8cb}")
 #let fa-microscope = fa-icon.with("\u{f610}")
 #let fa-microsoft = fa-icon.with("\u{f3ca}")
 #let fa-microwave = fa-icon.with("\u{e01b}")
+#let fa-midi = fa-icon.with("\u{e806}")
 #let fa-mill-sign = fa-icon.with("\u{e1ed}")
 #let fa-minimize = fa-icon.with("\u{f78c}")
 #let fa-compress-arrows-alt = fa-icon.with("\u{f78c}")
@@ -7714,16 +8317,22 @@
 #let fa-mobile = fa-icon.with("\u{f3ce}")
 #let fa-mobile-android = fa-icon.with("\u{f3ce}")
 #let fa-mobile-phone = fa-icon.with("\u{f3ce}")
+#let fa-mobile-arrow-down = fa-icon.with("\u{e74b}")
 #let fa-mobile-button = fa-icon.with("\u{f10b}")
 #let fa-mobile-notch = fa-icon.with("\u{e1ee}")
 #let fa-mobile-iphone = fa-icon.with("\u{e1ee}")
 #let fa-mobile-retro = fa-icon.with("\u{e527}")
+#let fa-mobile-rotate = fa-icon.with("\u{e813}")
+#let fa-mobile-rotate-reverse = fa-icon.with("\u{e814}")
 #let fa-mobile-screen = fa-icon.with("\u{f3cf}")
 #let fa-mobile-android-alt = fa-icon.with("\u{f3cf}")
 #let fa-mobile-screen-button = fa-icon.with("\u{f3cd}")
 #let fa-mobile-alt = fa-icon.with("\u{f3cd}")
 #let fa-mobile-signal = fa-icon.with("\u{e1ef}")
 #let fa-mobile-signal-out = fa-icon.with("\u{e1f0}")
+#let fa-mobile-slash = fa-icon.with("\u{e815}")
+#let fa-mobile-vibrate = fa-icon.with("\u{e816}")
+#let fa-mobile-vibrate-slash = fa-icon.with("\u{e817}")
 #let fa-modx = fa-icon.with("\u{f285}")
 #let fa-monero = fa-icon.with("\u{f3d0}")
 #let fa-money-bill = fa-icon.with("\u{f0d6}")
@@ -7757,6 +8366,7 @@
 #let fa-moon-cloud = fa-icon.with("\u{f754}")
 #let fa-moon-over-sun = fa-icon.with("\u{f74a}")
 #let fa-eclipse-alt = fa-icon.with("\u{f74a}")
+#let fa-moon-star = fa-icon.with("\u{e7c9}")
 #let fa-moon-stars = fa-icon.with("\u{f755}")
 #let fa-moped = fa-icon.with("\u{e3b9}")
 #let fa-mortar-pestle = fa-icon.with("\u{f5a7}")
@@ -7808,6 +8418,8 @@
 #let fa-nimblr = fa-icon.with("\u{f5a8}")
 #let fa-node = fa-icon.with("\u{f419}")
 #let fa-node-js = fa-icon.with("\u{f3d3}")
+#let fa-non-binary = fa-icon.with("\u{e807}")
+#let fa-norwegian-krone-sign = fa-icon.with("\u{e6e8}")
 #let fa-nose = fa-icon.with("\u{e5bd}")
 #let fa-notdef = fa-icon.with("\u{e1fe}")
 #let fa-note = fa-icon.with("\u{e1ff}")
@@ -7816,8 +8428,10 @@
 #let fa-not-equal = fa-icon.with("\u{f53e}")
 #let fa-notes = fa-icon.with("\u{e202}")
 #let fa-notes-medical = fa-icon.with("\u{f481}")
+#let fa-notes-sticky = fa-icon.with("\u{e759}")
 #let fa-note-sticky = fa-icon.with("\u{f249}")
 #let fa-sticky-note = fa-icon.with("\u{f249}")
+#let fa-notion = fa-icon.with("\u{e7d9}")
 #let fa-npm = fa-icon.with("\u{f3d4}")
 #let fa-ns8 = fa-icon.with("\u{f3d5}")
 #let fa-nutritionix = fa-icon.with("\u{f3d6}")
@@ -7838,6 +8452,7 @@
 #let fa-octagon = fa-icon.with("\u{f306}")
 #let fa-octagon-check = fa-icon.with("\u{e426}")
 #let fa-octagon-divide = fa-icon.with("\u{e203}")
+#let fa-octagon-equals = fa-icon.with("\u{e6b3}")
 #let fa-octagon-exclamation = fa-icon.with("\u{e204}")
 #let fa-octagon-minus = fa-icon.with("\u{f308}")
 #let fa-minus-octagon = fa-icon.with("\u{f308}")
@@ -7861,6 +8476,8 @@
 #let fa-om = fa-icon.with("\u{f679}")
 #let fa-omega = fa-icon.with("\u{f67a}")
 #let fa-onion = fa-icon.with("\u{e427}")
+#let fa-openai = fa-icon.with("\u{e7cf}")
+#let fa-open-captioning = fa-icon.with("\u{e77f}")
 #let fa-opencart = fa-icon.with("\u{f23d}")
 #let fa-openid = fa-icon.with("\u{f19b}")
 #let fa-opensuse = fa-icon.with("\u{e62b}")
@@ -7892,7 +8509,9 @@
 #let fa-paint-brush-alt = fa-icon.with("\u{f5a9}")
 #let fa-paint-brush-fine = fa-icon.with("\u{f5a9}")
 #let fa-paintbrush-alt = fa-icon.with("\u{f5a9}")
+#let fa-paintbrush-fine-slash = fa-icon.with("\u{e74d}")
 #let fa-paintbrush-pencil = fa-icon.with("\u{e206}")
+#let fa-paintbrush-slash = fa-icon.with("\u{e74e}")
 #let fa-paint-roller = fa-icon.with("\u{f5aa}")
 #let fa-palette = fa-icon.with("\u{f53f}")
 #let fa-palfed = fa-icon.with("\u{f3d8}")
@@ -7902,11 +8521,15 @@
 #let fa-palette-boxes = fa-icon.with("\u{f483}")
 #let fa-pallet-alt = fa-icon.with("\u{f483}")
 #let fa-pancakes = fa-icon.with("\u{e42d}")
+#let fa-pandora = fa-icon.with("\u{e7da}")
 #let fa-panel-ews = fa-icon.with("\u{e42e}")
 #let fa-panel-fire = fa-icon.with("\u{e42f}")
 #let fa-pan-food = fa-icon.with("\u{e42b}")
 #let fa-pan-frying = fa-icon.with("\u{e42c}")
 #let fa-panorama = fa-icon.with("\u{e209}")
+#let fa-panties = fa-icon.with("\u{e6d4}")
+#let fa-pants = fa-icon.with("\u{e6d5}")
+#let fa-pants-straight = fa-icon.with("\u{e6d6}")
 #let fa-paperclip = fa-icon.with("\u{f0c6}")
 #let fa-paperclip-vertical = fa-icon.with("\u{e3c2}")
 #let fa-paper-plane = fa-icon.with("\u{f1d8}")
@@ -7940,6 +8563,7 @@
 #let fa-pen = fa-icon.with("\u{f304}")
 #let fa-pencil = fa-icon.with("\u{f303}")
 #let fa-pencil-alt = fa-icon.with("\u{f303}")
+#let fa-pencil-line = fa-icon.with("\u{e74f}")
 #let fa-pencil-mechanical = fa-icon.with("\u{e5ca}")
 #let fa-pencil-slash = fa-icon.with("\u{e215}")
 #let fa-pen-circle = fa-icon.with("\u{e20e}")
@@ -7959,6 +8583,7 @@
 #let fa-pencil-ruler = fa-icon.with("\u{f5ae}")
 #let fa-pen-slash = fa-icon.with("\u{e213}")
 #let fa-pen-swirl = fa-icon.with("\u{e214}")
+#let fa-pentagon = fa-icon.with("\u{e790}")
 #let fa-pen-to-square = fa-icon.with("\u{f044}")
 #let fa-edit = fa-icon.with("\u{f044}")
 #let fa-people = fa-icon.with("\u{e216}")
@@ -7985,8 +8610,10 @@
 #let fa-periscope = fa-icon.with("\u{f3da}")
 #let fa-person = fa-icon.with("\u{f183}")
 #let fa-male = fa-icon.with("\u{f183}")
+#let fa-person-arms-raised = fa-icon.with("\u{e783}")
 #let fa-person-arrow-down-to-line = fa-icon.with("\u{e538}")
 #let fa-person-arrow-up-from-line = fa-icon.with("\u{e539}")
+#let fa-person-basketball = fa-icon.with("\u{e784}")
 #let fa-person-biking = fa-icon.with("\u{f84a}")
 #let fa-biking = fa-icon.with("\u{f84a}")
 #let fa-person-biking-mountain = fa-icon.with("\u{f84b}")
@@ -7997,6 +8624,7 @@
 #let fa-person-cane = fa-icon.with("\u{e53c}")
 #let fa-person-carry-box = fa-icon.with("\u{f4cf}")
 #let fa-person-carry = fa-icon.with("\u{f4cf}")
+#let fa-person-carry-empty = fa-icon.with("\u{e785}")
 #let fa-person-chalkboard = fa-icon.with("\u{e53d}")
 #let fa-person-circle-check = fa-icon.with("\u{e53e}")
 #let fa-person-circle-exclamation = fa-icon.with("\u{e53f}")
@@ -8021,10 +8649,13 @@
 #let fa-person-falling-burst = fa-icon.with("\u{e547}")
 #let fa-person-from-portal = fa-icon.with("\u{e023}")
 #let fa-portal-exit = fa-icon.with("\u{e023}")
+#let fa-person-golfing = fa-icon.with("\u{e786}")
 #let fa-person-half-dress = fa-icon.with("\u{e548}")
 #let fa-person-harassing = fa-icon.with("\u{e549}")
 #let fa-person-hiking = fa-icon.with("\u{f6ec}")
 #let fa-hiking = fa-icon.with("\u{f6ec}")
+#let fa-person-limbs-wide = fa-icon.with("\u{e787}")
+#let fa-person-meditating = fa-icon.with("\u{e7e1}")
 #let fa-person-military-pointing = fa-icon.with("\u{e54a}")
 #let fa-person-military-rifle = fa-icon.with("\u{e54b}")
 #let fa-person-military-to-person = fa-icon.with("\u{e54c}")
@@ -8039,6 +8670,7 @@
 #let fa-person-running-fast = fa-icon.with("\u{e5ff}")
 #let fa-person-seat = fa-icon.with("\u{e21e}")
 #let fa-person-seat-reclined = fa-icon.with("\u{e21f}")
+#let fa-person-seat-window = fa-icon.with("\u{e788}")
 #let fa-person-shelter = fa-icon.with("\u{e54f}")
 #let fa-person-sign = fa-icon.with("\u{f757}")
 #let fa-person-simple = fa-icon.with("\u{e220}")
@@ -8058,8 +8690,11 @@
 #let fa-snowboarding = fa-icon.with("\u{f7ce}")
 #let fa-person-snowmobiling = fa-icon.with("\u{f7d1}")
 #let fa-snowmobile = fa-icon.with("\u{f7d1}")
+#let fa-person-soccer = fa-icon.with("\u{e789}")
 #let fa-person-swimming = fa-icon.with("\u{f5c4}")
 #let fa-swimmer = fa-icon.with("\u{f5c4}")
+#let fa-person-swimming-pool = fa-icon.with("\u{e78a}")
+#let fa-person-swimming-water = fa-icon.with("\u{e78b}")
 #let fa-person-through-window = fa-icon.with("\u{e5a9}")
 #let fa-person-to-door = fa-icon.with("\u{e433}")
 #let fa-person-to-portal = fa-icon.with("\u{e022}")
@@ -8072,6 +8707,9 @@
 #let fa-person-walking-luggage = fa-icon.with("\u{e554}")
 #let fa-person-walking-with-cane = fa-icon.with("\u{f29d}")
 #let fa-blind = fa-icon.with("\u{f29d}")
+#let fa-person-water-arms-raised = fa-icon.with("\u{e78c}")
+#let fa-person-waving = fa-icon.with("\u{e78d}")
+#let fa-peruvian-soles-sign = fa-icon.with("\u{e705}")
 #let fa-peseta-sign = fa-icon.with("\u{e221}")
 #let fa-peso-sign = fa-icon.with("\u{e222}")
 #let fa-phabricator = fa-icon.with("\u{f3db}")
@@ -8085,6 +8723,7 @@
 #let fa-phone-arrow-up-right = fa-icon.with("\u{e224}")
 #let fa-phone-arrow-up = fa-icon.with("\u{e224}")
 #let fa-phone-outgoing = fa-icon.with("\u{e224}")
+#let fa-phone-connection = fa-icon.with("\u{e6e1}")
 #let fa-phone-flip = fa-icon.with("\u{f879}")
 #let fa-phone-alt = fa-icon.with("\u{f879}")
 #let fa-phone-hangup = fa-icon.with("\u{e225}")
@@ -8096,6 +8735,7 @@
 #let fa-phone-slash = fa-icon.with("\u{f3dd}")
 #let fa-phone-volume = fa-icon.with("\u{f2a0}")
 #let fa-volume-control-phone = fa-icon.with("\u{f2a0}")
+#let fa-phone-waveform = fa-icon.with("\u{e6e2}")
 #let fa-phone-xmark = fa-icon.with("\u{e227}")
 #let fa-photo-film = fa-icon.with("\u{f87c}")
 #let fa-photo-video = fa-icon.with("\u{f87c}")
@@ -8106,6 +8746,7 @@
 #let fa-piano-keyboard = fa-icon.with("\u{f8d5}")
 #let fa-pickaxe = fa-icon.with("\u{e5bf}")
 #let fa-pickleball = fa-icon.with("\u{e435}")
+#let fa-picture-in-picture = fa-icon.with("\u{e80b}")
 #let fa-pie = fa-icon.with("\u{f705}")
 #let fa-pied-piper = fa-icon.with("\u{f2ae}")
 #let fa-pied-piper-alt = fa-icon.with("\u{f1a8}")
@@ -8126,6 +8767,7 @@
 #let fa-pipe-smoking = fa-icon.with("\u{e3c4}")
 #let fa-pipe-valve = fa-icon.with("\u{e439}")
 #let fa-pix = fa-icon.with("\u{e43a}")
+#let fa-pixelfed = fa-icon.with("\u{e7db}")
 #let fa-pixiv = fa-icon.with("\u{e640}")
 #let fa-pizza = fa-icon.with("\u{f817}")
 #let fa-pizza-slice = fa-icon.with("\u{f818}")
@@ -8138,6 +8780,8 @@
 #let fa-plane-departure = fa-icon.with("\u{f5b0}")
 #let fa-plane-engines = fa-icon.with("\u{f3de}")
 #let fa-plane-alt = fa-icon.with("\u{f3de}")
+#let fa-plane-flying = fa-icon.with("\u{e7bb}")
+#let fa-plane-landing-gear = fa-icon.with("\u{e7bc}")
 #let fa-plane-lock = fa-icon.with("\u{e558}")
 #let fa-plane-prop = fa-icon.with("\u{e22b}")
 #let fa-plane-slash = fa-icon.with("\u{e069}")
@@ -8150,6 +8794,7 @@
 #let fa-plate-utensils = fa-icon.with("\u{e43b}")
 #let fa-plate-wheat = fa-icon.with("\u{e55a}")
 #let fa-play = fa-icon.with("\u{f04b}")
+#let fa-play-flip = fa-icon.with("\u{e780}")
 #let fa-play-pause = fa-icon.with("\u{e22f}")
 #let fa-playstation = fa-icon.with("\u{f3df}")
 #let fa-plug = fa-icon.with("\u{f1e6}")
@@ -8167,6 +8812,7 @@
 #let fa-podium = fa-icon.with("\u{f680}")
 #let fa-podium-star = fa-icon.with("\u{f758}")
 #let fa-police-box = fa-icon.with("\u{e021}")
+#let fa-polish-zloty-sign = fa-icon.with("\u{e70b}")
 #let fa-poll-people = fa-icon.with("\u{f759}")
 #let fa-pompebled = fa-icon.with("\u{e43d}")
 #let fa-poo = fa-icon.with("\u{f2fe}")
@@ -8176,6 +8822,7 @@
 #let fa-poo-bolt = fa-icon.with("\u{f75a}")
 #let fa-popcorn = fa-icon.with("\u{f819}")
 #let fa-popsicle = fa-icon.with("\u{e43e}")
+#let fa-postage-stamp = fa-icon.with("\u{e6e3}")
 #let fa-potato = fa-icon.with("\u{e440}")
 #let fa-pot-food = fa-icon.with("\u{e43f}")
 #let fa-power-off = fa-icon.with("\u{f011}")
@@ -8206,6 +8853,7 @@
 #let fa-q = fa-icon.with("\u{51}")
 #let fa-qq = fa-icon.with("\u{f1d6}")
 #let fa-qrcode = fa-icon.with("\u{f029}")
+#let fa-qrcode-read = fa-icon.with("\u{e799}")
 #let fa-question = fa-icon.with("\u{3f}")
 #let fa-quinscape = fa-icon.with("\u{f459}")
 #let fa-quora = fa-icon.with("\u{f2c4}")
@@ -8226,6 +8874,7 @@
 #let fa-radio-tuner = fa-icon.with("\u{f8d8}")
 #let fa-radio-alt = fa-icon.with("\u{f8d8}")
 #let fa-rainbow = fa-icon.with("\u{f75b}")
+#let fa-rainbow-half = fa-icon.with("\u{e7ca}")
 #let fa-raindrops = fa-icon.with("\u{f75c}")
 #let fa-ram = fa-icon.with("\u{f70a}")
 #let fa-ramp-loading = fa-icon.with("\u{f4d4}")
@@ -8241,23 +8890,30 @@
 #let fa-record-vinyl = fa-icon.with("\u{f8d9}")
 #let fa-rectangle = fa-icon.with("\u{f2fa}")
 #let fa-rectangle-landscape = fa-icon.with("\u{f2fa}")
+#let fa-rectangle-4k = fa-icon.with("\u{e772}")
 #let fa-rectangle-ad = fa-icon.with("\u{f641}")
 #let fa-ad = fa-icon.with("\u{f641}")
 #let fa-rectangle-barcode = fa-icon.with("\u{f463}")
 #let fa-barcode-alt = fa-icon.with("\u{f463}")
+#let fa-rectangle-beta = fa-icon.with("\u{e808}")
 #let fa-rectangle-code = fa-icon.with("\u{e322}")
+#let fa-rectangle-high-dynamic-range = fa-icon.with("\u{e773}")
 #let fa-rectangle-history = fa-icon.with("\u{e4a2}")
 #let fa-rectangle-history-circle-plus = fa-icon.with("\u{e4a3}")
 #let fa-rectangle-history-circle-user = fa-icon.with("\u{e4a4}")
 #let fa-rectangle-list = fa-icon.with("\u{f022}")
 #let fa-list-alt = fa-icon.with("\u{f022}")
+#let fa-rectangle-minus = fa-icon.with("\u{e6b4}")
+#let fa-rectangle-plus = fa-icon.with("\u{e6b5}")
 #let fa-rectangle-pro = fa-icon.with("\u{e235}")
 #let fa-pro = fa-icon.with("\u{e235}")
 #let fa-rectangles-mixed = fa-icon.with("\u{e323}")
+#let fa-rectangle-tall = fa-icon.with("\u{e791}")
 #let fa-rectangle-terminal = fa-icon.with("\u{e236}")
 #let fa-rectangle-vertical = fa-icon.with("\u{f2fb}")
 #let fa-rectangle-portrait = fa-icon.with("\u{f2fb}")
 #let fa-rectangle-vertical-history = fa-icon.with("\u{e237}")
+#let fa-rectangle-video-on-demand = fa-icon.with("\u{e774}")
 #let fa-rectangle-wide = fa-icon.with("\u{f2fc}")
 #let fa-rectangle-xmark = fa-icon.with("\u{f410}")
 #let fa-rectangle-times = fa-icon.with("\u{f410}")
@@ -8274,6 +8930,7 @@
 #let fa-reflect-vertical = fa-icon.with("\u{e665}")
 #let fa-refrigerator = fa-icon.with("\u{e026}")
 #let fa-registered = fa-icon.with("\u{f25d}")
+#let fa-renminbi-sign = fa-icon.with("\u{e73c}")
 #let fa-renren = fa-icon.with("\u{f18b}")
 #let fa-repeat = fa-icon.with("\u{f363}")
 #let fa-repeat-1 = fa-icon.with("\u{f365}")
@@ -8297,6 +8954,7 @@
 #let fa-arrow-alt-right = fa-icon.with("\u{f356}")
 #let fa-right-from-bracket = fa-icon.with("\u{f2f5}")
 #let fa-sign-out-alt = fa-icon.with("\u{f2f5}")
+#let fa-right-from-dotted-line = fa-icon.with("\u{e6c4}")
 #let fa-right-from-line = fa-icon.with("\u{f347}")
 #let fa-arrow-alt-from-left = fa-icon.with("\u{f347}")
 #let fa-right-left = fa-icon.with("\u{f362}")
@@ -8307,6 +8965,7 @@
 #let fa-right-long-to-line = fa-icon.with("\u{e444}")
 #let fa-right-to-bracket = fa-icon.with("\u{f2f6}")
 #let fa-sign-in-alt = fa-icon.with("\u{f2f6}")
+#let fa-right-to-dotted-line = fa-icon.with("\u{e6c5}")
 #let fa-right-to-line = fa-icon.with("\u{f34c}")
 #let fa-arrow-alt-to-right = fa-icon.with("\u{f34c}")
 #let fa-ring = fa-icon.with("\u{f70b}")
@@ -8325,6 +8984,7 @@
 #let fa-rocket = fa-icon.with("\u{f135}")
 #let fa-rocketchat = fa-icon.with("\u{f3e8}")
 #let fa-rocket-launch = fa-icon.with("\u{e027}")
+#let fa-rocket-vertical = fa-icon.with("\u{e7bd}")
 #let fa-rockrms = fa-icon.with("\u{f3e9}")
 #let fa-roller-coaster = fa-icon.with("\u{e324}")
 #let fa-rotate = fa-icon.with("\u{f2f1}")
@@ -8402,8 +9062,10 @@
 #let fa-school-circle-xmark = fa-icon.with("\u{e56d}")
 #let fa-school-flag = fa-icon.with("\u{e56e}")
 #let fa-school-lock = fa-icon.with("\u{e56f}")
+#let fa-school-unlock = fa-icon.with("\u{e6cb}")
 #let fa-scissors = fa-icon.with("\u{f0c4}")
 #let fa-cut = fa-icon.with("\u{f0c4}")
+#let fa-scooter = fa-icon.with("\u{e7c3}")
 #let fa-screencast = fa-icon.with("\u{e23e}")
 #let fa-screenpal = fa-icon.with("\u{e570}")
 #let fa-screen-users = fa-icon.with("\u{f63d}")
@@ -8425,7 +9087,10 @@
 #let fa-seal-exclamation = fa-icon.with("\u{e242}")
 #let fa-seal-question = fa-icon.with("\u{e243}")
 #let fa-searchengin = fa-icon.with("\u{f3eb}")
+#let fa-seat = fa-icon.with("\u{e764}")
 #let fa-seat-airline = fa-icon.with("\u{e244}")
+#let fa-seat-airline-window = fa-icon.with("\u{e7be}")
+#let fa-seats = fa-icon.with("\u{e765}")
 #let fa-section = fa-icon.with("\u{e447}")
 #let fa-seedling = fa-icon.with("\u{f4d8}")
 #let fa-sprout = fa-icon.with("\u{f4d8}")
@@ -8441,6 +9106,8 @@
 #let fa-sensor-on = fa-icon.with("\u{e02b}")
 #let fa-sensor-triangle-exclamation = fa-icon.with("\u{e029}")
 #let fa-sensor-alert = fa-icon.with("\u{e029}")
+#let fa-septagon = fa-icon.with("\u{e820}")
+#let fa-heptagon = fa-icon.with("\u{e820}")
 #let fa-server = fa-icon.with("\u{f233}")
 #let fa-servicestack = fa-icon.with("\u{f3ec}")
 #let fa-shapes = fa-icon.with("\u{f61f}")
@@ -8477,27 +9144,33 @@
 #let fa-shield-plus = fa-icon.with("\u{e24a}")
 #let fa-shield-quartered = fa-icon.with("\u{e575}")
 #let fa-shield-slash = fa-icon.with("\u{e24b}")
+#let fa-shield-user = fa-icon.with("\u{e809}")
 #let fa-shield-virus = fa-icon.with("\u{e06c}")
 #let fa-shield-xmark = fa-icon.with("\u{e24c}")
 #let fa-shield-times = fa-icon.with("\u{e24c}")
 #let fa-ship = fa-icon.with("\u{f21a}")
+#let fa-ship-large = fa-icon.with("\u{e810}")
 #let fa-shirt = fa-icon.with("\u{f553}")
 #let fa-t-shirt = fa-icon.with("\u{f553}")
 #let fa-tshirt = fa-icon.with("\u{f553}")
+#let fa-shirt-jersey = fa-icon.with("\u{e6d7}")
 #let fa-shirt-long-sleeve = fa-icon.with("\u{e3c7}")
 #let fa-shirt-running = fa-icon.with("\u{e3c8}")
 #let fa-shirtsinbulk = fa-icon.with("\u{f214}")
 #let fa-shirt-tank-top = fa-icon.with("\u{e3c9}")
 #let fa-shish-kebab = fa-icon.with("\u{f821}")
+#let fa-shoe = fa-icon.with("\u{e6d8}")
 #let fa-shoelace = fa-icon.with("\u{e60c}")
 #let fa-shoe-prints = fa-icon.with("\u{f54b}")
 #let fa-shop = fa-icon.with("\u{f54f}")
 #let fa-store-alt = fa-icon.with("\u{f54f}")
+#let fa-shop-24 = fa-icon.with("\u{e79a}")
 #let fa-shopify = fa-icon.with("\u{e057}")
 #let fa-shop-lock = fa-icon.with("\u{e4a5}")
 #let fa-shop-slash = fa-icon.with("\u{e070}")
 #let fa-store-alt-slash = fa-icon.with("\u{e070}")
 #let fa-shopware = fa-icon.with("\u{f5b5}")
+#let fa-shorts = fa-icon.with("\u{e6d9}")
 #let fa-shovel = fa-icon.with("\u{f713}")
 #let fa-shovel-snow = fa-icon.with("\u{f7c3}")
 #let fa-shower = fa-icon.with("\u{f2cc}")
@@ -8511,6 +9184,7 @@
 #let fa-shuttlecock = fa-icon.with("\u{f45b}")
 #let fa-shuttle-space = fa-icon.with("\u{f197}")
 #let fa-space-shuttle = fa-icon.with("\u{f197}")
+#let fa-shuttle-space-vertical = fa-icon.with("\u{e7bf}")
 #let fa-sickle = fa-icon.with("\u{f822}")
 #let fa-sidebar = fa-icon.with("\u{e24e}")
 #let fa-sidebar-flip = fa-icon.with("\u{e24f}")
@@ -8542,6 +9216,7 @@
 #let fa-signal-4 = fa-icon.with("\u{f68f}")
 #let fa-signal-weak = fa-icon.with("\u{f68c}")
 #let fa-signal-1 = fa-icon.with("\u{f68c}")
+#let fa-signapore-dollar-sign = fa-icon.with("\u{e72e}")
 #let fa-signature = fa-icon.with("\u{f5b7}")
 #let fa-signature-lock = fa-icon.with("\u{e3ca}")
 #let fa-signature-slash = fa-icon.with("\u{e3cb}")
@@ -8555,6 +9230,8 @@
 #let fa-sim-card = fa-icon.with("\u{f7c4}")
 #let fa-sim-cards = fa-icon.with("\u{e251}")
 #let fa-simplybuilt = fa-icon.with("\u{f215}")
+#let fa-single-quote-left = fa-icon.with("\u{e81b}")
+#let fa-single-quote-right = fa-icon.with("\u{e81c}")
 #let fa-sink = fa-icon.with("\u{e06d}")
 #let fa-siren = fa-icon.with("\u{e02d}")
 #let fa-siren-on = fa-icon.with("\u{e02e}")
@@ -8579,6 +9256,7 @@
 #let fa-slash-forward = fa-icon.with("\u{2f}")
 #let fa-sleigh = fa-icon.with("\u{f7cc}")
 #let fa-slider = fa-icon.with("\u{e252}")
+#let fa-slider-circle = fa-icon.with("\u{e750}")
 #let fa-sliders = fa-icon.with("\u{f1de}")
 #let fa-sliders-h = fa-icon.with("\u{f1de}")
 #let fa-sliders-simple = fa-icon.with("\u{e253}")
@@ -8592,6 +9270,8 @@
 #let fa-snake = fa-icon.with("\u{f716}")
 #let fa-snapchat = fa-icon.with("\u{f2ab}")
 #let fa-snapchat-ghost = fa-icon.with("\u{f2ab}")
+#let fa-sneaker = fa-icon.with("\u{e6da}")
+#let fa-sneaker-running = fa-icon.with("\u{e819}")
 #let fa-snooze = fa-icon.with("\u{f880}")
 #let fa-zzz = fa-icon.with("\u{f880}")
 #let fa-snow-blowing = fa-icon.with("\u{f761}")
@@ -8601,6 +9281,7 @@
 #let fa-snowman = fa-icon.with("\u{f7d0}")
 #let fa-snowman-head = fa-icon.with("\u{f79b}")
 #let fa-frosty-head = fa-icon.with("\u{f79b}")
+#let fa-snowmobile-blank = fa-icon.with("\u{e7c4}")
 #let fa-snowplow = fa-icon.with("\u{f7d2}")
 #let fa-soap = fa-icon.with("\u{e06e}")
 #let fa-socks = fa-icon.with("\u{f696}")
@@ -8634,9 +9315,11 @@
 #let fa-spider = fa-icon.with("\u{f717}")
 #let fa-spider-black-widow = fa-icon.with("\u{f718}")
 #let fa-spider-web = fa-icon.with("\u{f719}")
+#let fa-spine = fa-icon.with("\u{e761}")
 #let fa-spinner = fa-icon.with("\u{f110}")
 #let fa-spinner-scale = fa-icon.with("\u{e62a}")
 #let fa-spinner-third = fa-icon.with("\u{f3f4}")
+#let fa-spiral = fa-icon.with("\u{e80a}")
 #let fa-split = fa-icon.with("\u{e254}")
 #let fa-splotch = fa-icon.with("\u{f5bc}")
 #let fa-spoon = fa-icon.with("\u{f2e5}")
@@ -8662,6 +9345,7 @@
 #let fa-square-a = fa-icon.with("\u{e25f}")
 #let fa-square-a-lock = fa-icon.with("\u{e44d}")
 #let fa-square-ampersand = fa-icon.with("\u{e260}")
+#let fa-squareapore-dollar = fa-icon.with("\u{e733}")
 #let fa-square-arrow-down = fa-icon.with("\u{f339}")
 #let fa-arrow-square-down = fa-icon.with("\u{f339}")
 #let fa-square-arrow-down-left = fa-icon.with("\u{e261}")
@@ -8675,10 +9359,18 @@
 #let fa-square-arrow-up-left = fa-icon.with("\u{e263}")
 #let fa-square-arrow-up-right = fa-icon.with("\u{f14c}")
 #let fa-external-link-square = fa-icon.with("\u{f14c}")
+#let fa-square-austral = fa-icon.with("\u{e726}")
+#let fa-square-australian-dollar = fa-icon.with("\u{e718}")
 #let fa-square-b = fa-icon.with("\u{e264}")
+#let fa-square-baht = fa-icon.with("\u{e719}")
+#let fa-square-bangladeshi-taka = fa-icon.with("\u{e744}")
 #let fa-square-behance = fa-icon.with("\u{f1b5}")
 #let fa-behance-square = fa-icon.with("\u{f1b5}")
+#let fa-square-binary = fa-icon.with("\u{e69b}")
+#let fa-square-bitcoin = fa-icon.with("\u{e6f2}")
+#let fa-square-bluesky = fa-icon.with("\u{e6a3}")
 #let fa-square-bolt = fa-icon.with("\u{e265}")
+#let fa-square-brazilian-real = fa-icon.with("\u{e6f1}")
 #let fa-square-c = fa-icon.with("\u{e266}")
 #let fa-square-caret-down = fa-icon.with("\u{f150}")
 #let fa-caret-square-down = fa-icon.with("\u{f150}")
@@ -8688,6 +9380,8 @@
 #let fa-caret-square-right = fa-icon.with("\u{f152}")
 #let fa-square-caret-up = fa-icon.with("\u{f151}")
 #let fa-caret-square-up = fa-icon.with("\u{f151}")
+#let fa-square-cedi = fa-icon.with("\u{e729}")
+#let fa-square-cent = fa-icon.with("\u{e6f0}")
 #let fa-square-check = fa-icon.with("\u{f14a}")
 #let fa-check-square = fa-icon.with("\u{f14a}")
 #let fa-square-chevron-down = fa-icon.with("\u{f329}")
@@ -8698,14 +9392,20 @@
 #let fa-chevron-square-right = fa-icon.with("\u{f32b}")
 #let fa-square-chevron-up = fa-icon.with("\u{f32c}")
 #let fa-chevron-square-up = fa-icon.with("\u{f32c}")
+#let fa-square-chf = fa-icon.with("\u{e6e6}")
 #let fa-square-code = fa-icon.with("\u{e267}")
+#let fa-square-colon = fa-icon.with("\u{e73a}")
+#let fa-square-cruzeiro = fa-icon.with("\u{e6ed}")
+#let fa-square-currency = fa-icon.with("\u{e70c}")
 #let fa-square-d = fa-icon.with("\u{e268}")
+#let fa-square-danish-krone = fa-icon.with("\u{e747}")
 #let fa-square-dashed = fa-icon.with("\u{e269}")
 #let fa-square-dashed-circle-plus = fa-icon.with("\u{e5c2}")
 #let fa-square-divide = fa-icon.with("\u{e26a}")
 #let fa-square-dollar = fa-icon.with("\u{f2e9}")
 #let fa-dollar-square = fa-icon.with("\u{f2e9}")
 #let fa-usd-square = fa-icon.with("\u{f2e9}")
+#let fa-square-dong = fa-icon.with("\u{e70f}")
 #let fa-square-down = fa-icon.with("\u{f350}")
 #let fa-arrow-alt-square-down = fa-icon.with("\u{f350}")
 #let fa-square-down-left = fa-icon.with("\u{e26b}")
@@ -8717,17 +9417,23 @@
 #let fa-square-ellipsis-vertical = fa-icon.with("\u{e26f}")
 #let fa-square-envelope = fa-icon.with("\u{f199}")
 #let fa-envelope-square = fa-icon.with("\u{f199}")
+#let fa-square-equals = fa-icon.with("\u{e6b6}")
+#let fa-square-euro = fa-icon.with("\u{e732}")
+#let fa-square-eurozone = fa-icon.with("\u{e727}")
 #let fa-square-exclamation = fa-icon.with("\u{f321}")
 #let fa-exclamation-square = fa-icon.with("\u{f321}")
 #let fa-square-f = fa-icon.with("\u{e270}")
 #let fa-square-facebook = fa-icon.with("\u{f082}")
 #let fa-facebook-square = fa-icon.with("\u{f082}")
+#let fa-square-figma = fa-icon.with("\u{e7e4}")
+#let fa-square-florin = fa-icon.with("\u{e717}")
 #let fa-square-font-awesome = fa-icon.with("\u{e5ad}")
 #let fa-square-font-awesome-stroke = fa-icon.with("\u{f35c}")
 #let fa-font-awesome-alt = fa-icon.with("\u{f35c}")
 #let fa-square-fragile = fa-icon.with("\u{f49b}")
 #let fa-box-fragile = fa-icon.with("\u{f49b}")
 #let fa-square-wine-glass-crack = fa-icon.with("\u{f49b}")
+#let fa-square-franc = fa-icon.with("\u{e72f}")
 #let fa-square-full = fa-icon.with("\u{f45c}")
 #let fa-square-g = fa-icon.with("\u{e271}")
 #let fa-square-git = fa-icon.with("\u{f1d2}")
@@ -8738,13 +9444,20 @@
 #let fa-gitlab-square = fa-icon.with("\u{e5ae}")
 #let fa-square-google-plus = fa-icon.with("\u{f0d4}")
 #let fa-google-plus-square = fa-icon.with("\u{f0d4}")
+#let fa-square-guarani = fa-icon.with("\u{e70e}")
 #let fa-square-h = fa-icon.with("\u{f0fd}")
 #let fa-h-square = fa-icon.with("\u{f0fd}")
 #let fa-square-hacker-news = fa-icon.with("\u{f3af}")
 #let fa-hacker-news-square = fa-icon.with("\u{f3af}")
+#let fa-square-half = fa-icon.with("\u{e792}")
+#let fa-square-half-horizontal = fa-icon.with("\u{e80e}")
+#let fa-square-half-stroke = fa-icon.with("\u{e793}")
+#let fa-square-half-stroke-horizontal = fa-icon.with("\u{e80f}")
 #let fa-square-heart = fa-icon.with("\u{f4c8}")
 #let fa-heart-square = fa-icon.with("\u{f4c8}")
+#let fa-square-hryvnia = fa-icon.with("\u{e710}")
 #let fa-square-i = fa-icon.with("\u{e272}")
+#let fa-square-indian-rupee = fa-icon.with("\u{e6f5}")
 #let fa-square-info = fa-icon.with("\u{f30f}")
 #let fa-info-square = fa-icon.with("\u{f30f}")
 #let fa-square-instagram = fa-icon.with("\u{e055}")
@@ -8754,18 +9467,29 @@
 #let fa-js-square = fa-icon.with("\u{f3b9}")
 #let fa-square-k = fa-icon.with("\u{e274}")
 #let fa-square-kanban = fa-icon.with("\u{e488}")
+#let fa-square-kip = fa-icon.with("\u{e70d}")
 #let fa-square-l = fa-icon.with("\u{e275}")
+#let fa-square-lari = fa-icon.with("\u{e73f}")
 #let fa-square-lastfm = fa-icon.with("\u{f203}")
 #let fa-lastfm-square = fa-icon.with("\u{f203}")
 #let fa-square-left = fa-icon.with("\u{f351}")
 #let fa-arrow-alt-square-left = fa-icon.with("\u{f351}")
 #let fa-square-letterboxd = fa-icon.with("\u{e62e}")
+#let fa-square-linkedin = fa-icon.with("\u{e7d0}")
+#let fa-square-lira = fa-icon.with("\u{e6e7}")
 #let fa-square-list = fa-icon.with("\u{e489}")
+#let fa-square-litecoin = fa-icon.with("\u{e6f7}")
 #let fa-square-m = fa-icon.with("\u{e276}")
+#let fa-square-malaysian-ringgit = fa-icon.with("\u{e748}")
+#let fa-square-manat = fa-icon.with("\u{e704}")
+#let fa-square-microphone = fa-icon.with("\u{e781}")
+#let fa-square-mill = fa-icon.with("\u{e70a}")
 #let fa-square-minus = fa-icon.with("\u{f146}")
 #let fa-minus-square = fa-icon.with("\u{f146}")
 #let fa-square-n = fa-icon.with("\u{e277}")
+#let fa-square-naira = fa-icon.with("\u{e708}")
 #let fa-square-nfi = fa-icon.with("\u{e576}")
+#let fa-square-norwegian-krone = fa-icon.with("\u{e707}")
 #let fa-square-o = fa-icon.with("\u{e278}")
 #let fa-square-odnoklassniki = fa-icon.with("\u{f264}")
 #let fa-odnoklassniki-square = fa-icon.with("\u{f264}")
@@ -8778,6 +9502,9 @@
 #let fa-pen-square = fa-icon.with("\u{f14b}")
 #let fa-pencil-square = fa-icon.with("\u{f14b}")
 #let fa-square-person-confined = fa-icon.with("\u{e577}")
+#let fa-square-peruvian-soles = fa-icon.with("\u{e716}")
+#let fa-square-peseta = fa-icon.with("\u{e6ea}")
+#let fa-square-peso = fa-icon.with("\u{e71a}")
 #let fa-square-phone = fa-icon.with("\u{f098}")
 #let fa-phone-square = fa-icon.with("\u{f098}")
 #let fa-square-phone-flip = fa-icon.with("\u{f87b}")
@@ -8790,6 +9517,7 @@
 #let fa-pinterest-square = fa-icon.with("\u{f0d3}")
 #let fa-square-plus = fa-icon.with("\u{f0fe}")
 #let fa-plus-square = fa-icon.with("\u{f0fe}")
+#let fa-square-polish-zloty = fa-icon.with("\u{e736}")
 #let fa-square-poll-horizontal = fa-icon.with("\u{f682}")
 #let fa-poll-h = fa-icon.with("\u{f682}")
 #let fa-square-poll-vertical = fa-icon.with("\u{f681}")
@@ -8802,6 +9530,7 @@
 #let fa-square-r = fa-icon.with("\u{e27c}")
 #let fa-square-reddit = fa-icon.with("\u{f1a2}")
 #let fa-reddit-square = fa-icon.with("\u{f1a2}")
+#let fa-square-renminbi = fa-icon.with("\u{e73d}")
 #let fa-square-right = fa-icon.with("\u{f352}")
 #let fa-arrow-alt-square-right = fa-icon.with("\u{f352}")
 #let fa-square-ring = fa-icon.with("\u{e44f}")
@@ -8810,9 +9539,13 @@
 #let fa-square-root-alt = fa-icon.with("\u{f698}")
 #let fa-square-rss = fa-icon.with("\u{f143}")
 #let fa-rss-square = fa-icon.with("\u{f143}")
+#let fa-square-ruble = fa-icon.with("\u{e6f8}")
+#let fa-square-rupee = fa-icon.with("\u{e715}")
+#let fa-square-rupiah = fa-icon.with("\u{e712}")
 #let fa-square-s = fa-icon.with("\u{e27d}")
 #let fa-square-share-nodes = fa-icon.with("\u{f1e1}")
 #let fa-share-alt-square = fa-icon.with("\u{f1e1}")
+#let fa-square-shekel = fa-icon.with("\u{e735}")
 #let fa-square-sliders = fa-icon.with("\u{f3f0}")
 #let fa-sliders-h-square = fa-icon.with("\u{f3f0}")
 #let fa-square-sliders-vertical = fa-icon.with("\u{f3f2}")
@@ -8824,13 +9557,18 @@
 #let fa-square-star = fa-icon.with("\u{e27f}")
 #let fa-square-steam = fa-icon.with("\u{f1b7}")
 #let fa-steam-square = fa-icon.with("\u{f1b7}")
+#let fa-square-sterling = fa-icon.with("\u{e713}")
+#let fa-square-swedish-krona = fa-icon.with("\u{e71c}")
 #let fa-square-t = fa-icon.with("\u{e280}")
+#let fa-square-tenge = fa-icon.with("\u{e731}")
 #let fa-square-terminal = fa-icon.with("\u{e32a}")
 #let fa-square-this-way-up = fa-icon.with("\u{f49f}")
 #let fa-box-up = fa-icon.with("\u{f49f}")
 #let fa-square-threads = fa-icon.with("\u{e619}")
+#let fa-square-tugrik = fa-icon.with("\u{e728}")
 #let fa-square-tumblr = fa-icon.with("\u{f174}")
 #let fa-tumblr-square = fa-icon.with("\u{f174}")
+#let fa-square-turkish-lira = fa-icon.with("\u{e71f}")
 #let fa-square-twitter = fa-icon.with("\u{f081}")
 #let fa-twitter-square = fa-icon.with("\u{f081}")
 #let fa-square-u = fa-icon.with("\u{e281}")
@@ -8852,6 +9590,7 @@
 #let fa-square-web-awesome-stroke = fa-icon.with("\u{e684}")
 #let fa-square-whatsapp = fa-icon.with("\u{f40c}")
 #let fa-whatsapp-square = fa-icon.with("\u{f40c}")
+#let fa-square-won = fa-icon.with("\u{e709}")
 #let fa-square-x = fa-icon.with("\u{e286}")
 #let fa-square-xing = fa-icon.with("\u{f169}")
 #let fa-xing-square = fa-icon.with("\u{f169}")
@@ -8860,6 +9599,7 @@
 #let fa-xmark-square = fa-icon.with("\u{f2d3}")
 #let fa-square-x-twitter = fa-icon.with("\u{e61a}")
 #let fa-square-y = fa-icon.with("\u{e287}")
+#let fa-square-yen = fa-icon.with("\u{e724}")
 #let fa-square-youtube = fa-icon.with("\u{f431}")
 #let fa-youtube-square = fa-icon.with("\u{f431}")
 #let fa-square-z = fa-icon.with("\u{e288}")
@@ -8868,11 +9608,13 @@
 #let fa-stack-exchange = fa-icon.with("\u{f18d}")
 #let fa-stack-overflow = fa-icon.with("\u{f16c}")
 #let fa-stackpath = fa-icon.with("\u{f842}")
+#let fa-stadium = fa-icon.with("\u{e6cc}")
 #let fa-staff = fa-icon.with("\u{f71b}")
 #let fa-staff-snake = fa-icon.with("\u{e579}")
 #let fa-rod-asclepius = fa-icon.with("\u{e579}")
 #let fa-rod-snake = fa-icon.with("\u{e579}")
 #let fa-staff-aesculapius = fa-icon.with("\u{e579}")
+#let fa-stair-car = fa-icon.with("\u{e7c5}")
 #let fa-stairs = fa-icon.with("\u{e289}")
 #let fa-stamp = fa-icon.with("\u{f5bf}")
 #let fa-standard-definition = fa-icon.with("\u{e28a}")
@@ -8916,6 +9658,7 @@
 #let fa-stopwatch = fa-icon.with("\u{f2f2}")
 #let fa-stopwatch-20 = fa-icon.with("\u{e06f}")
 #let fa-store = fa-icon.with("\u{f54e}")
+#let fa-store-24 = fa-icon.with("\u{e79b}")
 #let fa-store-lock = fa-icon.with("\u{e4a6}")
 #let fa-store-slash = fa-icon.with("\u{e071}")
 #let fa-strava = fa-icon.with("\u{f428}")
@@ -8959,6 +9702,7 @@
 #let fa-swap = fa-icon.with("\u{e609}")
 #let fa-swap-arrows = fa-icon.with("\u{e60a}")
 #let fa-swatchbook = fa-icon.with("\u{f5c3}")
+#let fa-swedish-krona-sign = fa-icon.with("\u{e73e}")
 #let fa-swift = fa-icon.with("\u{f8e1}")
 #let fa-sword = fa-icon.with("\u{f71c}")
 #let fa-sword-laser = fa-icon.with("\u{e03b}")
@@ -8975,11 +9719,16 @@
 #let fa-table-cells = fa-icon.with("\u{f00a}")
 #let fa-th = fa-icon.with("\u{f00a}")
 #let fa-table-cells-column-lock = fa-icon.with("\u{e678}")
+#let fa-table-cells-columns = fa-icon.with("\u{e6ac}")
 #let fa-table-cells-column-unlock = fa-icon.with("\u{e690}")
+#let fa-table-cells-header = fa-icon.with("\u{e6ad}")
+#let fa-table-cells-header-lock = fa-icon.with("\u{e6ae}")
+#let fa-table-cells-header-unlock = fa-icon.with("\u{e6af}")
 #let fa-table-cells-large = fa-icon.with("\u{f009}")
 #let fa-th-large = fa-icon.with("\u{f009}")
 #let fa-table-cells-lock = fa-icon.with("\u{e679}")
 #let fa-table-cells-row-lock = fa-icon.with("\u{e67a}")
+#let fa-table-cells-rows = fa-icon.with("\u{e6b0}")
 #let fa-table-cells-row-unlock = fa-icon.with("\u{e691}")
 #let fa-table-cells-unlock = fa-icon.with("\u{e692}")
 #let fa-table-columns = fa-icon.with("\u{f0db}")
@@ -9053,6 +9802,7 @@
 #let fa-temperature-1 = fa-icon.with("\u{f2ca}")
 #let fa-thermometer-1 = fa-icon.with("\u{f2ca}")
 #let fa-thermometer-quarter = fa-icon.with("\u{f2ca}")
+#let fa-temperature-slash = fa-icon.with("\u{e7cb}")
 #let fa-temperature-snow = fa-icon.with("\u{f768}")
 #let fa-temperature-frigid = fa-icon.with("\u{f768}")
 #let fa-temperature-sun = fa-icon.with("\u{f76a}")
@@ -9070,9 +9820,11 @@
 #let fa-tent-arrow-left-right = fa-icon.with("\u{e57f}")
 #let fa-tent-arrows-down = fa-icon.with("\u{e581}")
 #let fa-tent-arrow-turn-left = fa-icon.with("\u{e580}")
+#let fa-tent-circus = fa-icon.with("\u{e6cd}")
 #let fa-tent-double-peak = fa-icon.with("\u{e627}")
 #let fa-tents = fa-icon.with("\u{e582}")
 #let fa-terminal = fa-icon.with("\u{f120}")
+#let fa-tex = fa-icon.with("\u{e7ff}")
 #let fa-text = fa-icon.with("\u{f893}")
 #let fa-text-height = fa-icon.with("\u{f034}")
 #let fa-text-size = fa-icon.with("\u{f894}")
@@ -9091,6 +9843,8 @@
 #let fa-thumbs-up = fa-icon.with("\u{f164}")
 #let fa-thumbtack = fa-icon.with("\u{f08d}")
 #let fa-thumb-tack = fa-icon.with("\u{f08d}")
+#let fa-thumbtack-angle = fa-icon.with("\u{e751}")
+#let fa-thumbtack-angle-slash = fa-icon.with("\u{e752}")
 #let fa-thumbtack-slash = fa-icon.with("\u{e68f}")
 #let fa-thumb-tack-slash = fa-icon.with("\u{e68f}")
 #let fa-tick = fa-icon.with("\u{e32f}")
@@ -9107,6 +9861,7 @@
 #let fa-ticket-alt = fa-icon.with("\u{f3ff}")
 #let fa-tickets-perforated = fa-icon.with("\u{e63f}")
 #let fa-tickets-simple = fa-icon.with("\u{e659}")
+#let fa-tidal = fa-icon.with("\u{e7dc}")
 #let fa-tiktok = fa-icon.with("\u{e07b}")
 #let fa-tilde = fa-icon.with("\u{7e}")
 #let fa-timeline = fa-icon.with("\u{e29c}")
@@ -9122,14 +9877,14 @@
 #let fa-toggle-on = fa-icon.with("\u{f205}")
 #let fa-toilet = fa-icon.with("\u{f7d8}")
 #let fa-toilet-paper = fa-icon.with("\u{f71e}")
-#let fa-toilet-paper-blank = fa-icon.with("\u{f71f}")
-#let fa-toilet-paper-alt = fa-icon.with("\u{f71f}")
-#let fa-toilet-paper-blank-under = fa-icon.with("\u{e29f}")
-#let fa-toilet-paper-reverse-alt = fa-icon.with("\u{e29f}")
+#let fa-toilet-paper-alt = fa-icon.with("\u{f71e}")
+#let fa-toilet-paper-blank = fa-icon.with("\u{f71e}")
 #let fa-toilet-paper-check = fa-icon.with("\u{e5b2}")
 #let fa-toilet-paper-slash = fa-icon.with("\u{e072}")
 #let fa-toilet-paper-under = fa-icon.with("\u{e2a0}")
+#let fa-toilet-paper-blank-under = fa-icon.with("\u{e2a0}")
 #let fa-toilet-paper-reverse = fa-icon.with("\u{e2a0}")
+#let fa-toilet-paper-reverse-alt = fa-icon.with("\u{e2a0}")
 #let fa-toilet-paper-under-slash = fa-icon.with("\u{e2a1}")
 #let fa-toilet-paper-reverse-slash = fa-icon.with("\u{e2a1}")
 #let fa-toilet-paper-xmark = fa-icon.with("\u{e5b3}")
@@ -9159,6 +9914,7 @@
 #let fa-traffic-light-stop = fa-icon.with("\u{f63a}")
 #let fa-trailer = fa-icon.with("\u{e041}")
 #let fa-train = fa-icon.with("\u{f238}")
+#let fa-train-stop = fa-icon.with("\u{e81f}")
 #let fa-train-subway = fa-icon.with("\u{f239}")
 #let fa-subway = fa-icon.with("\u{f239}")
 #let fa-train-subway-tunnel = fa-icon.with("\u{e2a3}")
@@ -9169,6 +9925,7 @@
 #let fa-transformer-bolt = fa-icon.with("\u{e2a4}")
 #let fa-transgender = fa-icon.with("\u{f225}")
 #let fa-transgender-alt = fa-icon.with("\u{f225}")
+#let fa-transmission = fa-icon.with("\u{e802}")
 #let fa-transporter = fa-icon.with("\u{e042}")
 #let fa-transporter-1 = fa-icon.with("\u{e043}")
 #let fa-transporter-2 = fa-icon.with("\u{e044}")
@@ -9226,6 +9983,11 @@
 #let fa-tricycle = fa-icon.with("\u{e5c3}")
 #let fa-tricycle-adult = fa-icon.with("\u{e5c4}")
 #let fa-trillium = fa-icon.with("\u{e588}")
+#let fa-triple-chevrons-down = fa-icon.with("\u{e7f7}")
+#let fa-triple-chevrons-left = fa-icon.with("\u{e7f8}")
+#let fa-triple-chevrons-right = fa-icon.with("\u{e7f9}")
+#let fa-triple-chevrons-up = fa-icon.with("\u{e7fa}")
+#let fa-trombone = fa-icon.with("\u{e782}")
 #let fa-trophy = fa-icon.with("\u{f091}")
 #let fa-trophy-star = fa-icon.with("\u{f2eb}")
 #let fa-trophy-alt = fa-icon.with("\u{f2eb}")
@@ -9259,6 +10021,7 @@
 #let fa-truck-loading = fa-icon.with("\u{f4de}")
 #let fa-truck-ramp-couch = fa-icon.with("\u{f4dd}")
 #let fa-truck-couch = fa-icon.with("\u{f4dd}")
+#let fa-truck-suv = fa-icon.with("\u{e7c6}")
 #let fa-truck-tow = fa-icon.with("\u{e2b8}")
 #let fa-truck-utensils = fa-icon.with("\u{e628}")
 #let fa-trumpet = fa-icon.with("\u{f8e3}")
@@ -9307,6 +10070,7 @@
 #let fa-uncharted = fa-icon.with("\u{e084}")
 #let fa-underline = fa-icon.with("\u{f0cd}")
 #let fa-unicorn = fa-icon.with("\u{f727}")
+#let fa-unicycle = fa-icon.with("\u{e7c7}")
 #let fa-uniform-martial-arts = fa-icon.with("\u{e3d1}")
 #let fa-union = fa-icon.with("\u{f6a2}")
 #let fa-uniregistry = fa-icon.with("\u{f404}")
@@ -9331,6 +10095,7 @@
 #let fa-upload = fa-icon.with("\u{f093}")
 #let fa-up-long = fa-icon.with("\u{f30c}")
 #let fa-long-arrow-alt-up = fa-icon.with("\u{f30c}")
+#let fa-up-long-to-line = fa-icon.with("\u{e6c6}")
 #let fa-up-right = fa-icon.with("\u{e2be}")
 #let fa-up-right-and-down-left-from-center = fa-icon.with("\u{f424}")
 #let fa-expand-alt = fa-icon.with("\u{f424}")
@@ -9345,19 +10110,27 @@
 #let fa-usb = fa-icon.with("\u{f287}")
 #let fa-usb-drive = fa-icon.with("\u{f8e9}")
 #let fa-user = fa-icon.with("\u{f007}")
+#let fa-user-alt = fa-icon.with("\u{f007}")
+#let fa-user-large = fa-icon.with("\u{f007}")
 #let fa-user-alien = fa-icon.with("\u{e04a}")
 #let fa-user-astronaut = fa-icon.with("\u{f4fb}")
+#let fa-user-beard = fa-icon.with("\u{e7a8}")
 #let fa-user-beard-bolt = fa-icon.with("\u{e689}")
 #let fa-user-bounty-hunter = fa-icon.with("\u{e2bf}")
 #let fa-user-check = fa-icon.with("\u{f4fc}")
 #let fa-user-chef = fa-icon.with("\u{e3d2}")
+#let fa-user-chef-hair-long = fa-icon.with("\u{e7a9}")
+#let fa-user-circle-minus = fa-icon.with("\u{e7aa}")
+#let fa-user-circle-plus = fa-icon.with("\u{e7ab}")
 #let fa-user-clock = fa-icon.with("\u{f4fd}")
 #let fa-user-cowboy = fa-icon.with("\u{f8ea}")
 #let fa-user-crown = fa-icon.with("\u{f6a4}")
+#let fa-user-dashed = fa-icon.with("\u{e7ac}")
 #let fa-user-doctor = fa-icon.with("\u{f0f0}")
 #let fa-user-md = fa-icon.with("\u{f0f0}")
 #let fa-user-doctor-hair = fa-icon.with("\u{e458}")
 #let fa-user-doctor-hair-long = fa-icon.with("\u{e459}")
+#let fa-user-doctor-hair-mullet = fa-icon.with("\u{e7ad}")
 #let fa-user-doctor-message = fa-icon.with("\u{f82e}")
 #let fa-user-md-chat = fa-icon.with("\u{f82e}")
 #let fa-user-gear = fa-icon.with("\u{f4fe}")
@@ -9375,18 +10148,19 @@
 #let fa-business-front = fa-icon.with("\u{e45c}")
 #let fa-party-back = fa-icon.with("\u{e45c}")
 #let fa-trian-balbot = fa-icon.with("\u{e45c}")
+#let fa-user-hat-tie = fa-icon.with("\u{e7ae}")
+#let fa-user-hat-tie-magnifying-glass = fa-icon.with("\u{e7af}")
 #let fa-user-headset = fa-icon.with("\u{f82d}")
 #let fa-user-helmet-safety = fa-icon.with("\u{f82c}")
 #let fa-user-construction = fa-icon.with("\u{f82c}")
 #let fa-user-hard-hat = fa-icon.with("\u{f82c}")
 #let fa-user-hoodie = fa-icon.with("\u{e68a}")
 #let fa-user-injured = fa-icon.with("\u{f728}")
-#let fa-user-large = fa-icon.with("\u{f406}")
-#let fa-user-alt = fa-icon.with("\u{f406}")
-#let fa-user-large-slash = fa-icon.with("\u{f4fa}")
-#let fa-user-alt-slash = fa-icon.with("\u{f4fa}")
+#let fa-user-key = fa-icon.with("\u{e7b0}")
 #let fa-user-lock = fa-icon.with("\u{f502}")
 #let fa-user-magnifying-glass = fa-icon.with("\u{e5c5}")
+#let fa-user-message = fa-icon.with("\u{e7b1}")
+#let fa-user-microphone = fa-icon.with("\u{e7b2}")
 #let fa-user-minus = fa-icon.with("\u{f503}")
 #let fa-user-music = fa-icon.with("\u{f8eb}")
 #let fa-user-ninja = fa-icon.with("\u{f504}")
@@ -9396,10 +10170,15 @@
 #let fa-user-pen = fa-icon.with("\u{f4ff}")
 #let fa-user-edit = fa-icon.with("\u{f4ff}")
 #let fa-user-pilot = fa-icon.with("\u{e2c0}")
+#let fa-user-pilot-hair-long = fa-icon.with("\u{e7b3}")
 #let fa-user-pilot-tie = fa-icon.with("\u{e2c1}")
+#let fa-user-pilot-tie-hair-long = fa-icon.with("\u{e7b4}")
 #let fa-user-plus = fa-icon.with("\u{f234}")
 #let fa-user-police = fa-icon.with("\u{e333}")
+#let fa-user-police-hair-long = fa-icon.with("\u{e7b5}")
 #let fa-user-police-tie = fa-icon.with("\u{e334}")
+#let fa-user-police-tie-hair-long = fa-icon.with("\u{e7b6}")
+#let fa-user-question = fa-icon.with("\u{e7b7}")
 #let fa-user-robot = fa-icon.with("\u{e04b}")
 #let fa-user-robot-xmarks = fa-icon.with("\u{e4a7}")
 #let fa-users = fa-icon.with("\u{f0c0}")
@@ -9409,7 +10188,10 @@
 #let fa-users-cog = fa-icon.with("\u{f509}")
 #let fa-user-shakespeare = fa-icon.with("\u{e2c2}")
 #let fa-user-shield = fa-icon.with("\u{f505}")
+#let fa-user-sith = fa-icon.with("\u{e7b8}")
 #let fa-user-slash = fa-icon.with("\u{f506}")
+#let fa-user-alt-slash = fa-icon.with("\u{f506}")
+#let fa-user-large-slash = fa-icon.with("\u{f506}")
 #let fa-users-line = fa-icon.with("\u{e592}")
 #let fa-users-medical = fa-icon.with("\u{f830}")
 #let fa-users-rays = fa-icon.with("\u{e593}")
@@ -9420,11 +10202,14 @@
 #let fa-user-tie = fa-icon.with("\u{f508}")
 #let fa-user-tie-hair = fa-icon.with("\u{e45f}")
 #let fa-user-tie-hair-long = fa-icon.with("\u{e460}")
+#let fa-user-tie-hair-mullet = fa-icon.with("\u{e7b9}")
 #let fa-user-unlock = fa-icon.with("\u{e058}")
+#let fa-user-viewfinder = fa-icon.with("\u{e775}")
 #let fa-user-visor = fa-icon.with("\u{e04c}")
 #let fa-user-vneck = fa-icon.with("\u{e461}")
 #let fa-user-vneck-hair = fa-icon.with("\u{e462}")
 #let fa-user-vneck-hair-long = fa-icon.with("\u{e463}")
+#let fa-user-vneck-hair-mullet = fa-icon.with("\u{e7ba}")
 #let fa-user-xmark = fa-icon.with("\u{f235}")
 #let fa-user-times = fa-icon.with("\u{f235}")
 #let fa-usps = fa-icon.with("\u{f7e1}")
@@ -9434,17 +10219,24 @@
 #let fa-utensils-slash = fa-icon.with("\u{e464}")
 #let fa-utility-pole = fa-icon.with("\u{e2c3}")
 #let fa-utility-pole-double = fa-icon.with("\u{e2c4}")
+#let fa-u-turn-down-left = fa-icon.with("\u{e7ef}")
+#let fa-u-turn-down-right = fa-icon.with("\u{e7f0}")
+#let fa-u-turn-left-down = fa-icon.with("\u{e7f1}")
+#let fa-u-turn = fa-icon.with("\u{e7f1}")
+#let fa-u-turn-left-up = fa-icon.with("\u{e7f2}")
+#let fa-u-turn-right-down = fa-icon.with("\u{e7f3}")
+#let fa-u-turn-right-up = fa-icon.with("\u{e7f4}")
+#let fa-u-turn-up-left = fa-icon.with("\u{e7f5}")
+#let fa-u-turn-up-right = fa-icon.with("\u{e7f6}")
 #let fa-v = fa-icon.with("\u{56}")
 #let fa-vaadin = fa-icon.with("\u{f408}")
 #let fa-vacuum = fa-icon.with("\u{e04d}")
 #let fa-vacuum-robot = fa-icon.with("\u{e04e}")
 #let fa-value-absolute = fa-icon.with("\u{f6a6}")
+#let fa-van = fa-icon.with("\u{e7c8}")
 #let fa-van-shuttle = fa-icon.with("\u{f5b6}")
 #let fa-shuttle-van = fa-icon.with("\u{f5b6}")
 #let fa-vault = fa-icon.with("\u{e2c5}")
-#let fa-vector-circle = fa-icon.with("\u{e2c6}")
-#let fa-vector-polygon = fa-icon.with("\u{e2c7}")
-#let fa-vector-square = fa-icon.with("\u{f5cb}")
 #let fa-vent-damper = fa-icon.with("\u{e465}")
 #let fa-venus = fa-icon.with("\u{f221}")
 #let fa-venus-double = fa-icon.with("\u{f226}")
@@ -9456,13 +10248,16 @@
 #let fa-vial = fa-icon.with("\u{f492}")
 #let fa-vial-circle-check = fa-icon.with("\u{e596}")
 #let fa-vials = fa-icon.with("\u{f493}")
+#let fa-vial-vertical = fa-icon.with("\u{e762}")
 #let fa-vial-virus = fa-icon.with("\u{e597}")
 #let fa-viber = fa-icon.with("\u{f409}")
 #let fa-video = fa-icon.with("\u{f03d}")
 #let fa-video-camera = fa-icon.with("\u{f03d}")
 #let fa-video-arrow-down-left = fa-icon.with("\u{e2c8}")
 #let fa-video-arrow-up-right = fa-icon.with("\u{e2c9}")
+#let fa-video-down-to-line = fa-icon.with("\u{e776}")
 #let fa-video-plus = fa-icon.with("\u{f4e1}")
+#let fa-video-question = fa-icon.with("\u{e777}")
 #let fa-video-slash = fa-icon.with("\u{f4e2}")
 #let fa-vihara = fa-icon.with("\u{f6a7}")
 #let fa-vimeo = fa-icon.with("\u{f40a}")
@@ -9492,8 +10287,10 @@
 #let fa-volume-mute = fa-icon.with("\u{f6a9}")
 #let fa-volume-times = fa-icon.with("\u{f6a9}")
 #let fa-vr-cardboard = fa-icon.with("\u{f729}")
+#let fa-vsco = fa-icon.with("\u{e7dd}")
 #let fa-vuejs = fa-icon.with("\u{f41f}")
 #let fa-w = fa-icon.with("\u{57}")
+#let fa-w3c = fa-icon.with("\u{e7de}")
 #let fa-waffle = fa-icon.with("\u{e466}")
 #let fa-wagon-covered = fa-icon.with("\u{f8ee}")
 #let fa-walker = fa-icon.with("\u{f831}")
@@ -9592,6 +10389,7 @@
 #let fa-fragile = fa-icon.with("\u{f4bb}")
 #let fa-wine-glass-empty = fa-icon.with("\u{f5ce}")
 #let fa-wine-glass-alt = fa-icon.with("\u{f5ce}")
+#let fa-wireless = fa-icon.with("\u{e7df}")
 #let fa-wirsindhandwerk = fa-icon.with("\u{e2d0}")
 #let fa-wsh = fa-icon.with("\u{e2d0}")
 #let fa-wix = fa-icon.with("\u{f5cf}")

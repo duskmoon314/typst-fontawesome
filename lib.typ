@@ -44,38 +44,35 @@
   ..icons,
 ) = (
   context {
-    let icons = icons.pos().map(icon => {
-      if type(icon) == str {
-        fa-icon(icon, ..fa-icon-args)
-      } else if type(icon) == array {
-        let (name, args) = icon
-        fa-icon(name, ..fa-icon-args, ..args)
-      } else if type(icon) == arguments {
-        fa-icon(..icon.pos(), ..fa-icon-args, ..icon.named())
-      } else if type(icon) == content {
-        icon
-      } else {
-        panic("Unsupported content. Please submit an issue for your use case.")
-      }
-    })
+    let icons = icons
+      .pos()
+      .map(icon => {
+        if type(icon) == str {
+          fa-icon(icon, ..fa-icon-args)
+        } else if type(icon) == array {
+          let (name, args) = icon
+          fa-icon(name, ..fa-icon-args, ..args)
+        } else if type(icon) == arguments {
+          fa-icon(..icon.pos(), ..fa-icon-args, ..icon.named())
+        } else if type(icon) == content {
+          icon
+        } else {
+          panic("Unsupported content. Please submit an issue for your use case.")
+        }
+      })
 
     // Get the maximum width of the icons
-    let max-width = calc.max(
-      ..icons.map(icon => {
-        measure(icon).width
-      }),
-    )
+    let max-width = calc.max(..icons.map(icon => {
+      measure(icon).width
+    }))
 
-    box(
-      ..box-args,
-      grid(
-        align: center + horizon,
-        columns: icons.len() * (max-width,),
-        column-gutter: -max-width,
-        rows: 1,
-        ..grid-args,
-        ..icons
-      ),
-    )
+    box(..box-args, grid(
+      align: center + horizon,
+      columns: icons.len() * (max-width,),
+      column-gutter: -max-width,
+      rows: 1,
+      ..grid-args,
+      ..icons
+    ))
   }
 )
