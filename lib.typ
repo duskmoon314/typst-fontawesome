@@ -25,13 +25,7 @@
 /// Returns: The rendered icon as a `text` element
 #let fa-icon = fa-icon.with(fa-icon-map: context {
   let version = _fa_version.get()
-  if version == "7" {
-    fa-icon-map + fa-icon-map-7
-  } else if version == "6" {
-    fa-icon-map + fa-icon-map-6
-  } else {
-    fa-icon-map
-  }
+  fa-icon-map-common + fa-icon-map-version.at(version, (:))
 })
 
 /// Render multiple Font Awesome icons together

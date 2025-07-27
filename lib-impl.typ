@@ -42,6 +42,7 @@
 
     if _fa_use_pro.get() {
       // TODO: Help needed to test following fonts
+      // TODO: FA 7 adds more style for Pro sets
       default_fonts += (
         font_base
           + " Pro"

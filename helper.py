@@ -109,7 +109,7 @@ def map_icons(versions):
             icon_map[version].append((icon_id, unicode))
 
     for _, map in icon_map.items():
-        map.sort(key=lambda x: x[1])  # Sort by unicode
+        map.sort(key=lambda x: (x[1], x[0]))  # Sort by unicode first, then by icon_id
 
     return icon_map
 
@@ -123,24 +123,36 @@ def generate_lib(icon_maps, output):
 
         icon_func_str = ""
 
-        for version, icons in icon_maps.items():
-            if version == "common":
-                f.write("// Common icons\n")
-                f.write("#let fa-icon-map = (\n")
-                for icon_id, unicode_char in icons:
-                    f.write(f'  "{icon_id}": "\\u{{{unicode_char}}}",\n')
+        f.write("// Common icons\n")
+        f.write("#let fa-icon-map-common = (\n")
+        for icon in icon_maps["common"]:
+            icon_id, unicode_char = icon
+            f.write(f'  "{icon_id}": "\\u{{{unicode_char}}}",\n')
+            icon_func_str += (
+                f'#let fa-{icon_id} = fa-icon.with("\\u{{{unicode_char}}}")\n'
+            )
+        f.write(")\n\n")
+
+        del icon_maps["common"]
+
+        latest_version = max(icon_maps.keys())
+
+        for version, icons in sorted(icon_maps.items()):
+            f.write(f"// Version: {version}\n")
+            f.write(f"#let fa-icon-map-{version} = (\n")
+            for icon_id, unicode_char in icons:
+                f.write(f'  "{icon_id}": "\\u{{{unicode_char}}}",\n')
+                icon_func_str += f'#let fa-{icon_id}-{version} = fa-icon.with("\\u{{{unicode_char}}}")\n'
+                if version == latest_version:
                     icon_func_str += (
                         f'#let fa-{icon_id} = fa-icon.with("\\u{{{unicode_char}}}")\n'
                     )
-                f.write(")\n\n")
+            f.write(")\n\n")
 
-            else:
-                f.write(f"// Version: {version}\n")
-                f.write(f"#let fa-icon-map-{version} = (\n")
-                for icon_id, unicode_char in icons:
-                    f.write(f'  "{icon_id}": "\\u{{{unicode_char}}}",\n')
-                    icon_func_str += f'#let fa-{icon_id}-{version} = fa-icon.with("\\u{{{unicode_char}}}")\n'
-                f.write(")\n\n")
+        f.write("#let fa-icon-map-version = (\n")
+        for version in sorted(icon_maps.keys()):
+            f.write(f'  "{version}": fa-icon-map-{version},\n')
+        f.write(")\n\n")
 
         f.write(icon_func_str)
 
