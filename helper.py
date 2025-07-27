@@ -1,15 +1,16 @@
 import argparse
 import json
-import zipfile
 import urllib.request
-import shutil
 import os
-import glob
-import textwrap
 
 parser = argparse.ArgumentParser(description="typst-fontawesome helper script")
 
-parser.add_argument("-v", "--version", help="FontAwesome version", required=True)
+parser.add_argument(
+    "-v",
+    "--version",
+    help="FontAwesome version. (Example: -v 6.7.2,7.0.0)",
+    required=True,
+)
 parser.add_argument(
     "-o", "--output", help="Output dir (default: current dir .)", default="."
 )
@@ -38,9 +39,7 @@ query {{
 """
 
 
-def generate_lib(version, output):
-    print(f"Generating typst lib for FontAwesome {version}")
-
+def fetch_icons(version):
     req = urllib.request.Request(
         API_URL,
         headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
@@ -53,36 +52,96 @@ def generate_lib(version, output):
     with urllib.request.urlopen(req) as response:
         data = json.load(response)
 
-    LIB_PREAMBLE_TEMPLATE = """\
-    #import "lib-impl.typ": fa-icon
-    
-    // Generated icon list of Font Aewsome {version}
+    icon_unicode_set = set()
+    for icon in data["data"]["release"]["icons"]:
+        icon_unicode_set.add((icon["id"], icon["unicode"]))
 
-    #let fa-icon-map = (
-    """
+        if icon["aliases"]:
+            for alias in icon["aliases"]["names"]:
+                icon_unicode_set.add((alias, icon["unicode"]))
 
-    lib_preamble = textwrap.dedent(LIB_PREAMBLE_TEMPLATE).format(version=version)
+    return icon_unicode_set
+
+
+def map_icons(versions):
+    origin_icon_sets = []
+    for version in versions:
+        icon_set = fetch_icons(version)
+        major_version = int(version.split(".")[0])
+        origin_icon_sets.append((major_version, icon_set))
+
+    icon_unicodes = {}
+
+    for version, icon_set in origin_icon_sets:
+        for icon_id, unicode in icon_set:
+            if icon_id not in icon_unicodes:
+                icon_unicodes[icon_id] = set()
+            icon_unicodes[icon_id].add((version, unicode))
+
+    for icon_id, unicodes in icon_unicodes.items():
+        unicode_set = set(unicode for _, unicode in unicodes)
+        if len(unicode_set) == 1:
+            icon_unicodes[icon_id] = set()
+            icon_unicodes[icon_id].add(("common", unicode_set.pop()))
+
+    # print(icon_unicodes)
+
+    icon_map = {}
+    common = [
+        (icon_id, unicodes.pop()[1])
+        for icon_id, unicodes in icon_unicodes.items()
+        if len(unicodes) == 1
+    ]
+
+    icon_map["common"] = common
+
+    conflict = [
+        (icon_id, unicodes)
+        for icon_id, unicodes in icon_unicodes.items()
+        if len(unicodes) > 1
+    ]
+
+    for icon_id, unicodes in conflict:
+
+        for version, unicode in unicodes:
+            if version not in icon_map:
+                icon_map[version] = []
+            icon_map[version].append((icon_id, unicode))
+
+    for _, map in icon_map.items():
+        map.sort(key=lambda x: x[1])  # Sort by unicode
+
+    return icon_map
+
+
+def generate_lib(icon_maps, output):
     lib_file = os.path.join(output, "lib-gen.typ")
 
-    icon_func_str = ""
-
     with open(lib_file, "w") as f:
-        f.write(lib_preamble)
+        f.write('#import "lib-impl.typ": fa-icon\n\n')
+        f.write("// Generated icon list of Font Awesome\n\n")
 
-        for icon in data["data"]["release"]["icons"]:
-            f.write(f'  "{icon["id"]}": "\\u{{{icon["unicode"]}}}",\n')
-            icon_func_str += (
-                f'#let fa-{icon["id"]} = fa-icon.with("\\u{{{icon["unicode"]}}}")\n'
-            )
+        icon_func_str = ""
 
-            if icon["aliases"]:
-                for alias in icon["aliases"]["names"]:
-                    f.write(f'  "{alias}": "\\u{{{icon["unicode"]}}}",\n')
+        for version, icons in icon_maps.items():
+            if version == "common":
+                f.write("// Common icons\n")
+                f.write("#let fa-icon-map = (\n")
+                for icon_id, unicode_char in icons:
+                    f.write(f'  "{icon_id}": "\\u{{{unicode_char}}}",\n')
                     icon_func_str += (
-                        f'#let fa-{alias} = fa-icon.with("\\u{{{icon["unicode"]}}}")\n'
+                        f'#let fa-{icon_id} = fa-icon.with("\\u{{{unicode_char}}}")\n'
                     )
+                f.write(")\n\n")
 
-        f.write(")\n")
+            else:
+                f.write(f"// Version: {version}\n")
+                f.write(f"#let fa-icon-map-{version} = (\n")
+                for icon_id, unicode_char in icons:
+                    f.write(f'  "{icon_id}": "\\u{{{unicode_char}}}",\n')
+                    icon_func_str += f'#let fa-{icon_id}-{version} = fa-icon.with("\\u{{{unicode_char}}}")\n'
+                f.write(")\n\n")
+
         f.write(icon_func_str)
 
 
@@ -128,11 +187,20 @@ def generate_gallery(version, output):
 def main():
     args = parser.parse_args()
 
-    if "lib" in args.generate:
-        generate_lib(args.version, args.output)
+    versions = args.version.split(",")
 
-    if "doc" in args.generate:
-        generate_gallery(args.version, args.output)
+    print(f"Generating typst-fontawesome for versions: {versions}")
+
+    icon_maps = map_icons(versions)
+
+    with open(os.path.join(args.output, "icon-maps.json"), "w") as f:
+        json.dump(icon_maps, f, indent=2)
+
+    if "lib" in args.generate:
+        generate_lib(icon_maps, args.output)
+
+    # if "doc" in args.generate:
+    #     generate_gallery(args.version, args.output)
 
 
 if __name__ == "__main__":

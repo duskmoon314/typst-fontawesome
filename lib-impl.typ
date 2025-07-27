@@ -5,6 +5,11 @@
   _fa_use_pro.update(true)
 }
 
+#let _fa_version = state("_fa_version", "7")
+#let fa-version(version) = {
+  _fa_version.update(version)
+}
+
 /// Render a Font Awesome icon by its name or unicode
 ///
 /// Parameters:
@@ -24,27 +29,37 @@
   ..args,
 ) = (
   context {
+    let font_base = "Font Awesome " + _fa_version.get()
+
     let default_fonts = (
-      "Font Awesome 7 Free"
+      font_base
+        + " Free"
         + if solid {
           " Solid"
         },
-      "Font Awesome 7 Brands",
+      font_base + " Brands",
     )
 
     if _fa_use_pro.get() {
       // TODO: Help needed to test following fonts
       default_fonts += (
-        "Font Awesome 7 Pro"
+        font_base
+          + " Pro"
           + if solid {
             " Solid"
           },
-        "Font Awesome 7 Duotone",
-        "Font Awesome 7 Sharp"
+        font_base
+          + " Duotone"
           + if solid {
             " Solid"
           },
-        "Font Awesome 7 Sharp Duotone"
+        font_base
+          + " Sharp"
+          + if solid {
+            " Solid"
+          },
+        font_base
+          + " Sharp Duotone"
           + if solid {
             " Solid"
           },

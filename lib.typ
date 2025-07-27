@@ -23,7 +23,16 @@
 /// - `..args`: Additional arguments to pass to the `text` function
 ///
 /// Returns: The rendered icon as a `text` element
-#let fa-icon = fa-icon.with(fa-icon-map: fa-icon-map)
+#let fa-icon = fa-icon.with(fa-icon-map: context {
+  let version = _fa_version.get()
+  if version == "7" {
+    fa-icon-map + fa-icon-map-7
+  } else if version == "6" {
+    fa-icon-map + fa-icon-map-6
+  } else {
+    fa-icon-map
+  }
+})
 
 /// Render multiple Font Awesome icons together
 ///
