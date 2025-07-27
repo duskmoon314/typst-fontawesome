@@ -157,20 +157,7 @@ def generate_lib(icon_maps, output):
         f.write(icon_func_str)
 
 
-def generate_gallery(version, output):
-    print(f"Generating typst gallery for FontAwesome {version}")
-
-    req = urllib.request.Request(
-        API_URL,
-        headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
-        data=json.dumps({"query": QUERY_TEMPLATE.format(version=version)}).encode(
-            "utf-8"
-        ),
-    )
-
-    data = {}
-    with urllib.request.urlopen(req) as response:
-        data = json.load(response)
+def generate_gallery(icon_maps, output):
 
     gallery_file = os.path.join(output, "gallery.typ")
 
@@ -178,20 +165,22 @@ def generate_gallery(version, output):
         f.write('#import "lib.typ": *\n')
 
         f.write(
-            # "#grid(columns: (20em, 3em, 3em, 3em), [typst code], [default], [solid], [`fa-icon` with text])\n"
-            "#table(columns: (3fr, 1fr, 1fr, 2fr), stroke: none, table.header([typst code], [default], [solid], [`fa-icon` with text]),\n"
+            "#table(\n  columns: (3fr, 1fr, 1fr, 2fr),\n  stroke: none,\n  table.header([typst code], [default], [solid], [`fa-icon` with text]),\n"
         )
 
-        for icon in data["data"]["release"]["icons"]:
+        for icon in icon_maps["common"]:
+            icon_id, _unicode_char = icon
             f.write(
-                f'```typst #fa-{icon["id"]}()```, fa-{icon["id"]}(), fa-{icon["id"]}(solid: true), fa-icon("{icon["id"]}"),\n'
+                f'  ```typst #fa-{icon_id}()```, fa-{icon_id}(), fa-{icon_id}(solid: true), fa-icon("{icon_id}"),\n'
             )
 
-            if icon["aliases"]:
-                for alias in icon["aliases"]["names"]:
-                    f.write(
-                        f'```typst #fa-{alias}()```, fa-{alias}(), fa-{alias}(solid: true), fa-icon("{alias}"),\n'
-                    )
+        del icon_maps["common"]
+
+        for version, icons in sorted(icon_maps.items()):
+            for icon_id, _unicode_char in icons:
+                f.write(
+                    f'  ```typst #fa-{icon_id}-{version}()```, fa-{icon_id}-{version}(), fa-{icon_id}-{version}(solid: true), fa-icon("{icon_id}-{version}"),\n'
+                )
 
         f.write(")")
 
@@ -209,10 +198,10 @@ def main():
         json.dump(icon_maps, f, indent=2)
 
     if "lib" in args.generate:
-        generate_lib(icon_maps, args.output)
+        generate_lib(icon_maps.copy(), args.output)
 
-    # if "doc" in args.generate:
-    #     generate_gallery(args.version, args.output)
+    if "doc" in args.generate:
+        generate_gallery(icon_maps.copy(), args.output)
 
 
 if __name__ == "__main__":
