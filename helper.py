@@ -115,11 +115,11 @@ def map_icons(versions):
 
 
 def generate_lib(icon_maps, output):
-    lib_file = os.path.join(output, "lib-gen.typ")
+    lib_map_file = os.path.join(output, "lib-gen-map.typ")
+    lib_func_file = os.path.join(output, "lib-gen-func.typ")
 
-    with open(lib_file, "w") as f:
-        f.write('#import "lib-impl.typ": fa-icon\n\n')
-        f.write("// Generated icon list of Font Awesome\n\n")
+    with open(lib_map_file, "w") as f:
+        f.write("// Generated icon maps of Font Awesome\n\n")
 
         icon_func_str = ""
 
@@ -152,8 +152,11 @@ def generate_lib(icon_maps, output):
         f.write("#let fa-icon-map-version = (\n")
         for version in sorted(icon_maps.keys()):
             f.write(f'  "{version}": fa-icon-map-{version},\n')
-        f.write(")\n\n")
+        f.write(")\n")
 
+    with open(lib_func_file, "w") as f:
+        f.write('#import "lib-impl.typ": fa-icon\n\n')
+        f.write("// Generated icon functions of Font Awesome\n\n")
         f.write(icon_func_str)
 
 

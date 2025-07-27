@@ -1,3 +1,5 @@
+#import "lib-gen-map.typ": *
+
 // Currently, we assume there is no need to enable Pro sets for only a part of the document,
 // so no method is provided to disable Pro sets
 #let _fa_use_pro = state("_fa_use_pro", false)
@@ -67,6 +69,13 @@
       )
     }
 
+    let fa-icon-map-final = if fa-icon-map.len() > 0 {
+      fa-icon-map
+    } else {
+      let version = _fa_version.get()
+      fa-icon-map-common + fa-icon-map-version.at(version, default: (:))
+    }
+
     text(
       font: default_fonts, // If you see warning here, please check whether the FA font is installed
 
@@ -74,7 +83,7 @@
       weight: if solid { 900 } else { 400 },
       // If the name is in the map, use the unicode from the map
       // If not, pass the name and let the ligature feature handle it
-      fa-icon-map.at(name, default: name),
+      fa-icon-map-final.at(name, default: name),
       ..args,
     )
   }

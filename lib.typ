@@ -3,10 +3,11 @@
 //! https://github.com/duskmoon314/typst-fontawesome
 
 // Implementation of `fa-icon`
-#import "lib-impl.typ": fa-icon, fa-use-pro
+#import "lib-impl.typ": fa-icon, fa-use-pro, fa-version
 
 // Generated icons
-#import "lib-gen.typ": *
+#import "lib-gen-map.typ": *
+#import "lib-gen-func.typ": *
 
 // Re-export the `fa-icon` function
 // The following doc comment is needed for lsp to show the documentation
@@ -23,10 +24,7 @@
 /// - `..args`: Additional arguments to pass to the `text` function
 ///
 /// Returns: The rendered icon as a `text` element
-#let fa-icon = fa-icon.with(fa-icon-map: context {
-  let version = _fa_version.get()
-  fa-icon-map-common + fa-icon-map-version.at(version, (:))
-})
+#let fa-icon = fa-icon
 
 /// Render multiple Font Awesome icons together
 ///
