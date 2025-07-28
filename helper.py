@@ -2,6 +2,7 @@ import argparse
 import json
 import urllib.request
 import os
+from typing import List, Set, Dict, Tuple
 
 parser = argparse.ArgumentParser(description="typst-fontawesome helper script")
 
@@ -39,7 +40,17 @@ query {{
 """
 
 
-def fetch_icons(version):
+def fetch_icons(version: str) -> Set[Tuple[str, str]]:
+    """
+    Fetch icons from FontAwesome API for a specific version.
+
+    Args:
+        version: The version of FontAwesome to fetch icons for.
+
+    Returns:
+        Set: A set of tuples containing icon IDs and their corresponding unicode characters.
+    """
+
     req = urllib.request.Request(
         API_URL,
         headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
@@ -63,7 +74,17 @@ def fetch_icons(version):
     return icon_unicode_set
 
 
-def map_icons(versions):
+def map_icons(versions: List[str]) -> Dict[str, List[Tuple[str, str]]]:
+    """
+    Map icons from multiple FontAwesome versions to their unicode characters.
+
+    Args:
+        versions: A list of FontAwesome versions to map icons from.
+
+    Returns:
+        Dict: A dictionary where keys are version strings and values are lists of tuples
+              containing icon IDs and their corresponding unicode characters.
+    """
     origin_icon_sets = []
     for version in versions:
         icon_set = fetch_icons(version)
@@ -71,6 +92,10 @@ def map_icons(versions):
         origin_icon_sets.append((major_version, icon_set))
 
     icon_unicodes = {}
+
+    # Collect all icon unicodes across versions
+    # If an icon has the same unicode in different versions, it will be marked as common
+    # If an icon has different unicodes in different versions, it will be marked as conflict
 
     for version, icon_set in origin_icon_sets:
         for icon_id, unicode in icon_set:
@@ -83,8 +108,6 @@ def map_icons(versions):
         if len(unicode_set) == 1:
             icon_unicodes[icon_id] = set()
             icon_unicodes[icon_id].add(("common", unicode_set.pop()))
-
-    # print(icon_unicodes)
 
     icon_map = {}
     common = [
@@ -114,7 +137,15 @@ def map_icons(versions):
     return icon_map
 
 
-def generate_lib(icon_maps, output):
+def generate_lib(icon_maps: Dict[str, List[Tuple[str, str]]], output: str):
+    """
+    Generate typst library files for FontAwesome icons.
+
+    Args:
+        icon_maps: A dictionary containing icon maps for different FontAwesome versions.
+        output: The output directory where the typst files will be generated.
+    """
+
     lib_map_file = os.path.join(output, "lib-gen-map.typ")
     lib_func_file = os.path.join(output, "lib-gen-func.typ")
 
@@ -160,7 +191,14 @@ def generate_lib(icon_maps, output):
         f.write(icon_func_str)
 
 
-def generate_gallery(icon_maps, output):
+def generate_gallery(icon_maps: Dict[str, List[Tuple[str, str]]], output: str):
+    """
+    Generate a typst gallery file for FontAwesome icons.
+
+    Args:
+        icon_maps: A dictionary containing icon maps for different FontAwesome versions.
+        output: The output directory where the typst gallery file will be generated.
+    """
 
     gallery_file = os.path.join(output, "gallery.typ")
 
@@ -197,8 +235,8 @@ def main():
 
     icon_maps = map_icons(versions)
 
-    with open(os.path.join(args.output, "icon-maps.json"), "w") as f:
-        json.dump(icon_maps, f, indent=2)
+    # with open(os.path.join(args.output, "icon-maps.json"), "w") as f:
+    #     json.dump(icon_maps, f, indent=2)
 
     if "lib" in args.generate:
         generate_lib(icon_maps.copy(), args.output)
