@@ -184,11 +184,3 @@ Declaration is `fa-stack(box-args: (:), grid-args: (:), fa-icon-args: (:), ..ico
   For most icons, Unicode is used implicitly. So I assume we usually don't need to worry about this.
 
   Any help on this issue is appreciated.
-
-== Gallery
-
-Here are all the icons in the library. The first column is the icon function you can use, and the second and third columns are the icon in regular and solid versions. The fourth column is what you get when you use `fa-icon` with the icon name.
-
-Since I only use the Free set, some icons may render as a square in the following table. Please turn to the official website for the correct glyph.
-
-#include "gallery.typ"

@@ -1,4 +1,11 @@
 #import "lib.typ": *
+
+= Gallery
+
+Here are all the icons in the library. The first column is the icon function you can use, and the second and third columns are the icon in regular and solid versions. The fourth column is what you get when you use `fa-icon` with the icon name.
+
+Since I only use the Free set, some icons may render as a square in the following table. Please turn to the official website for the correct glyph.
+
 #table(
   columns: (3fr, 1fr, 1fr, 2fr),
   stroke: none,
