@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import argparse
 import json
 import urllib.request
@@ -29,10 +30,6 @@ query {{
         icons {{
             id,
             unicode,
-            familyStylesByLicense {{
-                free {{ style }},
-                pro {{ style }}
-            }},
             aliases {{ names }}
         }}
     }}
@@ -62,6 +59,10 @@ def fetch_icons(version: str) -> Set[Tuple[str, str]]:
     data = {}
     with urllib.request.urlopen(req) as response:
         data = json.load(response)
+
+    if "errors" in data:
+        print(f"GraphQL errors: {data['errors']}")
+        raise Exception(f"GraphQL query failed: {data['errors']}")
 
     icon_unicode_set = set()
     for icon in data["data"]["release"]["icons"]:
@@ -166,7 +167,7 @@ def generate_lib(icon_maps: Dict[str, List[Tuple[str, str]]], output: str):
 
         del icon_maps["common"]
 
-        latest_version = max(icon_maps.keys())
+        latest_version = max(icon_maps.keys()) if icon_maps else None
 
         for version, icons in sorted(icon_maps.items()):
             f.write(f"// Version: {version}\n")
