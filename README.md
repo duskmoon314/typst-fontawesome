@@ -2,7 +2,7 @@
 
 A Typst library for Font Awesome icons through the desktop fonts.
 
-- The library is based on the Font Awesome 7 desktop fonts (v7.0.0)
+- The library is based on the Font Awesome 7 desktop fonts (v7.2.0)
 - The v6.7.2 is also included to provide some backward compatibility. See [v6 support](#using-font-awesome-v6)
 
 ## Usage
@@ -139,6 +139,18 @@ The `fa-icon` function passes args to `text`, so you can customize the icon by p
 `#fa-icon("chess-queen", fill: blue)`
 
 `#fa-chess-queen(size: 15pt)`
+
+##### Adjusting `top-edge`
+
+By default, Typst consider size of both normal text and icons to calculate the alignment. This may lead to unexpected behavior since icons usually have larger height (See [typst-fontawesome#24](https://github.com/duskmoon314/typst-fontawesome/issues/24)).
+
+To adjust the alignment, `top-edge` can be set to `baseline` in the `fa-icon` function:
+
+```typst
+- text without icon
+- text with icon #fa-icon("chess-queen")
+- text with icon #fa-icon("chess-queen", top-edge: "baseline")
+```
 
 #### Stacking icons
 
