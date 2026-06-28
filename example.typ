@@ -10,7 +10,7 @@ https://github.com/duskmoon314/typst-fontawesome
 
 A Typst library for Font Awesome icons through the desktop fonts.
 
-- The library is based on the Font Awesome 7 desktop fonts (v7.2.0)
+- The library is based on the Font Awesome 7 desktop fonts (v7.3.0)
 - The v6.7.2 is also included to provide some backward compatibility. See #ref(<using_font_awesome_v6>)
 
 
@@ -48,7 +48,7 @@ This library is tested with the otf files of the Font Awesome Free set. TrueType
 
 You can install the library using the typst packages:
 
-`#import "@preview/fontawesome:0.6.1": *`
+`#import "@preview/fontawesome:0.6.2": *`
 
 ==== Manually install
 
